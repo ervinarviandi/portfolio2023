@@ -12,7 +12,7 @@ function Footer() {
             <div className="flex items-center mt-[10px]">
               {/* kiri */}
               <nav>
-                <ul className="md:flex md:space-x-[30px] text-gray-200 ">
+                <ul className="md:flex md:space-x-[30px] text-gray-200 font-poppins ">
                   <li className="hover:text-pink-500">
                     <Link href="/b">Home</Link>
                   </li>
@@ -47,7 +47,7 @@ function Footer() {
             <BsLink45Deg className="hover:text-gray-500" />
           </div>
           <div className="mt-[20px]">
-            <p className="text-slate-300 text-center">
+            <p className="text-slate-300 text-center font-poppins">
               Copyright &copy; 2023 Develop by{" "}
               <a href="" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                 Ervin Arviandi

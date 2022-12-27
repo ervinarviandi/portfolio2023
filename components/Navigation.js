@@ -34,21 +34,21 @@ const Navigation = () => {
           {nav ? <XMarkIcon className="w-6 h-6" style={{ color: `${textColor}` }} /> : <Bars3Icon className="w-6 h-6" style={{ color: `${textColor}` }} />}
         </div>
         <Link href="/">
-          <h1 style={{ color: `${textColor}` }} className="font-bold text-1xl z-index: 50">
+          <h1 style={{ color: `${textColor}` }} className="font-bold text-1xl z-index: 50 font-poppins text-[18px]">
             Ervin Arviandi
           </h1>
         </Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-          <li className="p-4 hover:text-pink-500">
+          <li className="p-4 hover:text-pink-500 font-poppins">
             <Link href="/">Home</Link>
           </li>
-          <li className="p-4 hover:text-pink-500">
+          <li className="p-4 hover:text-pink-500 font-poppins">
             <Link href="/about">About</Link>
           </li>
-          <li className="p-4 hover:text-pink-500">
+          <li className="p-4 hover:text-pink-500 font-poppins">
             <Link href="/Portfolio">Work</Link>
           </li>
-          <li className="p-4 hover:text-pink-500">
+          <li className="p-4 hover:text-pink-500 font-poppins">
             <Link href="/Contact">Contact</Link>
           </li>
         </ul>
@@ -67,19 +67,19 @@ const Navigation = () => {
           }
         >
           <ul>
-            <li className="p-4 text-2xl hover:text-pink-500">
+            <li className="p-4 text-2xl hover:text-pink-500 font-poppins">
               <Link href="/">Home</Link>
             </li>
             <hr className="text-sky-500 w-[100%]" />
-            <li className="p-4 text-2xl hover:text-pink-500">
+            <li className="p-4 text-2xl hover:text-pink-500 font-poppins">
               <Link href="/about">About</Link>
             </li>
             <hr />
-            <li className="p-4 text-2xl hover:text-pink-500">
+            <li className="p-4 text-2xl hover:text-pink-500 font-poppins">
               <Link href="/Portfolio">Work</Link>
             </li>
             <hr />
-            <li className="p-4 text-2xl hover:text-pink-500">
+            <li className="p-4 text-2xl hover:text-pink-500 font-poppins">
               <Link href="/contact">Contact</Link>
             </li>
             <hr />
