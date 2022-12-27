@@ -72,7 +72,7 @@ const Navigation = () => {
             </li>
             <hr className="text-sky-500 w-[100%]" />
             <li className="p-4 text-2xl hover:text-pink-500">
-              <Link href="/blog">About</Link>
+              <Link href="/about">About</Link>
             </li>
             <hr />
             <li className="p-4 text-2xl hover:text-pink-500">
