@@ -2,6 +2,8 @@ import React from "react";
 import Link from "next/link";
 import { BsGithub, BsInstagram, BsGlobe2, BsLink45Deg } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import { AiFillFilePdf } from "react-icons/ai";
+import Button from "next/link";
 
 function Hero() {
   return (
@@ -24,10 +26,10 @@ function Hero() {
                 <Link href="https://github.com/ervinarviandi" className="text-white hover:text-pink-500">
                   <BsGithub />
                 </Link>
-                <Link href="https://github.com/ervinarviandi" className="text-white hover:text-pink-500">
+                <Link href="https://www.instagram.com/ervinarviandi/" className="text-white hover:text-pink-500">
                   <BsInstagram />
                 </Link>
-                <Link href="https://github.com/ervinarviandi" className="text-white hover:text-pink-500">
+                <Link href="https://www.showwcase.com/ervinarviandi" className="text-white hover:text-pink-500">
                   <BsGlobe2 />
                 </Link>
                 <Link href="https://react-link.vercel.app/" className="text-white hover:text-pink-500">
@@ -36,6 +38,15 @@ function Hero() {
                 <Link href="mailto:muhamadervin34@gmail.com" className="text-white hover:text-pink-500">
                   <MdEmail />
                 </Link>
+              </div>
+              <div className="mt-5 relative z-10">
+                <Button
+                  href="https://resume.showwcase.com/ervinarviandi.pdf"
+                  className="absolute flex font-poppins text-base items-center py-2 px-4 border-pink-500  text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  hover:bg-pink-500 border rounded-full"
+                >
+                  Download CV
+                  <AiFillFilePdf className="ml-3" />
+                </Button>
               </div>
             </div>
             <div className="w-full  px-4 lg:w-1/2">
