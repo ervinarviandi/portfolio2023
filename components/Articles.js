@@ -6,8 +6,8 @@ function Articles() {
   return (
     <>
       <main className="px-4 py-12">
-        <section className="mt-[96px] mx-auto md:max-w-3xl  xl:max-w-3xl">
-          <h1 className="text-white text-3xl text-center mb-10 font-poppins">Featured Post</h1>
+        <section className="mt-[96px] mx-auto md:max-w-3xl  xl:max-w-3xl px-4">
+          <h1 className="text-white text-3xl  mb-10 font-poppins">Featured Post</h1>
           <p className="text-white font-poppins text-base">If youre looking for some interesting reads, check out my featured blog post. sorted from latest to least, feel free to explore it.</p>
           <div className="grid md:grid-cols-2 gap-5">
             <div className="flex flex-col ">

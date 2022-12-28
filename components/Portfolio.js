@@ -12,7 +12,7 @@ import Link from "next/link";
 function Portfolio() {
   return (
     <>
-      <div>
+      <main className="px-4 py-12">
         <section className="mt-[96px] mx-auto md:max-w-3xl  xl:max-w-3xl px-4">
           <h1 className="mb-1 md:mb-3 text-white text-3xl font-poppins">Featured Portfolio</h1>
           <p className="mb-6 md:mb-8 text-white font-poppins text-base">Check out my featured portfolio, feel free to explore it.</p>
@@ -86,7 +86,7 @@ function Portfolio() {
             </p>
           </div>
         </section>
-      </div>
+      </main>
     </>
   );
 }

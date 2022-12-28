@@ -5,7 +5,7 @@ import { BsGithub, BsInstagram, BsGlobe2, BsLink45Deg, BsDribbble } from "react-
 function Footer() {
   return (
     <>
-      <div>
+      <main className="px-4 py-12">
         <section className="mt-[96px] mx-auto md:max-w-3xl  xl:max-w-3xl px-4 ">
           <hr className="mt-[10px]" />
           <div className="flex ">
@@ -55,7 +55,7 @@ function Footer() {
             </p>
           </div>
         </section>
-      </div>
+      </main>
     </>
   );
 }
