@@ -7,7 +7,7 @@ function Hero() {
   return (
     <>
       <div className="px-4 py-12">
-        <section className="mt-[96px] mx-auto md:max-w-3xl xl:max-w-3xl">
+        <section className="mt-[96px] mx-auto md:max-w-3xl xl:max-w-3xl custom-img">
           <img src="ervinarviandi.jpg " className="w-48 h-48 md:w-50 md:h-50 md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" />
           <div className="flex flex-wrap">
             <div className="w-full self-center px-4 lg:w-1/2">

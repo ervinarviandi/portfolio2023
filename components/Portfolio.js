@@ -78,9 +78,10 @@ function Portfolio() {
             </div>
           </div>
           <div className=" mt-[30px] ">
-            <p className=" flex items-center text-white hover:text-pink-500 hover:font-bold font-poppins">
-              <a href="">See All Portfolio</a>
-              <Link href="/work">
+            <p className=" flex items-center text-white">
+              {/* <a href="">See All Portfolio</a> */}
+              <Link href="/work" className="flex items-center  hover:text-pink-500 hover:font-bold font-poppins">
+                See All Portfolio
                 <BsFillArrowRightCircleFill className="ml-5 text-white text-2xl hover:text-pink-500" />
               </Link>
             </p>

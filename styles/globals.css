@@ -5,6 +5,11 @@
 @tailwind utilities;
 
 body {
-  background-color: #18181a;
+  /* background-color: #18181a; */
+  background-color: #000000;
   /* height: 270vh; */
+}
+
+.custom-img {
+  background-image: url(../public/bg-hero.svg);
 }
