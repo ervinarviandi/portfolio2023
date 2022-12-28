@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import { BsGithub, BsInstagram, BsGlobe2, BsLink45Deg, BsDribbble } from "react-icons/bs";
+import { BsGithub, BsInstagram, BsGlobe2, BsLink45Deg } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
 
 function Hero() {
   return (
@@ -32,8 +33,8 @@ function Hero() {
                 <Link href="https://react-link.vercel.app/" className="text-white hover:text-pink-500">
                   <BsLink45Deg />
                 </Link>
-                <Link href="https://react-link.vercel.app" className="text-white hover:text-pink-500">
-                  <BsDribbble />
+                <Link href="mailto:muhamadervin34@gmail.com" className="text-white hover:text-pink-500">
+                  <MdEmail />
                 </Link>
               </div>
             </div>

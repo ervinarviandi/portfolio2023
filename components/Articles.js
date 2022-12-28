@@ -38,8 +38,8 @@ function Articles() {
                   How To Instal <span className="text-sky-300">Next Js</span>{" "}
                 </h2>
                 <div className="flex mt-5 space-x-3">
-                  <span className="bg-purple-500 text-white py-2 px-4 rounded-lg font-poppins">CSS</span>
-                  <span className="bg-blue-500 text-white py-2 px-4 rounded-lg font-poppins">Web Dev</span>
+                  <span className="bg-rose-500 text-white py-2 px-4 rounded-lg font-poppins">CSS</span>
+                  <span className="bg-cyan-900 text-white py-2 px-4 rounded-lg font-poppins">Web Dev</span>
                 </div>
               </figure>
             </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Navigation from "../components/Navigation";
 import TailwindLogo from "../src/TailwindLogo";
 import Nextjs from "../src/NextJs";
 import HtmlLogo from "../src/HtmlLogo";
@@ -7,15 +8,23 @@ import CssLogo from "../src/CssLogo";
 import JavascriptLogo from "../src/JavascriptLogo";
 import ReactLogo from "../src/ReactLogo";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
-import Link from "next/link";
+import Footer from "../components/Footer";
 
-function Portfolio() {
+function work() {
   return (
     <>
+      <Navigation />
       <main className="px-4 py-12">
         <section className="mt-[96px] mx-auto md:max-w-3xl  xl:max-w-3xl px-4">
-          <h1 className=" text-white text-3xl mb-10 font-poppins">Featured Portfolio</h1>
-          <p className="mb-6 md:mb-8 text-white font-poppins text-base">Check out my featured portfolio, feel free to explore it.</p>
+          <h1 className="text-white text-3xl mb-10 font-poppins font-bold">Portfolio</h1>
+          <p className="mb-6 md:mb-8 text-white font-poppins text-base">
+            A selection of my personal works. I,ve included samples to showcase my skills and experience. Take a look around and let me know what you think. Im always open to feedback and opportunities to collaborate.
+          </p>
+
+          <h2 className="text-white text-3xl mb-10 font-bold ">Personal Website</h2>
+          <p className="text-white text-base font-poppins mb-5">
+            I,ve put together a portfolio of my personal work, mostly from my junior years. You,re welcome to take a look and explore. Some of the portfolios even have website demos that you can try out if you,d like.
+          </p>
           <div className="grid md:grid-cols-2 gap-5 ">
             <div className="flex flex-col">
               <div className="rounded-md overflow-hidden  ">
@@ -77,18 +86,11 @@ function Portfolio() {
               </div>
             </div>
           </div>
-          <div className=" mt-[30px] ">
-            <p className=" flex items-center text-white hover:text-pink-500 hover:font-bold font-poppins">
-              <a href="">See All Portfolio</a>
-              <Link href="/work">
-                <BsFillArrowRightCircleFill className="ml-5 text-white text-2xl hover:text-pink-500" />
-              </Link>
-            </p>
-          </div>
         </section>
       </main>
+      <Footer />
     </>
   );
 }
 
-export default Portfolio;
+export default work;

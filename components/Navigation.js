@@ -46,7 +46,7 @@ const Navigation = () => {
             <Link href="/about">About</Link>
           </li>
           <li className="p-4 hover:text-pink-500 font-poppins">
-            <Link href="/Portfolio">Work</Link>
+            <Link href="/work">Work</Link>
           </li>
           <li className="p-4 hover:text-pink-500 font-poppins">
             <Link href="/Contact">Contact</Link>
@@ -76,7 +76,7 @@ const Navigation = () => {
             </li>
             <hr />
             <li className="p-4 text-2xl hover:text-pink-500 font-poppins">
-              <Link href="/Portfolio">Work</Link>
+              <Link href="/work">Work</Link>
             </li>
             <hr />
             <li className="p-4 text-2xl hover:text-pink-500 font-poppins">
