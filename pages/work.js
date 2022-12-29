@@ -9,6 +9,8 @@ import JavascriptLogo from "../src/JavascriptLogo";
 import ReactLogo from "../src/ReactLogo";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Footer from "../components/Footer";
+import { Tab } from "@headlessui/react";
+import classNames from "classnames";
 
 function work() {
   return (
@@ -25,103 +27,116 @@ function work() {
           <p className="text-white text-base font-poppins mb-5">
             I,ve put together a portfolio of my personal work, mostly from my junior years. You,re welcome to take a look and explore. Some of the portfolios even have website demos that you can try out if you,d like.
           </p>
-          <div className="grid md:grid-cols-2 gap-5 ">
-            <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden  ">
-                <img src="zeitplans.jpg" alt="expense-project" />
-                {/* <Image src="/expenseApp_qFvD7zZ8y.jpg" width={560} height={560} alt="expense_project" className="relative" /> */}
-                <div className="mt-3">
-                  <h3 className="text-white font-bold font-poppins text-[22px] ">
-                    <a className="hover:border-b-2 hover:border-dashed " href="">
-                      {" "}
-                      Zeitplan App
-                    </a>
-                  </h3>
-                  <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
-                    <HtmlLogo />
-                    <CssLogo />
-                    <JavascriptLogo />
-                    <BootstrapLogo />
-                    <TailwindLogo />
-                    <Nextjs />
+          <Tab.Group manual>
+            <Tab.List className="flex space-x-1 rounded-xl bg-violet-800 p-1 text-white">
+              <Tab className={({ selected }) => classNames("w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-blue-700", selected ? "bg-white text-white " : "text-pink-500")}>Web Developer</Tab>
+              <Tab className={({ selected }) => classNames("w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-blue-700", selected ? "bg-white text-white " : "text-pink-500")}>Web Design</Tab>
+              <Tab className={({ selected }) => classNames("w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-blue-700", selected ? "bg-white text-white " : "text-pink-500")}>Graphic Design</Tab>
+            </Tab.List>
+            <Tab.Panels className="mt-2">
+              <Tab.Panel className="rounded-xl bg-black p-3">
+                <div className="grid md:grid-cols-2 gap-5 ">
+                  <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden  ">
+                      <img src="zeitplans.jpg" alt="expense-project" />
+                      {/* <Image src="/expenseApp_qFvD7zZ8y.jpg" width={560} height={560} alt="expense_project" className="relative" /> */}
+                      <div className="mt-3">
+                        <h3 className="text-white font-bold font-poppins text-[22px] ">
+                          <a className="hover:border-b-2 hover:border-dashed " href="">
+                            {" "}
+                            Zeitplan App
+                          </a>
+                        </h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
+                          <HtmlLogo />
+                          <CssLogo />
+                          <JavascriptLogo />
+                          <BootstrapLogo />
+                          <TailwindLogo />
+                          <Nextjs />
+                        </div>
+                        <p className="text-white font-poppins text-base">A landing page of a Schedule App. Its also a Dicoding Submission Project for Learn Basic of Web Programming class.</p>
+                      </div>
+                    </div>
                   </div>
-                  <p className="text-white font-poppins text-base">A landing page of a Schedule App. Its also a Dicoding Submission Project for Learn Basic of Web Programming class.</p>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden ">
-                <img src="expenseApp_qFvD7zZ8y.jpg" />
-                <div className="mt-3">
-                  <h3 className="text-white font-bold border-b-2 border-dashed border-transparent font-poppins text-[22px]">
-                    <a className="hover:border-b-2 hover:border-dashed" href="">
-                      {" "}
-                      Expense App
-                    </a>
-                  </h3>
-                  <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
-                    <TailwindLogo />
-                    <Nextjs />
+                  <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden ">
+                      <img src="expenseApp_qFvD7zZ8y.jpg" />
+                      <div className="mt-3">
+                        <h3 className="text-white font-bold border-b-2 border-dashed border-transparent font-poppins text-[22px]">
+                          <a className="hover:border-b-2 hover:border-dashed" href="">
+                            {" "}
+                            Expense App
+                          </a>
+                        </h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
+                          <TailwindLogo />
+                          <Nextjs />
+                        </div>
+                        <p className="text-white font-poppins text-base">ExpenseApp is an app to see you expense history, income history and help you notes what youre buying lately💰</p>
+                      </div>
+                    </div>
                   </div>
-                  <p className="text-white font-poppins text-base">ExpenseApp is an app to see you expense history, income history and help you notes what youre buying lately💰</p>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden ">
-                <img src="reactlink.jpg" className="w-full" />
-                <div className="mt-3">
-                  <h3 className="text-white font-bold font-poppins text-[22px]">
-                    <a className="hover:border-b-2 hover:border-dashed " href="https://react-link.vercel.app/">
-                      {" "}
-                      React Link Bio
-                    </a>
-                  </h3>
-                  <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
-                    <TailwindLogo />
-                    <ReactLogo />
+                  <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden ">
+                      <img src="reactlink.jpg" className="w-full" />
+                      <div className="mt-3">
+                        <h3 className="text-white font-bold font-poppins text-[22px]">
+                          <a className="hover:border-b-2 hover:border-dashed " href="https://react-link.vercel.app/">
+                            {" "}
+                            React Link Bio
+                          </a>
+                        </h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
+                          <TailwindLogo />
+                          <ReactLogo />
+                        </div>
+                        <p className="text-white font-poppins text-base">React Link is an app to see you expense history, income history and help you notes what youre buying lately🔗</p>
+                      </div>
+                    </div>
                   </div>
-                  <p className="text-white font-poppins text-base">React Link is an app to see you expense history, income history and help you notes what youre buying lately🔗</p>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden ">
-                <img src="notta.jpg" className="w-full" />
-                <div className="mt-3">
-                  <h3 className="text-white font-bold font-poppins text-[22px]">
-                    <a className="hover:border-b-2 hover:border-dashed " href="https://react-link.vercel.app/">
-                      {" "}
-                      Notta
-                    </a>
-                  </h3>
-                  <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
-                    <TailwindLogo />
-                    <ReactLogo />
+                  <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden ">
+                      <img src="notta.jpg" className="w-full" />
+                      <div className="mt-3">
+                        <h3 className="text-white font-bold font-poppins text-[22px]">
+                          <a className="hover:border-b-2 hover:border-dashed " href="https://react-link.vercel.app/">
+                            {" "}
+                            Notta
+                          </a>
+                        </h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
+                          <TailwindLogo />
+                          <ReactLogo />
+                        </div>
+                        <p className="text-white font-poppins text-base">App submission for Dicoding React course, Simple note taking app.</p>
+                      </div>
+                    </div>
                   </div>
-                  <p className="text-white font-poppins text-base">App submission for Dicoding React course, Simple note taking app.</p>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden ">
-                <img src="workly.jpg" className="w-full" />
-                <div className="mt-3">
-                  <h3 className="text-white font-bold font-poppins text-[22px]">
-                    <a className="hover:border-b-2 hover:border-dashed " href="https://react-link.vercel.app/">
-                      {" "}
-                      Work.ly
-                    </a>
-                  </h3>
-                  <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
-                    <TailwindLogo />
-                    <ReactLogo />
+                  <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden ">
+                      <img src="workly.jpg" className="w-full" />
+                      <div className="mt-3">
+                        <h3 className="text-white font-bold font-poppins text-[22px]">
+                          <a className="hover:border-b-2 hover:border-dashed " href="https://react-link.vercel.app/">
+                            {" "}
+                            Work.ly
+                          </a>
+                        </h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
+                          <TailwindLogo />
+                          <ReactLogo />
+                        </div>
+                        <p className="text-white font-poppins text-base">Slicing design with React, Tailwind CSS, lazy loading image, and more.</p>
+                      </div>
+                    </div>
                   </div>
-                  <p className="text-white font-poppins text-base">Slicing design with React, Tailwind CSS, lazy loading image, and more.</p>
                 </div>
-              </div>
-            </div>
-          </div>
+              </Tab.Panel>
+              <Tab.Panel className="rounded-xl bg-white p-3">Belum Ada Project</Tab.Panel>
+              <Tab.Panel className="rounded-xl bg-white p-3">Belum Ada Project</Tab.Panel>
+            </Tab.Panels>
+          </Tab.Group>
         </section>
       </main>
       <Footer />
