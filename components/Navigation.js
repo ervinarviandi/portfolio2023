@@ -49,7 +49,7 @@ const Navigation = () => {
             <Link href="/work">Work</Link>
           </li>
           <li className="p-4 hover:text-pink-500 font-poppins">
-            <Link href="/Contact">Contact</Link>
+            <Link href="/blog-post">Contact</Link>
           </li>
         </ul>
 
@@ -80,7 +80,7 @@ const Navigation = () => {
             </li>
             <hr />
             <li className="p-4 text-2xl hover:text-pink-500 font-poppins">
-              <Link href="/contact">Contact</Link>
+              <Link href="/blog-post">Contact</Link>
             </li>
             <hr />
           </ul>
