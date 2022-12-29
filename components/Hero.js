@@ -20,7 +20,7 @@ function Hero() {
               <div className=" flex items-center space-x-4 typewriter  relative mt-6">
                 <span className=" text-white text-lg"> Im a {""} </span>
                 <TypeAnimation
-                  className="text-writer flex text-pink-500 ml-4 font-bold items-center  text-lg"
+                  className="text-writer flex text-pink-500 ml-4 font-bold items-center  text-lg font-poppins"
                   sequence={[
                     "Developer 💻", // Types 'One'
                     1000, // Waits 1s

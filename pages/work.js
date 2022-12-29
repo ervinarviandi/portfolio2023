@@ -28,10 +28,10 @@ function work() {
             I,ve put together a portfolio of my personal work, mostly from my junior years. You,re welcome to take a look and explore. Some of the portfolios even have website demos that you can try out if you,d like.
           </p>
           <Tab.Group manual>
-            <Tab.List className="flex space-x-1 rounded-xl bg-violet-800 p-1 text-white">
-              <Tab className={({ selected }) => classNames("w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-blue-700", selected ? "bg-white text-white " : "text-pink-500")}>Web Developer</Tab>
-              <Tab className={({ selected }) => classNames("w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-blue-700", selected ? "bg-white text-white " : "text-pink-500")}>Web Design</Tab>
-              <Tab className={({ selected }) => classNames("w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-blue-700", selected ? "bg-white text-white " : "text-pink-500")}>Graphic Design</Tab>
+            <Tab.List className="flex space-x-1 rounded-xl bg-violet-800 p-1 text-white ">
+              <Tab className={({ selected }) => classNames("w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-blue-700 font-poppins ", selected ? "bg-white text-white " : "text-pink-500")}>Web Developer</Tab>
+              <Tab className={({ selected }) => classNames("w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-blue-700 font-poppins", selected ? "bg-white text-white " : "text-pink-500")}>Web Design</Tab>
+              <Tab className={({ selected }) => classNames("w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-blue-700 font-poppins", selected ? "bg-white text-white " : "text-pink-500")}>Graphic Design</Tab>
             </Tab.List>
             <Tab.Panels className="mt-2">
               <Tab.Panel className="rounded-xl bg-black p-3">

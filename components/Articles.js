@@ -18,8 +18,8 @@ function Articles() {
                   A Powerfull CSS <CssLogo /> Pseudo Class, Take A Look At CSS:Has <span className="text-sky-300">()</span>{" "}
                 </h2>
                 <div className="flex mt-5 space-x-3">
-                  <span className="bg-purple-500 text-white py-2 px-4 rounded-lg font-poppins">CSS</span>
-                  <span className="bg-blue-500 text-white py-2 px-4 rounded-lg font-poppins">Web Dev</span>
+                  <span className="bg-purple-500 text-white py-2 px-4 rounded-lg font-poppins text-xs">CSS</span>
+                  <span className="bg-blue-500 text-white py-2 px-4 rounded-lg font-poppins text-xs">Web Dev</span>
                 </div>
               </figure>
             </div>
@@ -29,8 +29,8 @@ function Articles() {
                   How To Instal/Setup Git For Windows <span className="text-sky-300">()</span>{" "}
                 </h2>
                 <div className="flex mt-5 space-x-3">
-                  <span className="bg-amber-500 text-white py-2 px-4 rounded-lg font-poppins">Github</span>
-                  <span className="bg-lime-600 text-white py-2 px-4 rounded-lg font-poppins">Web Dev</span>
+                  <span className="bg-amber-500 text-white py-2 px-4 rounded-lg font-poppins text-xs">Github</span>
+                  <span className="bg-lime-600 text-white py-2 px-4 rounded-lg font-poppins text-xs">Web Dev</span>
                 </div>
               </figure>
             </div>
@@ -40,8 +40,8 @@ function Articles() {
                   How To Instal <span className="text-sky-300">Next Js</span> <Nextjs />{" "}
                 </h2>
                 <div className="flex mt-5 space-x-3">
-                  <span className="bg-rose-500 text-white py-2 px-4 rounded-lg font-poppins">CSS</span>
-                  <span className="bg-cyan-900 text-white py-2 px-4 rounded-lg font-poppins">Web Dev</span>
+                  <span className="bg-rose-500 text-white py-2 px-4 rounded-lg font-poppins text-xs">CSS</span>
+                  <span className="bg-cyan-900 text-white py-2 px-4 rounded-lg font-poppins text-xs">Web Dev</span>
                 </div>
               </figure>
             </div>
