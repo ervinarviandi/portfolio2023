@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import CssLogo from "../src/CssLogo";
+import Nextjs from "../src/NextJs";
 
 function Articles() {
   return (
@@ -13,7 +15,7 @@ function Articles() {
             <div className="flex flex-col ">
               <figure className="border-dashed border-2 mt-5 p-4">
                 <h2 className="text-white text-3xl font-poppins ">
-                  A Powerfull CSS Pseudo Class, Take A Look At CSS:Has <span className="text-sky-300">()</span>{" "}
+                  A Powerfull CSS <CssLogo /> Pseudo Class, Take A Look At CSS:Has <span className="text-sky-300">()</span>{" "}
                 </h2>
                 <div className="flex mt-5 space-x-3">
                   <span className="bg-purple-500 text-white py-2 px-4 rounded-lg font-poppins">CSS</span>
@@ -35,7 +37,7 @@ function Articles() {
             <div className="flex flex-col ">
               <figure className="border-dashed border-2 mt-5 p-4">
                 <h2 className="text-white text-3xl font-poppins">
-                  How To Instal <span className="text-sky-300">Next Js</span>{" "}
+                  How To Instal <span className="text-sky-300">Next Js</span> <Nextjs />{" "}
                 </h2>
                 <div className="flex mt-5 space-x-3">
                   <span className="bg-rose-500 text-white py-2 px-4 rounded-lg font-poppins">CSS</span>
@@ -46,7 +48,7 @@ function Articles() {
           </div>
           <div className=" mt-[30px] ">
             <p className=" flex items-center text-white hover:text-pink-500 hover:font-bold font-poppins">
-              <a href="">See All Portfolio</a>
+              <a href="">See All Post</a>
               <Link href="/">
                 <BsFillArrowRightCircleFill className="ml-5 text-white text-2xl hover:text-pink-500" />
               </Link>

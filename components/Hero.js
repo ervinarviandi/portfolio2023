@@ -39,7 +39,7 @@ function Hero() {
                   <MdEmail />
                 </Link>
               </div>
-              <div className="mt-5 relative z-10">
+              <div className="mt-5 relative ">
                 <Button
                   href="https://resume.showwcase.com/ervinarviandi.pdf"
                   className="absolute flex font-poppins text-base items-center py-2 px-4 border-pink-500  text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  hover:bg-pink-500 border rounded-full"

@@ -85,6 +85,42 @@ function work() {
                 </div>
               </div>
             </div>
+            <div className="flex flex-col">
+              <div className="rounded-md overflow-hidden ">
+                <img src="notta.jpg" className="w-full" />
+                <div className="mt-3">
+                  <h3 className="text-white font-bold font-poppins text-[22px]">
+                    <a className="hover:border-b-2 hover:border-dashed " href="https://react-link.vercel.app/">
+                      {" "}
+                      Notta
+                    </a>
+                  </h3>
+                  <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
+                    <TailwindLogo />
+                    <ReactLogo />
+                  </div>
+                  <p className="text-white font-poppins text-base">App submission for Dicoding React course, Simple note taking app.</p>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col">
+              <div className="rounded-md overflow-hidden ">
+                <img src="workly.jpg" className="w-full" />
+                <div className="mt-3">
+                  <h3 className="text-white font-bold font-poppins text-[22px]">
+                    <a className="hover:border-b-2 hover:border-dashed " href="https://react-link.vercel.app/">
+                      {" "}
+                      Work.ly
+                    </a>
+                  </h3>
+                  <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
+                    <TailwindLogo />
+                    <ReactLogo />
+                  </div>
+                  <p className="text-white font-poppins text-base">Slicing design with React, Tailwind CSS, lazy loading image, and more.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </main>

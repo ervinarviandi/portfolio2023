@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 import { BsGithub, BsInstagram, BsGlobe2, BsLink45Deg, BsDribbble } from "react-icons/bs";
-import { AiOutlineVerticalAlignTop } from "react-icons/ai";
 
 function Footer() {
   return (
@@ -54,11 +53,6 @@ function Footer() {
                 Ervin Arviandi
               </a>
             </p>
-          </div>
-          <div className="relative ">
-            <Link href="/work" className="absolute text-pink-500 bottom-0 right-0 text-white text-3xl animate-bounce" scroll={false}>
-              <AiOutlineVerticalAlignTop />
-            </Link>
           </div>
         </section>
       </main>
