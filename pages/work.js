@@ -12,6 +12,7 @@ import Footer from "../components/Footer";
 import { Tab } from "@headlessui/react";
 import classNames from "classnames";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 function work() {
   return (
@@ -101,10 +102,10 @@ function work() {
                       <img src="reactlink.jpg" className="w-full" />
                       <div className="mt-3">
                         <h3 className="text-white font-bold font-poppins text-[22px]">
-                          <a className="hover:border-b-2 hover:border-dashed " href="/linkbio">
+                          <Link href="/linkbio" className="hover:border-b-2 hover:border-dashed ">
                             {" "}
                             React Link Bio
-                          </a>
+                          </Link>
                         </h3>
                         <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
                           <TailwindLogo />

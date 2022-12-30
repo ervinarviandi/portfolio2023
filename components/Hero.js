@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 function Hero() {
   return (
     <>
-      <motion.div className="px-4 py-12" initial={{ y: 250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
+      <div className="px-4 py-12">
         <section className="mt-[96px] mx-auto md:max-w-3xl xl:max-w-3xl custom-img">
           <marquee className="text-amber-500 font-bold text-2xl ">Mohon maaf, situs web ini masih dalam tahap pengembangan, 🤔 </marquee>
           <img src="ervinarviandi.jpg " className="w-48 h-48 md:w-50 md:h-50 md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" />
@@ -80,7 +80,7 @@ function Hero() {
             </div>
           </div>
         </section>
-      </motion.div>
+      </div>
     </>
   );
 }
