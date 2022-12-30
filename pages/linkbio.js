@@ -54,10 +54,10 @@ function linkbio() {
 
           <div className="flex justify-between ">
             <div className="">
-              <Link href="" className=" flex items-center space-x-4 text-white font-bold font-poppins border-b-2 py-2 border-dashed   font-bold">
+              <a href="" className=" flex items-center space-x-4 text-white font-bold font-poppins border-b-2 py-2 border-dashed   font-bold">
                 <FaEdit />
                 <h4 className="text-white font-poppins">Edit On Github</h4>
-              </Link>
+              </a>
             </div>
             {/* <div className="">
               <Link href="" className="flex items-center space-x-4 text-white font-bold font-poppins  border-b-2 py-2 border-dashed   font-bold">

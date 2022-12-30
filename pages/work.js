@@ -102,7 +102,7 @@ function work() {
                       <img src="reactlink.jpg" className="w-full" />
                       <div className="mt-3">
                         <h3 className="text-white font-bold font-poppins text-[22px]">
-                          <Link href="/linkbio" className="hover:border-b-2 hover:border-dashed ">
+                          <Link href="" className="hover:border-b-2 hover:border-dashed ">
                             {" "}
                             React Link Bio
                           </Link>
