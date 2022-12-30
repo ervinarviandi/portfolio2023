@@ -43,10 +43,12 @@ function about() {
               On this website, I like to share my <span className="font-bold"> various thoughts</span> about web development related topics, general daily life and a place for <span className="font-bold">showcasing my portfolio</span>.
             </p>
 
-            <blockquote className="text-white text-gray-500 text-2xl border-l-4  border-l-pink-500 ">
-              <p className="ml-4 italic font-poppins text-base">the important thing is not to stop questioning.Curiosity has its own reason for exitense.</p>
-              <h5 className="font-bold text-white italic ml-4 mt-5 font-poppins ">-Albert Einstein</h5>
-            </blockquote>
+            <motion.div className="">
+              <blockquote className="text-white text-gray-500 text-2xl border-l-4  border-l-pink-500 ">
+                <p className="ml-4 italic font-poppins text-base">the important thing is not to stop questioning.Curiosity has its own reason for exitense.</p>
+                <h5 className="font-bold text-white italic ml-4 mt-5 font-poppins ">-Albert Einstein</h5>
+              </blockquote>
+            </motion.div>
 
             <p className="text-gray-200 font-poppins text-base">
               I start learning <span className="font-bold text-white">Web Development</span> in <span className="font-bold"> early 2021</span>, but before that happens, I,ve actually learned the basics about{" "}
@@ -57,7 +59,6 @@ function about() {
             <p className="text-gray-200 font-poppins text-base">
               On this website, I like to share my various thought, including <span className="font-bold text-white">Web Development</span>, and showcase my <span className="font-bold text-white">Personal Website</span>
             </p>
-            <div></div>
           </div>
         </motion.div>
       </section>
