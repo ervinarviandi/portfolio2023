@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
+import { motion } from "framer-motion";
 
 function about() {
   return (
@@ -8,7 +9,7 @@ function about() {
       {/* Navigation */}
       <Navigation />
       <section className="mt-[96px] mx-auto md:max-w-3xl  xl:max-w-3xl px-4 ">
-        <div className="flex flex-wrap">
+        <motion.div className="flex flex-wrap" initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
           <div className="w-full self-center px-4 lg:w-1/2">
             <img src="ervinarviandi.jpg " className="w-48 h-48 md:w-50 md:h-50 md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" />
             <h2 className="flex flex-col font-light text-[34px] font-bold text-white font-poppins ">Muhammad Ervin Arviandi</h2>
@@ -34,7 +35,7 @@ function about() {
               Im a very interested with <span className="font-bold"> Frontend Architecture</span>, <span className="font-bold">Frontend Accessibility</span>, and <span className="font-bold">User Experience</span>, and also interested in
               mobile development with Kotlin .
             </p>
-            <code className="bg-pink-700">
+            <code className="bg-pink-700 ">
               <span className="text-amber-500">npm i bootstrap</span>
             </code>
 
@@ -58,7 +59,7 @@ function about() {
             </p>
             <div></div>
           </div>
-        </div>
+        </motion.div>
       </section>
       <Footer />
     </>

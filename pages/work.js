@@ -11,12 +11,13 @@ import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Footer from "../components/Footer";
 import { Tab } from "@headlessui/react";
 import classNames from "classnames";
+import { motion } from "framer-motion";
 
 function work() {
   return (
     <>
       <Navigation />
-      <main className="px-4 py-12  transition  duration-700 ease-in-out delay-50">
+      <motion.div className="px-4 py-12 " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
         <section className="mt-[96px] mx-auto md:max-w-3xl  xl:max-w-3xl px-4  ">
           <h1 className="text-white text-3xl mb-10 font-poppins font-bold">Portfolio</h1>
           <p className="mb-6 md:mb-8 text-white font-poppins text-base">
@@ -156,7 +157,7 @@ function work() {
             </Tab.Panels>
           </Tab.Group>
         </section>
-      </main>
+      </motion.div>
       <Footer />
     </>
   );

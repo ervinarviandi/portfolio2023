@@ -5,13 +5,14 @@ import { MdEmail } from "react-icons/md";
 import { AiFillFilePdf } from "react-icons/ai";
 import Button from "next/link";
 import { TypeAnimation } from "react-type-animation";
+import { motion } from "framer-motion";
 
 function Hero() {
   return (
     <>
-      <div className="px-4 py-12">
+      <motion.div className="px-4 py-12" initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
         <section className="mt-[96px] mx-auto md:max-w-3xl xl:max-w-3xl custom-img">
-          <marquee className="text-amber-500 font-bold ">Website Ini Masih dalam Tahap Pembuatan </marquee>
+          <marquee className="text-amber-500 font-bold text-2xl ">Mohon maaf, situs web ini masih dalam tahap pengembangan, 🤔 </marquee>
           <img src="ervinarviandi.jpg " className="w-48 h-48 md:w-50 md:h-50 md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" />
           <div className="flex flex-wrap">
             <div className="w-full self-center px-4 lg:w-1/2">
@@ -62,7 +63,7 @@ function Hero() {
                   <MdEmail />
                 </Link>
               </div>
-              <div className="mt-5 relative ">
+              <motion.div className="mt-5 relative " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
                 <Button
                   href="https://resume.showwcase.com/ervinarviandi.pdf"
                   className="absolute flex font-poppins text-base items-center py-2 px-4 border-pink-500  text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  hover:bg-pink-500 border rounded-full"
@@ -70,7 +71,7 @@ function Hero() {
                   Download CV
                   <AiFillFilePdf className="ml-3" />
                 </Button>
-              </div>
+              </motion.div>
             </div>
             <div className="w-full  px-4 lg:w-1/2">
               <div className="top-0 right-0  sm:mx-auto">
@@ -79,7 +80,7 @@ function Hero() {
             </div>
           </div>
         </section>
-      </div>
+      </motion.div>
     </>
   );
 }
