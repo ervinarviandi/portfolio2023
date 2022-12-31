@@ -7,7 +7,8 @@ import BootstrapLogo from "../src/BootstrapLogo";
 import CssLogo from "../src/CssLogo";
 import JavascriptLogo from "../src/JavascriptLogo";
 import ReactLogo from "../src/ReactLogo";
-import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import CodeigniterLogo from "../src/CodeigniterLogo";
+// import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Footer from "../components/Footer";
 import { Tab } from "@headlessui/react";
 import classNames from "classnames";
@@ -72,7 +73,7 @@ function work() {
                           <CssLogo />
                           <JavascriptLogo />
                           <BootstrapLogo />
-                          <TailwindLogo />
+
                           <Nextjs className="dark:text-white" />
                         </div>
                         <p className="dark:text-white font-poppins text-base">A landing page of a Schedule App. Its also a Dicoding Submission Project for Learn Basic of Web Programming class.</p>
@@ -91,7 +92,8 @@ function work() {
                         </h3>
                         <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
                           <TailwindLogo />
-                          <Nextjs />
+
+                          <CodeigniterLogo />
                         </div>
                         <p className="dark:text-white font-poppins text-base">ExpenseApp is an app to see you expense history, income history and help you notes what youre buying lately💰</p>
                       </div>

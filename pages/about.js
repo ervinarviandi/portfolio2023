@@ -35,9 +35,6 @@ function about() {
               Im a very interested with <span className="font-bold"> Frontend Architecture</span>, <span className="font-bold">Frontend Accessibility</span>, and <span className="font-bold">User Experience</span>, and also interested in
               mobile development with Kotlin .
             </p>
-            <code className="bg-pink-700 ">
-              <span className="text-amber-500">npm i bootstrap</span>
-            </code>
 
             <p className="dark:text-white font-poppins text-base">
               On this website, I like to share my <span className="font-bold"> various thoughts</span> about web development related topics, general daily life and a place for <span className="font-bold">showcasing my portfolio</span>.

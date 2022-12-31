@@ -26,7 +26,7 @@ function Articles() {
             <div className="flex flex-col ">
               <figure className="border-dashed border-2 mt-5 p-4">
                 <h2 className="dark:text-white text-3xl font-poppins">
-                  How To Instal/Setup Git For Windows <span className="text-sky-300">()</span>{" "}
+                  How To Install/Setup Git For Windows <span className="text-sky-300">()</span>{" "}
                 </h2>
                 <div className="flex mt-5 space-x-3">
                   <span className="bg-amber-500 dark:text-white py-2 px-4 rounded-lg font-poppins text-xs">Github</span>
@@ -37,11 +37,11 @@ function Articles() {
             <div className="flex flex-col ">
               <figure className="border-dashed border-2 mt-5 p-4">
                 <h2 className="dark:text-white text-3xl font-poppins">
-                  How To Instal <span className="text-sky-300">Next Js</span> <Nextjs />{" "}
+                  How To Install <span className="text-sky-300">Next Js</span> <Nextjs className="dark:text-black" />{" "}
                 </h2>
                 <div className="flex mt-5 space-x-3">
-                  <span className="bg-rose-500 dark:text-white py-2 px-4 rounded-lg font-poppins text-xs">CSS</span>
-                  <span className="bg-cyan-900 dark:text-white py-2 px-4 rounded-lg font-poppins text-xs">Web Dev</span>
+                  <span className="bg-rose-500 dark:text-white py-2 px-4 rounded-lg font-poppins text-xs">Next js</span>
+                  <span className="bg-cyan-900 dark:text-white py-2 px-4 rounded-lg font-poppins text-xs">React</span>
                 </div>
               </figure>
             </div>
