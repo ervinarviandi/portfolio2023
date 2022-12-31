@@ -40,7 +40,7 @@ function Hero() {
                 />
               </div>
               <p className="py-4  font-poppins text-base dark:text-white">
-                Hello 👋,
+                Hello 👋 Im,
                 <a href="https://www.showwcase.com/ervinarviandi" className="underline decoration-pink-500 hover:text-pink-200 font-poppins text-base">
                   Muhammad Ervin Arviandi
                 </a>

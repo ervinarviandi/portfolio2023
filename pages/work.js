@@ -31,7 +31,7 @@ function work() {
             I,ve put together a portfolio of my personal work, mostly from my junior years. You,re welcome to take a look and explore. Some of the portfolios even have website demos that you can try out if you,d like.
           </p>
           <Tab.Group manual>
-            <Tab.List className="flex space-x-1 rounded-full bg-violet-800 p-1 text-white ">
+            <Tab.List className="flex space-x-1 rounded-full bg-gray-900 p-1 text-white ">
               <Tab
                 className={({ selected }) =>
                   classNames("w-full rounded-full transition  duration-700 ease-in-out delay-50 py-2.5 text-sm font-medium leading-5 text-blue-700 font-poppins ", selected ? "bg-white text-white " : "text-pink-500")
@@ -58,6 +58,24 @@ function work() {
               <Tab.Panel className="rounded-xl dark:bg-black p-3">
                 <div className="grid md:grid-cols-2 gap-5 ">
                   <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden ">
+                      <img src="reactlink.jpg" className="w-full" />
+                      <div className="mt-3">
+                        <h3 className="dark:text-white font-bold font-poppins text-[22px]">
+                          <Link href="linkbio" className="hover:border-b-2 hover:border-dashed ">
+                            {" "}
+                            React Link Bio
+                          </Link>
+                        </h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
+                          <TailwindLogo />
+                          <ReactLogo />
+                        </div>
+                        <p className="dark:text-white font-poppins text-base">React Link is an page to see connect with sosial media and more🔗</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden  ">
                       <img src="zeitplans.jpg" alt="expense-project" />
                       {/* <Image src="/expenseApp_qFvD7zZ8y.jpg" width={560} height={560} alt="expense_project" className="relative" /> */}
@@ -80,6 +98,7 @@ function work() {
                       </div>
                     </div>
                   </div>
+
                   <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden ">
                       <img src="expenseApp_qFvD7zZ8y.jpg" />
@@ -99,24 +118,7 @@ function work() {
                       </div>
                     </div>
                   </div>
-                  <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden ">
-                      <img src="reactlink.jpg" className="w-full" />
-                      <div className="mt-3">
-                        <h3 className="dark:text-white font-bold font-poppins text-[22px]">
-                          <Link href="linkbio" className="hover:border-b-2 hover:border-dashed ">
-                            {" "}
-                            React Link Bio
-                          </Link>
-                        </h3>
-                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
-                          <TailwindLogo />
-                          <ReactLogo />
-                        </div>
-                        <p className="dark:text-white font-poppins text-base">React Link is an app to see you expense history, income history and help you notes what youre buying lately🔗</p>
-                      </div>
-                    </div>
-                  </div>
+
                   <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden ">
                       <img src="notta.jpg" className="w-full" />
