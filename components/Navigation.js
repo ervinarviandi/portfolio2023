@@ -79,7 +79,8 @@ const Navigation = () => {
             />
           )}
         </div>
-        <Link href="/">
+        <Link href="/" className="flex items-center space-x-3">
+          <img src="/ervinarviandi.jpg" className="w-9 h-9 md:w-10 md:h-10 rounded-full" />
           <h1
             // style={{ color: `${textColor}` }}
             className="font-bold text-1xl z-index: 50 font-poppins text-[18px] dark:text-white"
