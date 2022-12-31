@@ -91,17 +91,25 @@ const Navigation = () => {
           // style={{ color: `${textColor}` }}
           className="hidden sm:flex"
         >
-          <li className="p-4 dark:hover:text-pink-500 font-poppins dark:text-white">
-            <Link href="/">Home</Link>
+          <li className="p-4  font-poppins dark:text-white">
+            <Link href="/" className="hover:text-pink-500">
+              Home
+            </Link>
           </li>
-          <li className="p-4 dark:hover:text-pink-500 font-poppins dark:text-white">
-            <Link href="/about">About</Link>
+          <li className="p-4 font-poppins dark:text-white">
+            <Link href="/about" className=" hover:text-pink-500">
+              About
+            </Link>
           </li>
-          <li className="p-4 dark:hover:text-pink-500 font-poppins dark:text-white">
-            <Link href="/work">Work</Link>
+          <li className="p-4  font-poppins dark:text-white">
+            <Link href="/work" className="hover:text-pink-500">
+              Work
+            </Link>
           </li>
-          <li className="p-4 dark:hover:text-pink-500 font-poppins dark:text-white">
-            <Link href="/blog-post">Contact</Link>
+          <li className="p-4  font-poppins dark:text-white">
+            <Link href="/blog-post" className="hover:text-pink-500">
+              Contact
+            </Link>
           </li>
         </ul>
 

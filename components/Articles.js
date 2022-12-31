@@ -47,9 +47,10 @@ function Articles() {
             </div>
           </div>
           <div className=" mt-[30px] ">
-            <p className=" flex items-center dark:text-white dark:hover:text-pink-500 hover:font-bold font-poppins">
-              <a href="">See All Post</a>
-              <Link href="/">
+            <p className=" flex items-center dark:text-white  hover:font-bold font-poppins">
+              {/* <a href="" className="">See All Post</a> */}
+              <Link href="/" className="flex items-center  dark:hover:text-pink-500 hover:font-bold font-poppins">
+                See All Post
                 <BsFillArrowRightCircleFill className="ml-5 dark:text-white text-2xl dark:hover:text-pink-500" />
               </Link>
             </p>

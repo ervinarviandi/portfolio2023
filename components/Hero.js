@@ -12,7 +12,7 @@ function Hero() {
     <>
       <div className="px-4 py-12">
         <section className="mt-[96px] mx-auto md:max-w-3xl xl:max-w-3xl custom-img">
-          <marquee className="text-amber-500 font-bold text-2xl ">Mohon maaf, situs web ini masih dalam tahap pengembangan, 🤔 </marquee>
+          <marquee className="text-amber-500 font-bold text-2xl p-2 bg-gray-900 rounded-lg"> Web app ini masih dalam tahap pengembangan, 🔨🧐 </marquee>
           <img src="ervinarviandi.jpg " className="w-48 h-48 md:w-50 md:h-50 md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" />
           <div className="flex flex-wrap">
             <div className="w-full self-center px-4 lg:w-1/2">
@@ -47,20 +47,20 @@ function Hero() {
                 , a guy who loves to code, music, and coffe, welcome to my personal website , where you can find my portfolio, blog and more
               </p>
               <div className="flex flex-wrap space-x-4 text-2xl ">
-                <Link href="https://github.com/ervinarviandi" className="dark:text-white dark:hover:text-pink-500">
-                  <BsGithub />
+                <Link href="https://github.com/ervinarviandi" className="dark:text-white ">
+                  <BsGithub className="hover:text-pink-500" />
                 </Link>
-                <Link href="https://www.instagram.com/ervinarviandi/" className="dark:text-white dark:hover:text-pink-500">
-                  <BsInstagram />
+                <Link href="https://www.instagram.com/ervinarviandi/" className="dark:text-white ">
+                  <BsInstagram className="hover:text-pink-500" />
                 </Link>
-                <Link href="https://www.showwcase.com/ervinarviandi" className="dark:text-white dark:hover:text-pink-500">
-                  <BsGlobe2 />
+                <Link href="https://www.showwcase.com/ervinarviandi" className="dark:text-white ">
+                  <BsGlobe2 className="hover:text-pink-500" />
                 </Link>
-                <Link href="https://react-link.vercel.app/" className="dark:text-white dark:hover:text-pink-500">
-                  <BsLink45Deg />
+                <Link href="https://react-link.vercel.app/" className="dark:text-white ">
+                  <BsLink45Deg className="hover:text-pink-500" />
                 </Link>
-                <Link href="mailto:muhamadervin34@gmail.com" className="dark:text-white dark:hover:text-pink-500">
-                  <MdEmail />
+                <Link href="mailto:muhamadervin34@gmail.com" className="dark:text-white ">
+                  <MdEmail className="hover:text-pink-500" />
                 </Link>
               </div>
               <motion.div className="mt-12 relative " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>

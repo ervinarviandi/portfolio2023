@@ -153,8 +153,8 @@ function work() {
                   </div>
                 </div>
               </Tab.Panel>
-              <Tab.Panel className="rounded-xl dark:bg-white p-3 dark:text-white">Belum Ada Project</Tab.Panel>
-              <Tab.Panel className="rounded-xl dark:bg-white p-3 dark:text-white">Belum Ada Project</Tab.Panel>
+              <Tab.Panel className="rounded-xl dark:bg-black p-3 dark:text-white">Belum Ada Project</Tab.Panel>
+              <Tab.Panel className="rounded-xl dark:bg-black p-3 dark:text-white">Belum Ada Project</Tab.Panel>
             </Tab.Panels>
           </Tab.Group>
         </section>
