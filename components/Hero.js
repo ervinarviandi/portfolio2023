@@ -66,7 +66,7 @@ function Hero() {
               <motion.div className="mt-12 relative " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
                 <Button
                   href="https://resume.showwcase.com/ervinarviandi.pdf"
-                  className="absolute flex font-poppins text-base items-center py-2 px-4 border-pink-500  dark:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  bg-pink-500 border text-white rounded-full"
+                  className="absolute flex font-poppins text-base items-center py-2 px-4 border-pink-500  dark:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  bg-pink-500 border text-white rounded-full shadow-lg hover:dark:shadow-pink-500/50 "
                 >
                   Download CV
                   <AiFillFilePdf className="ml-3" />
