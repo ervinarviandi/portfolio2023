@@ -2,7 +2,7 @@ import React from "react";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import { motion } from "framer-motion";
-import Comment from "../components/Comment";
+// import Comment from "../components/Comment";
 
 function about() {
   return (
@@ -58,7 +58,7 @@ function about() {
               On this website, I like to share my various thought, including <span className="font-bold dark:text-white">Web Development</span>, and showcase my <span className="font-bold dark:text-white">Personal Website</span>
             </p>
           </div>
-          <Comment />
+          {/* <Comment /> */}
         </motion.div>
       </section>
       <Footer />
