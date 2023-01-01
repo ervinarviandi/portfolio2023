@@ -12,7 +12,7 @@ function Footer() {
             <div className="flex items-center mt-[10px]">
               {/* kiri */}
               <nav>
-                <ul className="md:flex md:space-x-[30px] dark:text-slate-300 font-poppins ">
+                <ul className="md:flex md:space-x-[30px] dark:text-slate-300 text-gray-500 font-poppins ">
                   <li className="hover:text-pink-500">
                     <Link href="/b">Home</Link>
                   </li>
@@ -41,10 +41,18 @@ function Footer() {
             </div>
           </div>
           <div className="flex items-center space-x-[20px] dark:text-gray-200 mt-[30px] text-2xl  ">
-            <BsGithub className="dark:text-slate-300 dark:hover:text-pink-500" />
-            <BsInstagram className="dark:text-slate-300 dark:hover:text-pink-500" />
-            <BsGlobe2 className="dark:text-slate-300 dark:hover:text-pink-500" />
-            <BsLink45Deg className="dark:text-slate-300 dark:hover:text-pink-500" />
+            <Link href="https://github.com/ervinarviandi">
+              <BsGithub className="dark:text-slate-300 dark:hover:text-pink-500 hover:text-pink-500  text-gray-500" />
+            </Link>
+            <Link href="https://www.instagram.com/ervinarviandi/">
+              <BsInstagram className="dark:text-slate-300 dark:hover:text-pink-500 hover:text-pink-500 text-gray-500" />
+            </Link>
+            <Link href="https://www.showwcase.com/ervinarviandi">
+              <BsGlobe2 className="dark:text-slate-300 dark:hover:text-pink-500 hover:text-pink-500 text-gray-500" />
+            </Link>
+            <Link href="https://react-link.vercel.app/">
+              <BsLink45Deg className="dark:text-slate-300 dark:hover:text-pink-500 hover:text-pink-500 text-gray-500" />
+            </Link>
           </div>
           <div className="mt-[20px]">
             <p className="dark:text-slate-300 text-center font-poppins">

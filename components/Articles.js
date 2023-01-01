@@ -13,7 +13,7 @@ function Articles() {
           <p className="dark:text-white text-gray-700 font-poppins text-base">If youre looking for some interesting reads, check out my featured blog post. sorted from latest to least, feel free to explore it.</p>
           <div className="grid md:grid-cols-2 gap-5">
             <div className="flex flex-col ">
-              <figure className="border-dashed border-2 mt-5 p-4">
+              <figure className="border-dashed border-2 mt-5 p-4 rounded-lg">
                 <h2 className="dark:text-white text-gray-700 text-3xl font-poppins ">
                   A Powerfull CSS <CssLogo /> Pseudo Class, Take A Look At CSS:Has <span className="text-sky-300">()</span>{" "}
                 </h2>
@@ -24,8 +24,8 @@ function Articles() {
               </figure>
             </div>
             <div className="flex flex-col ">
-              <figure className="border-dashed border-2 mt-5 p-4">
-                <h2 className="dark:text-white text-gray-700 text-3xl font-poppins">
+              <figure className="border-dashed border-2 mt-5 p-4 rounded-lg">
+                <h2 className="dark:text-white text-gray-700 text-3xl font-poppins ">
                   How To Install/Setup Git For Windows <span className="text-sky-300">()</span>{" "}
                 </h2>
                 <div className="flex mt-5 space-x-3">
@@ -35,7 +35,7 @@ function Articles() {
               </figure>
             </div>
             <div className="flex flex-col ">
-              <figure className="border-dashed border-2 mt-5 p-4">
+              <figure className="border-dashed border-2 mt-5 p-4 rounded-lg">
                 <h2 className="dark:text-white text-gray-700 text-3xl font-poppins">
                   How To Install <span className="text-sky-300">Next Js</span> <Nextjs className="dark:text-black text-gray-700" />{" "}
                 </h2>

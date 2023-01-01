@@ -14,7 +14,7 @@ function Portfolio() {
     <>
       <main className="px-4 py-12">
         <section className="mt-[96px] mx-auto md:max-w-3xl  xl:max-w-3xl px-4">
-          <h1 className=" dark:text-white text-gray-700 text-3xl mb-10 font-poppins">Featured Portfolio</h1>
+          <h1 className=" dark:text-white text-gray-700 text-3xl mb-10 font-poppins font-bold">Featured Portfolio</h1>
           <p className="mb-6 md:mb-8 dark:text-white text-gray-700 font-poppins text-base">Check out my featured portfolio, feel free to explore it.</p>
           <div className="grid md:grid-cols-2 gap-5 ">
             <div className="flex flex-col">
