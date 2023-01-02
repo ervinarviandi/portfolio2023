@@ -8,6 +8,7 @@ import JavascriptLogo from "../src/JavascriptLogo";
 import ReactLogo from "../src/ReactLogo";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 function Portfolio() {
   return (
@@ -20,6 +21,7 @@ function Portfolio() {
             <div className="flex flex-col">
               <div className="rounded-md overflow-hidden  ">
                 <img src="zeitplans.jpg" alt="expense-project" />
+
                 {/* <Image src="/expenseApp_qFvD7zZ8y.jpg" width={560} height={560} alt="expense_project" className="relative" /> */}
                 <div className="mt-3">
                   <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px] ">

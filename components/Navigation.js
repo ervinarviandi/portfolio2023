@@ -108,7 +108,7 @@ const Navigation = () => {
             </Link>
           </li>
           <li className="p-4  font-poppins dark:text-white">
-            <Link href="/blog-post" className="hover:text-pink-500">
+            <Link href="/contact" className="hover:text-pink-500">
               Contact
             </Link>
           </li>
@@ -124,8 +124,8 @@ const Navigation = () => {
         <div
           className={
             nav
-              ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen  backdrop-filter backdrop-blur-lg bg-black text-center ease-in duration-300 -z-10"
-              : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black backdrop-filter backdrop-blur-lg text-center ease-in duration-300 -z-10 dark:text-white"
+              ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen  backdrop-filter backdrop-blur-lg bg-black text-center ease-in duration-300 z-8"
+              : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black backdrop-filter backdrop-blur-lg text-center ease-in duration-300 -z-8 dark:text-white"
           }
         >
           <ul>
@@ -142,7 +142,7 @@ const Navigation = () => {
             </li>
             <hr />
             <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
-              <Link href="/blog-post">Contact</Link>
+              <Link href="/contact">Contact</Link>
             </li>
             <hr />
           </ul>
