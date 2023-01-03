@@ -26,7 +26,7 @@ function Cursor() {
   return (
     <div
       id="cursor"
-      className="pointer-events-none fixed top-0 left-0 z-50 hidden before:absolute before:-top-6 before:-left-6 before:block before:h-12 before:w-12 before:scale-[0.2] before:rounded-full before:bg-black dark:before:bg-white md:block"
+      className="pointer-events-none fixed top-0 left-0 z-50 hidden before:absolute before:-top-6 before:-left-6 before:block before:h-12 before:w-12 before:scale-[0.2] before:rounded-full before:bg-black dark:before:bg-black after:bg-white  md:block "
       style={{ contain: "layout style size" }}
     >
       <div className="absolute z-50 -ml-16 -mt-16 block h-32 w-32 scale-0 overflow-hidden rounded-full bg-black  "></div>
@@ -50,7 +50,7 @@ class CursorClass {
     // Varibles
     this.Cursor = el;
     this.Cursor.style.opacity = 0;
-    this.Item = document.querySelectorAll("button, a");
+    this.Item = document.querySelectorAll("button,link, a");
     this.bounds = this.Cursor.getBoundingClientRect();
     this.cursorConfigs = {
       x: { previous: 0, current: 0, amt: 0.1 },
