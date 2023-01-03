@@ -107,6 +107,11 @@ const Navigation = () => {
               Work
             </Link>
           </li>
+          {/* <li className="p-4  font-poppins dark:text-white">
+            <Link href="/work" className="hover:text-pink-500">
+              Blog
+            </Link>
+          </li> */}
           <li className="p-4  font-poppins dark:text-white">
             <Link href="/contact" className="hover:text-pink-500">
               Contact
@@ -139,6 +144,10 @@ const Navigation = () => {
             <hr />
             <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
               <Link href="/work">Work</Link>
+            </li>
+            <hr />
+            <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
+              <Link href="/.Blog">Blog</Link>
             </li>
             <hr />
             <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
