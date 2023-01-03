@@ -16,7 +16,7 @@ function Techstack() {
       <div className="px-4 py-12">
         <div className="mt-[96px] mx-auto md:max-w-3xl  xl:max-w-3xl px-4">
           <div className="w-full self-center px-4">
-            <p className="text-white font-poppins font-bold text-2xl">Tech Stack </p>
+            <p className="dark:text-white text-gray-500 font-poppins font-bold text-2xl md:text-left text-center">Tech Stack </p>
             <div className="flex gap-6 flex-wrap justify-center mt-20 ">
               <HtmlLogo />
               <CssLogo />
