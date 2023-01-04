@@ -2,6 +2,7 @@ import React from "react";
 import { FaGitSquare } from "react-icons/fa";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
+import Image from "next/image";
 function Blog() {
   return (
     <>
@@ -33,19 +34,19 @@ function Blog() {
 
               <p className="font-poppins text-base dark:text-white text-gray-500 mt-5">Baiklah, mari kita mulai ritual instalnya. Silahkan klik 2x file instaler Git yang sudah diunduh.</p>
 
-              <img src="/Blog Images/Gambarsatu.jpg" className="mt-4" />
+              <Image src="/Blog Images/Gambarsatu.jpg" className="mt-4" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Maka akan muncul infomasi lisensi Git, klik Next untuk melanjutkan.</p>
-              <img src="/Blog Images/2. Informasi tentang git.jpg" className="mt-4" />
+              <Image src="/Blog Images/2. Informasi tentang git.jpg" className="mt-4" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya menentukan lokasi instalasi. Biarkan saja apa adanya, kemudian klik Next </p>
-              <img src="/Blog Images/3. Lokasi instal.jpg" className="mt-4" />
+              <Image src="/Blog Images/3. Lokasi instal.jpg" className="mt-4" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya pemilihan komponen, biarkan saja seperti ini kemudian klik Next.</p>
-              <img src="/Blog Images/4. Pemilihan komponen.jpg" className="mt-4" />
+              <Image src="/Blog Images/4. Pemilihan komponen.jpg" className="mt-4" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya pemlilihan direktori start menu, klik Next </p>
-              <img src="/Blog Images/5. pembuatan start menu.jpg" className="mt-4" />
+              <Image src="/Blog Images/5. pembuatan start menu.jpg" className="mt-4" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">
                 Selanjutnya pengaturan PATH Environment. Pilih yang tengah agar perintah <span className="py-1 px-3 rounded-lg bg-pink-500">git</span> dapat di kenali di Command Prompt (CMD). Setelah itu klik Next.{" "}
@@ -53,27 +54,27 @@ function Blog() {
               <img src="/Blog Images/6. Path environment.jpg" className="mt-4" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya konversi line ending. Biarkan saja seperti ini, kemudian klik Next.</p>
-              <img src="/Blog Images/7. konversi line ending.jpg" className="mt-4" />
+              <Image src="/Blog Images/7. konversi line ending.jpg" className="mt-4" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya pemilihan emulator terminal. Pilih saja yang bawah, kemudian klik Next.</p>
-              <img src="/Blog Images/8. Pemilihan emulator terminal.jpg" className="mt-4" />
+              <Image src="/Blog Images/8. Pemilihan emulator terminal.jpg" className="mt-4" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya pemilihan opsi ekstra. Klik saja Next.</p>
-              <img src="/Blog Images/9. Konfigurasi Opsi Ekstra.jpg" className="mt-4" />
+              <Image src="/Blog Images/9. Konfigurasi Opsi Ekstra.jpg" className="mt-4" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya pemilihan opsi ekspreimental, langsung saja klik Install untuk memaulai instalasi.</p>
-              <img src="/Blog Images/10. Opsi ekperimental.jpg" className="mt-4" />
+              <Image src="/Blog Images/10. Opsi ekperimental.jpg" className="mt-4" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Tunggu beberapa saat, instalasi sedang dilakukan.</p>
-              <img src="/Blog Images/11. Installing.jpg" className="mt-4" />
+              <Image src="/Blog Images/11. Installing.jpg" className="mt-4" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Setelah selesai, kita bisa langsung klik Finish.</p>
-              <img src="/Blog Images/12. Finish.jpg" className="mt-4" />
+              <Image src="/Blog Images/12. Finish.jpg" className="mt-4" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">
                 Selamat, Git sudah terinstal di Windows. Untuk mencobanya, silahkan buka CMD atau PowerShell, kemudian ketik perintah <span className="py-1 px-3 bg-cyan-600 rounded-lg"> git --version</span> .
               </p>
-              <img src="/Blog Images/13. Percobaan.jpg" className="mt-4" />
+              <Image src="/Blog Images/13. Percobaan.jpg" className="mt-4" />
             </div>
           </div>
         </section>
