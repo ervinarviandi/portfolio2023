@@ -34,47 +34,47 @@ function Blog() {
 
               <p className="font-poppins text-base dark:text-white text-gray-500 mt-5">Baiklah, mari kita mulai ritual instalnya. Silahkan klik 2x file instaler Git yang sudah diunduh.</p>
 
-              <img src="Gambarsatu.jpg" className="mt-4" />
+              <Image src="Gambarsatu.jpg" className="mt-4" alt="gambar1" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Maka akan muncul infomasi lisensi Git, klik Next untuk melanjutkan.</p>
-              <img src="dua.jpg" className="mt-4" />
+              <Image src="dua.jpg" className="mt-4" alt="gambar2" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya menentukan lokasi instalasi. Biarkan saja apa adanya, kemudian klik Next </p>
-              <img src="tiga.jpg" className="mt-4" />
+              <Image src="tiga.jpg" className="mt-4" alt="gambar3" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya pemilihan komponen, biarkan saja seperti ini kemudian klik Next.</p>
-              <img src="empat.jpg" className="mt-4" />
+              <Image src="empat.jpg" className="mt-4" alt="gambar4" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya pemlilihan direktori start menu, klik Next </p>
-              <img src="lima.jpg" className="mt-4" />
+              <Image src="lima.jpg" className="mt-4" alt="gambar5" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">
                 Selanjutnya pengaturan PATH Environment. Pilih yang tengah agar perintah <span className="py-1 px-3 rounded-lg bg-pink-500">git</span> dapat di kenali di Command Prompt (CMD). Setelah itu klik Next.{" "}
               </p>
-              <img src="enam.jpg" className="mt-4" />
+              <Image src="enam.jpg" className="mt-4" alt="gambar6" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya konversi line ending. Biarkan saja seperti ini, kemudian klik Next.</p>
-              <img src="tujuh.jpg" className="mt-4" />
+              <Image src="tujuh.jpg" className="mt-4" alt="gambar7" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya pemilihan emulator terminal. Pilih saja yang bawah, kemudian klik Next.</p>
-              <img src="delapan.jpg" className="mt-4" />
+              <Image src="delapan.jpg" className="mt-4" alt="gambar8" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya pemilihan opsi ekstra. Klik saja Next.</p>
-              <img src="sembilan.jpg" className="mt-4" />
+              <Image src="sembilan.jpg" width="20px" alt="gambar9" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya pemilihan opsi ekspreimental, langsung saja klik Install untuk memaulai instalasi.</p>
-              <img src="sepuluh.jpg" className="mt-4" />
+              <Image src="sepuluh.jpg" className="mt-4" alt="gambar10" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Tunggu beberapa saat, instalasi sedang dilakukan.</p>
-              <img src="sebelas.jpg" className="mt-4" />
+              <Image src="sebelas.jpg" className="mt-4" alt="gambar11" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Setelah selesai, kita bisa langsung klik Finish.</p>
-              <img src="duabelas.jpg" className="mt-4" />
+              <Image src="duabelas.jpg" className="mt-4" alt="gambar12" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">
                 Selamat, Git sudah terinstal di Windows. Untuk mencobanya, silahkan buka CMD atau PowerShell, kemudian ketik perintah <span className="py-1 px-3 bg-cyan-600 rounded-lg"> git --version</span> .
               </p>
-              <img src="tigabelas.jpg" className="mt-4" />
+              <Image src="tigabelas.jpg" className="mt-4" alt="gambar13" />
             </div>
           </div>
         </section>
