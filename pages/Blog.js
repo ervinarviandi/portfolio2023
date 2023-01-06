@@ -38,7 +38,7 @@ function Blog() {
               {/* <img src="expenseApp_qFvD7zZ8y" alt="gambar1" /> */}
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Maka akan muncul infomasi lisensi Git, klik Next untuk melanjutkan.</p>
-              <Image src="/dua.jpg" className="mt-4" alt="gambar2" width="500" height="500" />
+              <img src="dua.jpg" className="mt-4" alt="gambar2" width="500" height="500" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya menentukan lokasi instalasi. Biarkan saja apa adanya, kemudian klik Next </p>
               {/* <Image src="/tiga.jpg" className="mt-4" alt="gambar3" /> */}
