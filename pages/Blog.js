@@ -34,7 +34,7 @@ function Blog() {
 
               <p className="font-poppins text-base dark:text-white text-gray-500 mt-5">Baiklah, mari kita mulai ritual instalnya. Silahkan klik 2x file instaler Git yang sudah diunduh.</p>
 
-              <Image src="gambarsatu.jpg" alt="gambar1" width="50px" height="50px" />
+              <img src="expenseApp_qFvD7zZ8y" alt="gambar1" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Maka akan muncul infomasi lisensi Git, klik Next untuk melanjutkan.</p>
               <Image src="dua.jpg" className="mt-4" alt="gambar2" />
