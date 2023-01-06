@@ -15,7 +15,8 @@ function Blog() {
               Youll find a collection of my thoughts and musings on a variety of topics. I write about everything from current events to personal experiences, and I always strive to share my honest opinions. Keep in mind that my views are
               my own and do not necessarily reflect those of any other person or organization.
             </p>
-            <div className="mt-[20px]">
+
+            <div className="mt-[20px] text-white font-poppins">
               <h2 className="dark:text-white text-gray-500 text-2xl font-poppins font-bold">
                 Tutorial Git Cara Install Git dan Konfigurasi Awal yang Harus Dilakukan <FaGitSquare />
               </h2>
@@ -34,47 +35,47 @@ function Blog() {
 
               <p className="font-poppins text-base dark:text-white text-gray-500 mt-5">Baiklah, mari kita mulai ritual instalnya. Silahkan klik 2x file instaler Git yang sudah diunduh.</p>
 
-              <img src="expenseApp_qFvD7zZ8y" alt="gambar1" />
+              {/* <img src="expenseApp_qFvD7zZ8y" alt="gambar1" /> */}
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Maka akan muncul infomasi lisensi Git, klik Next untuk melanjutkan.</p>
-              <Image src="dua.jpg" className="mt-4" alt="gambar2" />
+              <Image src="/dua.jpg" className="mt-4" alt="gambar2" width="500" height="500" />
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya menentukan lokasi instalasi. Biarkan saja apa adanya, kemudian klik Next </p>
-              <Image src="tiga.jpg" className="mt-4" alt="gambar3" />
+              {/* <Image src="/tiga.jpg" className="mt-4" alt="gambar3" /> */}
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya pemilihan komponen, biarkan saja seperti ini kemudian klik Next.</p>
-              <Image src="empat.jpg" className="mt-4" alt="gambar4" />
+              {/* <Image src="empat.jpg" className="mt-4" alt="gambar4" /> */}
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya pemlilihan direktori start menu, klik Next </p>
-              <Image src="lima.jpg" className="mt-4" alt="gambar5" />
+              {/* <Image src="lima.jpg" className="mt-4" alt="gambar5" /> */}
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">
                 Selanjutnya pengaturan PATH Environment. Pilih yang tengah agar perintah <span className="py-1 px-3 rounded-lg bg-pink-500">git</span> dapat di kenali di Command Prompt (CMD). Setelah itu klik Next.{" "}
               </p>
-              <Image src="enam.jpg" className="mt-4" alt="gambar6" />
+              {/* <Image src="enam.jpg" className="mt-4" alt="gambar6" /> */}
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya konversi line ending. Biarkan saja seperti ini, kemudian klik Next.</p>
-              <Image src="tujuh.jpg" className="mt-4" alt="gambar7" />
+              {/* <Image src="tujuh.jpg" className="mt-4" alt="gambar7" /> */}
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya pemilihan emulator terminal. Pilih saja yang bawah, kemudian klik Next.</p>
-              <Image src="delapan.jpg" className="mt-4" alt="gambar8" />
+              {/* <Image src="delapan.jpg" className="mt-4" alt="gambar8" /> */}
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya pemilihan opsi ekstra. Klik saja Next.</p>
-              <Image src="sembilan.jpg" width="20px" alt="gambar9" />
+              {/* <Image src="sembilan.jpg" width="20px" alt="gambar9" /> */}
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Selanjutnya pemilihan opsi ekspreimental, langsung saja klik Install untuk memaulai instalasi.</p>
-              <Image src="sepuluh.jpg" className="mt-4" alt="gambar10" />
+              {/* <Image src="sepuluh.jpg" className="mt-4" alt="gambar10" /> */}
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Tunggu beberapa saat, instalasi sedang dilakukan.</p>
-              <Image src="sebelas.jpg" className="mt-4" alt="gambar11" />
+              {/* <Image src="sebelas.jpg" className="mt-4" alt="gambar11" /> */}
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">Setelah selesai, kita bisa langsung klik Finish.</p>
-              <Image src="duabelas.jpg" className="mt-4" alt="gambar12" />
+              {/* <Image src="duabelas.jpg" className="mt-4" alt="gambar12" /> */}
 
               <p className="text-base dark:text-white text-gary-500 font-poppins mt-20">
                 Selamat, Git sudah terinstal di Windows. Untuk mencobanya, silahkan buka CMD atau PowerShell, kemudian ketik perintah <span className="py-1 px-3 bg-cyan-600 rounded-lg"> git --version</span> .
               </p>
-              <Image src="tigabelas.jpg" className="mt-4" alt="gambar13" />
+              {/* <Image src="tigabelas.jpg" className="mt-4" alt="gambar13" /> */}
             </div>
           </div>
         </section>
