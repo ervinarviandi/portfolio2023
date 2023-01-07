@@ -12,6 +12,7 @@ import Hero from "../components/Hero";
 import Articles from "../components/Articles";
 import Portfolio from "../components/Portfolio";
 import Footer from "../components/Footer";
+import Techstack from "../components/Techstack";
 
 function index() {
   return (
@@ -20,6 +21,7 @@ function index() {
       <Hero />
       <Articles />
       <Portfolio />
+      <Techstack />
       <Footer />
     </>
   );
