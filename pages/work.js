@@ -14,7 +14,6 @@ import { Tab } from "@headlessui/react";
 import classNames from "classnames";
 import { motion } from "framer-motion";
 import Link from "next/link";
-
 function work() {
   return (
     <>
@@ -157,7 +156,20 @@ function work() {
                   </div>
                 </div>
               </Tab.Panel>
-              <Tab.Panel className="rounded-xl dark:bg-black p-3 dark:text-white text-gray-700">Belum Ada Project</Tab.Panel>
+              <Tab.Panel className="rounded-xl dark:bg-black p-3 dark:text-white text-gray-700">
+                <div className="grid md:grid-cols-2 gap-5">
+                  <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden">
+                      <img src="logo.png" className="App-logo" alt="logo" />
+                      <div className="mt-3">
+                        <h3 className="font bold dark:text-white font-poppins text-gray-700 text-[22px] ">3D Room </h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3"></div>
+                        <p className="dark:text-white text-gray-700 font-poppins text-base">3D Room di buat menggunakan aplikasi spline </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Tab.Panel>
               <Tab.Panel className="rounded-xl dark:bg-black p-3 dark:text-white text-gray-700 ">Belum Ada Project</Tab.Panel>
             </Tab.Panels>
           </Tab.Group>
