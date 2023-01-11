@@ -29,7 +29,7 @@ function Blog() {
                   <span className="py-1 px-3 bg-yellow-500 dark:text-white text-teal-600 rounded-lg text-base font-poppins">github</span>
                 </div>
 
-                <div className="flex justify-between items-center mt-4">
+                <div className="md:flex justify-between items-center mt-4">
                   {/* kiri */}
                   <div className="flex space-x-3 items-center dark:text-white text-gray-700 text-base font-poppins">
                     <AiOutlineFieldTime />
@@ -43,6 +43,16 @@ function Blog() {
                 </div>
 
                 <hr />
+                <div className="flex items-center space-x-3 mt-7">
+                  <img src="ervinarviandi.jpg" width="40px" className="rounded-full" />
+                  <p className="font-poppins text-base dark:text-white text-gray-700">
+                    Written by/
+                    <a href="https://github.com/ervinarviandi" className="text-pink-500 border-b border-dashed py-1 border:animate-pulse">
+                      Muhammad Ervin Arviandi
+                    </a>
+                  </p>
+                </div>
+
                 <h4 className="font-poppins text-2xl dark:text-white text-gray-700 mt-7 ">Download Git</h4>
                 <p className="font-poppins text-base dark:text-white text-gray-700 mt-4">
                   Silahkan buka website resminya Git{" "}
