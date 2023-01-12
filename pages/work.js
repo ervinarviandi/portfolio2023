@@ -162,7 +162,7 @@ function work() {
                     <div className="rounded-md overflow-hidden">
                       <img src="logo.png" className="App-logo" alt="logo" />
                       <div className="mt-3">
-                        <h3 className="font bold dark:text-white font-poppins text-gray-700 text-[22px] ">3D Room </h3>
+                        <h3 className="font bold dark:text-white font-poppins text-gray-700 text-[22px] ">3D Room</h3>
                         <div className="flex items-center space-x-2.5 mt-1.5 mb-3"></div>
                         <p className="dark:text-white text-gray-700 font-poppins text-base">3D Room di buat menggunakan aplikasi spline </p>
                       </div>
@@ -170,7 +170,130 @@ function work() {
                   </div>
                 </div>
               </Tab.Panel>
-              <Tab.Panel className="rounded-xl dark:bg-black p-3 dark:text-white text-gray-700 ">Belum Ada Project</Tab.Panel>
+              <Tab.Panel className="rounded-xl dark:bg-black p-3 dark:text-white text-gray-700 ">
+                <div className="grid md:grid-cols-2 gap-5">
+                  <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden">
+                      <img src="croosocean.jpg" className="App-logo" alt="logo" />
+                      <div className="mt-3">
+                        <h3 className="font bold dark:text-white font-poppins text-gray-700 text-[22px] ">Cross The Ocean</h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3"></div>
+                        <p className="dark:text-white text-gray-700 font-poppins text-base">Cross the ocean poster dibuat menggunakan Adobe photoshop cc 2017 </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden">
+                      <img src="theguardian.jpg" className="App-logo" alt="theguardian" />
+                      <div className="mt-3">
+                        <h3 className="font bold dark:text-white font-poppins text-gray-700 text-[22px] ">The Guardian Angel</h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3"></div>
+                        <p className="dark:text-white text-gray-700 font-poppins text-base">poster The Guardian Angel dibuat menggunakan Adobe photoshop cc 2017 </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden">
+                      <img src="erfan.jpg" className="App-logo" alt="erfanarfianda" />
+                      <div className="mt-3">
+                        <h3 className="font bold dark:text-white font-poppins text-gray-700 text-[22px] ">Erfan Arfianda</h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3"></div>
+                        <p className="dark:text-white text-gray-700 font-poppins text-base">poster smudge painting dibuat menggunakan Adobe photoshop cc 2017 </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden">
+                      <img src="the last soldier.jpg" className="App-logo" alt="thelastsoldier" />
+                      <div className="mt-3">
+                        <h3 className="font bold dark:text-white font-poppins text-gray-700 text-[22px] ">The Last Soldier</h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3"></div>
+                        <p className="dark:text-white text-gray-700 font-poppins text-base">poster dibuat menggunakan Adobe photoshop cc 2017 </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden">
+                      <img src="hitam putih.jpg" className="App-logo" alt="hitam putih" />
+                      <div className="mt-3">
+                        <h3 className="font bold dark:text-white font-poppins text-gray-700 text-[22px] ">Running With Millie</h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3"></div>
+                        <p className="dark:text-white text-gray-700 font-poppins text-base">poster dibuat menggunakan Adobe photoshop cc 2017 </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden">
+                      <img src="dheni patungka.jpg" className="App-logo" alt="dhenypatungka" />
+                      <div className="mt-3">
+                        <h3 className="font bold dark:text-white font-poppins text-gray-700 text-[22px] ">Dheny Patungka </h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3"></div>
+                        <p className="dark:text-white text-gray-700 font-poppins text-base">poster dibuat menggunakan Adobe photoshop cc 2017 </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden">
+                      <img src="manji.jpg" className="App-logo" alt="manji" />
+                      <div className="mt-3">
+                        <h3 className="font bold dark:text-white font-poppins text-gray-700 text-[22px] ">Anji </h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3"></div>
+                        <p className="dark:text-white text-gray-700 font-poppins text-base">poster dibuat menggunakan Adobe photoshop cc 2017 </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden">
+                      <img src="RD.jpg" className="App-logo" alt="Radityadika" />
+                      <div className="mt-3">
+                        <h3 className="font bold dark:text-white font-poppins text-gray-700 text-[22px] ">Raditya Dika </h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3"></div>
+                        <p className="dark:text-white text-gray-700 font-poppins text-base">poster dibuat menggunakan Adobe photoshop cc 2017 </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden">
+                      <img src="reza arap.jpg" className="App-logo" alt="Reza Arap" />
+                      <div className="mt-3">
+                        <h3 className="font bold dark:text-white font-poppins text-gray-700 text-[22px] ">Reza Arap </h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3"></div>
+                        <p className="dark:text-white text-gray-700 font-poppins text-base">poster dibuat menggunakan Adobe photoshop cc 2017 </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden">
+                      <img src="illustrasi.jpg" className="App-logo" alt="illustrasi" />
+                      <div className="mt-3">
+                        <h3 className="font bold dark:text-white font-poppins text-gray-700 text-[22px] ">Illustrasi </h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3"></div>
+                        <p className="dark:text-white text-gray-700 font-poppins text-base">poster dibuat menggunakan Adobe photoshop cc 2017 </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden">
+                      <img src="gusti aji 2.jpg" className="App-logo" alt="gustiaji" />
+                      <div className="mt-3">
+                        <h3 className="font bold dark:text-white font-poppins text-gray-700 text-[22px] ">Alice</h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3"></div>
+                        <p className="dark:text-white text-gray-700 font-poppins text-base">poster dibuat menggunakan Adobe photoshop cc 2017 </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden">
+                      <img src="kartun.jpg" className="App-logo" alt="kartun" />
+                      <div className="mt-3">
+                        <h3 className="font bold dark:text-white font-poppins text-gray-700 text-[22px] ">Cartoon</h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3"></div>
+                        <p className="dark:text-white text-gray-700 font-poppins text-base">poster dibuat menggunakan Adobe photoshop cc 2017 </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Tab.Panel>
             </Tab.Panels>
           </Tab.Group>
         </section>
