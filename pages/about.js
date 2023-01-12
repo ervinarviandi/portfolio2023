@@ -13,12 +13,12 @@ function about() {
       <section className="mt-[96px] mx-auto md:max-w-3xl  xl:max-w-3xl px-4 ">
         <motion.div className="flex flex-wrap" initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
           <div className="w-full self-center px-4 lg:w-1/2">
-            <img src="ervinarviandi.jpg " className="w-48 h-48 md:w-50 md:h-50 md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" />
+            <img src="avatar-2.png" className="w-48 h-48 md:w-50 md:h-50 md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" />
             <h2 className="flex flex-col font-light text-[34px] font-bold dark:text-white text-gray-700 font-poppins ">Muhammad Ervin Arviandi</h2>
             <h5 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-[24px] mt-7 font-poppins">Frontend Developer</h5>
           </div>
           <div className="w-full self-center px-4 lg:w-1/2">
-            <img src="https://ervinarviandi.netlify.app/dist/img/FB_IMG_1633693737797.jpg" className="  w-60 h-60 hidden md:w-30 md:h-30 rounded-lg lg:block lg:-z-20 mt-[20px] rounded-full border-dashed border-2 border-purple-500" />
+            <img src="avatar-2.png" className="  w-52 h-52 hidden md:w-30 md:h-30 rounded-lg lg:block lg:-z-20 mt-[20px] rounded-full  " />
           </div>
 
           <div className="w-full mt-10 px-4 space-y-5">
