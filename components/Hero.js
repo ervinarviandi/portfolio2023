@@ -20,7 +20,7 @@ function Hero() {
               <h2 className="flex flex-col text-gray-700 font-light text-[34px] font-bold dark:text-white font-poppins ">Muhammad Ervin Arviandi</h2>
               <h5 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-[24px] mt-7 font-poppins ">Frontend Developer</h5>
               <div className=" flex items-center space-x-4 typewriter  relative mt-6">
-                <span className=" dark:text-white text-gray-700 text-lg"> Saya seorang, {""} </span>
+                <span className=" dark:text-white text-gray-700 text-lg"> Im a {""} </span>
                 <TypeAnimation
                   className="text-writer flex text-pink-500 ml-4 font-bold items-center  text-lg font-poppins"
                   sequence={[
