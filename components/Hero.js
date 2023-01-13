@@ -20,7 +20,7 @@ function Hero() {
               <h2 className="flex flex-col text-gray-700 font-light text-[34px] font-bold dark:text-white font-poppins ">Muhammad Ervin Arviandi</h2>
               <h5 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-[24px] mt-7 font-poppins ">Frontend Developer</h5>
               <div className=" flex items-center space-x-4 typewriter  relative mt-6">
-                <span className=" dark:text-white text-gray-700 text-lg"> Im a {""} </span>
+                <span className=" dark:text-white text-gray-700 text-lg"> Saya seorang, {""} </span>
                 <TypeAnimation
                   className="text-writer flex text-pink-500 ml-4 font-bold items-center  text-lg font-poppins"
                   sequence={[
@@ -41,11 +41,11 @@ function Hero() {
                 />
               </div>
               <p className="py-4  font-poppins text-base text-gray-700 dark:text-white">
-                Hello 👋 Im,
+                Halo 👋 saya,
                 <a href="https://www.showwcase.com/ervinarviandi" className="underline decoration-pink-500 hover:text-pink-200 font-poppins text-base">
                   Muhammad Ervin Arviandi
                 </a>
-                , a guy who loves to code, music, and coffe, welcome to my personal website , where you can find my portfolio, blog and more
+                , saya seseorang yang suka dengan desain grafis, membuat kode, musik, dan kopi, selamat datang di website pribadi saya dimana kalian, dapat menemukan portfolio, blog dan lainnya.
               </p>
               <div className="flex flex-wrap space-x-4 text-2xl ">
                 <Link href="https://github.com/ervinarviandi" className="dark:text-white text-gray-700 ">

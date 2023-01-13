@@ -11,7 +11,9 @@ function Articles() {
       <main className="px-4 py-12">
         <section className="mt-[96px] mx-auto md:max-w-3xl  xl:max-w-3xl px-4">
           <h1 className="dark:text-white text-gray-700 text-3xl  mb-10 font-poppins font-bold">Featured Post</h1>
-          <p className="dark:text-white text-gray-700 font-poppins text-base">If youre looking for some interesting reads, check out my featured blog post. sorted from latest to least, feel free to explore it.</p>
+          <p className="dark:text-white text-gray-700 font-poppins text-base">
+            Jika kalian mencari bacaan yang menarik mengenai dunia it, kalian bisa melihat postingan blog unggulan saya. diurutkan dari yang terbaru hingga yang paling lama, silakan jelajahi....🤨
+          </p>
           <div className="grid md:grid-cols-2 gap-5">
             <div className="flex flex-col ">
               <figure className="border-dashed border-2 mt-5 p-4 rounded-lg">

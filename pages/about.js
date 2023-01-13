@@ -3,7 +3,7 @@ import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import { motion } from "framer-motion";
 import Techstack from "../components/Techstack";
-// import Comment from "../components/Comment";
+import Comment from "../components/Comment";
 
 function about() {
   return (
@@ -23,23 +23,27 @@ function about() {
 
           <div className="w-full mt-10 px-4 space-y-5">
             <p className="dark:text-white text-gray-700 font-poppins text-base">
-              Hello👋, im <span className="font-bold underline decoration-pink-500"> Muhammad Ervin Arviandi </span>, a guy who loves to code, music and coffee. Welcome to my personal website, where you can find my portfolio, blog and more.
+              Halo👋, saya <span className="font-bold underline decoration-pink-500"> Muhammad Ervin Arviandi </span>,saya seseorang yang suka dengan desain grafis, membuat kode, musik, dan kopi, selamat datang di website pribadi saya
+              dimana kalian, dapat menemukan portfolio, blog dan lainnya.
             </p>
             <p className="dark:text-white text-gray-700 font-poppins text-base">
-              As a <span className="font-bold"> self-taught developer </span>, I started learning web development when I was in 12th grade and have been gradually improving my skills over time.
+              Sebagai <span className="font-bold"> Pengembang web otodidak </span>, saya mulai belajar pengembangan web ketika saya duduk di kelas 12 dan secara bertahap meningkatkan keterampilan saya dari waktu ke waktu.
             </p>
             <p className="dark:text-white text-gray-700 font-poppins text-base">
-              I am passionate about <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-bold"> Frontend Development </span> and enjoy working on the Web. I love combining my technical knowledge
-              and creativity to build engaging and user-friendly websites and applications.
-            </p>
-
-            <p className="dark:text-white text-gray-700 font-poppins text-base">
-              Im a very interested with <span className="font-bold"> Frontend Architecture</span>, <span className="font-bold">Frontend Accessibility</span>, and <span className="font-bold">User Experience</span>, and also interested in
-              mobile development with Kotlin .
+              Saya sangat senang membuat <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-bold"> Website </span> meskipun masih banyak kekurangan, untuk kedepannnya saya akan terus belajar
+              bagaimana membuat sebuah aplikasi/website yang bisa berguna untuk masyarakat luas, untuk sekarang saya masih fokus untuk membuat tampilan depan sebuah website atau dalam dunia{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-bold">IT</span> disebutnya{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-bold"> Frontend Developer</span> dan menggabungkan dengan beberapa teknologi yang yang membuat sebuah website terlihat menarik.
             </p>
 
             <p className="dark:text-white text-gray-700 font-poppins text-base">
-              On this website, I like to share my <span className="font-bold"> various thoughts</span> about web development related topics, general daily life and a place for <span className="font-bold">showcasing my portfolio</span>.
+              Saya sangat tertarik dengan <span className="font-bold"> Frontend Architecture</span>, <span className="font-bold"> Frontend Accessibility</span>, and <span className="font-bold">User Experience</span>, dan membuat aplikasi
+              mobile dengan flutter.
+            </p>
+
+            <p className="dark:text-white text-gray-700 font-poppins text-base">
+              Di website ini saya suka membagikan berbagai <span className="font-bold"> Pemikiran</span> saya tentang topik, terkait pengembangan web <span className="font-bold">kehidupan sehari-hari</span> secara umum dan tempat untuk
+              memamerkan <span className="font-bold">portfolio</span> saya.
             </p>
 
             <motion.div className="">
@@ -50,17 +54,18 @@ function about() {
             </motion.div>
 
             <p className="dark:text-gray-200 text-gray-700 font-poppins text-base">
-              I start learning <span className="font-bold dark:text-white">Web Development</span> in <span className="font-bold"> early 2021</span>, but before that happens, I,ve actually learned the basics about{" "}
-              <span className="font-bold dark:text-white">Software Enginering</span> in <span className="font-bold dark:text-white">Hight School</span>, when i was at 12th grade. i,m focusing on{" "}
-              <span className="font-bold dark:text-white">Frontend Development</span>, including <span className="font-bold dark:text-white">Mobile App Development.</span>
+              saya mulai belajar <span className="font-bold dark:text-white">Web Development</span> di awal <span className="font-bold">tahun 2021 </span> secara otodidak, tapi sebelum itu terjadi sebenarnya saya sudah belajar dasar-dasar{" "}
+              <span className="font-bold dark:text-white">Software Enginering</span> waktu <span className="font-bold dark:text-white">SMK</span>, secara otodidak. sekarang saya fokus pada pengembangan{" "}
+              <span className="font-bold dark:text-white">Frontend Development</span>, dan <span className="font-bold dark:text-white">Mobile App Development.</span>
             </p>
 
             <p className="dark:text-gray-200 text-gray-700 font-poppins text-base">
-              On this website, I like to share my various thought, including <span className="font-bold dark:text-white">Web Development</span>, and showcase my <span className="font-bold dark:text-white">Personal Website</span>
+              Di website pribadi saya ini, saya suka membagikan berbagai pemikiran saya, termasuk <span className="font-bold dark:text-white">Web Development</span>, dan memamerkan{" "}
+              <span className="font-bold dark:text-white">Website pribadi saya.</span>
             </p>
           </div>
-          {/* <Comment /> */}
         </motion.div>
+        <Comment />
       </section>
       <Techstack />
       <Footer />

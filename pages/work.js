@@ -57,7 +57,7 @@ function work() {
               <Tab.Panel className="rounded-xl dark:bg-black p-3">
                 <div className="grid md:grid-cols-2 gap-5 ">
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden ">
+                    <div className="rounded-md overflow-hidden  ">
                       <img src="reactlink.jpg" className="w-full" />
                       <div className="mt-3">
                         <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
@@ -283,7 +283,7 @@ function work() {
                     </div>
                   </div>
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden">
+                    <div className="rounded-md overflow-hidden ">
                       <img src="kartun.jpg" className="App-logo" alt="kartun" />
                       <div className="mt-3">
                         <h3 className="font bold dark:text-white font-poppins text-gray-700 text-[22px] ">Cartoon</h3>
