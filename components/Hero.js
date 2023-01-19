@@ -45,7 +45,7 @@ function Hero() {
                 <a href="https://www.showwcase.com/ervinarviandi" className="underline decoration-pink-500 hover:text-pink-200 font-poppins text-base">
                   Muhammad Ervin Arviandi
                 </a>
-                , saya seseorang yang suka dengan desain grafis, membuat kode, musik, dan kopi, selamat datang di website pribadi saya dimana kalian, dapat menemukan portfolio, blog dan lainnya.
+                , saya orang yang sangat suka dengan desain grafis, coding, musik, dan kopi, selamat datang di website pribadi saya dimana kalian, dapat menemukan portfolio, blog dan lainnya.
               </p>
               <div className="flex flex-wrap space-x-4 text-2xl ">
                 <Link href="https://github.com/ervinarviandi" className="dark:text-white text-gray-700 ">

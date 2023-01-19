@@ -20,7 +20,7 @@ function Blog() {
             <div className="rounded-md overflow-hidden">
               <div className="flex flex-col">
                 <h2 className="dark:text-white text-gray-700 md:text-5xl text-2xl font-poppins font-bold mt-7">
-                  Tutorial Git Cara Install Git dan Konfigurasi Awal yang Harus Dilakukan <FaGitSquare />
+                  Tutorial Git, Cara Install Git dan Konfigurasi Awal yang Harus Dilakukan <FaGitSquare />
                 </h2>
 
                 <div className="mt-5 mb-3 flex space-x-3">

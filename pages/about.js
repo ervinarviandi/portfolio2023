@@ -23,8 +23,8 @@ function about() {
 
           <div className="w-full mt-10 px-4 space-y-5">
             <p className="dark:text-white text-gray-700 font-poppins text-base">
-              Halo👋, saya <span className="font-bold underline decoration-pink-500"> Muhammad Ervin Arviandi </span>,saya seseorang yang suka dengan desain grafis, membuat kode, musik, dan kopi, selamat datang di website pribadi saya
-              dimana kalian, dapat menemukan portfolio, blog dan lainnya.
+              Halo👋, saya <span className="font-bold underline decoration-pink-500"> Muhammad Ervin Arviandi </span>,saya sangat suka dengan desain grafis, coding, musik, dan kopi, selamat datang di website pribadi saya dimana kalian,
+              dapat menemukan portfolio, blog dan lainnya.
             </p>
             <p className="dark:text-white text-gray-700 font-poppins text-base">
               Sebagai <span className="font-bold"> Pengembang web otodidak </span>, saya mulai belajar pengembangan web ketika saya duduk di kelas 12 dan secara bertahap meningkatkan keterampilan saya dari waktu ke waktu.

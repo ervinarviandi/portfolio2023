@@ -44,12 +44,12 @@ function linkbio() {
           <img src="reactlink.jpg" className="w-full mt-7" />
 
           <p className="dark:text-white text-base font-poppins mt-5">
-            React Ngobs is a Chat App that I was built when I was learned Firebase, according to Google, Firebase is a platform developed by Google for creating mobile and web applications. It was originally an independent company founded
-            in 2011. In 2014, Google acquired the platform and it is now their flagship offering for app development.
+            Link bio ini adalah project kecil-kecilan yang saya buat untuk menambah portfolio saya, project ini saya buat karena terinspirasi oleh beberapa content creator dan para pembisnis di sosial media yang menggunakan layanan linktree
+            untuk membantu mereka dalam membuat halaman khusus untuk berbisnis secara online / dengan kata lain para pengunjung akan dengan mudah dapat mengakses seluruh konten yang ada dengan mengklik link utama saja{" "}
           </p>
 
           <p className="dark:text-white text-base font-poppins mt-7">
-            I dont know about the others, but many of my friends are using Firebase for backend purpose or BaaS (Backend as a Service), and you can checkout Supabase, an alternative of Firebase.
+            manfaatnya untuk meningkatkan jumlah kunjungan ke semua saluran bisnis online/portfolio dengan cepat, baik itu media sosial, toko online, maupun marketplace yang digunakan untuk menjalankan bisnis.
           </p>
 
           <div className="flex justify-between ">
