@@ -57,7 +57,7 @@ function MyBlog() {
                   <span className="bg-yellow-500 dark:text-white text-blue-500 py-2 px-4 rounded-lg font-poppins text-xs">Git</span>
                 </div>
                 <div className="">
-                  <div className="flex items-center space-x-2">
+                  <div className="md:flex items-center space-x-2">
                     <AiOutlineFieldTime />
                     <p className="text-base font-popins dark:text-white text-gray-700">12 min read</p>
                     <AiOutlineEye />
