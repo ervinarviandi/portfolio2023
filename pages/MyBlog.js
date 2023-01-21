@@ -23,7 +23,7 @@ function MyBlog() {
               Sepertinya Kamu tertarik dengan postingan saya. silakan untuk melihat dan membacanya, dan diurutkan berdasarkan tanggal sehingga kamu dapat dengan mudah menemukan yang terbaru.
             </p>
 
-            <figure className="border-dashed border-2 mt-5 p-4 rounded-lg hover:bg-pink-500 transition animate-pulse hover:translate-x-6 duration-700">
+            <figure className="relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg ">
               <h2 className="dark:text-white text-gray-700 text-3xl font-poppins  ">
                 <Link href="/Blog" className="hover:border-b-2 hover:border-dashed">
                   Tutorial Git: Cara Install Git dan Konfigurasi Awal yang Harus Dilakukan <FaGitSquare />
@@ -31,8 +31,8 @@ function MyBlog() {
               </h2>
               <div className="flex justify-between items-center space-x-3">
                 <div className="flex mt-5 space-x-3">
-                  <span className="bg-rose-500 dark:text-white py-2 px-4 rounded-lg font-poppins text-xs">Git</span>
-                  <span className="bg-teal-500 dark:text-white py-2 px-4 rounded-lg font-poppins text-xs">Github</span>
+                  <span className="bg-rose-500 dark:text-white text-lime-300 py-2 px-4 rounded-lg font-poppins text-xs">Git</span>
+                  <span className="bg-teal-500 dark:text-white text-yellow-200 py-2 px-4 rounded-lg font-poppins text-xs">Github</span>
                 </div>
                 <div className="">
                   <div className="flex items-center space-x-2">
@@ -45,16 +45,16 @@ function MyBlog() {
               </div>
             </figure>
 
-            <figure className="border-dashed border-2 mt-5 p-4 rounded-lg hover:bg-pink-500 transition animate-pulse hover:translate-x-6 duration-700">
+            <figure className="relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg  ">
               <h2 className="dark:text-white text-gray-700 text-3xl font-poppins  ">
                 <Link href="/Blog" className="hover:border-b-2 hover:border-dashed">
-                  Tutorial Git: Cara Install Git dan Konfigurasi Awal yang Harus Dilakukan <FaGitSquare />
+                  Tutorial Install Node Js Di Windows <FaGitSquare />
                 </Link>
               </h2>
               <div className="flex justify-between items-center space-x-3">
                 <div className="flex mt-5 space-x-3">
-                  <span className="bg-rose-500 dark:text-white py-2 px-4 rounded-lg font-poppins text-xs">Git</span>
-                  <span className="bg-teal-500 dark:text-white py-2 px-4 rounded-lg font-poppins text-xs">Github</span>
+                  <span className="bg-purple-500 dark:text-white text-rose-300 py-2 px-4 rounded-lg font-poppins text-xs">Node Js</span>
+                  <span className="bg-yellow-500 dark:text-white text-blue-500 py-2 px-4 rounded-lg font-poppins text-xs">Git</span>
                 </div>
                 <div className="">
                   <div className="flex items-center space-x-2">
@@ -68,7 +68,9 @@ function MyBlog() {
             </figure>
           </div>
           <div className="mt-[20px]">
-            <button className="relative border-2 dark:text-white text-gray-700 bg-transparent py-2 px-5">Ini Button</button>
+            <button className="relative border-2 dark:text-white text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
+              Ini Button
+            </button>
           </div>
         </section>
       </div>
