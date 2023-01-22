@@ -4,6 +4,7 @@ import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import { FaGitSquare } from "react-icons/fa";
 import CssLogo from "../src/CssLogo";
 import Nextjs from "../src/NextJs";
+import { IoLogoNodejs } from "react-icons/io";
 
 function Articles() {
   return (
@@ -31,10 +32,13 @@ function Articles() {
             <div className="flex flex-col ">
               <figure className="border-dashed border-2 mt-5 p-4 rounded-lg">
                 <h2 className="dark:text-white text-gray-700 text-3xl font-poppins ">
-                  A Powerfull CSS <CssLogo /> Pseudo Class, Take A Look At CSS:Has <span className="text-sky-300">()</span>{" "}
+                  <Link href="/NodeBlog" className="hover:border-b-2 hover:border-dashed">
+                    Tutorial Install <span className="text-lime-500">Node Js</span> di Windows
+                    <IoLogoNodejs />
+                  </Link>
                 </h2>
                 <div className="flex mt-5 space-x-3">
-                  <span className="bg-purple-500 dark:text-white py-2 px-4 rounded-lg font-poppins text-xs">CSS</span>
+                  <span className="bg-purple-500  text-yellow-500 py-2 px-4 rounded-lg font-poppins text-xs">Node Js</span>
                   <span className="bg-blue-500 dark:text-white py-2 px-4 rounded-lg font-poppins text-xs">Web Dev</span>
                 </div>
               </figure>

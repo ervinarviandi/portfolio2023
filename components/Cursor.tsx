@@ -50,7 +50,7 @@ class CursorClass {
     // Varibles
     this.Cursor = el;
     this.Cursor.style.opacity = 0;
-    this.Item = document.querySelectorAll("button,link, a");
+    this.Item = document.querySelectorAll("button,Link, a");
     this.bounds = this.Cursor.getBoundingClientRect();
     this.cursorConfigs = {
       x: { previous: 0, current: 0, amt: 0.1 },
