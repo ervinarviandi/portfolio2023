@@ -10,7 +10,7 @@ function Articles() {
   return (
     <>
       <main className="px-4 py-12">
-        <section className="mt-[96px] mx-auto md:max-w-3xl  xl:max-w-3xl px-4">
+        <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4">
           <h1 className="dark:text-white text-gray-700 text-3xl  mb-10 font-poppins font-bold">Featured Post</h1>
           <p className="dark:text-white text-gray-700 font-poppins text-base">
             Jika kalian mencari bacaan yang menarik mengenai dunia it, kalian bisa melihat postingan blog unggulan saya. diurutkan dari yang terbaru hingga yang paling lama, silakan jelajahi....🤨
@@ -69,7 +69,7 @@ function Articles() {
           <div className=" mt-[30px] ">
             <p className=" flex items-center dark:text-white text-gray-700  hover:font-bold font-poppins">
               {/* <a href="" className="">See All Post</a> */}
-              <Link href="/" className="flex items-center  dark:hover:text-pink-500 hover:font-bold font-poppins">
+              <Link href="/MyBlog" className="flex items-center  dark:hover:text-pink-500 hover:font-bold font-poppins">
                 See All Post
                 <BsFillArrowRightCircleFill className="ml-5 dark:text-white text-gray-700 text-2xl dark:hover:text-pink-500" />
               </Link>

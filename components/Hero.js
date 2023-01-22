@@ -11,7 +11,7 @@ function Hero() {
   return (
     <>
       <div className="px-4 py-12">
-        <section className="mt-[96px] mx-auto md:max-w-3xl xl:max-w-3xl custom-img">
+        <section className="mt-[96px] mx-auto md:max-w-4xl xl:max-w-4xl custom-img">
           {/* <marquee className="text-amber-500 font-bold text-2xl p-2 bg-gray-900 rounded-lg"> Web app ini masih dalam tahap pengembangan, 🔨🧐 </marquee> */}
 
           <img src="ervinarviandi.jpg " className="w-48 h-48 md:w-50 md:h-50 md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" />
@@ -76,7 +76,7 @@ function Hero() {
             </div>
             <div className="w-full  px-4 lg:w-1/2">
               <div className="top-0 right-0  sm:mx-auto">
-                <img src="https://ervinarviandi.netlify.app/dist/img/FB_IMG_1633693737797.jpg" className="w-60 h-60 hidden md:w-50 md:h-50 rounded-lg lg:block lg:-z-20" />
+                <img src="https://ervinarviandi.netlify.app/dist/img/FB_IMG_1633693737797.jpg" className="w-60 h-60 hidden md:w-80 md:h-80 rounded-lg lg:block lg:-z-20" />
               </div>
             </div>
           </div>

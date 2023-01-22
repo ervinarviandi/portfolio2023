@@ -67,7 +67,7 @@ const Navigation = () => {
   return (
     <div style={{ backgroundColor: `${color}` }} className="fixed left-0 top-0 w-full  ease-in duration-300 dark:text-white backdrop-blur-md bg-black/90 shadow-lg border-b border-purple-700 z-10">
       <hr className="relative h-2 w-full bg-gradient-to-r from-purple-500 to-pink-500 before:absolute before:inset-0 before:bg-gradient-to-r before:from-purple-500 before:to-lime-300 before:animate-pulse" />
-      <div className=" md:max-w-3xl xl:max-w-3xl m-auto flex justify-between items-center p-4 ">
+      <div className=" md:max-w-5xl xl:max-w-5xl m-auto flex justify-between items-center p-4 ">
         {/* Mobile Button */}
         <div onClick={handleNav} className="block sm:hidden z-10 dark:text-white">
           {nav ? (
@@ -104,7 +104,12 @@ const Navigation = () => {
           </li>
           <li className="p-4  font-poppins dark:text-white">
             <Link href="/work" className="hover:text-pink-500">
-              Work
+              Portfolio
+            </Link>
+          </li>
+          <li className="p-4  font-poppins dark:text-white">
+            <Link href="/GuestBook" className="hover:text-pink-500">
+              Guestbook
             </Link>
           </li>
           {/* <li className="p-4  font-poppins dark:text-white">

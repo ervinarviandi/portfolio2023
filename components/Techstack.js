@@ -14,7 +14,7 @@ function Techstack() {
   return (
     <>
       <div className="px-4 py-12">
-        <div className="mt-[96px] mx-auto md:max-w-3xl  xl:max-w-3xl px-4">
+        <div className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4">
           <div className="w-full self-center px-4">
             <p className="dark:text-white text-gray-500 font-poppins font-bold text-2xl md:text-left text-center">Tech Stack </p>
             <p className="text-base font-poppins dark:text-white text-gray-700 mt-10">Dibawah ini adalah beberapa tools/teknologi yang pernah saya gunakan untuk membuat website ataupun membuat desain .</p>

@@ -6,7 +6,7 @@ function Footer() {
   return (
     <>
       <main className="px-4 py-12">
-        <section className="mt-[96px] mx-auto md:max-w-3xl  xl:max-w-3xl px-4 ">
+        <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4 ">
           <hr className="mt-[10px] dark:bg-white" />
           <div className="flex ">
             <div className="flex items-center mt-[10px]">
