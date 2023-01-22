@@ -10,7 +10,7 @@ function about() {
     <>
       {/* Navigation */}
       <Navigation />
-      <section className="mt-[96px] mx-auto md:max-w-3xl  xl:max-w-3xl px-4 ">
+      <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4 ">
         <motion.div className="flex flex-wrap" initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
           <div className="w-full self-center px-4 lg:w-1/2">
             <img src="avatar-2.png" className="w-48 h-48 md:w-50 md:h-50 md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" />

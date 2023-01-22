@@ -10,7 +10,7 @@ function Blog() {
     <>
       <Navigation />
       <div className="px-4 py-12">
-        <section className="mt-[96px] mx-auto md:max-w-3xl xl:max-w-3xl ">
+        <section className="mt-[96px] mx-auto md:max-w-4xl xl:max-w-4xl ">
           <div className="w-full self-center px-4">
             {/* <h2 className="text-3xl font-bold font-poppins dark:text-white text-gray-700">Blog</h2>
             <p className="text-base font-poppins dark:text-white text-gray-500 mt-7">
