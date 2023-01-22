@@ -5,6 +5,7 @@ import HtmlLogo from "../src/HtmlLogo";
 import BootstrapLogo from "../src/BootstrapLogo";
 import CssLogo from "../src/CssLogo";
 import JavascriptLogo from "../src/JavascriptLogo";
+import CodeigniterLogo from "../src/CodeigniterLogo";
 import ReactLogo from "../src/ReactLogo";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Link from "next/link";
@@ -35,8 +36,6 @@ function Portfolio() {
                     <CssLogo />
                     <JavascriptLogo />
                     <BootstrapLogo />
-                    <TailwindLogo />
-                    <Nextjs />
                   </div>
                   <p className="dark:text-white text-gray-700 font-poppins text-base">A landing page of a Schedule App. Its also a Dicoding Submission Project for Learn Basic of Web Programming class.</p>
                 </div>
@@ -44,17 +43,17 @@ function Portfolio() {
             </div>
             <div className="flex flex-col">
               <div className="rounded-md overflow-hidden ">
-                <img src="expenseApp_qFvD7zZ8y.jpg" />
+                <img src="Crud Ci.jpg" />
                 <div className="mt-3">
                   <h3 className="dark:text-white text-gray-700 font-bold border-b-2 border-dashed border-transparent font-poppins text-[22px]">
                     <a className="hover:border-b-2 hover:border-dashed" href="">
                       {" "}
-                      Expense App
+                      Bookself
                     </a>
                   </h3>
                   <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
-                    <TailwindLogo />
-                    <Nextjs />
+                    <CodeigniterLogo />
+                    <BootstrapLogo />
                   </div>
                   <p className="dark:text-white text-gray-700 font-poppins text-base">ExpenseApp is an app to see you expense history, income history and help you notes what youre buying lately💰</p>
                 </div>
@@ -71,8 +70,8 @@ function Portfolio() {
                     </a>
                   </h3>
                   <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
-                    <TailwindLogo />
                     <ReactLogo />
+                    <TailwindLogo />
                   </div>
                   <p className="dark:text-white text-gray-700 font-poppins text-base">React Link is an app to see you expense history, income history and help you notes what youre buying lately🔗</p>
                 </div>

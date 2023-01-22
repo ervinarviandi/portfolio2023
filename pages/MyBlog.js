@@ -4,6 +4,7 @@ import Link from "next/link";
 import { FaGitSquare } from "react-icons/fa";
 import { AiOutlineFieldTime } from "react-icons/ai";
 import { AiOutlineEye } from "react-icons/ai";
+import { IoLogoNodejs } from "react-icons/io";
 
 function MyBlog() {
   return (
@@ -29,12 +30,12 @@ function MyBlog() {
                   Tutorial Git: Cara Install Git dan Konfigurasi Awal yang Harus Dilakukan <FaGitSquare />
                 </Link>
               </h2>
-              <div className="flex justify-between items-center space-x-3">
+              <div className="md:flex justify-between items-center space-x-3">
                 <div className="flex mt-5 space-x-3">
                   <span className="bg-rose-500 dark:text-white text-lime-300 py-2 px-4 rounded-lg font-poppins text-xs">Git</span>
                   <span className="bg-teal-500 dark:text-white text-yellow-200 py-2 px-4 rounded-lg font-poppins text-xs">Github</span>
                 </div>
-                <div className="">
+                <div className="md:flex mt-4">
                   <div className="flex items-center space-x-2">
                     <AiOutlineFieldTime />
                     <p className="text-base font-popins dark:text-white text-gray-700">19 min read</p>
@@ -48,16 +49,16 @@ function MyBlog() {
             <figure className="relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg  ">
               <h2 className="dark:text-white text-gray-700 text-3xl font-poppins  ">
                 <Link href="/Blog" className="hover:border-b-2 hover:border-dashed">
-                  Tutorial Install Node Js Di Windows <FaGitSquare />
+                  Tutorial Install Node Js Di Windows <IoLogoNodejs />
                 </Link>
               </h2>
-              <div className="flex justify-between items-center space-x-3">
+              <div className="md:flex justify-between items-center space-x-3">
                 <div className="flex mt-5 space-x-3">
                   <span className="bg-purple-500 dark:text-white text-rose-300 py-2 px-4 rounded-lg font-poppins text-xs">Node Js</span>
                   <span className="bg-yellow-500 dark:text-white text-blue-500 py-2 px-4 rounded-lg font-poppins text-xs">Git</span>
                 </div>
-                <div className="">
-                  <div className="md:flex items-center space-x-2">
+                <div className="md:flex mt-4">
+                  <div className="flex items-center space-x-2">
                     <AiOutlineFieldTime />
                     <p className="text-base font-popins dark:text-white text-gray-700">12 min read</p>
                     <AiOutlineEye />
