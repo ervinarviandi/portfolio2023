@@ -108,6 +108,11 @@ const Navigation = () => {
             </Link>
           </li>
           <li className="p-4  font-poppins dark:text-white">
+            <Link href="/MyBlog" className="hover:text-pink-500">
+              Blog
+            </Link>
+          </li>
+          <li className="p-4  font-poppins dark:text-white">
             <Link href="/GuestBook" className="hover:text-pink-500">
               Guestbook
             </Link>
@@ -148,11 +153,15 @@ const Navigation = () => {
             </li>
             <hr />
             <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
-              <Link href="/work">Work</Link>
+              <Link href="/work">Portfolio</Link>
             </li>
             <hr />
             <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
               <Link href="/MyBlog">Blog</Link>
+            </li>
+            <hr />
+            <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
+              <Link href="/GuestBook">GuestBook</Link>
             </li>
             <hr />
             <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
