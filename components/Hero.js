@@ -6,6 +6,7 @@ import { AiFillFilePdf } from "react-icons/ai";
 import Button from "next/link";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 function Hero() {
   return (
@@ -76,8 +77,13 @@ function Hero() {
             </div>
             <div className="w-full  px-4 lg:w-1/2">
               <div className="top-0 right-0  sm:mx-auto">
-                <img src="https://ervinarviandi.netlify.app/dist/img/FB_IMG_1633693737797.jpg" className="w-60 h-60 hidden md:w-80 md:h-80 rounded-lg lg:block lg:-z-20" />
+                <img src="https://ervinarviandi.netlify.app/dist/img/FB_IMG_1633693737797.jpg" className="w-60 h-60 hidden md:w-80 md:h-80 rounded-lg lg:block lg:-z-20 grayscale hover:grayscale-0 border-2 mr-4" />
               </div>
+            </div>
+            <div className="absolute bottom-0 left-0 animate-bounce md:block hidden ">
+              <h2 className="flex items-center  font-poppins dark:text-pink-700 text-gray-700 text-2xl rotate-90 ">
+                Scroll Down <BsFillArrowRightCircleFill className="ml-2" />
+              </h2>
             </div>
           </div>
         </section>

@@ -20,7 +20,7 @@ function Footer() {
                     <Link href="/MyBlog">Blog</Link>
                   </li>
                   <li className="hover:text-pink-500">
-                    <Link href="/b">Portfolio</Link>
+                    <Link href="/work">Portfolio</Link>
                   </li>
                   <li className="hover:text-pink-500">
                     <Link href="/b">Tags</Link>

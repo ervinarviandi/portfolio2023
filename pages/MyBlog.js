@@ -67,6 +67,28 @@ function MyBlog() {
                 </div>
               </div>
             </figure>
+
+            <figure className="relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg  ">
+              <h2 className="dark:text-white text-gray-700 text-3xl font-poppins  ">
+                <Link href="/NodeBlog" className="hover:border-b-2 hover:border-dashed">
+                  Apa si Coding Itu <IoLogoNodejs />
+                </Link>
+              </h2>
+              <div className="md:flex justify-between items-center space-x-3">
+                <div className="flex mt-5 space-x-3">
+                  <span className="bg-purple-500 dark:text-white text-rose-300 py-2 px-4 rounded-lg font-poppins text-xs">Node Js</span>
+                  <span className="bg-yellow-500 dark:text-white text-blue-500 py-2 px-4 rounded-lg font-poppins text-xs">Git</span>
+                </div>
+                <div className="md:flex mt-4">
+                  <div className="flex items-center space-x-2">
+                    <AiOutlineFieldTime />
+                    <p className="text-base font-popins dark:text-white text-gray-700">12 min read</p>
+                    <AiOutlineEye />
+                    <p className="text-base font-poppins dark:text-white text-gray-700">97 views</p>
+                  </div>
+                </div>
+              </div>
+            </figure>
           </div>
           <div className="mt-[20px]">
             <button className="relative border-2 dark:text-white text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
