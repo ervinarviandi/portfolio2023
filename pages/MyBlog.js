@@ -5,6 +5,7 @@ import { FaGitSquare } from "react-icons/fa";
 import { AiOutlineFieldTime } from "react-icons/ai";
 import { AiOutlineEye } from "react-icons/ai";
 import { IoLogoNodejs } from "react-icons/io";
+import Footer from "../components/Footer";
 
 function MyBlog() {
   return (
@@ -96,6 +97,7 @@ function MyBlog() {
             </button>
           </div>
         </section>
+        <Footer />
       </div>
     </>
   );

@@ -32,7 +32,7 @@ function Footer() {
                     <Link href="/b">Resume</Link>
                   </li>
                   <li className="hover:text-pink-500">
-                    <Link href="/b">Certificate</Link>
+                    <Link href="/Certificate">Certificate</Link>
                   </li>
                 </ul>
               </nav>
