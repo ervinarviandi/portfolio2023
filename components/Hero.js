@@ -86,7 +86,7 @@ function Hero() {
                 Scroll Down <BsFillArrowRightCircleFill className="ml-2" />
               </h2>
             </div>
-            <Label />
+            <Label className="sticky" />
           </div>
         </section>
       </div>

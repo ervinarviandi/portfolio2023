@@ -14,7 +14,7 @@ function Footer() {
               <nav>
                 <ul className="md:flex md:space-x-[30px] dark:text-slate-300 text-gray-500 font-poppins ">
                   <li className="hover:text-pink-500">
-                    <Link href="/b">Home</Link>
+                    <Link href="/">Home</Link>
                   </li>
                   <li className="hover:text-pink-500">
                     <Link href="/MyBlog">Blog</Link>
