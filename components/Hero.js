@@ -7,6 +7,7 @@ import Button from "next/link";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import Label from "../components/Label";
 
 function Hero() {
   return (
@@ -85,6 +86,7 @@ function Hero() {
                 Scroll Down <BsFillArrowRightCircleFill className="ml-2" />
               </h2>
             </div>
+            <Label />
           </div>
         </section>
       </div>
