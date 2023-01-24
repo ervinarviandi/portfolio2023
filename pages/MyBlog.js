@@ -6,6 +6,11 @@ import { AiOutlineFieldTime } from "react-icons/ai";
 import { AiOutlineEye } from "react-icons/ai";
 import { IoLogoNodejs } from "react-icons/io";
 import Footer from "../components/Footer";
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css"; // optional
+import "tippy.js/themes/material.css";
+import "tippy.js/animations/perspective-extreme.css";
+import { followCursor } from "tippy.js";
 
 function MyBlog() {
   return (
@@ -92,9 +97,11 @@ function MyBlog() {
             </figure>
           </div>
           <div className="mt-[20px]">
-            <button className="relative border-2 dark:text-white text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
-              Ini Button
-            </button>
+            <Tippy content="Hello ini button" followCursor={true} plugins={[followCursor]} placement="top" animation="perspective-extreme" theme="light">
+              <button className="relative border-2 dark:text-white text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
+                Ini Button
+              </button>
+            </Tippy>
           </div>
         </section>
         <Footer />
