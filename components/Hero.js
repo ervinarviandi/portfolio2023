@@ -75,7 +75,7 @@ function Hero() {
                   <MdEmail className="hover:text-pink-500" />
                 </Link>
               </div>
-              <motion.div className="mt-12 relative " data-aos="fade-up" data-aos-delay="500" initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
+              <div className="mt-12 relative " data-aos="fade-up" data-aos-delay="500" initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
                 <Button
                   href="https://resume.showwcase.com/ervinarviandi.pdf"
                   className="absolute flex font-poppins text-base items-center  border-2 dark:text-white text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg "
@@ -83,7 +83,7 @@ function Hero() {
                   Download CV
                   <AiFillFilePdf className="ml-3" />
                 </Button>
-              </motion.div>
+              </div>
             </div>
             <div className="w-full  px-4 lg:w-1/2">
               <div className="top-0 right-0  sm:mx-auto" data-aos="fade-left" data-aos-delay="600">
