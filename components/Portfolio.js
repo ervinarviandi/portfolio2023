@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import TailwindLogo from "../src/TailwindLogo";
 import Nextjs from "../src/NextJs";
 import HtmlLogo from "../src/HtmlLogo";
@@ -10,17 +10,26 @@ import ReactLogo from "../src/ReactLogo";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Portfolio() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <>
       <main className="px-4 py-12">
         <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4">
-          <h1 className=" dark:text-white text-gray-700 text-3xl mb-10 font-poppins font-bold">Featured Portfolio</h1>
-          <p className="mb-6 md:mb-8 dark:text-white text-gray-700 font-poppins text-base">Lihat portofolio unggulan saya, jangan ragu untuk menjelajahinya ya. dibawah ini adalah beberapa karya yang pernah saya buat</p>
+          <h1 className=" dark:text-white text-gray-700 text-3xl mb-10 font-poppins font-bold" data-aos="fade-up">
+            Featured Portfolio
+          </h1>
+          <p className="mb-6 md:mb-8 dark:text-white text-gray-700 font-poppins text-base" data-aos="fade-up">
+            Lihat portofolio unggulan saya, jangan ragu untuk menjelajahinya ya. dibawah ini adalah beberapa karya yang pernah saya buat
+          </p>
           <div className="grid md:grid-cols-2 gap-5 ">
             <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden  ">
+              <div className="rounded-md overflow-hidden " data-aos="fade-up">
                 <img src="zeitplans.jpg" alt="expense-project" />
 
                 {/* <Image src="/expenseApp_qFvD7zZ8y.jpg" width={560} height={560} alt="expense_project" className="relative" /> */}
@@ -42,7 +51,7 @@ function Portfolio() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden ">
+              <div className="rounded-md overflow-hidden " data-aos="fade-up" data-aos-delay="300">
                 <img src="Crud Ci.jpg" />
                 <div className="mt-3">
                   <h3 className="dark:text-white text-gray-700 font-bold border-b-2 border-dashed border-transparent font-poppins text-[22px]">
@@ -60,7 +69,7 @@ function Portfolio() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden ">
+              <div className="rounded-md overflow-hidden" data-aos="fade-up">
                 <img src="reactlink.jpg" className="w-full" />
                 <div className="mt-3">
                   <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
@@ -79,7 +88,7 @@ function Portfolio() {
             </div>
           </div>
           <div className=" mt-[30px] ">
-            <p className=" flex items-center dark:text-white text-gray-700">
+            <p className=" flex items-center dark:text-white text-gray-700" data-aos="fade-up">
               {/* <a href="">See All Portfolio</a> */}
               <Link href="/work" className="flex items-center  dark:hover:text-pink-500 hover:font-bold font-poppins">
                 See All Portfolio
