@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import { BsGithub, BsInstagram, BsGlobe2, BsLink45Deg, BsDribbble } from "react-icons/bs";
+import { Si500Px } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
 
 function Footer() {
   return (
@@ -52,6 +54,12 @@ function Footer() {
             </Link>
             <Link href="https://react-link.vercel.app/">
               <BsLink45Deg className="dark:text-slate-300 dark:hover:text-pink-500 hover:text-pink-500 text-gray-500" />
+            </Link>
+            <Link href="mailto:muhamadervin34@gmail.com">
+              <MdEmail className="dark:text-slate-300 dark:hover:text-pink-500 hover:text-pink-500 text-gray-500" />
+            </Link>
+            <Link href="https://500px.com/p/muhamadervin34?view=photos">
+              <Si500Px className="dark:text-slate-300 dark:hover:text-pink-500 hover:text-pink-500 text-gray-500" />
             </Link>
           </div>
           <div className="mt-[20px]">
