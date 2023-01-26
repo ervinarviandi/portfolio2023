@@ -20,7 +20,7 @@ function Portfolio() {
   return (
     <>
       <main className="px-4 py-12">
-        <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4">
+        <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4 -z-10">
           <h1 className=" dark:text-white text-gray-700 text-3xl mb-10 font-poppins font-bold" data-aos="fade-up">
             Featured Portfolio
           </h1>
@@ -29,8 +29,10 @@ function Portfolio() {
           </p>
           <div className="grid md:grid-cols-2 gap-5 ">
             <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden dark:bg-slate-900 " data-aos="fade-up">
-                <img src="zeitplans.jpg" alt="expense-project" />
+              <div className="rounded-md overflow-hidden dark:bg-slate-900 bg-slate-200 " data-aos="fade-up">
+                <picture className="block overflow-hidden ">
+                  <img src="zeitplans.jpg" alt="expense-project" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
+                </picture>
 
                 {/* <Image src="/expenseApp_qFvD7zZ8y.jpg" width={560} height={560} alt="expense_project" className="relative" /> */}
                 <div className="mt-3 p-4">
@@ -51,8 +53,10 @@ function Portfolio() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden bg-slate-900 " data-aos="fade-up" data-aos-delay="300">
-                <img src="Crud Ci.jpg" />
+              <div className="rounded-md overflow-hidden dark:bg-slate-900 bg-slate-200 " data-aos="fade-up" data-aos-delay="300">
+                <picture className="block overflow-hidden">
+                  <img src="Crud Ci.jpg" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
+                </picture>
                 <div className="mt-3 p-4">
                   <h3 className="dark:text-white text-gray-700 font-bold border-b-2 border-dashed border-transparent font-poppins text-[22px]">
                     <a className="hover:border-b-2 hover:border-dashed" href="">
@@ -69,8 +73,10 @@ function Portfolio() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden bg-slate-900" data-aos="fade-up">
-                <img src="reactlink.jpg" className="w-full" />
+              <div className="rounded-md overflow-hidden dark:bg-slate-900 bg-slate-200" data-aos="fade-up">
+                <picture className="block overflow-hidden">
+                  <img src="reactlink.jpg" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
+                </picture>
                 <div className="mt-3 p-4">
                   <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
                     <a className="hover:border-b-2 hover:border-dashed " href="linkbio">

@@ -57,9 +57,11 @@ function work() {
               <Tab.Panel className="rounded-xl dark:bg-black p-3">
                 <div className="grid md:grid-cols-2 gap-5 ">
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden  ">
-                      <img src="reactlink.jpg" className="w-full" />
-                      <div className="mt-3">
+                    <div className="rounded-md overflow-hidden dark:bg-slate-900 bg-slate-200 shadow-lg  ">
+                      <picture className="block overflow-hidden">
+                        <img src="reactlink.jpg" className="hover:scale-125 ease-in-out duration-700" />
+                      </picture>
+                      <div className="mt-3 p-4">
                         <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
                           <Link href="linkbio" className="hover:border-b-2 hover:border-dashed ">
                             {" "}
@@ -75,10 +77,12 @@ function work() {
                     </div>
                   </div>
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden  ">
-                      <img src="zeitplans.jpg" alt="expense-project" />
+                    <div className="rounded-md overflow-hidden dark:bg-slate-900 bg-slate-200 shadow-lg ">
+                      <picture className="block overflow-hidden">
+                        <img src="zeitplans.jpg" alt="expense-project" className="hover:scale-125 ease-in-out duration-700" />
+                      </picture>
                       {/* <Image src="/expenseApp_qFvD7zZ8y.jpg" width={560} height={560} alt="expense_project" className="relative" /> */}
-                      <div className="mt-3">
+                      <div className="mt-3 p-4">
                         <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px] ">
                           <a className="hover:border-b-2 hover:border-dashed " href="">
                             {" "}
@@ -99,9 +103,11 @@ function work() {
                   </div>
 
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden ">
-                      <img src="expenseApp_qFvD7zZ8y.jpg" />
-                      <div className="mt-3">
+                    <div className="rounded-md overflow-hidden dark:bg-slate-900 bg-slate-200  shadow-lg">
+                      <picture className="block overflow-hidden">
+                        <img src="expenseApp_qFvD7zZ8y.jpg" className="hover:scale-125 ease-in-out duration-700" />
+                      </picture>
+                      <div className="mt-3 p-4">
                         <h3 className="dark:text-white text-gray-700 font-bold border-b-2 border-dashed border-transparent font-poppins text-[22px]">
                           <a className="hover:border-b-2 hover:border-dashed" href="">
                             {" "}
@@ -119,9 +125,11 @@ function work() {
                   </div>
 
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden ">
-                      <img src="notta.jpg" className="w-full" />
-                      <div className="mt-3">
+                    <div className="rounded-md overflow-hidden dark:bg-slate-900 bg-slate-200 shadow-lg ">
+                      <picture className="block overflow-hidden">
+                        <img src="notta.jpg" className="hover:scale-125 ease-in-out duration-700" />
+                      </picture>
+                      <div className="mt-3 p-4">
                         <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
                           <a className="hover:border-b-2 hover:border-dashed " href="https://react-link.vercel.app/">
                             {" "}
@@ -137,9 +145,11 @@ function work() {
                     </div>
                   </div>
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden ">
-                      <img src="workly.jpg" className="w-full" />
-                      <div className="mt-3">
+                    <div className="rounded-md overflow-hidden dark:bg-slate-900 bg-slate-200 shadow-lg ">
+                      <picture className=" block overflow-hidden">
+                        <img src="workly.jpg" className="hover:scale-125 ease-in-out duration-700" />
+                      </picture>
+                      <div className="mt-3 p-4">
                         <h3 className="dark:text-white font-bold font-poppins text-[22px]">
                           <a className="hover:border-b-2 hover:border-dashed " href="https://react-link.vercel.app/">
                             {" "}
@@ -159,9 +169,11 @@ function work() {
               <Tab.Panel className="rounded-xl dark:bg-black p-3 dark:text-white text-gray-700">
                 <div className="grid md:grid-cols-2 gap-5">
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden">
-                      <img src="logo.png" className="App-logo" alt="logo" />
-                      <div className="mt-3">
+                    <div className="rounded-md overflow-hidden dark:bg-slate-900 bg-slate-200 shadow-lg">
+                      <picture className="block overflow-hidden">
+                        <img src="logo.png" className="hover:scale-125 ease-in-out duration-700" alt="logo" />
+                      </picture>
+                      <div className="mt-3 p-4">
                         <h3 className="font bold dark:text-white font-poppins text-gray-700 text-[22px] ">3D Room</h3>
                         <div className="flex items-center space-x-2.5 mt-1.5 mb-3"></div>
                         <p className="dark:text-white text-gray-700 font-poppins text-base">3D Room di buat menggunakan aplikasi spline </p>
