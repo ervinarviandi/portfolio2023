@@ -12,7 +12,7 @@ function errorPage() {
           <h1 className=" font-poppins text-3xl dark:text-white text-gray-700 font-bold">Contact</h1>
           <main className="md:flex lg:flex dark:bg-black mt-10 ">
             {/* Headline */}
-            <div className="md:w-7/12">
+            <div className="md:w-7/12 mb-56">
               <form>
                 <div className="w-full lg:w-7/12 ">
                   <div className="w-full px-4 mb-8">
@@ -43,7 +43,11 @@ function errorPage() {
             </div>
 
             {/* Hero */}
-            <div className=" bg-purple-300 h-96 w-full md:w-5/12  mt-20">
+            <div className="relative">
+              <img src="right-side-arrow.png" width="90" height="90" className="inset-y-0  right-0 mt-60 mr-9 md:block hidden" />
+              <h4 className="dark:text-white text-gray-700 font-poppins md:block hidden">Lihat Lokasi</h4>
+            </div>
+            <div className=" bg-black px-4  h-96 w-full md:w-5/12  mt-20 ">
               <figure>
                 <iframe
                   className="w-full h-96 "
