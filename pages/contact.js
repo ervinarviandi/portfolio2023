@@ -8,7 +8,6 @@ function errorPage() {
   // const scriptURL = "https://script.google.com/macros/s/AKfycbyZTUN42_hNCQ3giYdsJ44B5QRH8FBorEaoZgk82qosxeEo-2A6sMJ-h79TINt_Np1-Vg/exec";
 
   // const form = document.forms["ervin-contact-form"];
-
   // form.addEventListener("submit", (e) => {
   //   e.preventDefault();
   //   fetch(scriptURL, { method: "POST", body: new FormData(form) })
@@ -67,7 +66,8 @@ function errorPage() {
                   className="w-full h-96 "
                   width=""
                   id="gmap_canvas"
-                  src="https://maps.google.com/maps?q=wawo,Dompu,%20West%20Nusa%20Tenggara&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  // src="https://maps.google.com/maps?q=wawo,Dompu,%20West%20Nusa%20Tenggara&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  src="https://www.google.com/maps/embed?pb=!4v1674717090785!6m8!1m7!1smAebVP4pWsoKV-N8zesUcA!2m2!1d-8.554098816804652!2d118.4318300762977!3f269.5188534322473!4f3.7516221478486216!5f0.7820865974627469"
                   frameborder="0"
                   scrolling="no"
                   marginheight="0"
