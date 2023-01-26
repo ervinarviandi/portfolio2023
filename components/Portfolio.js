@@ -29,11 +29,11 @@ function Portfolio() {
           </p>
           <div className="grid md:grid-cols-2 gap-5 ">
             <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden " data-aos="fade-up">
+              <div className="rounded-md overflow-hidden dark:bg-slate-900 " data-aos="fade-up">
                 <img src="zeitplans.jpg" alt="expense-project" />
 
                 {/* <Image src="/expenseApp_qFvD7zZ8y.jpg" width={560} height={560} alt="expense_project" className="relative" /> */}
-                <div className="mt-3">
+                <div className="mt-3 p-4">
                   <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px] ">
                     <a className="dark:hover:border-b-2 dark:hover:border-dashed  " href="">
                       {" "}
@@ -51,9 +51,9 @@ function Portfolio() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden " data-aos="fade-up" data-aos-delay="300">
+              <div className="rounded-md overflow-hidden bg-slate-900 " data-aos="fade-up" data-aos-delay="300">
                 <img src="Crud Ci.jpg" />
-                <div className="mt-3">
+                <div className="mt-3 p-4">
                   <h3 className="dark:text-white text-gray-700 font-bold border-b-2 border-dashed border-transparent font-poppins text-[22px]">
                     <a className="hover:border-b-2 hover:border-dashed" href="">
                       {" "}
@@ -69,9 +69,9 @@ function Portfolio() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden" data-aos="fade-up">
+              <div className="rounded-md overflow-hidden bg-slate-900" data-aos="fade-up">
                 <img src="reactlink.jpg" className="w-full" />
-                <div className="mt-3">
+                <div className="mt-3 p-4">
                   <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
                     <a className="hover:border-b-2 hover:border-dashed " href="linkbio">
                       {" "}
