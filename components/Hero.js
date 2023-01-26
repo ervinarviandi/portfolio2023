@@ -3,6 +3,7 @@ import Link from "next/link";
 import { BsGithub, BsInstagram, BsGlobe2, BsLink45Deg } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { AiFillFilePdf } from "react-icons/ai";
+import { Si500Px } from "react-icons/si";
 import Button from "next/link";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
@@ -73,6 +74,9 @@ function Hero() {
                 </Link>
                 <Link href="mailto:muhamadervin34@gmail.com" className="dark:text-white text-gray-700">
                   <MdEmail className="hover:text-pink-500" />
+                </Link>
+                <Link href="https://500px.com/p/muhamadervin34?view=photos" className="dark:text-white text-gray-700">
+                  <Si500Px className="hover:text-pink-500" />
                 </Link>
               </div>
               <div className="mt-12 relative " data-aos="fade-up" data-aos-delay="500" initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
