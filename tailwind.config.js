@@ -7,6 +7,9 @@ module.exports = {
       fontFamily: {
         poppins: ['"Poppins"', "sans-serif"],
       },
+      colors: {
+        backgrounddark: "#111827",
+      },
       zIndex: {
         100: "100",
       },
