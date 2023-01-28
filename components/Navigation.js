@@ -165,7 +165,7 @@ const Navigation = () => {
             </li>
             <hr />
             <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
-              <Link href="/contact">Contact</Link>
+              <Link href="/MyContact">Contact</Link>
             </li>
             <hr />
           </ul>

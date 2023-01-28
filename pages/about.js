@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
 import Navigation from "../components/Navigation";
+import Skills from "../components/Skills";
 import Footer from "../components/Footer";
 import { motion } from "framer-motion";
 import AOS from "aos";
-import "aos/dist/aos.css";
+// import "aos/dist/aos.css";
 
 function about() {
   return (
@@ -71,6 +72,7 @@ function about() {
           </div>
         </div>
       </section>
+      <Skills />
 
       <Footer />
     </>
