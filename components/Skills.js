@@ -9,6 +9,9 @@ import ReactLogo from "../src/Tech Stack/ReactLogo";
 import Framermotion from "../src/Tech Stack/Framermotion";
 import Typescript from "../src/Tech Stack/Typescript";
 import CodeigniterLogo from "../src/Tech Stack/CodeigniterLogo";
+import { gsap } from "gsap";
+// // import { gsap } from "gsap";
+// import SplitText from "gsap-trial/SplitText";
 
 function Skills() {
   return (
@@ -16,10 +19,11 @@ function Skills() {
       <main className="px-4 py-12">
         <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4">
           <div className="mb-10">
-            <h2 className="dark:text-white text-gray-700 font-poppins font-extrabold text-7xl">
+            <h2 className="dark:text-white text-gray-700 font-poppins font-extrabold md:text-7xl text-3xl">
               Tools <br />& Skills
             </h2>
           </div>
+          {/* <div id="title">Tools & skills</div> */}
           <div className="grid md:grid-cols-4 gap-4 ">
             <div className="flex flex-col">
               <div className="dark:bg-gray-800 bg-gray-300 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">

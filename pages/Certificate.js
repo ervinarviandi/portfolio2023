@@ -9,7 +9,7 @@ function Certificate() {
       <Navigation />
       <main className="px-4 py-12">
         <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4">
-          <h1 className="dark:text-white text-gray-700 font-poppins text-3xl font-bold">Certificate</h1>
+          <h1 className="dark:text-white text-gray-700 font-poppins md:text-7xl text-3xl font-bold">Certificate</h1>
           <p className="dark:text-white text-gray-700 text-base font-poppins mt-4">Di bawah ini adalah beberapa sertifikat yang pernah saya dapatkan saat mengikuti beberapa event dari dicoding </p>
 
           <div className="grid md:grid-cols-2 gap-5">

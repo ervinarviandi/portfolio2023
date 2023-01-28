@@ -68,7 +68,7 @@ function MyContact() {
 
       <main className="px-4 py-12 lg:hidden md:hidden xl:hidden block">
         <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl ">
-          <h1 className=" font-poppins text-7xl dark:text-white text-gray-700 font-extrabold">Contact</h1>
+          <h1 className=" font-poppins md:text-7xl text-3xl dark:text-white text-gray-700 font-extrabold">Contact</h1>
           <main className="md:flex lg:flex dark:bg-gray-900 mt-10 ">
             {/* Headline */}
             <div className="md:w-7/12 mb-56">

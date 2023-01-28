@@ -10,7 +10,7 @@ function Question() {
       <div className="px-4 py-12">
         <div className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4">
           <div className="">
-            <h2 className="dark:text-white text-gray-700 font-poppins text-2xl font-bold">Questions</h2>
+            <h2 className="dark:text-white text-gray-700 font-poppins md:text-7xl text-3xl font-bold">Questions</h2>
             <p className="dark:text-white text-gray-700 font-poppins text-base mt-4">Di Bawah Ini adalah Beberapa pertanyaan Yang Sering Di tanyakan</p>
             <Questions />
           </div>
