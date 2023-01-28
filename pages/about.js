@@ -6,9 +6,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function about() {
-  useEffect(() => {
-    AOS.init({ duration: 1000, once: true, disable: false, startEvent: "DOMContentLoaded", initClassName: "aos-init", animatedClassName: "aos-animate", useClassNames: false, disableMutationObserver: true });
-  }, []);
   return (
     <>
       {/* Navigation */}
