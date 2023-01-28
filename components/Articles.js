@@ -10,7 +10,7 @@ import "aos/dist/aos.css";
 
 function Articles() {
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 1000, once: true, disable: false, startEvent: "DOMContentLoaded", initClassName: "aos-init", animatedClassName: "aos-animate", useClassNames: false, disableMutationObserver: true });
   }, []);
   return (
     <>
@@ -61,6 +61,7 @@ function Articles() {
                 </div>
               </figure>
             </div> */}
+
             <div className="flex flex-col ">
               <figure className="border-dashed border-2 mt-5 p-4 rounded-lg" data-aos="fade-up">
                 <h2 className="dark:text-white text-gray-700 text-3xl font-poppins">

@@ -2,8 +2,6 @@ import React from "react";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import { motion } from "framer-motion";
-import Techstack from "../components/Techstack";
-import Comment from "../components/Comment";
 
 function about() {
   return (
@@ -65,9 +63,8 @@ function about() {
             </p>
           </div>
         </motion.div>
-        <Comment />
       </section>
-      <Techstack />
+
       <Footer />
     </>
   );
