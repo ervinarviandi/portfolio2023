@@ -6,7 +6,7 @@ function MyContact() {
   return (
     <>
       <Navigation />
-      <main className="mt-[98px] mx-auto md:max-w-4xl xl:max-w-4xl bg-gray-700 lg:flex md:flex w-screen mx-auto hidden lg:block md:block">
+      <main className="mt-[98px] mx-auto md:max-w-4xl xl:max-w-4xl bg-violet-600 lg:flex md:flex w-screen mx-auto hidden lg:block md:block">
         {/* Contact */}
         <div className="w-7/12 flex flex-row items-center px-[90px]">
           <div>
@@ -31,10 +31,10 @@ function MyContact() {
                   </label>
                   <textarea type="message" id="name" name="pesan" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500 h-32" />
                 </div>
-                <div className="relative w-full px-4">
+                <div className=" w-full px-4">
                   <Button
                     href=""
-                    className=" absolute flex font-poppins text-base items-center  border-2 dark:text-white text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg "
+                    className=" absolute flex font-poppins text-base items-center border-pink-500 border-2 dark:text-white text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg "
                   >
                     Kirim
                   </Button>
