@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
 import { BsGithub, BsInstagram, BsGlobe2, BsLink45Deg } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
@@ -9,8 +9,8 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Label from "../components/Label";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const svgVariants = {
   // hidden: { rotate: -180 },
@@ -21,9 +21,9 @@ const svgVariants = {
 };
 
 function Hero() {
-  // useEffect(() => {
-  //   AOS.init({ duration: 2000 });
-  // }, []);
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <>
       <div className="px-4 py-12">
@@ -100,7 +100,7 @@ function Hero() {
                   <Si500Px className="hover:text-pink-500" />
                 </Link>
               </div>
-              <div className="mt-12 relative " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
+              <div className="mt-12 " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
                 <Button
                   href="https://resume.showwcase.com/ervinarviandi.pdf"
                   className="absolute flex font-poppins text-base items-center  border-2 dark:text-white text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg "

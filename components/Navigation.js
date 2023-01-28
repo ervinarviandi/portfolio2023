@@ -15,7 +15,7 @@ const Navigation = () => {
 
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState("transparent");
-  const [textColor, setTextColor] = useState("white");
+  const [textColor, setTextColor] = useState("transparent");
 
   const handleNav = () => {
     setNav(!nav);
@@ -27,7 +27,7 @@ const Navigation = () => {
         setColor("#transparent");
         setTextColor("#ffffff");
       } else {
-        setColor("transparent");
+        setColor("#transparent");
         setTextColor("#ffffff");
       }
     };
@@ -51,7 +51,7 @@ const Navigation = () => {
       );
     } else {
       return (
-        <button className="bg-slate-900 p-2 rounded-lg " onClick={() => setTheme("dark")}>
+        <button className="bg-gray-900 p-2 rounded-lg " onClick={() => setTheme("dark")}>
           <svg xmlns="http://www.w3.org/2000/svg" fill="#f472b6" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-6 h-6">
             <path
               stroke-linecap="round"
@@ -140,7 +140,7 @@ const Navigation = () => {
           className={
             nav
               ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen  backdrop-filter backdrop-blur-lg bg-backgrounddark text-center ease-in duration-300 z-8"
-              : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black backdrop-filter backdrop-blur-lg text-center ease-in duration-300 -z-8 dark:text-white"
+              : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black backdrop-filter backdrop-blur-lg text-center ease-in  duration-300 z-8 dark:text-white  dark:bg-pink-500 "
           }
         >
           <ul>
