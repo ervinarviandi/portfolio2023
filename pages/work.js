@@ -54,10 +54,10 @@ function work() {
               </Tab>
             </Tab.List>
             <Tab.Panels className="mt-2">
-              <Tab.Panel className="rounded-xl dark:bg-black p-3">
+              <Tab.Panel className="rounded-xl dark:bg-gray-900 p-3">
                 <div className="grid md:grid-cols-2 gap-5 ">
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-slate-900 bg-slate-200 shadow-lg  ">
+                    <div className="rounded-md overflow-hidden dark:bg-gray-800 bg-slate-200 shadow-lg  ">
                       <picture className="block overflow-hidden">
                         <img src="reactlink.jpg" className="hover:scale-125 ease-in-out duration-700" />
                       </picture>
@@ -77,7 +77,7 @@ function work() {
                     </div>
                   </div>
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-slate-900 bg-slate-200 shadow-lg ">
+                    <div className="rounded-md overflow-hidden dark:bg-gray-800 bg-slate-200 shadow-lg ">
                       <picture className="block overflow-hidden">
                         <img src="zeitplans.jpg" alt="expense-project" className="hover:scale-125 ease-in-out duration-700" />
                       </picture>
@@ -103,7 +103,7 @@ function work() {
                   </div>
 
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-slate-900 bg-slate-200  shadow-lg">
+                    <div className="rounded-md overflow-hidden dark:bg-gray-800 bg-slate-200  shadow-lg">
                       <picture className="block overflow-hidden">
                         <img src="expenseApp_qFvD7zZ8y.jpg" className="hover:scale-125 ease-in-out duration-700" />
                       </picture>
@@ -125,7 +125,7 @@ function work() {
                   </div>
 
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-slate-900 bg-slate-200 shadow-lg ">
+                    <div className="rounded-md overflow-hidden dark:bg-gray-800 bg-slate-200 shadow-lg ">
                       <picture className="block overflow-hidden">
                         <img src="notta.jpg" className="hover:scale-125 ease-in-out duration-700" />
                       </picture>
@@ -145,7 +145,7 @@ function work() {
                     </div>
                   </div>
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-slate-900 bg-slate-200 shadow-lg ">
+                    <div className="rounded-md overflow-hidden dark:bg-gray-800 bg-slate-200 shadow-lg ">
                       <picture className=" block overflow-hidden">
                         <img src="workly.jpg" className="hover:scale-125 ease-in-out duration-700" />
                       </picture>
@@ -166,10 +166,10 @@ function work() {
                   </div>
                 </div>
               </Tab.Panel>
-              <Tab.Panel className="rounded-xl dark:bg-black p-3 dark:text-white text-gray-700">
+              <Tab.Panel className="rounded-xl dark:bg-gray-900 p-3 dark:text-white text-gray-700">
                 <div className="grid md:grid-cols-2 gap-5">
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-slate-900 bg-slate-200 shadow-lg">
+                    <div className="rounded-md overflow-hidden dark:bg-gray-800 bg-slate-200 shadow-lg">
                       <picture className="block overflow-hidden">
                         <img src="logo.png" className="hover:scale-125 ease-in-out duration-700" alt="logo" />
                       </picture>
@@ -182,7 +182,7 @@ function work() {
                   </div>
                 </div>
               </Tab.Panel>
-              <Tab.Panel className="rounded-xl dark:bg-black p-3 dark:text-white text-gray-700 ">
+              <Tab.Panel className="rounded-xl dark:bg-gray-900 p-3 dark:text-white text-gray-700 ">
                 <div className="grid md:grid-cols-2 gap-5">
                   <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden">

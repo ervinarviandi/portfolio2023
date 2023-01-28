@@ -29,7 +29,7 @@ function Portfolio() {
           </p>
           <div className="grid md:grid-cols-2 gap-5 ">
             <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden dark:bg-slate-900 bg-slate-200 " data-aos="fade-up">
+              <div className="rounded-md overflow-hidden dark:bg-gray-800 bg-slate-200 " data-aos="fade-up">
                 <picture className="block overflow-hidden ">
                   <img src="zeitplans.jpg" alt="expense-project" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
                 </picture>
@@ -53,7 +53,7 @@ function Portfolio() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden dark:bg-slate-900 bg-slate-200 " data-aos="fade-up" data-aos-delay="300">
+              <div className="rounded-md overflow-hidden dark:bg-gray-800 bg-slate-200 " data-aos="fade-up" data-aos-delay="300">
                 <picture className="block overflow-hidden">
                   <img src="Crud Ci.jpg" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
                 </picture>
@@ -73,7 +73,7 @@ function Portfolio() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden dark:bg-slate-900 bg-slate-200" data-aos="fade-up">
+              <div className="rounded-md overflow-hidden dark:bg-gray-800 bg-slate-200" data-aos="fade-up">
                 <picture className="block overflow-hidden">
                   <img src="reactlink.jpg" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
                 </picture>

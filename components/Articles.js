@@ -24,7 +24,10 @@ function Articles() {
           </p>
           <div className="grid md:grid-cols-2 gap-5">
             <div className="flex flex-col ">
-              <figure className="border-dashed border-2 mt-5 p-4 rounded-lg" data-aos="fade-up">
+              <figure
+                className="border-dashed border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-double "
+                data-aos="fade-up"
+              >
                 <h2 className="dark:text-white text-gray-700 text-3xl font-poppins ">
                   <Link href="/Blog" className="hover:border-b-2 hover:border-dashed">
                     Tutorial Git: Cara Install Git dan Konfigurasi Awal yang Harus Dilakukan <FaGitSquare />
@@ -37,7 +40,11 @@ function Articles() {
               </figure>
             </div>
             <div className="flex flex-col ">
-              <figure className="border-dashed border-2 mt-5 p-4 rounded-lg" data-aos="fade-up" data-aos-delay="300">
+              <figure
+                className="border-dashed border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-double "
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
                 <h2 className="dark:text-white text-gray-700 text-3xl font-poppins ">
                   <Link href="/NodeBlog" className="hover:border-b-2 hover:border-dashed">
                     Tutorial Install <span className="text-lime-500">Node Js</span> di Windows
@@ -63,7 +70,10 @@ function Articles() {
             </div> */}
 
             <div className="flex flex-col ">
-              <figure className="border-dashed border-2 mt-5 p-4 rounded-lg" data-aos="fade-up">
+              <figure
+                className="border-dashed border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-double "
+                data-aos="fade-up"
+              >
                 <h2 className="dark:text-white text-gray-700 text-3xl font-poppins">
                   How To Install <span className="text-sky-300">Next Js</span> <Nextjs className="dark:text-black text-gray-700" />{" "}
                 </h2>

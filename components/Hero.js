@@ -13,11 +13,11 @@ import Label from "../components/Label";
 // import "aos/dist/aos.css";
 
 const svgVariants = {
-  hidden: { rotate: -180 },
-  visible: {
-    rotate: 0,
-    transition: { duration: 1 },
-  },
+  // hidden: { rotate: -180 },
+  // visible: {
+  //   rotate: 0,
+  //   transition: { duration: 1 },
+  // },
 };
 
 function Hero() {
@@ -39,7 +39,7 @@ function Hero() {
               <h5 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-[24px] mt-7 font-poppins " data-aos="fade-up" data-aos-delay="100">
                 Frontend Developer
               </h5>
-              <div class="absolute top-20 -z-20 md:top-30 md:left-30">
+              <div className="absolute top-20 -z-20 md:top-30 md:left-30">
                 <motion.svg xmlns="http://www.w3.org/2000/svg" class="w-56 md:w-80" fill="none" viewBox="0 0 346 24" variants={svgVariants} initial="hidden" animate="visible">
                   <path
                     stroke="#22A9F5"
@@ -112,7 +112,7 @@ function Hero() {
             </div>
             <div className="w-full  px-4 lg:w-1/2">
               <div className="top-0 right-0  sm:mx-auto">
-                <img src="https://ervinarviandi.netlify.app/dist/img/FB_IMG_1633693737797.jpg" className="w-60 h-60 hidden md:w-80 md:h-80 rounded-lg lg:block lg:-z-20 grayscale hover:grayscale-0 border-2 mr-4" />
+                <img src="https://ervinarviandi.netlify.app/dist/img/FB_IMG_1633693737797.jpg" className="w-60 h-60 hidden md:w-80 md:h-80 rounded-lg lg:block lg:-z-20 grayscale hover:grayscale-0 border-2 mr-4" data-aos="fade-left" />
               </div>
             </div>
             <div className="absolute bottom-0 left-0 animate-bounce md:block hidden ">
