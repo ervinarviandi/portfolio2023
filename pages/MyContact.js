@@ -6,10 +6,11 @@ function MyContact() {
   return (
     <>
       <Navigation />
-      <main className="mt-[98px] mx-auto md:max-w-4xl xl:max-w-4xl bg-violet-700 lg:flex md:flex w-screen mx-auto hidden lg:block md:block">
+      <main className="mt-[98px] mx-auto md:max-w-4xl xl:max-w-4xl bg-gray-700 lg:flex md:flex w-screen mx-auto hidden lg:block md:block">
         {/* Contact */}
         <div className="w-7/12 flex flex-row items-center px-[90px]">
           <div>
+            {/* <h2 className="text-2xl font-poppins font-bold dark:text-white text-gray-700">Contact</h2> */}
             <form name="ervin-contact-form">
               <div className="w-full">
                 <div className="w-full px-4 mb-8">
