@@ -103,7 +103,7 @@ function Hero() {
               <div className="mt-12 " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
                 <Button
                   href="https://resume.showwcase.com/ervinarviandi.pdf"
-                  className="absolute flex font-poppins text-base items-center  border-2 dark:text-white text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg "
+                  className="absolute flex font-poppins text-base items-center  border-2 border-pink-500 dark:text-white text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg "
                 >
                   Download CV
                   <AiFillFilePdf className="ml-3" />
@@ -111,8 +111,10 @@ function Hero() {
               </div>
             </div>
             <div className="w-full  px-4 lg:w-1/2">
-              <div className="top-0 right-0  sm:mx-auto">
-                <img src="https://ervinarviandi.netlify.app/dist/img/FB_IMG_1633693737797.jpg" className="w-60 h-60 hidden md:w-80 md:h-80 rounded-lg lg:block lg:-z-20 grayscale hover:grayscale-0 border-2 mr-4" data-aos="fade-left" />
+              <div className="top-0 right-0  sm:mx-auto ">
+                <figure className="bg-gray-500  mx-auto relative">
+                  <img src="https://ervinarviandi.netlify.app/dist/img/FB_IMG_1633693737797.jpg" className="w-60 h-60 hidden md:w-80 md:h-80 rounded-lg lg:block lg:-z-20   mr-4 rotate-45 absolute" data-aos="fade-left" />
+                </figure>
               </div>
             </div>
             <div className="absolute bottom-0 left-0 animate-bounce md:block hidden ">

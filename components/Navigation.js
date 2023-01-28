@@ -39,7 +39,7 @@ const Navigation = () => {
     const currentTheme = theme === "system" ? systemTheme : theme;
     if (currentTheme === "dark") {
       return (
-        <button className="bg-gray-200 p-2 rounded-lg dark:bg-gray-900" onClick={() => setTheme("light")}>
+        <button className="bg-gray-200 p-2 rounded-lg dark:bg-gray-800" onClick={() => setTheme("light")}>
           <svg xmlns="http://www.w3.org/2000/svg" fill="#f59e0b" viewBox="0 0 24 24" stroke-width="2" stroke="#f59e0b" class="w-6 h-6">
             <path
               stroke-linecap="round"
@@ -51,8 +51,8 @@ const Navigation = () => {
       );
     } else {
       return (
-        <button className="bg-gray-900 p-2 rounded-lg " onClick={() => setTheme("dark")}>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="#f472b6" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-6 h-6">
+        <button className="bg-gray-800 p-2 rounded-lg " onClick={() => setTheme("dark")}>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#3b82f6" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-6 h-6">
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -66,7 +66,7 @@ const Navigation = () => {
 
   return (
     <div style={{ backgroundColor: `${color}` }} className="fixed left-0 top-0 w-full  ease-in duration-300 dark:text-white backdrop-blur-md bg-black/90 shadow-lg border-b border-purple-700 z-10">
-      <hr className="relative h-2 w-full bg-gradient-to-r from-purple-500 to-pink-500 before:absolute before:inset-0 before:bg-gradient-to-r before:from-purple-500 before:to-lime-300 before:animate-pulse" />
+      <hr className="relative h-2 w-full bg-gradient-to-r from-purple-500 to-pink-500 before:absolute before:inset-0 before:bg-gradient-to-r before:from-purple-500 before:from-pink-500 before:to-blue-500 before:animate-pulse" />
       <div className=" md:max-w-5xl xl:max-w-5xl m-auto flex justify-between items-center p-4 ">
         {/* Mobile Button */}
         <div onClick={handleNav} className="block sm:hidden z-10 dark:text-white">
@@ -123,7 +123,7 @@ const Navigation = () => {
             </Link>
           </li> */}
           <li className="p-4  font-poppins dark:text-white">
-            <Link href="/contact" className="hover:text-pink-500">
+            <Link href="/MyContact" className="hover:text-pink-500">
               Contact
             </Link>
           </li>
@@ -140,7 +140,7 @@ const Navigation = () => {
           className={
             nav
               ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen  backdrop-filter backdrop-blur-lg bg-backgrounddark text-center ease-in duration-300 z-8"
-              : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black backdrop-filter backdrop-blur-lg text-center ease-in  duration-300 z-8 dark:text-white  dark:bg-pink-500 "
+              : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black backdrop-filter backdrop-blur-lg text-center ease-in  duration-300 z-8 dark:text-white   "
           }
         >
           <ul>
