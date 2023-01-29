@@ -14,7 +14,7 @@ function about() {
       <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4 ">
         <div className="flex flex-wrap" initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
           <div className="w-full self-center px-4 lg:w-1/2">
-            <img src="avatar-2.png" className="w-48 h-48 md:w-50 md:h-50 md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" data-aos="fade-left" />
+            <img src="avatar-ervin.png" className="w-48 h-48 md:w-50 md:h-50 md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" data-aos="fade-left" />
             <h2 className="flex flex-col font-light text-[34px] font-bold dark:text-white text-gray-700 font-poppins" data-aos="fade-up">
               Muhammad Ervin Arviandi
             </h2>
@@ -23,7 +23,7 @@ function about() {
             </h5>
           </div>
           <div className="w-full self-center px-4 lg:w-1/2">
-            <img src="avatar-2.png" className="  w-52 h-52 hidden md:w-30 md:h-30 rounded-lg lg:block lg:-z-20 mt-[20px] rounded-full  " data-aos="fade-left" />
+            <img src="avatar-ervin.png" className="  w-52 h-52 hidden md:w-30 md:h-30 rounded-lg lg:block lg:-z-20 mt-[20px] rounded-full  " data-aos="fade-left" />
             <div></div>
           </div>
 
