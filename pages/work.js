@@ -30,34 +30,43 @@ function work() {
             I,ve put together a portfolio of my personal work, mostly from my junior years. You,re welcome to take a look and explore. Some of the portfolios even have website demos that you can try out if you,d like.
           </p>
           <Tab.Group manual>
-            <Tab.List className="flex space-x-1 rounded-full bg-gray-900 p-1 text-white ">
+            <Tab.List className="flex space-x-1 rounded-full bg-primary p-1 text-white ">
               <Tab
                 className={({ selected }) =>
-                  classNames("w-full rounded-full transition  duration-700 ease-in-out delay-50 py-2.5 text-sm font-medium leading-5 text-blue-700 font-poppins ", selected ? "bg-white text-white " : "text-pink-500")
+                  classNames(
+                    "w-full rounded-full transition  duration-700 ease-in-out delay-50 py-2.5 text-sm font-medium leading-5 text-blue-700 font-poppins ",
+                    selected ? "bg-backgrounddark text-white " : "dark:text-pink-500  text-pink-300"
+                  )
                 }
               >
                 Web Developer
               </Tab>
               <Tab
                 className={({ selected }) =>
-                  classNames("w-full rounded-full transition  duration-700 ease-in-out delay-50 py-2.5 text-sm font-medium leading-5 text-blue-700 font-poppins", selected ? "bg-white text-white " : "text-pink-500")
+                  classNames(
+                    "w-full rounded-full transition  duration-700 ease-in-out delay-50 py-2.5 text-sm font-medium leading-5 text-blue-700 font-poppins",
+                    selected ? "bg-backgrounddark text-white " : "dark:text-pink-500  text-pink-300"
+                  )
                 }
               >
                 Web Design
               </Tab>
               <Tab
                 className={({ selected }) =>
-                  classNames("w-full rounded-full transition  duration-700 ease-in-out delay-50 py-2.5 text-sm font-medium leading-5 text-blue-700 font-poppins", selected ? "bg-white text-white " : "text-pink-500")
+                  classNames(
+                    "w-full rounded-full transition  duration-700 ease-in-out delay-50 py-2.5 text-sm font-medium leading-5 text-blue-700 font-poppins",
+                    selected ? "bg-backgrounddark text-white " : "dark:text-pink-500 text-pink-300"
+                  )
                 }
               >
                 Graphic Design
               </Tab>
             </Tab.List>
             <Tab.Panels className="mt-2">
-              <Tab.Panel className="rounded-xl dark:bg-gray-900 p-3">
+              <Tab.Panel className="rounded-xl dark:bg-backgrounddark p-3">
                 <div className="grid md:grid-cols-2 gap-5 ">
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-gray-800 bg-slate-200 shadow-lg  ">
+                    <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 shadow-lg  ">
                       <picture className="block overflow-hidden">
                         <img src="reactlink.jpg" className="hover:scale-125 ease-in-out duration-700" />
                       </picture>
@@ -77,7 +86,7 @@ function work() {
                     </div>
                   </div>
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-gray-800 bg-slate-200 shadow-lg ">
+                    <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 shadow-lg ">
                       <picture className="block overflow-hidden">
                         <img src="zeitplans.jpg" alt="expense-project" className="hover:scale-125 ease-in-out duration-700" />
                       </picture>
@@ -103,7 +112,7 @@ function work() {
                   </div>
 
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-gray-800 bg-slate-200  shadow-lg">
+                    <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200  shadow-lg">
                       <picture className="block overflow-hidden">
                         <img src="expenseApp_qFvD7zZ8y.jpg" className="hover:scale-125 ease-in-out duration-700" />
                       </picture>
@@ -124,7 +133,7 @@ function work() {
                   </div>
 
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-gray-800 bg-slate-200 shadow-lg ">
+                    <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 shadow-lg ">
                       <picture className="block overflow-hidden">
                         <img src="notta.jpg" className="hover:scale-125 ease-in-out duration-700" />
                       </picture>
@@ -144,7 +153,7 @@ function work() {
                     </div>
                   </div>
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-gray-800 bg-slate-200 shadow-lg ">
+                    <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 shadow-lg ">
                       <picture className=" block overflow-hidden">
                         <img src="workly.jpg" className="hover:scale-125 ease-in-out duration-700" />
                       </picture>
@@ -165,10 +174,10 @@ function work() {
                   </div>
                 </div>
               </Tab.Panel>
-              <Tab.Panel className="rounded-xl dark:bg-gray-900 p-3 dark:text-white text-gray-700">
+              <Tab.Panel className="rounded-xl dark:bg-backgrounddark p-3 dark:text-white text-gray-700">
                 <div className="grid md:grid-cols-2 gap-5">
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-gray-800 bg-slate-200 shadow-lg">
+                    <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 shadow-lg">
                       <picture className="block overflow-hidden">
                         <img src="logo.png" className="hover:scale-125 ease-in-out duration-700" alt="logo" />
                       </picture>
@@ -181,7 +190,7 @@ function work() {
                   </div>
                 </div>
               </Tab.Panel>
-              <Tab.Panel className="rounded-xl dark:bg-gray-900 p-3 dark:text-white text-gray-700 ">
+              <Tab.Panel className="rounded-xl dark:bg-backgrounddark p-3 dark:text-white text-gray-700 ">
                 <div className="grid md:grid-cols-2 gap-5">
                   <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden">

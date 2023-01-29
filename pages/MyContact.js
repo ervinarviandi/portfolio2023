@@ -2,11 +2,12 @@ import React from "react";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Button from "next/link";
+import { BsFillArrowDownSquareFill } from "react-icons/bs";
 function MyContact() {
   return (
     <>
       <Navigation />
-      <main className="mt-[98px] mx-auto md:max-w-4xl xl:max-w-4xl bg-violet-600 lg:flex md:flex w-screen mx-auto hidden lg:block md:block">
+      <main className="mt-[98px] mx-auto md:max-w-4xl xl:max-w-4xl bg-primary rounded-lg lg:flex md:flex w-screen mx-auto hidden lg:block md:block">
         {/* Contact */}
         <div className="w-7/12 flex flex-row items-center px-[90px]">
           <div>
@@ -32,10 +33,7 @@ function MyContact() {
                   <textarea type="message" id="name" name="pesan" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500 h-32" />
                 </div>
                 <div className=" w-full px-4">
-                  <Button
-                    href=""
-                    className=" absolute flex font-poppins text-base items-center border-pink-500 border-2 dark:text-white text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg "
-                  >
+                  <Button href="" className="   absolute flex font-poppins text-base items-center border-pink-500 border-2 dark:text-white text-gray-200  py-2 px-5  rounded-lg bg-gradient-to-r from-pink-500 to-blue-500 ">
                     Kirim
                   </Button>
                 </div>
@@ -69,7 +67,7 @@ function MyContact() {
       <main className="px-4 py-12 lg:hidden md:hidden xl:hidden block">
         <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl ">
           <h1 className=" font-poppins md:text-7xl text-3xl dark:text-white text-gray-700 font-extrabold">Contact</h1>
-          <main className="md:flex lg:flex dark:bg-gray-900 mt-10 ">
+          <main className="md:flex lg:flex dark:bg-primary mt-10 rounded-lg py-4">
             {/* Headline */}
             <div className="md:w-7/12 mb-56">
               <form name="ervin-contact-form">
@@ -92,11 +90,8 @@ function MyContact() {
                     </label>
                     <textarea type="message" id="name" name="pesan" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500 h-32" />
                   </div>
-                  <div className="relative w-full px-4">
-                    <Button
-                      href=""
-                      className=" absolute flex font-poppins text-base items-center  border-2 dark:text-white text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg "
-                    >
+                  <div className=" px-4">
+                    <Button href="" className="    absolute flex font-poppins text-base items-center border-pink-500 border-2 dark:text-white text-gray-200  py-2 px-5  rounded-lg bg-gradient-to-r from-pink-500 to-blue-500">
                       Kirim
                     </Button>
                   </div>
@@ -105,11 +100,10 @@ function MyContact() {
             </div>
 
             {/* Hero */}
-            <div className="relative">
+            <div className="relative py-4">
               <img src="right-side-arrow.png" width="90" height="90" className="inset-y-0  right-0 mt-60 mr-9 md:block hidden " />
-              <h4 className="dark:text-white text-gray-700 font-poppins md:block hidden">Lihat Lokasi</h4>
             </div>
-            <div className=" dark:bg-gray-900 px-4  h-96 w-full md:w-5/12  mt-20 ">
+            <div className=" dark:bg-primary rounded-lg  px-4  h-96 w-full md:w-5/12  mt-10 ">
               <figure className="shadow-lg">
                 <iframe
                   className="w-full h-96 "

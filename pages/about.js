@@ -15,10 +15,10 @@ function about() {
         <div className="flex flex-wrap" initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
           <div className="w-full self-center px-4 lg:w-1/2">
             <img src="avatar-ervin.png" className="w-48 h-48 md:w-50 md:h-50 md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" data-aos="fade-left" />
-            <h2 className="flex flex-col font-light text-[34px] font-bold dark:text-white text-gray-700 font-poppins" data-aos="fade-up">
+            <h2 className="flex flex-col text-[34px] font-bold dark:text-white text-gray-700 font-poppins  " data-aos="fade-up">
               Muhammad Ervin Arviandi
             </h2>
-            <h5 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-[24px] mt-7 font-poppins" data-aos="fade-right">
+            <h5 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-600 to-bg-blue-500 text-[24px] mt-7 font-poppins" data-aos="fade-right">
               Frontend Developer
             </h5>
           </div>

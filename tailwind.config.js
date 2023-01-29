@@ -8,7 +8,9 @@ module.exports = {
         poppins: ['"Poppins"', "sans-serif"],
       },
       colors: {
-        backgrounddark: "#111827",
+        // backgrounddark: "#111827",
+        backgrounddark: "#111111",
+        primary: "#191919",
       },
       zIndex: {
         100: "100",
