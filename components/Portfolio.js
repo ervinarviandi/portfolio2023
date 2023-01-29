@@ -25,7 +25,8 @@ function Portfolio() {
             Featured Portfolio
           </h1>
           <p className="mb-6 md:mb-8 dark:text-white text-gray-700 font-poppins text-base" data-aos="fade-up">
-            Lihat portofolio unggulan saya, jangan ragu untuk menjelajahinya ya. dibawah ini adalah beberapa karya yang pernah saya buat
+            {/* Lihat portofolio unggulan saya, jangan ragu untuk menjelajahinya ya. dibawah ini adalah beberapa karya yang pernah saya buat */}
+            I`m also experienced at some website development and software testing that i learn for 4 month will described below
           </p>
           <div className="grid md:grid-cols-2 gap-5 ">
             <div className="flex flex-col">
@@ -68,7 +69,7 @@ function Portfolio() {
                     <CodeigniterLogo />
                     <BootstrapLogo />
                   </div>
-                  <p className="dark:text-white text-gray-700 font-poppins text-base">ExpenseApp is an app to see you expense history, income history and help you notes what youre buying lately💰</p>
+                  <p className="dark:text-white text-gray-700 font-poppins text-base">A bookshelf app that can show, search, add, delete, update book and move book to other shelf.</p>
                 </div>
               </div>
             </div>
@@ -81,14 +82,14 @@ function Portfolio() {
                   <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
                     <a className="hover:border-b-2 hover:border-dashed " href="linkbio">
                       {" "}
-                      React Link Bio
+                      Link Bio
                     </a>
                   </h3>
                   <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
                     <ReactLogo />
                     <TailwindLogo />
                   </div>
-                  <p className="dark:text-white text-gray-700 font-poppins text-base">React Link is an app to see you expense history, income history and help you notes what youre buying lately🔗</p>
+                  <p className="dark:text-white text-gray-700 font-poppins text-base">A Bio link to connect customers to the business or portfolio website </p>
                 </div>
               </div>
             </div>

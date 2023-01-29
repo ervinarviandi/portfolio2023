@@ -65,14 +65,14 @@ function work() {
                         <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
                           <Link href="linkbio" className="hover:border-b-2 hover:border-dashed ">
                             {" "}
-                            React Link Bio
+                            Link Bio
                           </Link>
                         </h3>
                         <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
                           <TailwindLogo />
                           <ReactLogo />
                         </div>
-                        <p className="dark:text-white text-gray-700 font-poppins text-base">React Link is an page to see connect with sosial media and more🔗</p>
+                        <p className="dark:text-white text-gray-700 font-poppins text-base">A Bio link to connect customers to the business or portfolio website.</p>
                       </div>
                     </div>
                   </div>
@@ -111,15 +111,14 @@ function work() {
                         <h3 className="dark:text-white text-gray-700 font-bold border-b-2 border-dashed border-transparent font-poppins text-[22px]">
                           <a className="hover:border-b-2 hover:border-dashed" href="">
                             {" "}
-                            Expense App
+                            Bookself
                           </a>
                         </h3>
                         <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
-                          <TailwindLogo />
-
+                          <BootstrapLogo />
                           <CodeigniterLogo />
                         </div>
-                        <p className="dark:text-white text-gray-700 font-poppins text-base">ExpenseApp is an app to see you expense history, income history and help you notes what youre buying lately💰</p>
+                        <p className="dark:text-white text-gray-700 font-poppins text-base">A bookshelf app that can show, search, add, delete, update book and move book to other shelf.</p>
                       </div>
                     </div>
                   </div>

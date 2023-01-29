@@ -23,11 +23,12 @@ function Techstack() {
       <div className="px-4 py-12">
         <div className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4">
           <div className="w-full self-center px-4">
-            <p className="dark:text-white text-gray-500 font-poppins font-bold text-2xl md:text-left text-center" data-aos="fade-up">
+            <p className="dark:text-white text-gray-700 font-poppins font-bold text-2xl md:text-left text-center" data-aos="fade-up">
               Tech Stack{" "}
             </p>
             <p className="text-base font-poppins dark:text-white text-gray-700 mt-10" data-aos="fade-up">
-              Dibawah ini adalah beberapa tools/teknologi yang pernah saya gunakan untuk membuat website ataupun membuat desain .
+              {/* Dibawah ini adalah beberapa tools/teknologi yang pernah saya gunakan untuk membuat website ataupun membuat desain . */}
+              Below are some of the tools/technology that I have used to create websites or create designs.
             </p>
             <motion.div className="flex gap-6 flex-wrap justify-center mt-20 ">
               <motion.div drag dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} dragElastic={0.7} className="cursor-grabbing" data-aos="fade-right">

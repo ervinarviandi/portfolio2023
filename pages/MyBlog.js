@@ -11,6 +11,7 @@ import "tippy.js/dist/tippy.css"; // optional
 import "tippy.js/themes/material.css";
 import "tippy.js/animations/perspective-extreme.css";
 import { followCursor } from "tippy.js";
+import Nextjs from "../src/NextJs";
 
 function MyBlog() {
   return (
@@ -27,13 +28,15 @@ function MyBlog() {
           <div className="mt-10">
             <h2 className="dark:text-white text-gray-700 text-2xl font-poppins"> All Post</h2>
             <p className="text-base dark:text-white text-gray-700 font-poppins mt-5">
-              Sepertinya Kamu tertarik dengan postingan saya. silakan untuk melihat dan membacanya, dan diurutkan berdasarkan tanggal sehingga kamu dapat dengan mudah menemukan yang terbaru.
+              {/* Sepertinya Kamu tertarik dengan postingan saya. silakan untuk melihat dan membacanya, dan diurutkan berdasarkan tanggal sehingga kamu dapat dengan mudah menemukan yang terbaru. */}
+              It looks like you`re interested in my posts. You`re welcome to take a look and read them, and they`re sorted by date so you can easily find the newest ones.
             </p>
 
             <figure className="relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-double ">
               <h2 className="dark:text-white text-gray-700 text-3xl font-poppins  ">
                 <Link href="/Blog" className="hover:border-b-2 hover:border-dashed">
-                  Tutorial Git: Cara Install Git dan Konfigurasi Awal yang Harus Dilakukan <FaGitSquare />
+                  How to Install Git on Windows & configuration
+                  <FaGitSquare />
                 </Link>
               </h2>
               <div className="md:flex justify-between items-center space-x-3">
@@ -55,7 +58,7 @@ function MyBlog() {
             <figure className="relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-double ">
               <h2 className="dark:text-white text-gray-700 text-3xl font-poppins  ">
                 <Link href="/NodeBlog" className="hover:border-b-2 hover:border-dashed">
-                  Tutorial Install Node Js Di Windows <IoLogoNodejs />
+                  How to Install Node Js & NPM on Windows <IoLogoNodejs />
                 </Link>
               </h2>
               <div className="md:flex justify-between items-center space-x-3">
@@ -77,7 +80,7 @@ function MyBlog() {
             <figure className="relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-double ">
               <h2 className="dark:text-white text-gray-700 text-3xl font-poppins  ">
                 <Link href="/NodeBlog" className="hover:border-b-2 hover:border-dashed">
-                  Apa si Coding Itu <IoLogoNodejs />
+                  How To Install Next Js <Nextjs />
                 </Link>
               </h2>
               <div className="md:flex justify-between items-center space-x-3">

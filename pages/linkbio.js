@@ -44,12 +44,15 @@ function linkbio() {
           <img src="reactlink.jpg" className="w-full mt-7" />
 
           <p className="dark:text-white text-base font-poppins mt-5">
-            Link bio ini adalah project kecil-kecilan yang saya buat untuk menambah portfolio saya, project ini saya buat karena terinspirasi oleh beberapa content creator dan para pembisnis di sosial media yang menggunakan layanan linktree
-            untuk membantu mereka dalam membuat halaman khusus untuk berbisnis secara online / dengan kata lain para pengunjung akan dengan mudah dapat mengakses seluruh konten yang ada dengan mengklik link utama saja{" "}
+            {/* Link bio ini adalah project kecil-kecilan yang saya buat untuk menambah portfolio saya, project ini saya buat karena terinspirasi oleh beberapa content creator dan para pembisnis di sosial media yang menggunakan layanan linktree
+            untuk membantu mereka dalam membuat halaman khusus untuk berbisnis secara online / dengan kata lain para pengunjung akan dengan mudah dapat mengakses seluruh konten yang ada dengan mengklik link utama saja{" "} */}
+            This bio link is a small project that I made to add to my portfolio, I created this project because it was inspired by several content creators and business people on social media who use the linktree service to help them create
+            special pages for doing business online / in words otherwise visitors will easily be able to access all existing content by clicking on the main link only
           </p>
 
           <p className="dark:text-white text-base font-poppins mt-7">
-            manfaatnya untuk meningkatkan jumlah kunjungan ke semua saluran bisnis online/portfolio dengan cepat, baik itu media sosial, toko online, maupun marketplace yang digunakan untuk menjalankan bisnis.
+            {/* manfaatnya untuk meningkatkan jumlah kunjungan ke semua saluran bisnis online/portfolio dengan cepat, baik itu media sosial, toko online, maupun marketplace yang digunakan untuk menjalankan bisnis. */}
+            The benefits are to quickly increase the number of visits to all online/portfolio business channels, be it social media, online shops, or marketplaces used to run a business.
           </p>
           <div className="flex justify-between ">
             <div className="">

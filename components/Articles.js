@@ -20,7 +20,8 @@ function Articles() {
             Featured Post
           </h1>
           <p className="dark:text-white text-gray-700 font-poppins text-base" data-aos="fade-up">
-            Jika kalian mencari bacaan yang menarik mengenai dunia it, kalian bisa melihat postingan blog unggulan saya. diurutkan dari yang terbaru hingga yang paling lama, silakan jelajahi....🤨
+            {/* Jika kalian mencari bacaan yang menarik mengenai dunia it, kalian bisa melihat postingan blog unggulan saya. diurutkan dari yang terbaru hingga yang paling lama, silakan jelajahi....🤨 */}
+            If you`re looking for some interesting reads, check out my featured blog post. sorted from latest to least, feel free to explore it.
           </p>
           <div className="grid md:grid-cols-2 gap-5">
             <div className="flex flex-col ">
@@ -30,7 +31,8 @@ function Articles() {
               >
                 <h2 className="dark:text-white text-gray-700 text-3xl font-poppins ">
                   <Link href="/Blog" className="hover:border-b-2 hover:border-dashed">
-                    Tutorial Git: Cara Install Git dan Konfigurasi Awal yang Harus Dilakukan <FaGitSquare />
+                    How to Install Git on Windows & configuration
+                    <FaGitSquare />
                   </Link>
                 </h2>
                 <div className="flex mt-5 space-x-3">
@@ -47,7 +49,7 @@ function Articles() {
               >
                 <h2 className="dark:text-white text-gray-700 text-3xl font-poppins ">
                   <Link href="/NodeBlog" className="hover:border-b-2 hover:border-dashed">
-                    Tutorial Install <span className="text-lime-500">Node Js</span> di Windows
+                    How to Install <span className="text-lime-500">Node Js</span> & NPM on Windows
                     <IoLogoNodejs />
                   </Link>
                 </h2>
