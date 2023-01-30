@@ -40,7 +40,7 @@ function Hero() {
                 Frontend Developer
               </h5>
               <div className="absolute top-20 -z-20 md:top-30 md:left-30">
-                <motion.svg xmlns="http://www.w3.org/2000/svg" class="w-56 md:w-80" fill="none" viewBox="0 0 346 24" variants={svgVariants} initial="hidden" animate="visible">
+                {/* <motion.svg xmlns="http://www.w3.org/2000/svg" class="w-56 md:w-80" fill="none" viewBox="0 0 346 24" variants={svgVariants} initial="hidden" animate="visible">
                   <path
                     stroke="#22A9F5"
                     stroke-width="3"
@@ -50,7 +50,7 @@ function Hero() {
                     stroke-dashoffset="0px"
                     stroke-dasharray="1px 1px"
                   ></path>
-                </motion.svg>
+                </motion.svg> */}
               </div>
               <div className=" flex items-center space-x-4 typewriter  relative mt-6">
                 <span className=" dark:text-white text-gray-700 text-lg"> I`m a {""} </span>
