@@ -20,7 +20,11 @@ function work() {
       <Navigation />
       <motion.div className="px-4 py-12 " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
         <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4  ">
-          <h1 className="dark:text-white text-gray-700 md:text-7xl text-3xl mb-10 font-poppins font-extrabold ">Portfolio</h1>
+          <div className="mb-10">
+            <h2 className=" text-3xl  font-poppins font-extrabold md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r  from-pink-500  to-blue-500 before:relative before:inset-0 before:bg-gradient-to-r before:from-pink-500  before:to-blue-500  ">
+              Portfolio
+            </h2>
+          </div>
           <p className="mb-6 md:mb-8 dark:text-white text-gray-700 font-poppins text-base">
             A selection of my personal works. I,ve included samples to showcase my skills and experience. Take a look around and let me know what you think. Im always open to feedback and opportunities to collaborate.
           </p>

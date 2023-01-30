@@ -53,10 +53,10 @@ function about() {
               mobile development with flutter.
             </p>
 
-            <p className="dark:text-white text-gray-700 font-poppins text-base">
+            {/* <p className="dark:text-white text-gray-700 font-poppins text-base">
               Di website ini saya suka membagikan berbagai <span className="font-bold"> Pemikiran</span> saya tentang topik, terkait pengembangan web <span className="font-bold">kehidupan sehari-hari</span> secara umum dan tempat untuk
               memamerkan <span className="font-bold">portfolio</span> saya.
-            </p>
+            </p> */}
 
             <div className="">
               <blockquote className="dark:text-white text-gray-700 text-gray-500 text-2xl border-l-4  border-l-pink-500 ">

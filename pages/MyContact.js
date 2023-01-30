@@ -7,10 +7,16 @@ function MyContact() {
   return (
     <>
       <Navigation />
+
       <main className="mt-[98px] mx-auto md:max-w-4xl xl:max-w-4xl bg-primary rounded-lg lg:flex md:flex w-screen mx-auto hidden lg:block md:block">
         {/* Contact */}
         <div className="w-7/12 flex flex-row items-center px-[90px]">
           <div>
+            <div className="mb-10 md:max-w-4xl xl:max-w-4xl">
+              <h2 className="text-3xl font-poppins font-extrabold md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r  from-pink-500  to-blue-500 before:relative before:inset-0 before:bg-gradient-to-r before:from-pink-500  before:to-blue-500 ">
+                Contact
+              </h2>
+            </div>
             {/* <h2 className="text-2xl font-poppins font-bold dark:text-white text-gray-700">Contact</h2> */}
             <form name="ervin-contact-form">
               <div className="w-full">
@@ -66,7 +72,11 @@ function MyContact() {
 
       <main className="px-4 py-12 lg:hidden md:hidden xl:hidden block">
         <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl ">
-          <h1 className=" font-poppins md:text-7xl text-3xl dark:text-white text-gray-700 font-extrabold">Contact</h1>
+          <div className="mb-10">
+            <h2 className="text-3xl font-poppins font-extrabold md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r  from-pink-500  to-blue-500 before:relative before:inset-0 before:bg-gradient-to-r before:from-pink-500  before:to-blue-500 ">
+              Contact
+            </h2>
+          </div>
           <main className="md:flex lg:flex dark:bg-primary mt-10 rounded-lg py-4">
             {/* Headline */}
             <div className="md:w-7/12 mb-56">
@@ -100,6 +110,7 @@ function MyContact() {
             </div>
 
             {/* Hero */}
+
             <div className="relative py-4">
               <img src="right-side-arrow.png" width="90" height="90" className="inset-y-0  right-0 mt-60 mr-9 md:block hidden " />
             </div>
