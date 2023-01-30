@@ -4,7 +4,7 @@ import { ChevronUpIcon } from "@heroicons/react/20/solid";
 function Questions() {
   return (
     <div className="w-full px-4 pt-16">
-      <div className="mx-auto w-full md:max-w-4xl xl:max-w-4xl rounded-2xl dark:bg-gray-900 p-2">
+      <div className="mx-auto w-full md:max-w-4xl xl:max-w-4xl rounded-2xl dark:bg-backgrounddark p-2">
         <div className="grid md:grid-cols-2 gap-5">
           <div className="flex flex-col">
             <Disclosure>
