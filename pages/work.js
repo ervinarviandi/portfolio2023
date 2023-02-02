@@ -70,6 +70,28 @@ function work() {
               <Tab.Panel className="rounded-xl dark:bg-backgrounddark p-3">
                 <div className="grid md:grid-cols-2 gap-5 ">
                   <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 ">
+                      <picture className="block overflow-hidden ">
+                        <img src="qr-generator.jpg" alt="expense-project" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
+                      </picture>
+
+                      {/* <Image src="/expenseApp_qFvD7zZ8y.jpg" width={560} height={560} alt="expense_project" className="relative" /> */}
+                      <div className="mt-3 p-4">
+                        <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px] ">
+                          <a className="dark:hover:border-b-2 dark:hover:border-dashed  " href=" QrGenerator">
+                            {" "}
+                            QR Generator
+                          </a>
+                        </h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
+                          <ReactLogo />
+                          <TailwindLogo />
+                        </div>
+                        <p className="dark:text-white text-gray-700 font-poppins text-base">A simple QR Code Generator. You can convert the web link into QR Code instantly here and download it to your local device.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 shadow-lg  ">
                       <picture className="block overflow-hidden">
                         <img src="reactlink.jpg" className="hover:scale-125 ease-in-out duration-700" />

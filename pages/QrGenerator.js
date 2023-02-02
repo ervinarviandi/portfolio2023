@@ -49,7 +49,7 @@ function QrGenerator() {
           </p> */}
           <div className="flex justify-between ">
             <div className="">
-              <a href="https://github.com/ervinarviandi/React-Link" className=" flex items-center space-x-4 dark:text-white font-bold font-poppins border-b-2 py-2 border-dashed   font-bold">
+              <a href="https://github.com/ervinarviandi/QR-Generator" className=" flex items-center space-x-4 dark:text-white font-bold font-poppins border-b-2 py-2 border-dashed   font-bold">
                 <FaEdit />
                 <h4 className="dark:text-white font-poppins">Edit On Github</h4>
               </a>
