@@ -26,7 +26,7 @@ function Portfolio() {
           </h1>
           <p className="mb-6 md:mb-8 dark:text-white text-gray-700 font-poppins text-base" data-aos="fade-up">
             {/* Lihat portofolio unggulan saya, jangan ragu untuk menjelajahinya ya. dibawah ini adalah beberapa karya yang pernah saya buat */}
-            I`m also experienced at some website development and software testing that i learn for 4 month will described below
+            I&#39;m also experienced at some website development and software testing that i learn for 4 month will described below
           </p>
           <div className="grid md:grid-cols-2 gap-5 ">
             <div className="flex flex-col">

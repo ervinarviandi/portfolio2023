@@ -26,12 +26,12 @@ function work() {
             </h2>
           </div>
           <p className="mb-6 md:mb-8 dark:text-white text-gray-700 font-poppins text-base">
-            A selection of my personal works. I,ve included samples to showcase my skills and experience. Take a look around and let me know what you think. Im always open to feedback and opportunities to collaborate.
+            A selection of my personal works. I&#39;ve included samples to showcase my skills and experience. Take a look around and let me know what you think. Im always open to feedback and opportunities to collaborate.
           </p>
 
           <h2 className="dark:text-white text-gray-700 text-3xl mb-10 font-bold ">Personal Website</h2>
           <p className="dark:text-white text-gray-700 text-base font-poppins mb-5">
-            I,ve put together a portfolio of my personal work, mostly from my junior years. You,re welcome to take a look and explore. Some of the portfolios even have website demos that you can try out if you,d like.
+            I`ve put together a portfolio of my personal work, mostly from my junior years. Yo`re welcome to take a look and explore. Some of the portfolios even have website demos that you can try out if you,d like.
           </p>
           <Tab.Group manual>
             <Tab.List className="flex space-x-1 rounded-full bg-primary p-1 text-white ">

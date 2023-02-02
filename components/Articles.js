@@ -21,7 +21,7 @@ function Articles() {
           </h1>
           <p className="dark:text-white text-gray-700 font-poppins text-base" data-aos="fade-up">
             {/* Jika kalian mencari bacaan yang menarik mengenai dunia it, kalian bisa melihat postingan blog unggulan saya. diurutkan dari yang terbaru hingga yang paling lama, silakan jelajahi....🤨 */}
-            If you`re looking for some interesting reads, check out my featured blog post. sorted from latest to least, feel free to explore it.
+            If you&#39;re looking for some interesting reads, check out my featured blog post. sorted from latest to least, feel free to explore it.
           </p>
           <div className="grid md:grid-cols-2 gap-5">
             <div className="flex flex-col ">

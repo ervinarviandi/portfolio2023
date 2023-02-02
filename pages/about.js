@@ -30,15 +30,15 @@ function about() {
           <div className="w-full mt-10 px-4 space-y-5" data-aos="fade-up" data-aos-delay="300">
             <p className="dark:text-white text-gray-700 font-poppins text-base">
               Hello👋, My name is <span className="font-bold underline decoration-pink-500"> Muhammad Ervin Arviandi </span>, or you can call me Ervin. I focus on studying web application development and web design. The main programming
-              language I`m exploring is Javascript, as well as the React framework (and the environment in general). I love learning things, and always want to learn new things. I am enthusiastic, reliable, responsible and hardworking
+              language I&#39;m exploring is Javascript, as well as the React framework (and the environment in general). I love learning things, and always want to learn new things. I am enthusiastic, reliable, responsible and hardworking
               person.
             </p>
             {/* <p className="dark:text-white text-gray-700 font-poppins text-base">
               Sebagai <span className="font-bold"> Pengembang web otodidak </span>, saya mulai belajar pengembangan web ketika saya duduk di kelas 12 dan secara bertahap meningkatkan keterampilan saya dari waktu ke waktu.
             </p> */}
             <p className="dark:text-white text-gray-700 font-poppins text-base">
-              I am passionate about <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-bold"> Frontend Developer </span> and enjoy working on the Web. I love combining my technical knowledge
-              and creativity to build engaging and user-friendly websites and applications.
+              I&#39;am passionate about <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-bold"> Frontend Developer </span> and enjoy working on the Web. I love combining my technical
+              knowledge and creativity to build engaging and user-friendly websites and applications.
               {/* <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-bold">IT</span> disebutnya{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-bold"> Frontend Developer</span> dan menggabungkan dengan beberapa teknologi yang yang membuat sebuah website terlihat menarik. */}
             </p>
@@ -49,7 +49,7 @@ function about() {
             </p> */}
 
             <p className="dark:text-white text-gray-700 font-poppins text-base">
-              I`m very interested with <span className="font-bold"> Frontend Architecture</span>, <span className="font-bold"> Frontend Accessibility</span>, and <span className="font-bold">User Experience</span>, and also interested in
+              I&#39;m very interested with <span className="font-bold"> Frontend Architecture</span>, <span className="font-bold"> Frontend Accessibility</span>, and <span className="font-bold">User Experience</span>, and also interested in
               mobile development with flutter.
             </p>
 
