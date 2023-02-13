@@ -40,7 +40,7 @@ function NuggetApp() {
             <Nextjs />
           </div>
 
-          <img src="Nugget.jpg" className="w-full mt-7" />
+          <img src="nugget.jpg" className="w-full mt-7" />
 
           <p className="dark:text-white text-base font-poppins mt-5">A simple page I made to improve my slicing skills</p>
 

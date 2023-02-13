@@ -51,7 +51,7 @@ function Portfolio() {
             <div className="flex flex-col">
               <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 " data-aos="fade-up">
                 <picture className="block overflow-hidden ">
-                  <img src="Nugget.jpg" alt="expense-project" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
+                  <img src="nugget.jpg" alt="expense-project" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
                 </picture>
 
                 {/* <Image src="/expenseApp_qFvD7zZ8y.jpg" width={560} height={560} alt="expense_project" className="relative" /> */}

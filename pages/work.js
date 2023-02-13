@@ -114,7 +114,7 @@ function work() {
                   <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 shadow-lg  ">
                       <picture className="block overflow-hidden">
-                        <img src="Nugget.jpg" className="hover:scale-125 ease-in-out duration-700" />
+                        <img src="nugget.jpg" className="hover:scale-125 ease-in-out duration-700" />
                       </picture>
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
