@@ -112,6 +112,26 @@ function work() {
                     </div>
                   </div>
                   <div className="flex flex-col">
+                    <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 shadow-lg  ">
+                      <picture className="block overflow-hidden">
+                        <img src="Nugget.jpg" className="hover:scale-125 ease-in-out duration-700" />
+                      </picture>
+                      <div className="mt-3 p-4">
+                        <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
+                          <Link href="NuggetApp" className="hover:border-b-2 hover:border-dashed ">
+                            {" "}
+                            Nugget Pages
+                          </Link>
+                        </h3>
+                        <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
+                          <TailwindLogo />
+                          <Nextjs />
+                        </div>
+                        <p className="dark:text-white text-gray-700 font-poppins text-base">🍌A simple page I made to improve my slicing skills</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 shadow-lg ">
                       <picture className="block overflow-hidden">
                         <img src="zeitplans.jpg" alt="expense-project" className="hover:scale-125 ease-in-out duration-700" />
