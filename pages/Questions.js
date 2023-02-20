@@ -2,8 +2,6 @@ import React from "react";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Questions from "../components/Questions";
-import Image from "next/image";
-import Faq from "../public/undraw_questions_re_1fy7.svg";
 
 function Question() {
   return (
@@ -20,7 +18,9 @@ function Question() {
                 Questions
               </h2>
               <div className="mt-20">
-                <Image src={Faq} alt="Questions" width="400" />
+                <picture>
+                  <img src="undraw_questions_re_1fy7.svg" alt="Questions" width="400" />
+                </picture>
               </div>
             </div>
             <p className="dark:text-white text-gray-700 font-poppins text-base mt-4">Di Bawah Ini adalah Beberapa pertanyaan Yang Sering Di tanyakan</p>
