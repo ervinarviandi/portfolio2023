@@ -160,7 +160,7 @@ function work() {
                   <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200  shadow-lg">
                       <picture className="block overflow-hidden">
-                        <img src="expenseApp_qFvD7zZ8y.jpg" className="hover:scale-125 ease-in-out duration-700" />
+                        <img src="Crud Ci.jpg" className="hover:scale-125 ease-in-out duration-700" alt="Crud Ci" />
                       </picture>
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-white text-gray-700 font-bold border-b-2 border-dashed border-transparent font-poppins text-[22px]">

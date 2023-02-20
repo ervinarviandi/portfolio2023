@@ -8,7 +8,7 @@ function MyContact() {
     <>
       <Navigation />
 
-      <main className="mt-[98px] mx-auto md:max-w-4xl xl:max-w-4xl bg-primary rounded-lg lg:flex md:flex w-screen mx-auto hidden lg:block md:block">
+      <main className="mt-[98px] mx-auto md:max-w-4xl xl:max-w-4xl dark:bg-primary rounded-lg lg:flex md:flex w-screen mx-auto hidden lg:block md:block">
         {/* Contact */}
         <div className="w-7/12 flex flex-row items-center px-[90px]">
           <div>
@@ -21,19 +21,19 @@ function MyContact() {
             <form name="ervin-contact-form">
               <div className="w-full">
                 <div className="w-full px-4 mb-8">
-                  <label for="name" class="text-base font-bold text-primary">
+                  <label for="name" class="text-base font-bold dark:text-white">
                     Nama
                   </label>
                   <input type="text" id="name" name="nama" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500" />
                 </div>
                 <div className="w-full px-4 mb-8">
-                  <label for="email" class="text-base font-bold text-primary">
+                  <label for="email" class="text-base font-bold dark:text-white">
                     Email
                   </label>
                   <input type="email" id="email" name="email" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500" />
                 </div>
                 <div class="w-full px-4 mb-8">
-                  <label for="message" className="text-base font-bold text-primary">
+                  <label for="message" className="text-base font-bold dark:text-white">
                     Pesan
                   </label>
                   <textarea type="message" id="name" name="pesan" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500 h-32" />
@@ -83,19 +83,19 @@ function MyContact() {
               <form name="ervin-contact-form">
                 <div className="w-full lg:w-7/12 ">
                   <div className="w-full px-4 mb-8">
-                    <label for="name" class="text-base font-bold text-primary">
+                    <label for="name" class="text-base font-bold  dark:text-white">
                       Nama
                     </label>
                     <input type="text" id="name" name="nama" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500" />
                   </div>
                   <div className="w-full px-4 mb-8">
-                    <label for="email" class="text-base font-bold text-primary">
+                    <label for="email" class="text-base font-bold dark:text-white">
                       Email
                     </label>
                     <input type="email" id="email" name="email" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500" />
                   </div>
                   <div class="w-full px-4 mb-8">
-                    <label for="message" className="text-base font-bold text-primary">
+                    <label for="message" className="text-base font-bold  dark:text-white">
                       Pesan
                     </label>
                     <textarea type="message" id="name" name="pesan" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500 h-32" />
@@ -112,7 +112,9 @@ function MyContact() {
             {/* Hero */}
 
             <div className="relative py-4">
-              <img src="right-side-arrow.png" width="90" height="90" className="inset-y-0  right-0 mt-60 mr-9 md:block hidden " />
+              <picture>
+                <img src="right-side-arrow.png" width="90" height="90" className="inset-y-0  right-0 mt-60 mr-9 md:block hidden " alt="icons" />
+              </picture>
             </div>
             <div className=" dark:bg-primary rounded-lg  px-4  h-96 w-full md:w-5/12  mt-10 ">
               <figure className="shadow-lg">
