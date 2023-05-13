@@ -65,7 +65,7 @@ const Navigation = () => {
   };
 
   return (
-    <div style={{ backgroundColor: `${color}` }} className="fixed left-0 top-0 w-full  ease-in duration-300 dark:text-white backdrop-blur-md bg-black/90 shadow-lg border-b border-purple-700 z-10">
+    <div style={{ backgroundColor: `${color}` }} className="fixed left-0 top-0 w-full  ease-in duration-300 dark:text-white backdrop-blur-md bg-black/90   z-10">
       <hr className="relative h-2 w-full bg-gradient-to-r from-purple-500 to-pink-500 before:absolute before:inset-0 before:bg-gradient-to-r before:from-purple-500 before:from-pink-500 before:to-blue-500 before:animate-pulse" />
       <div className=" md:max-w-5xl xl:max-w-5xl m-auto flex justify-between items-center p-4 ">
         {/* Mobile Button */}
@@ -92,8 +92,8 @@ const Navigation = () => {
           // style={{ color: `${textColor}` }}
           className="hidden sm:flex"
         >
-          <li className="p-4  font-poppins dark:text-white">
-            <Link href="/" className="hover:text-pink-500">
+          <li className="p-4  font-poppins dark:text-white ">
+            <Link href="/" className="hover:text-pink-500 ">
               Home
             </Link>
           </li>

@@ -8,9 +8,9 @@ function MyContact() {
     <>
       <Navigation />
 
-      <main className="mt-[98px] mx-auto md:max-w-4xl xl:max-w-4xl dark:bg-primary rounded-lg lg:flex md:flex w-screen mx-auto hidden lg:block md:block">
+      <main className="mt-[98px] mx-auto md:max-w-4xl xl:max-w-4xl dark:bg-primary bg-gray-300 rounded-lg lg:flex md:flex w-screen mx-auto hidden lg:block md:block">
         {/* Contact */}
-        <div className="w-7/12 flex flex-row items-center px-[90px]">
+        <div className="w-7/12 flex flex-row items-center px-[90px] ">
           <div>
             <div className="mb-10 md:max-w-4xl xl:max-w-4xl">
               <h2 className="text-3xl font-poppins font-extrabold md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r  from-pink-500  to-blue-500 before:relative before:inset-0 before:bg-gradient-to-r before:from-pink-500  before:to-blue-500 ">

@@ -100,7 +100,6 @@ function Hero() {
                 <Link href="https://500px.com/p/muhamadervin34?view=photos" className="dark:text-white text-gray-700">
                   <Si500Px className="hover:text-pink-500" />
                 </Link>
-                z
               </div>
               <div className="mt-12 " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
                 <Button
