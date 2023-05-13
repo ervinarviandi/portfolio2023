@@ -11,6 +11,12 @@
   }
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .custom-img {
   background-image: url(../public/bg-hero.svg);
 }

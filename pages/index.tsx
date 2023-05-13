@@ -13,10 +13,12 @@ import Articles from "../components/Articles";
 import Portfolio from "../components/Portfolio";
 import Footer from "../components/Footer";
 import Techstack from "../components/Techstack";
+import LoaderScreen from "../components/LoaderScreen";
 
 function index() {
   return (
     <>
+      <LoaderScreen />
       <Navigation />
       <Hero />
       <Articles />

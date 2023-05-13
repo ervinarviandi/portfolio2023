@@ -28,7 +28,7 @@ function Hero() {
     <>
       <div className="px-4 py-12">
         <section className="mt-[96px] mx-auto md:max-w-4xl xl:max-w-4xl custom-img">
-          <marquee className="text-amber-500 font-bold text-2xl p-2 bg-gray-900 rounded-lg"> Website ini masih dalam tahap pengembangan, dan dalam version 2.0 🔨🧐 </marquee>
+          {/* <marquee className="text-amber-500 font-bold text-2xl p-2 bg-gray-900 rounded-lg"> Website ini masih dalam tahap pengembangan, dan dalam version 2.0 🔨🧐 </marquee> */}
 
           <img src="ervinarviandi.jpg " className="w-48 h-48 md:w-50 md:h-50 md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" data-aos="fade-up" />
           <div className="flex flex-wrap">
