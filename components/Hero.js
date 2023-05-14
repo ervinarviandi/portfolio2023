@@ -27,7 +27,7 @@ function Hero() {
   return (
     <>
       <div className="px-4 py-12">
-        <section className="mt-[96px] mx-auto md:max-w-4xl xl:max-w-4xl custom-img">
+        <motion.section className="mt-[96px] mx-auto md:max-w-4xl xl:max-w-4xl custom-img " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 3.5, type: "spring" }}>
           {/* <marquee className="text-amber-500 font-bold text-2xl p-2 bg-gray-900 rounded-lg"> Website ini masih dalam tahap pengembangan, dan dalam version 2.0 🔨🧐 </marquee> */}
 
           <img src="ervinarviandi.jpg " className="w-48 h-48 md:w-50 md:h-50 md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" data-aos="fade-up" />
@@ -118,14 +118,14 @@ function Hero() {
                 </figure>
               </div>
             </div>
-            <div className="absolute bottom-0 left-0 animate-bounce md:block hidden ">
+            {/* <div className="absolute bottom-0 left-0 animate-bounce md:block hidden ">
               <h2 className="flex items-center  font-poppins dark:text-pink-700 text-gray-700 text-2xl rotate-90 ">
                 Scroll Down <BsFillArrowRightCircleFill className="ml-2" />
               </h2>
-            </div>
+            </div> */}
             {/* <Label className="sticky" /> */}
           </div>
-        </section>
+        </motion.section>
       </div>
     </>
   );
