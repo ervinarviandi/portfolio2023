@@ -91,7 +91,7 @@ function Certificate() {
             <div className="flex flex-col">
               <figure className=" mt-4">
                 <motion.div initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.9, type: "spring" }}>
-                  <img src="cintessa.jpg" className="hover:brightness-50" alt="cerificate" />
+                  <img src="Cintessa.jpg" className="hover:brightness-50" alt="cerificate" />
                 </motion.div>
                 <div className=""></div>
               </figure>
