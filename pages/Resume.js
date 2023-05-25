@@ -1,7 +1,6 @@
 import React from "react";
 import Error from "../components/Error";
-
-const Snippet = () => {
+const Resume = () => {
   return (
     <div>
       <Error />
@@ -9,4 +8,4 @@ const Snippet = () => {
   );
 };
 
-export default Snippet;
+export default Resume;
