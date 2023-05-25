@@ -28,7 +28,7 @@ function Footer() {
                     <Link href="/Questions">Questions</Link>
                   </li>
                   <li className="hover:text-pink-500">
-                    <Link href="/b">Snippet</Link>
+                    <Link href="/Snippet">Snippet</Link>
                   </li>
                   <li className="hover:text-pink-500">
                     <Link href="/b">Resume</Link>
