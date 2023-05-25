@@ -48,7 +48,7 @@ function Questions() {
                     <ChevronUpIcon className={`${open ? "rotate-180 transform" : ""} h-5 w-5 text-purple-500`} />
                   </Disclosure.Button>
                   <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500 dark:text-white">
-                    kalian bisa lihat di website roadmap.sh, atau di chanel web programming unpas(WPU), dan masih banyak lagi, tergantung kalian mau jadi web developer atau app mobile developer.
+                    kalian bisa mengunjungi website roadmap.sh, disana  atau di chanel web programming unpas(WPU), dan masih banyak lagi, tergantung kalian mau jadi web developer atau app mobile developer.
                   </Disclosure.Panel>
                 </>
               )}

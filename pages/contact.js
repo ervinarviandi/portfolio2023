@@ -50,7 +50,7 @@ function errorPage() {
                     >
                       Kirim
                     </Button>
-                  </div>
+                  </div>z
                 </div>
               </form>
             </div>
