@@ -14,7 +14,7 @@ const Snippet = () => {
         </marquee>
         <Link
           href="/"
-          className="flex w-4/12 mx-auto justify-center items-center text-center px-6 py-2 rounded-lg  font-poppins font-bold bg-amber-500
+          className="flex lg:w-4/12 mx-auto justify-center items-center text-center px-6 py-2 rounded-lg  font-poppins font-bold bg-amber-500
        "
         >
           <RiHomeGearFill className="mr-2 animate animate-bounce" />
