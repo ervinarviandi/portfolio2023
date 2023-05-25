@@ -116,10 +116,10 @@ function MyContact() {
                 <img src="right-side-arrow.png" width="90" height="90" className="inset-y-0  right-0 mt-60 mr-9 md:block hidden " alt="icons" />
               </picture>
             </div>
-            <div className=" dark:bg-primary rounded-lg  px-4  h-96 w-full md:w-5/12  mt-10 ">
+            <div className=" dark:bg-primary rounded-lg  px-4  h-screen w-full md:w-5/12  mt-10 ">
               <figure className="shadow-lg">
                 <iframe
-                  className="w-full h-96 "
+                  className="w-full h-screen "
                   width=""
                   id="gmap_canvas"
                   // src="https://maps.google.com/maps?q=wawo,Dompu,%20West%20Nusa%20Tenggara&t=&z=15&ie=UTF8&iwloc=&output=embed"
