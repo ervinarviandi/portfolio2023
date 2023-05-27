@@ -14,7 +14,7 @@ function Certificate() {
               Certificate
             </h2>
           </div>
-          <p className="dark:text-white text-gray-700 text-base font-poppins mt-4">Di bawah ini adalah beberapa sertifikat yang pernah saya dapatkan saat mengikuti beberapa event dari dicoding </p>
+          <p className="dark:text-white text-gray-700 text-base font-poppins mt-4">Di bawah ini adalah beberapa sertifikat yang pernah saya dapatkan saat mengikuti beberapa event dan webinar </p>
 
           <div className="grid md:grid-cols-2 gap-5">
             <div className="flex flex-col">
