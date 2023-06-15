@@ -8,12 +8,12 @@ import CssLogo from "../src/CssLogo";
 import JavascriptLogo from "../src/JavascriptLogo";
 import ReactLogo from "../src/ReactLogo";
 import CodeigniterLogo from "../src/CodeigniterLogo";
-// import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Footer from "../components/Footer";
 import { Tab } from "@headlessui/react";
 import classNames from "classnames";
 import { motion } from "framer-motion";
 import Link from "next/link";
+
 function work() {
   return (
     <>
@@ -181,20 +181,20 @@ function work() {
                   <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 shadow-lg ">
                       <picture className="block overflow-hidden">
-                        <img src="notta.jpg" className="hover:scale-125 ease-in-out duration-700" />
+                        <img src="bubble-cleaner.jpg" className="hover:scale-125 ease-in-out duration-700" />
                       </picture>
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
-                          <a className="hover:border-b-2 hover:border-dashed " href="https://react-link.vercel.app/">
+                          <a className="hover:border-b-2 hover:border-dashed " href="https://bubble-cleaner-4rq1.vercel.app/">
                             {" "}
-                            Notta
+                            Bubble Cleaner
                           </a>
                         </h3>
                         <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
                           <TailwindLogo />
                           <ReactLogo />
                         </div>
-                        <p className="dark:text-white text-gray-700 font-poppins text-base">App submission for Dicoding React course, Simple note taking app.</p>
+                        <p className="dark:text-white text-gray-700 font-poppins text-base">a simple landing page bubble cleaner i made to improve my slicing .</p>
                       </div>
                     </div>
                   </div>
@@ -205,7 +205,7 @@ function work() {
                       </picture>
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-white font-bold font-poppins text-[22px]">
-                          <a className="hover:border-b-2 hover:border-dashed " href="https://react-link.vercel.app/">
+                          <a className="hover:border-b-2 hover:border-dashed " href="#">
                             {" "}
                             Work.ly
                           </a>
