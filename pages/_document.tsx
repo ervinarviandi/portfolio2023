@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <link rel="shortcut icon" href="/favicon-16x16.png" className="rounded-full" />
+      <link rel="shortcut icon" href="/ervin-favicon.png" />
       <title className="font-poppins">Ervin Arviandi Frontend Developer</title>
       <body>
         <Main />
