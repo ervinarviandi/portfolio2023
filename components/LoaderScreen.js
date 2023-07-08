@@ -12,10 +12,10 @@ const LoaderScreen = () => {
           Hello
         </motion.span>
         <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1.1 }, transitionEnd: { display: "none" } }} className=" font-poppins">
-          Merhaba
+          Annyeong
         </motion.span>
         <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1.4 }, transitionEnd: { display: "none" } }} className=" font-poppins">
-          안녕하세요
+          Bonjour
         </motion.span>
         <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1.7 }, transitionEnd: { display: "none" } }} className=" font-poppins">
           مرحبًا
@@ -30,7 +30,7 @@ const LoaderScreen = () => {
           Allinllachu
         </motion.span>
         <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 2.9 } }} className=" font-poppins">
-          こんにちは
+          konnichiwa
         </motion.span>
       </div>
     </motion.section>
