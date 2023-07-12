@@ -83,22 +83,22 @@ function Hero() {
               </p>
               <div className="flex flex-wrap space-x-4 text-2xl ">
                 <Link href="https://github.com/ervinarviandi" className="dark:text-white text-gray-700 ">
-                  <BsGithub className="hover:text-pink-500" />
+                  <BsGithub className="hover:text-blue-500" />
                 </Link>
                 <Link href="https://www.instagram.com/ervinarviandi/" className="dark:text-white text-gray-700 ">
-                  <BsInstagram className="hover:text-pink-500" />
+                  <BsInstagram className="hover:text-blue-500" />
                 </Link>
                 <Link href="https://www.showwcase.com/ervinarviandi" className="dark:text-white text-gray-700">
-                  <BsGlobe2 className="hover:text-pink-500" />
+                  <BsGlobe2 className="hover:text-blue-500" />
                 </Link>
                 <Link href="https://react-link.vercel.app/" className="dark:text-white text-gray-700 ">
-                  <BsLink45Deg className="hover:text-pink-500" />
+                  <BsLink45Deg className="hover:text-blue-500" />
                 </Link>
                 <Link href="mailto:muhamadervin34@gmail.com" className="dark:text-white text-gray-700">
-                  <MdEmail className="hover:text-pink-500" />
+                  <MdEmail className="hover:text-blue-500" />
                 </Link>
                 <Link href="https://500px.com/p/muhamadervin34?view=photos" className="dark:text-white text-gray-700">
-                  <Si500Px className="hover:text-pink-500" />
+                  <Si500Px className="hover:text-blue-500" />
                 </Link>
               </div>
               <div className="mt-12 " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>

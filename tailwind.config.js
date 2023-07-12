@@ -13,7 +13,11 @@ module.exports = {
         // backgrounddark: "#111111",
         backgrounddark: "#191a20",
         blue10: "#2771dc",
-        blue20: "36adcb",
+        blue20: "#36adcb",
+        orange: "#f56c40",
+        yellow: "#ffb74a",
+        sky50: "#02b0e8",
+        secondary: "#303137",
         primary: "#191919",
       },
       zIndex: {
