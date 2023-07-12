@@ -36,7 +36,7 @@ function Hero() {
               <h2 className="flex flex-col text-gray-700 font-light text-[34px] font-bold dark:text-white font-poppins" data-aos="fade-up">
                 Muhammad Ervin Arviandi
               </h2>
-              <h5 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-[24px] mt-7 font-poppins " data-aos="fade-up" data-aos-delay="100">
+              <h5 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-sky-400 text-[24px] mt-7 font-poppins " data-aos="fade-up" data-aos-delay="100">
                 Frontend Developer
               </h5>
               <div className="absolute top-20 -z-20 md:top-30 md:left-30">
@@ -55,7 +55,7 @@ function Hero() {
               <div className=" flex items-center space-x-4 typewriter  relative mt-6">
                 <span className=" dark:text-white text-gray-700 text-lg"> I&#39;m a {""} </span>
                 <TypeAnimation
-                  className="text-writer flex text-pink-500 ml-4 font-bold items-center  text-lg font-poppins"
+                  className="text-writer flex text-blue-500 ml-4 font-bold items-center  text-lg font-poppins"
                   sequence={[
                     "Developer 💻", // Types 'One'
                     1000, // Waits 1s
@@ -75,7 +75,7 @@ function Hero() {
               </div>
               <p className="py-4  font-poppins text-base text-gray-700 dark:text-white">
                 Hello 👋 I&#39;m <br />
-                <a href="https://www.showwcase.com/ervinarviandi" className="underline decoration-pink-500 hover:text-pink-200 font-poppins text-base space-x-2">
+                <a href="https://www.showwcase.com/ervinarviandi" className="underline decoration-blue-500 hover:text-sky-500 font-poppins text-base space-x-2">
                   Muhammad Ervin Arviandi
                 </a>
                 {/* , saya orang yang sangat suka dengan desain grafis, coding, musik, dan kopi, selamat datang di website pribadi saya dimana kalian, dapat menemukan portfolio, blog dan lainnya. */}, a guy who loves to code, music and
@@ -104,7 +104,7 @@ function Hero() {
               <div className="mt-12 " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
                 <Button
                   href="https://resume.showwcase.com/ervinarviandi.pdf"
-                  className="absolute flex font-poppins text-base items-center  border-2 border-pink-500 dark:text-white text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg "
+                  className="absolute flex font-poppins text-base items-center  border-2 border-blue-500 dark:text-white text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg "
                 >
                   Download CV
                   <AiFillFilePdf className="ml-3" />

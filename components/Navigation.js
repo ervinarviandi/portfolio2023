@@ -95,27 +95,27 @@ const Navigation = () => {
           className="hidden sm:flex"
         >
           <li className="p-4  font-poppins dark:text-white ">
-            <Link href="/" className="hover:text-pink-500 ">
+            <Link href="/" className="hover:text-sky-500 ">
               Home
             </Link>
           </li>
           <li className="p-4 font-poppins dark:text-white">
-            <Link href="/about" className=" hover:text-pink-500">
+            <Link href="/about" className=" hover:text-sky-500">
               About
             </Link>
           </li>
           <li className="p-4  font-poppins dark:text-white">
-            <Link href="/work" className="hover:text-pink-500">
+            <Link href="/work" className="hover:text-sky-500">
               Portfolio
             </Link>
           </li>
           <li className="p-4  font-poppins dark:text-white">
-            <Link href="/MyBlog" className="hover:text-pink-500">
+            <Link href="/MyBlog" className="hover:text-sky-500">
               Blog
             </Link>
           </li>
           <li className="p-4  font-poppins dark:text-white">
-            <Link href="/GuestBook" className="hover:text-pink-500">
+            <Link href="/GuestBook" className="hover:text-sky-500">
               Guestbook
             </Link>
           </li>
@@ -125,7 +125,7 @@ const Navigation = () => {
             </Link>
           </li> */}
           <li className="p-4  font-poppins dark:text-white">
-            <Link href="/MyContact" className="hover:text-pink-500">
+            <Link href="/MyContact" className="hover:text-sky-500">
               Contact
             </Link>
           </li>
@@ -146,27 +146,27 @@ const Navigation = () => {
           }
         >
           <ul>
-            <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
+            <li className="p-4 text-2xl hover:text-sky-500 font-poppins text-white">
               <Link href="/">Home</Link>
             </li>
             <hr className="text-sky-500 w-[100%]" />
-            <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
+            <li className="p-4 text-2xl hover:text-sky-500 font-poppins text-white">
               <Link href="/about">About</Link>
             </li>
             <hr />
-            <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
+            <li className="p-4 text-2xl hover:text-sky-500 font-poppins text-white">
               <Link href="/work">Portfolio</Link>
             </li>
             <hr />
-            <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
+            <li className="p-4 text-2xl hover:text-sky-500 font-poppins text-white">
               <Link href="/MyBlog">Blog</Link>
             </li>
             <hr />
-            <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
+            <li className="p-4 text-2xl hover:text-sky-500 font-poppins text-white">
               <Link href="/GuestBook">GuestBook</Link>
             </li>
             <hr />
-            <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
+            <li className="p-4 text-2xl hover:text-sky-500 font-poppins text-white">
               <Link href="/MyContact">Contact</Link>
             </li>
             <hr />
