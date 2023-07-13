@@ -81,8 +81,10 @@ const Navigation = () => {
           )}
         </div>
         <Link href="/" className="flex items-center space-x-3">
-          <img src="/ervinarviandi.jpg" className="w-9 h-9 md:w-10 md:h-10 rounded-full" />
-          {/* <img src="/ervin-logo.png" alt="ervin-brand" className="w-9 h-9 md:w-10 md:h-10" /> */}
+          {/* <img src="/ervinarviandi.jpg" className="w-9 h-9 md:w-10 md:h-10 rounded-full" /> */}
+          <div>
+            <video src="/Myvideo.mp4" autoPlay loop width={20} height={20} className="rounded-full" />
+          </div>
           <h1
             // style={{ color: `${textColor}` }}
             className="font-bold text-1xl z-index: 50 font-poppins text-[18px] dark:text-white"
