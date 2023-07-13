@@ -10,20 +10,6 @@
     /* background-color: #f0e7db; */
     background-color: white;
   }
-
-  .hero {
-    background-image: url(../public/bgpatern7.png);
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
-  }
-
-  .articles {
-    background-image: url(../public//bgpatern4.png);
-  }
-
-  .portfolio {
-    background-image: url(../public//bgpatern4.png);
-  }
 }
 
 * {
@@ -34,4 +20,8 @@
 
 .custom-img {
   background-image: url(../public/bg-hero.svg);
+}
+
+.hero {
+  background-image: url(../public/paternbg1.png);
 }

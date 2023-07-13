@@ -36,7 +36,7 @@ function MyBlog() {
               It looks like you`re interested in my posts. You`re welcome to take a look and read them, and they`re sorted by date so you can easily find the newest ones.
             </p>
 
-            <figure className="relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-double ">
+            <figure className=" border-dashed dark:border-white border-black border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:rounded-lg before:bg-gradient-to-r from-orange to-yellow  before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-solid backdrop-blur">
               <h2 className="dark:text-white text-gray-700 text-3xl font-poppins  ">
                 <Link href="/Blog" className="hover:border-b-2 hover:border-dashed">
                   How to Install Git on Windows & configuration
@@ -59,7 +59,7 @@ function MyBlog() {
               </div>
             </figure>
 
-            <figure className="relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-double ">
+            <figure className=" border-dashed dark:border-white border-black border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:rounded-lg before:bg-gradient-to-r from-orange to-yellow  before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-solid backdrop-blur">
               <h2 className="dark:text-white text-gray-700 text-3xl font-poppins  ">
                 <Link href="/NodeBlog" className="hover:border-b-2 hover:border-dashed">
                   How to Install Node Js & NPM on Windows <IoLogoNodejs />
@@ -81,10 +81,11 @@ function MyBlog() {
               </div>
             </figure>
 
-            <figure className="relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-double ">
+            <figure className=" border-dashed dark:border-white border-black border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:rounded-lg before:bg-gradient-to-r from-orange to-yellow  before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-solid backdrop-blur ">
               <h2 className="dark:text-white text-gray-700 text-3xl font-poppins  ">
                 <Link href="/NodeBlog" className="hover:border-b-2 hover:border-dashed">
-                  How To Install Next Js <Nextjs />
+                  make a website fast, simple using astro
+                  <Nextjs />
                 </Link>
               </h2>
               <div className="md:flex justify-between items-center space-x-3">
@@ -103,13 +104,13 @@ function MyBlog() {
               </div>
             </figure>
           </div>
-          <div className="mt-[20px]">
+          {/* <div className="mt-[20px]">
             <Tippy content="Hello ini button" followCursor={true} plugins={[followCursor]} placement="top" animation="perspective-extreme" theme="light">
               <button className="relative border-2 dark:text-white text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
                 Ini Button
               </button>
             </Tippy>
-          </div>
+          </div> */}
         </section>
         <Footer />
       </div>

@@ -34,7 +34,7 @@ function work() {
             I`ve put together a portfolio of my personal work, mostly from my junior years. Yo`re welcome to take a look and explore. Some of the portfolios even have website demos that you can try out if you,d like.
           </p>
           <Tab.Group manual>
-            <Tab.List className="flex space-x-1 rounded-full bg-primary p-1 text-white ">
+            <Tab.List className="flex space-x-1 rounded-full dark:bg-card100 bg-card200 p-1 text-white ">
               <Tab
                 className={({ selected }) =>
                   classNames(
@@ -70,7 +70,7 @@ function work() {
               <Tab.Panel className="rounded-xl dark:bg-backgrounddark p-3">
                 <div className="grid md:grid-cols-2 gap-5 ">
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 ">
+                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 ">
                       <picture className="block overflow-hidden ">
                         <img src="qr-generator.jpg" alt="expense-project" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
                       </picture>
@@ -92,7 +92,7 @@ function work() {
                     </div>
                   </div>
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 shadow-lg  ">
+                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200   ">
                       <picture className="block overflow-hidden">
                         <img src="reactlink.jpg" className="hover:scale-125 ease-in-out duration-700" />
                       </picture>
@@ -112,7 +112,7 @@ function work() {
                     </div>
                   </div>
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 shadow-lg  ">
+                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200   ">
                       <picture className="block overflow-hidden">
                         <img src="nugget.jpg" className="hover:scale-125 ease-in-out duration-700" />
                       </picture>
@@ -132,7 +132,7 @@ function work() {
                     </div>
                   </div>
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 shadow-lg ">
+                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 ">
                       <picture className="block overflow-hidden">
                         <img src="zeitplans.jpg" alt="expense-project" className="hover:scale-125 ease-in-out duration-700" />
                       </picture>
@@ -158,7 +158,7 @@ function work() {
                   </div>
 
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200  shadow-lg">
+                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 ">
                       <picture className="block overflow-hidden">
                         <img src="Crud Ci.jpg" className="hover:scale-125 ease-in-out duration-700" alt="Crud Ci" />
                       </picture>
@@ -179,7 +179,7 @@ function work() {
                   </div>
 
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 shadow-lg ">
+                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200  ">
                       <picture className="block overflow-hidden">
                         <img src="bubble-cleaner.jpg" className="hover:scale-125 ease-in-out duration-700" />
                       </picture>
@@ -199,7 +199,7 @@ function work() {
                     </div>
                   </div>
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 shadow-lg ">
+                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 ">
                       <picture className=" block overflow-hidden">
                         <img src="workly.jpg" className="hover:scale-125 ease-in-out duration-700" />
                       </picture>
@@ -223,7 +223,7 @@ function work() {
               <Tab.Panel className="rounded-xl dark:bg-backgrounddark p-3 dark:text-white text-gray-700">
                 <div className="grid md:grid-cols-2 gap-5">
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 shadow-lg">
+                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 shadow-lg">
                       <picture className="block overflow-hidden">
                         <img src="logo.png" className="hover:scale-125 ease-in-out duration-700" alt="logo" />
                       </picture>

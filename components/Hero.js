@@ -33,10 +33,10 @@ function Hero() {
           <img src="ervinarviandi.jpg " className="w-48 h-48 md:w-50 md:h-50 md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" data-aos="fade-up" />
           <div className="flex flex-wrap">
             <div className="w-full self-center px-4 lg:w-1/2" data-aos="fade-up">
-              <h2 className="flex flex-col text-gray-700 font-light text-[34px] font-bold dark:text-white font-figtree" data-aos="fade-up">
-                ervin arviandi.
+              <h2 className="flex flex-col text-gray-700 font-light text-2xl font-bold dark:text-white font-figtree" data-aos="fade-up">
+                Muhammad Ervin Arviandi.
               </h2>
-              <h5 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-sky-400 text-[24px] mt-7 font-poppins " data-aos="fade-up" data-aos-delay="100">
+              <h5 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-600 to-bg-blue-500 text-[24px] mt-7 font-poppins" data-aos="fade-up" data-aos-delay="100">
                 Frontend Developer
               </h5>
               <div className="absolute top-20 -z-20 md:top-30 md:left-30">
@@ -83,22 +83,22 @@ function Hero() {
               </p>
               <div className="flex flex-wrap space-x-4 text-2xl ">
                 <Link href="https://github.com/ervinarviandi" className="dark:text-white text-gray-700 ">
-                  <BsGithub className="hover:text-blue-500" />
+                  <BsGithub className="hover:text-pink-500" />
                 </Link>
                 <Link href="https://www.instagram.com/ervinarviandi/" className="dark:text-white text-gray-700 ">
-                  <BsInstagram className="hover:text-blue-500" />
+                  <BsInstagram className="hover:text-pink-500" />
                 </Link>
                 <Link href="https://www.showwcase.com/ervinarviandi" className="dark:text-white text-gray-700">
-                  <BsGlobe2 className="hover:text-blue-500" />
+                  <BsGlobe2 className="hover:text-pink-500" />
                 </Link>
                 <Link href="https://react-link.vercel.app/" className="dark:text-white text-gray-700 ">
-                  <BsLink45Deg className="hover:text-blue-500" />
+                  <BsLink45Deg className="hover:text-pink-500" />
                 </Link>
                 <Link href="mailto:muhamadervin34@gmail.com" className="dark:text-white text-gray-700">
-                  <MdEmail className="hover:text-blue-500" />
+                  <MdEmail className="hover:text-pink-500" />
                 </Link>
                 <Link href="https://500px.com/p/muhamadervin34?view=photos" className="dark:text-white text-gray-700">
-                  <Si500Px className="hover:text-blue-500" />
+                  <Si500Px className="hover:text-pink-500" />
                 </Link>
               </div>
               <div className="mt-12 " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>

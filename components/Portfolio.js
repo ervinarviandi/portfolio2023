@@ -12,7 +12,7 @@ import "aos/dist/aos.css";
 
 function Portfolio() {
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({ duration: 1000, once: true, disable: false, startEvent: "DOMContentLoaded", initClassName: "aos-init", animatedClassName: "aos-animate", useClassNames: false, disableMutationObserver: true });
   }, []);
   return (
     <>
@@ -49,29 +49,27 @@ function Portfolio() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 " data-aos="fade-up">
-                <picture className="block overflow-hidden ">
-                  <img src="nugget.jpg" alt="expense-project" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
+              <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 " data-aos="fade-up" data-aos-delay="300">
+                <picture className="block overflow-hidden">
+                  <img src="bubble-cleaner.jpg" className="hover:scale-125 ease-in-out duration-700" />
                 </picture>
-
-                {/* <Image src="/expenseApp_qFvD7zZ8y.jpg" width={560} height={560} alt="expense_project" className="relative" /> */}
                 <div className="mt-3 p-4">
-                  <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px] ">
-                    <a className="dark:hover:border-b-2 dark:hover:border-dashed  " href="NuggetApp">
+                  <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
+                    <a className="hover:border-b-2 hover:border-dashed " href="https://bubble-cleaner-4rq1.vercel.app/">
                       {" "}
-                      Nugget Pages
+                      Bubble Cleaner
                     </a>
                   </h3>
                   <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
                     <TailwindLogo />
-                    <Nextjs />
+                    <ReactLogo />
                   </div>
-                  <p className="dark:text-white text-gray-700 font-poppins text-base">🍌A simple page I made to improve my slicing skills </p>
+                  <p className="dark:text-white text-gray-700 font-poppins text-base">a simple landing page bubble cleaner i made to improve my slicing .</p>
                 </div>
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 " data-aos="fade-up" data-aos-delay="300">
+              <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 " data-aos="fade-up" data-aos-delay="400">
                 <picture className="block overflow-hidden">
                   <img src="Crud Ci.jpg" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
                 </picture>
@@ -91,7 +89,7 @@ function Portfolio() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200" data-aos="fade-up">
+              <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200" data-aos="fade-up" data-aos-delay="500">
                 <picture className="block overflow-hidden">
                   <img src="reactlink.jpg" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
                 </picture>
@@ -114,9 +112,9 @@ function Portfolio() {
           <div className=" mt-[30px] ">
             <p className=" flex items-center dark:text-white text-gray-700" data-aos="fade-up">
               {/* <a href="">See All Portfolio</a> */}
-              <Link href="/work" className="flex items-center  dark:hover:text-blue-500 hover:font-bold font-poppins">
+              <Link href="/work" className="flex items-center  dark:hover:text-pink-500 hover:font-bold font-poppins">
                 See All Portfolio
-                <BsFillArrowRightCircleFill className="ml-5 dark:text-white text-gray-700 text-2xl dark:hover:text-blue-500" />
+                <BsFillArrowRightCircleFill className="ml-5 dark:text-white text-gray-700 text-2xl dark:hover:text-pink-500" />
               </Link>
             </p>
           </div>

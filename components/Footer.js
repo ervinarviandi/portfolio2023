@@ -62,8 +62,11 @@ function Footer() {
               <Si500Px className="dark:text-slate-300 dark:hover:text-pink-500 hover:text-pink-500 text-gray-500" />
             </Link>
           </div>
-          <div className="mt-[20px]">
-            <p className="dark:text-slate-300 text-center font-poppins">
+          <div className="mt-[20px] flex justify-center items-center gap-x-2">
+            <div>
+              <video src="/Myvideo.mp4" autoPlay loop width={20} height={20} className="rounded-full" />
+            </div>
+            <p className="dark:text-slate-300 text-gray-500 text-center font-poppins">
               Copyright &copy; 2023 Develop by{" "}
               <a href="" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                 Ervin Arviandi

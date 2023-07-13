@@ -8,12 +8,12 @@ function MyContact() {
     <>
       <Navigation />
 
-      <main className="mt-[98px] mx-auto md:max-w-4xl xl:max-w-4xl dark:bg-primary bg-gray-300 rounded-lg lg:flex md:flex w-screen mx-auto hidden lg:block md:block">
+      <main className="mt-[98px] mx-auto md:max-w-4xl xl:max-w-4xl dark:bg-card100 bg-card200 rounded-lg lg:flex md:flex w-screen mx-auto hidden lg:block md:block">
         {/* Contact */}
         <div className="w-7/12 flex flex-row items-center px-[90px] ">
           <div>
             <div className="mb-10 md:max-w-4xl xl:max-w-4xl">
-              <h2 className="text-3xl font-poppins font-extrabold md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r  from-pink-500  to-blue-500 before:relative before:inset-0 before:bg-gradient-to-r before:from-pink-500  before:to-blue-500 ">
+              <h2 className="text-3xl font-poppins font-extrabold md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r bg-gradient-to-r from-purple-400 via-pink-600 to-bg-blue-500 before:relative before:inset-0 before:bg-gradient-to-r before:from-pink-500  before:to-blue-500 ">
                 Contact
               </h2>
             </div>
@@ -39,7 +39,7 @@ function MyContact() {
                   <textarea type="message" id="name" name="pesan" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500 h-32" />
                 </div>
                 <div className=" w-full px-4">
-                  <Button href="" className="   absolute flex font-poppins text-base items-center border-pink-500 border-2 dark:text-white text-gray-200  py-2 px-5  rounded-lg bg-gradient-to-r from-pink-500 to-blue-500 ">
+                  <Button href="" className="   absolute flex font-poppins text-base items-center dark:text-white text-gray-200 font-poppins py-2 px-5  rounded-lg bg-pink-500  ">
                     Kirim
                   </Button>
                 </div>
@@ -73,11 +73,11 @@ function MyContact() {
       <main className="px-4 py-12 lg:hidden md:hidden xl:hidden block">
         <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl ">
           <div className="mb-10">
-            <h2 className="text-3xl font-poppins font-extrabold md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r  from-pink-500  to-blue-500 before:relative before:inset-0 before:bg-gradient-to-r before:from-pink-500  before:to-blue-500 ">
+            <h2 className="text-3xl font-poppins font-extrabold md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r  bg-gradient-to-r from-purple-400 via-pink-600 to-bg-blue-500 before:relative before:inset-0 before:bg-gradient-to-r before:from-pink-500  before:to-blue-500 ">
               Contact
             </h2>
           </div>
-          <main className="md:flex lg:flex dark:bg-primary mt-10 rounded-lg py-4">
+          <main className="md:flex lg:flex dark:bg-card100 bg-card200 mt-10 rounded-lg py-4">
             {/* Headline */}
             <div className="md:w-7/12 mb-56">
               <form name="ervin-contact-form">
@@ -116,7 +116,7 @@ function MyContact() {
                 <img src="right-side-arrow.png" width="90" height="90" className="inset-y-0  right-0 mt-60 mr-9 md:block hidden " alt="icons" />
               </picture>
             </div>
-            <div className=" dark:bg-primary rounded-lg  px-4  h-screen w-full md:w-5/12  mt-10 ">
+            <div className="  rounded-lg  px-4  h-screen w-full md:w-5/12  mt-10 ">
               <figure className="shadow-lg">
                 <iframe
                   className="w-full h-screen "

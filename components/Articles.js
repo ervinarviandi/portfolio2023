@@ -15,7 +15,7 @@ function Articles() {
   return (
     <>
       <main className="px-4 py-12 articles">
-        <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4 ">
+        <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4 border-gradient">
           <h1 className="dark:text-white text-gray-700 text-3xl  mb-10 font-poppins font-bold" data-aos="fade-up">
             Featured Post
           </h1>
@@ -89,9 +89,9 @@ function Articles() {
           <div className=" mt-[30px] ">
             <p className=" flex items-center dark:text-white text-gray-700  hover:font-bold font-poppins" data-aos="fade-up">
               {/* <a href="" className="">See All Post</a> */}
-              <Link href="/MyBlog" className="flex items-center  dark:hover:text-blue-500 hover:font-bold font-poppins">
+              <Link href="/MyBlog" className="flex items-center  dark:hover:text-pink-500 hover:font-bold font-poppins">
                 See All Post
-                <BsFillArrowRightCircleFill className="ml-5 dark:text-white text-gray-700 text-2xl dark:hover:text-blue-500 group" />
+                <BsFillArrowRightCircleFill className="ml-5 dark:text-white text-gray-700 text-2xl dark:hover:text-pink-500 group" />
               </Link>
             </p>
           </div>
