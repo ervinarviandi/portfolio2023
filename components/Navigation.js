@@ -52,7 +52,7 @@ const Navigation = () => {
       );
     } else {
       return (
-        <button className="bg-primary p-2 rounded-lg " onClick={() => setTheme("dark")}>
+        <button className="bg-card200 p-2 rounded-lg " onClick={() => setTheme("dark")}>
           <svg xmlns="http://www.w3.org/2000/svg" fill="#3b82f6" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-6 h-6">
             <path
               stroke-linecap="round"
@@ -83,7 +83,7 @@ const Navigation = () => {
         <Link href="/" className="flex items-center space-x-3">
           {/* <img src="/ervinarviandi.jpg" className="w-9 h-9 md:w-10 md:h-10 rounded-full" /> */}
           <div>
-            <video src="/Myvideo.mp4" autoPlay loop width={20} height={20} className="rounded-full" />
+            <video src="/Myvideo.mp4" autoPlay loop width={30} height={30} className="rounded-full" />
           </div>
           <h1
             // style={{ color: `${textColor}` }}
@@ -97,27 +97,27 @@ const Navigation = () => {
           className="hidden sm:flex"
         >
           <li className="p-4  font-poppins dark:text-white ">
-            <Link href="/" className="hover:text-sky-500 ">
+            <Link href="/" className="hover:text-pink-500 ">
               Home
             </Link>
           </li>
           <li className="p-4 font-poppins dark:text-white">
-            <Link href="/about" className=" hover:text-sky-500">
+            <Link href="/about" className=" hover:text-pink-500">
               About
             </Link>
           </li>
           <li className="p-4  font-poppins dark:text-white">
-            <Link href="/work" className="hover:text-sky-500">
+            <Link href="/work" className="hover:text-pink-500">
               Portfolio
             </Link>
           </li>
           <li className="p-4  font-poppins dark:text-white">
-            <Link href="/MyBlog" className="hover:text-sky-500">
+            <Link href="/MyBlog" className="hover:text-pink-500">
               Blog
             </Link>
           </li>
           <li className="p-4  font-poppins dark:text-white">
-            <Link href="/GuestBook" className="hover:text-sky-500">
+            <Link href="/GuestBook" className="hover:text-pink-500">
               Guestbook
             </Link>
           </li>
@@ -127,7 +127,7 @@ const Navigation = () => {
             </Link>
           </li> */}
           <li className="p-4  font-poppins dark:text-white">
-            <Link href="/MyContact" className="hover:text-sky-500">
+            <Link href="/MyContact" className="hover:text-pink-500">
               Contact
             </Link>
           </li>
@@ -148,27 +148,27 @@ const Navigation = () => {
           }
         >
           <ul>
-            <li className="p-4 text-2xl hover:text-sky-500 font-poppins text-white">
+            <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
               <Link href="/">Home</Link>
             </li>
             <hr className="text-sky-500 w-[100%]" />
-            <li className="p-4 text-2xl hover:text-sky-500 font-poppins text-white">
+            <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
               <Link href="/about">About</Link>
             </li>
             <hr />
-            <li className="p-4 text-2xl hover:text-sky-500 font-poppins text-white">
+            <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
               <Link href="/work">Portfolio</Link>
             </li>
             <hr />
-            <li className="p-4 text-2xl hover:text-sky-500 font-poppins text-white">
+            <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
               <Link href="/MyBlog">Blog</Link>
             </li>
             <hr />
-            <li className="p-4 text-2xl hover:text-sky-500 font-poppins text-white">
+            <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
               <Link href="/GuestBook">GuestBook</Link>
             </li>
             <hr />
-            <li className="p-4 text-2xl hover:text-sky-500 font-poppins text-white">
+            <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
               <Link href="/MyContact">Contact</Link>
             </li>
             <hr />

@@ -17,7 +17,7 @@ function MyBlog() {
   return (
     <>
       <Navigation />
-      <div className="px-4 py-12">
+      <div className="px-4 py-12 blog">
         <section className="mt-[96px] mx-auto md:max-w-4xl xl:max-w-4xl px-4 ">
           <div className="mb-10">
             <h2 className="text-3xl font-poppins font-extrabold md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r  from-pink-500  to-blue-500 before:relative before:inset-0 before:bg-gradient-to-r before:from-pink-500  before:to-blue-500 ">

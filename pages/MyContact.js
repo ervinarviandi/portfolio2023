@@ -8,7 +8,7 @@ function MyContact() {
     <>
       <Navigation />
 
-      <main className="mt-[98px] mx-auto md:max-w-4xl xl:max-w-4xl dark:bg-card100 bg-card200 rounded-lg lg:flex md:flex w-screen mx-auto hidden lg:block md:block">
+      <main className="mt-[98px] mx-auto md:max-w-4xl xl:max-w-4xl dark:bg-card100 bg-card200 rounded-lg lg:flex md:flex w-screen mx-auto hidden lg:block md:block bgik ">
         {/* Contact */}
         <div className="w-7/12 flex flex-row items-center px-[90px] ">
           <div>
@@ -70,14 +70,14 @@ function MyContact() {
         </div>
       </main>
 
-      <main className="px-4 py-12 lg:hidden md:hidden xl:hidden block">
+      <main className="px-4 py-12 lg:hidden md:hidden xl:hidden block bgik">
         <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl ">
           <div className="mb-10">
             <h2 className="text-3xl font-poppins font-extrabold md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r  bg-gradient-to-r from-purple-400 via-pink-600 to-bg-blue-500 before:relative before:inset-0 before:bg-gradient-to-r before:from-pink-500  before:to-blue-500 ">
               Contact
             </h2>
           </div>
-          <main className="md:flex lg:flex dark:bg-card100 bg-card200 mt-10 rounded-lg py-4">
+          <main className="md:flex lg:flex dark:bg-card100 bg-card200 mt-10 rounded-lg py-4 ">
             {/* Headline */}
             <div className="md:w-7/12 mb-56">
               <form name="ervin-contact-form">
