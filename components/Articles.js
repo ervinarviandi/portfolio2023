@@ -15,8 +15,8 @@ function Articles() {
   return (
     <>
       <main className="px-4 py-12 articles">
-        <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4 border-gradient">
-          <h1 className="dark:text-white text-gray-700 text-3xl  mb-10 font-poppins font-bold" data-aos="fade-up">
+        <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4 border-gradient ">
+          <h1 className="dark:text-white text-gray-700 text-3xl  mb-10 font-poppins font-bold " data-aos="fade-up">
             Featured Post
           </h1>
           <p className="dark:text-white text-gray-700 font-poppins text-base" data-aos="fade-up">

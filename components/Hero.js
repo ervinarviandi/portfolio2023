@@ -33,9 +33,9 @@ function Hero() {
           <img src="ervinarviandi.jpg " className="w-48 h-48 md:w-50 md:h-50 md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" data-aos="fade-up" />
           <div className="flex flex-wrap">
             <div className="w-full self-center px-4 lg:w-1/2" data-aos="fade-up">
-              <h2 className="flex flex-col text-gray-700 font-light text-2xl font-bold dark:text-white font-figtree" data-aos="fade-up">
+              {/* <h2 className="flex flex-col text-gray-700 font-light text-2xl font-bold dark:text-white font-figtree" data-aos="fade-up">
                 Muhammad Ervin Arviandi.
-              </h2>
+              </h2> */}
               <h5 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-600 to-bg-blue-500 text-[24px] mt-7 font-poppins" data-aos="fade-up" data-aos-delay="100">
                 Frontend Developer
               </h5>

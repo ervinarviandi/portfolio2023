@@ -40,7 +40,7 @@ const Navigation = () => {
     const currentTheme = theme === "system" ? systemTheme : theme;
     if (currentTheme === "dark") {
       return (
-        <button className="bg-gray-200 p-2 rounded-lg dark:bg-primary " onClick={() => setTheme("light")}>
+        <button className="bg-card100 p-2 rounded-lg  " onClick={() => setTheme("light")}>
           <svg xmlns="http://www.w3.org/2000/svg" fill="#f59e0b" viewBox="0 0 24 24" stroke-width="2" stroke="#f59e0b" class="w-6 h-6">
             <path
               stroke-linecap="round"
@@ -70,13 +70,16 @@ const Navigation = () => {
       <hr className="relative h-2 w-full bg-gradient-to-r from-purple-500 to-pink-500 before:absolute before:inset-0 before:bg-gradient-to-r before:from-purple-500 before:from-pink-500 before:to-blue-500 before:animate-pulse" />
       <div className=" md:max-w-5xl xl:max-w-5xl m-auto flex justify-between items-center p-4 ">
         {/* Mobile Button */}
-        <div onClick={handleNav} className="block sm:hidden z-10 dark:text-white">
+        <div onClick={handleNav} className="block sm:hidden z-10 dark:text-white ">
           {nav ? (
-            <XMarkIcon className="w-6 h-6" style={{ color: `${textColor}` }} />
+            <XMarkIcon
+              className="w-6 h-6 "
+              //  style={{ color: `${textColor}` }}
+            />
           ) : (
             <Bars3Icon
               className="w-6 h-6"
-              //  style={{ color: `${textColor}` }}
+              // style={{ color: `${textColor}` }}
             />
           )}
         </div>
@@ -143,32 +146,32 @@ const Navigation = () => {
         <div
           className={
             nav
-              ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen  backdrop-filter backdrop-blur-lg bg-backgrounddark text-center ease-in duration-300 z-8"
-              : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black backdrop-filter backdrop-blur-lg text-center ease-in  duration-300 z-8 dark:text-white   "
+              ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen  backdrop-filter backdrop-blur-lg dark:bg-backgrounddark bg-white text-center ease-in duration-300 z-8"
+              : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen dark:bg-backgroundark backdrop-filter backdrop-blur-lg text-center ease-in  duration-300 z-8 dark:text-white   "
           }
         >
           <ul>
-            <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
+            <li className="p-4 text-2xl hover:text-pink-500 font-poppins dark:text-white text-black">
               <Link href="/">Home</Link>
             </li>
             <hr className="text-sky-500 w-[100%]" />
-            <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
+            <li className="p-4 text-2xl hover:text-pink-500 font-poppins dark:text-white text-black">
               <Link href="/about">About</Link>
             </li>
             <hr />
-            <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
+            <li className="p-4 text-2xl hover:text-pink-500 font-poppins dark:text-white text-black">
               <Link href="/work">Portfolio</Link>
             </li>
             <hr />
-            <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
+            <li className="p-4 text-2xl hover:text-pink-500 font-poppins dark:text-white text-black">
               <Link href="/MyBlog">Blog</Link>
             </li>
             <hr />
-            <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
+            <li className="p-4 text-2xl hover:text-pink-500 font-poppins dark:text-white text-black">
               <Link href="/GuestBook">GuestBook</Link>
             </li>
             <hr />
-            <li className="p-4 text-2xl hover:text-pink-500 font-poppins text-white">
+            <li className="p-4 text-2xl hover:text-pink-500 font-poppins dark:text-white text-black">
               <Link href="/MyContact">Contact</Link>
             </li>
             <hr />
