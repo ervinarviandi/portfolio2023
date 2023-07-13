@@ -14,8 +14,8 @@ function Articles() {
   }, []);
   return (
     <>
-      <main className="px-4 py-12">
-        <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4 dark:bg-gradient-to-t dark:from-backgrounddark dark:via-sky50 dark:to-backgrounddark">
+      <main className="px-4 py-12 articles">
+        <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4 ">
           <h1 className="dark:text-white text-gray-700 text-3xl  mb-10 font-poppins font-bold" data-aos="fade-up">
             Featured Post
           </h1>
@@ -26,7 +26,7 @@ function Articles() {
           <div className="grid md:grid-cols-2 gap-5">
             <div className="flex flex-col ">
               <figure
-                className="border-dashed border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:rounded-lg before:bg-gradient-to-r from-orange to-yellow  before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-solid backdrop-blur "
+                className=" border-dashed dark:border-white border-black border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:rounded-lg before:bg-gradient-to-r from-orange to-yellow  before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-solid backdrop-blur "
                 data-aos="fade-up"
               >
                 <h2 className="dark:text-white text-gray-700 text-3xl font-poppins ">
@@ -43,7 +43,7 @@ function Articles() {
             </div>
             <div className="flex flex-col ">
               <figure
-                className="border-dashed border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:rounded-lg before:bg-gradient-to-r from-orange to-yellow  before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-solid backdrop-blur "
+                className="border-dashed dark:border-white border-black border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:rounded-lg before:bg-gradient-to-r from-orange to-yellow  before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-solid backdrop-blur "
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
@@ -73,7 +73,7 @@ function Articles() {
 
             <div className="flex flex-col ">
               <figure
-                className="border-dashed border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:rounded-lg before:bg-gradient-to-r from-orange to-yellow  before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-solid backdrop-blur  "
+                className="border-dashed dark:border-white border-black border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:rounded-lg before:bg-gradient-to-r from-orange to-yellow  before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-solid backdrop-blur  "
                 data-aos="fade-up"
               >
                 <h2 className="dark:text-white text-gray-700 text-3xl font-poppins">

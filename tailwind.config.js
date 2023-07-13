@@ -7,6 +7,7 @@ module.exports = {
       fontFamily: {
         poppins: ['"Poppins"', "sans-serif"],
         mplus: ['"M PLUS Rounded 1c"', "sans-serif"],
+        figtree: ['"Figtree"', "sans-serif"],
       },
       colors: {
         // backgrounddark: "#111827",
@@ -19,6 +20,8 @@ module.exports = {
         sky50: "#02b0e8",
         secondary: "#303137",
         primary: "#191919",
+        card100: "#23252d",
+        card200: "#edf4ff",
       },
       zIndex: {
         100: "100",

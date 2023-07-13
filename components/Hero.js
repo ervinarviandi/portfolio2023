@@ -26,15 +26,15 @@ function Hero() {
   }, []);
   return (
     <>
-      <div className="px-4 py-12">
-        <motion.section className="mt-[96px] mx-auto md:max-w-4xl xl:max-w-4xl custom-img " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 3.5, type: "spring" }}>
+      <div className="px-4 py-12 hero">
+        <motion.section className="mt-[96px] mx-auto md:max-w-4xl xl:max-w-4xl custom-img relative " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 3.5, type: "spring" }}>
           {/* <marquee className="text-amber-500 font-bold text-2xl p-2 bg-gray-900 rounded-lg"> Website ini masih dalam tahap pengembangan, dan dalam version 2.0 🔨🧐 </marquee> */}
 
           <img src="ervinarviandi.jpg " className="w-48 h-48 md:w-50 md:h-50 md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" data-aos="fade-up" />
           <div className="flex flex-wrap">
             <div className="w-full self-center px-4 lg:w-1/2" data-aos="fade-up">
-              <h2 className="flex flex-col text-gray-700 font-light text-[34px] font-bold dark:text-white font-poppins" data-aos="fade-up">
-                Muhammad Ervin Arviandi
+              <h2 className="flex flex-col text-gray-700 font-light text-[34px] font-bold dark:text-white font-figtree" data-aos="fade-up">
+                ervin arviandi.
               </h2>
               <h5 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-sky-400 text-[24px] mt-7 font-poppins " data-aos="fade-up" data-aos-delay="100">
                 Frontend Developer

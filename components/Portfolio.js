@@ -16,8 +16,8 @@ function Portfolio() {
   }, []);
   return (
     <>
-      <main className="px-4 py-12">
-        <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4 -z-10">
+      <main className="px-4 py-12 portfolio">
+        <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4 -z-10 bg-gradient">
           <h1 className=" dark:text-white text-gray-700 text-3xl mb-10 font-poppins font-bold" data-aos="fade-up">
             Featured Portfolio
           </h1>
@@ -27,7 +27,7 @@ function Portfolio() {
           </p>
           <div className="grid md:grid-cols-2 gap-5 ">
             <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 " data-aos="fade-up">
+              <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200  " data-aos="fade-up">
                 <picture className="block overflow-hidden ">
                   <img src="qr-generator.jpg" alt="expense-project" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
                 </picture>
@@ -49,7 +49,7 @@ function Portfolio() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden dark:secondary bg-slate-200 " data-aos="fade-up">
+              <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 " data-aos="fade-up">
                 <picture className="block overflow-hidden ">
                   <img src="nugget.jpg" alt="expense-project" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
                 </picture>
@@ -71,7 +71,7 @@ function Portfolio() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200 " data-aos="fade-up" data-aos-delay="300">
+              <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 " data-aos="fade-up" data-aos-delay="300">
                 <picture className="block overflow-hidden">
                   <img src="Crud Ci.jpg" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
                 </picture>
@@ -91,7 +91,7 @@ function Portfolio() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden dark:bg-primary bg-slate-200" data-aos="fade-up">
+              <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200" data-aos="fade-up">
                 <picture className="block overflow-hidden">
                   <img src="reactlink.jpg" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
                 </picture>
@@ -114,9 +114,9 @@ function Portfolio() {
           <div className=" mt-[30px] ">
             <p className=" flex items-center dark:text-white text-gray-700" data-aos="fade-up">
               {/* <a href="">See All Portfolio</a> */}
-              <Link href="/work" className="flex items-center  dark:hover:text-pink-500 hover:font-bold font-poppins">
+              <Link href="/work" className="flex items-center  dark:hover:text-blue-500 hover:font-bold font-poppins">
                 See All Portfolio
-                <BsFillArrowRightCircleFill className="ml-5 dark:text-white text-gray-700 text-2xl dark:hover:text-pink-500" />
+                <BsFillArrowRightCircleFill className="ml-5 dark:text-white text-gray-700 text-2xl dark:hover:text-blue-500" />
               </Link>
             </p>
           </div>
