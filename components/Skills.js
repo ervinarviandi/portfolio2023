@@ -20,13 +20,13 @@ function Skills() {
         <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4">
           <div className="mb-10">
             <h2 className=" text-3xl  font-poppins font-extrabold md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r  from-pink-500  to-blue-500 before:relative before:inset-0 before:bg-gradient-to-r before:from-pink-500  before:to-blue-500 ">
-              Tools & <br /> Skills
+              Tools / <br /> Tech stack
             </h2>
           </div>
           {/* <div id="title">Tools & skills</div> */}
           <div className="grid md:grid-cols-4 gap-4 ">
             <div className="flex flex-col">
-              <div className="dark:bg-primary bg-gray-300 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">
+              <div className="dark:bg-card100 bg-card200 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">
                 <HtmlLogo className="z-5" />
                 <h1 className="text-9xl absolute -z-4 dark:text-backgrounddark/50 text-white/50 font-extrabold -rotate-45">HTML</h1>
                 <div className="px-4 pt-4">
@@ -36,7 +36,7 @@ function Skills() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="dark:bg-primary bg-gray-300 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">
+              <div className="dark:bg-card100 bg-card200 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">
                 <CssLogo className="z-5" />
                 <h1 className="text-9xl absolute -z-4 dark:text-backgrounddark/50 text-white/50 font-extrabold -rotate-45">CSS</h1>
                 <div className="px-4 pt-4">
@@ -46,7 +46,7 @@ function Skills() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="dark:bg-primary bg-gray-300 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">
+              <div className="dark:bg-card100 bg-card200 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">
                 <JavascriptLogo className="z-5" />
                 <h1 className="text-8xl absolute -z-4 dark:text-backgrounddark/50 text-white/50 font-extrabold -rotate-45 -mt-50">JAVASCRIPT</h1>
                 <div className="px-4 pt-4">
@@ -56,7 +56,7 @@ function Skills() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="dark:bg-primary bg-gray-300 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">
+              <div className="dark:bg-card100 bg-card200 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">
                 <BootstrapLogo className="z-5" />
                 <h1 className="text-7xl absolute -z-4 dark:text-backgrounddark/50 text-white/50 font-extrabold -rotate-45 text-center">BOOTSTRAP</h1>
                 <div className="px-4 pt-4">
@@ -66,7 +66,7 @@ function Skills() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="dark:bg-primary bg-gray-300 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">
+              <div className="dark:bg-card100 bg-card200 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">
                 <TailwindLogo className="z-5" />
                 <h1 className="text-9xl absolute -z-4 dark:text-backgrounddark/50 text-white/50 font-extrabold -rotate-45 text-center -mt-60">TailwindCSS</h1>
                 <div className="px-4 pt-4">
@@ -76,7 +76,7 @@ function Skills() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="dark:bg-primary bg-gray-300 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">
+              <div className="dark:bg-card100 bg-card200 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">
                 <ReactLogo className="z-5" />
                 <h1 className="text-9xl absolute -z-4 dark:text-backgrounddark/50 text-white/50 font-extrabold -rotate-45 text-center -mt-50">REACT</h1>
                 <div className="px-4 pt-4">
@@ -86,7 +86,7 @@ function Skills() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="dark:bg-primary bg-gray-300 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">
+              <div className="dark:bg-card100 bg-card200 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">
                 <Nextjs className="z-5" />
                 <h1 className="text-9xl absolute -z-4 dark:text-backgrounddark/50 text-white/50 font-extrabold -rotate-45 text-center -mt-50">NEXTJS</h1>
                 <div className="px-4 pt-4">
@@ -96,7 +96,7 @@ function Skills() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="dark:bg-primary bg-gray-300 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">
+              <div className="dark:bg-card100 bg-card200 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">
                 <CodeigniterLogo className="z-5" />
                 <h1 className="text-9xl absolute -z-4 dark:text-backgrounddark/50 text-white/50 font-extrabold -rotate-45 text-center -mt-80 -ml-20">CODEIGNITER</h1>
                 <div className="px-4 pt-4">
@@ -106,7 +106,7 @@ function Skills() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="dark:bg-primary bg-gray-300 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">
+              <div className="dark:bg-card100 bg-card200 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">
                 <Framermotion className="z-5" />
                 <h1 className="text-9xl absolute -z-4 dark:text-backgrounddark/50 text-white/50 font-extrabold -rotate-45 text-center -ml-20">FRAMER MOTION</h1>
                 <div className="px-4 pt-4">
@@ -116,7 +116,7 @@ function Skills() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="dark:bg-primary bg-gray-300 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">
+              <div className="dark:bg-card100 bg-card200 p-2 rounded-lg border-t-2 border-t-blue-500 relative overflow-hidden">
                 <Typescript className="z-5" />
                 <h1 className="text-9xl absolute -z-4 dark:text-backgrounddark/50 text-white/50 font-extrabold -rotate-45 text-center -ml-20">TYPESCRIPT</h1>
                 <div className="px-4 pt-4">
