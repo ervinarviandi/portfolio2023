@@ -4,6 +4,7 @@ import Nextjs from "../src/NextJs";
 import BootstrapLogo from "../src/BootstrapLogo";
 import CodeigniterLogo from "../src/CodeigniterLogo";
 import ReactLogo from "../src/ReactLogo";
+import ViteLogo from "../src/Vite.jsx";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -63,6 +64,7 @@ function Portfolio() {
                   <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
                     <TailwindLogo />
                     <ReactLogo />
+                    <ViteLogo />
                   </div>
                   <p className="dark:text-white text-gray-700 font-poppins text-base">a simple landing page bubble cleaner i made to improve my slicing .</p>
                 </div>

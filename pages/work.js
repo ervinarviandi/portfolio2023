@@ -8,6 +8,7 @@ import CssLogo from "../src/CssLogo";
 import JavascriptLogo from "../src/JavascriptLogo";
 import ReactLogo from "../src/ReactLogo";
 import CodeigniterLogo from "../src/CodeigniterLogo";
+import ViteLogo from "../src/Vite.jsx";
 import Footer from "../components/Footer";
 import { Tab } from "@headlessui/react";
 import classNames from "classnames";
@@ -193,6 +194,7 @@ function work() {
                         <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
                           <TailwindLogo />
                           <ReactLogo />
+                          <ViteLogo />
                         </div>
                         <p className="dark:text-white text-gray-700 font-poppins text-base">a simple landing page bubble cleaner i made to improve my slicing .</p>
                       </div>
