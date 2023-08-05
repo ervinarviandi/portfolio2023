@@ -27,7 +27,7 @@ function MyContact() {
                   <input type="text" id="name" name="nama" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500" />
                 </div>
                 <div className="w-full px-4 mb-8">
-                  <label for="email" class="text-base font-bold dark:text-white">
+                  <label for="email" className="text-base font-bold dark:text-white">
                     Email
                   </label>
                   <input type="email" id="email" name="email" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500" />
@@ -52,15 +52,6 @@ function MyContact() {
             className="w-full h-screen  grid  "
             width=""
             id="gmap_canvas"
-            // src="https://maps.google.com/maps?q=wawo,Dompu,%20West%20Nusa%20Tenggara&t=&z=15&ie=UTF8&iwloc=&output=embed"
-            // // src="https://www.google.com/maps/embed?pb=!4v1674717090785!6m8!1m7!1smAebVP4pWsoKV-N8zesUcA!2m2!1d-8.554098816804652!2d118.4318300762977!3f269.5188534322473!4f3.7516221478486216!5f0.7820865974627469"
-            // src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d1686.191135723415!2d118.43063972618768!3d-8.553956683762724!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dca6f71635eb141%3A0xd361de20cae47ef0!2sJl.%20Lintas%20Wawonduru%2C%20Kec.%20Woja%2C%20Kabupaten%20Dompu%2C%20Nusa%20Tenggara%20Bar.%2C%20Indonesia!5e1!3m2!1sid!2sus!4v1674717996036!5m2!1sid!2sus"
-
-            // Link Gambar rumah
-
-            // Maps Baru
-            // src="https://maps.google.com/maps?q=-8.554087683049566,%20118.43171044960754&t=&z=13&ie=UTF8&iwloc=&output=embed"
-
             src="https://maps.google.com/maps?q=-8.554087683049566,%20118.43171044960754&t=&z=13&ie=UTF8&iwloc=&output=embed"
             frameborder="0"
             scrolling="yes"
@@ -89,7 +80,7 @@ function MyContact() {
                     <input type="text" id="name" name="nama" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500" />
                   </div>
                   <div className="w-full px-4 mb-8">
-                    <label for="email" class="text-base font-bold dark:text-white">
+                    <label for="email" className="text-base font-bold dark:text-white">
                       Email
                     </label>
                     <input type="email" id="email" name="email" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500" />
@@ -101,7 +92,7 @@ function MyContact() {
                     <textarea type="message" id="name" name="pesan" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500 h-32" />
                   </div>
                   <div className=" px-4">
-                    <Button href="" className="    absolute flex font-poppins text-base items-center border-pink-500 border-2 dark:text-white text-gray-200  py-2 px-5  rounded-lg bg-gradient-to-r from-pink-500 to-blue-500">
+                    <Button href="" className="absolute flex font-poppins text-base items-center border-pink-500 border-2 dark:text-white text-gray-200  py-2 px-5  rounded-lg bg-gradient-to-r from-pink-500 to-blue-500">
                       Kirim
                     </Button>
                   </div>

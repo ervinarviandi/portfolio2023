@@ -2,6 +2,8 @@ import React from "react";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import { motion } from "framer-motion";
+// import Link from "next/link";
+import Image from "next/image";
 
 function Certificate() {
   return (
@@ -15,101 +17,89 @@ function Certificate() {
             </h2>
           </div>
           <p className="dark:text-white text-gray-700 text-base font-poppins mt-4">Di bawah ini adalah beberapa sertifikat yang pernah saya dapatkan saat mengikuti beberapa event dan webinar </p>
-
           <div className="grid md:grid-cols-2 gap-5">
             <div className="flex flex-col">
               <figure className=" mt-4">
                 <motion.div className="" initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
-                  <img src="baparekraf-developer.jpg" className="app-baparekraf hover:brightness-50 " alt="cerificate" />
+                  <i src="baparekraf-developer.jpg" className="app-baparekraf hover:brightness-50 " alt="cerificate" />
                 </motion.div>
               </figure>
             </div>
             <div className="flex flex-col">
               <figure className=" mt-4">
                 <motion.div initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.3, type: "spring" }}>
-                  <img src="idcamp.jpg" className="hover:brightness-50" alt="cerificate" />
+                  <Image src="idcamp.jpg" className="hover:brightness-50" alt="cerificate" />
                 </motion.div>
-                <div className=""></div>
               </figure>
             </div>
             <div className="flex flex-col">
               <figure className=" mt-4">
                 <motion.div initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.4, type: "spring" }}>
-                  <img src="flutter.jpg" className="hover:brightness-50" alt="cerificate" />
+                  <Image src="flutter.jpg" className="hover:brightness-50" alt="cerificate" />
                 </motion.div>
-                <div className=""></div>
               </figure>
             </div>
             <div className="flex flex-col">
               <figure className=" mt-4">
                 <motion.div initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.5, type: "spring" }}>
-                  <img src="javascriptevents.jpg" className="hover:brightness-50" alt="cerificate" />
+                  <Image src="javascriptevents.jpg" className="hover:brightness-50" alt="cerificate" />
                 </motion.div>
-                <div className=""></div>
               </figure>
             </div>
             <div className="flex flex-col">
               <figure className=" mt-4">
                 <motion.div initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.6, type: "spring" }}>
-                  <img src="software-developer.jpg" className="hover:brightness-50" alt="cerificate" />
+                  <Image src="software-developer.jpg" className="hover:brightness-50" alt="cerificate" />
                 </motion.div>
-                <div className=""></div>
               </figure>
             </div>
             <div className="flex flex-col">
               <figure className=" mt-4">
                 <motion.div initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.7, type: "spring" }}>
-                  <img src="backend.jpg" className="hover:brightness-50" alt="cerificate" />
+                  <Image src="backend.jpg" className="hover:brightness-50" alt="cerificate" />
                 </motion.div>
-                <div className=""></div>
               </figure>
             </div>
             <div className="flex flex-col">
               <figure className=" mt-4">
                 <motion.div initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.8, type: "spring" }}>
-                  <img src="modular-javascript.jpg" className="hover:brightness-50" alt="cerificate" />
+                  <Image src="modular-javascript.jpg" className="hover:brightness-50" alt="cerificate" />
                 </motion.div>
-                <div className=""></div>
               </figure>
             </div>
             <div className="flex flex-col">
               <figure className=" mt-4">
                 <motion.div initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.9, type: "spring" }}>
-                  <img src="mobile-enginer.jpg" className="hover:brightness-50" alt="cerificate" />
+                  <Image src="mobile-enginer.jpg" className="hover:brightness-50" alt="cerificate" />
                 </motion.div>
-                <div className=""></div>
               </figure>
             </div>
             <div className="flex flex-col">
               <figure className=" mt-4">
                 <motion.div initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.9, type: "spring" }}>
-                  <img src="progate.png" className="hover:brightness-50" alt="cerificate" />
+                  <Image src="progate.png" className="hover:brightness-50" alt="cerificate" />
                 </motion.div>
-                <div className=""></div>
               </figure>
             </div>
             <div className="flex flex-col">
               <figure className=" mt-4">
                 <motion.div initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.9, type: "spring" }}>
-                  <img src="Cintessa.jpg" className="hover:brightness-50" alt="cerificate" />
+                  <Image src="Cintessa.jpg" className="hover:brightness-50" alt="cerificate" />
                 </motion.div>
-                <div className=""></div>
               </figure>
             </div>
             <div className="flex flex-col">
               <figure className=" mt-4">
                 <motion.div initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.9, type: "spring" }}>
-                  <img src="wbix.jpg" className="hover:brightness-50" alt="cerificate" />
+                  <Image src="wbix.jpg" className="hover:brightness-50" alt="cerificate" />
                 </motion.div>
-                <div className=""></div>
               </figure>
             </div>
             <div className="flex flex-col">
               <figure className=" mt-4">
                 <motion.div initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.9, type: "spring" }}>
-                  <img src="dicoding-scholarship.jpg" className="hover:brightness-50" alt="cerificate" />
+                  <Image src="dicoding-scholarship.jpg" className="hover:brightness-50" alt="cerificate" />
                 </motion.div>
-                <div className=""></div>
               </figure>
             </div>
           </div>

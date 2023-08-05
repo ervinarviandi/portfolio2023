@@ -6,11 +6,9 @@ import { AiOutlineFieldTime } from "react-icons/ai";
 import { AiOutlineEye } from "react-icons/ai";
 import { IoLogoNodejs } from "react-icons/io";
 import Footer from "../components/Footer";
-import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css"; // optional
 import "tippy.js/themes/material.css";
 import "tippy.js/animations/perspective-extreme.css";
-import { followCursor } from "tippy.js";
 import Nextjs from "../src/NextJs";
 
 function MyBlog() {
@@ -32,7 +30,6 @@ function MyBlog() {
           <div className="mt-10">
             <h2 className="dark:text-white text-gray-700 text-2xl font-poppins"> All Post</h2>
             <p className="text-base dark:text-white text-gray-700 font-poppins mt-5">
-              {/* Sepertinya Kamu tertarik dengan postingan saya. silakan untuk melihat dan membacanya, dan diurutkan berdasarkan tanggal sehingga kamu dapat dengan mudah menemukan yang terbaru. */}
               It looks like you`re interested in my posts. You`re welcome to take a look and read them, and they`re sorted by date so you can easily find the newest ones.
             </p>
 

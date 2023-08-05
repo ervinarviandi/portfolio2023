@@ -4,6 +4,7 @@ import { BsGlobe2 } from "react-icons/bs";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Link from "next/link";
+import Image from "next/image";
 import CodeigniterLogo from "../src/CodeigniterLogo";
 import BootstrapLogo from "../src/BootstrapLogo";
 import { FaEdit } from "react-icons/fa";
@@ -20,33 +21,25 @@ function Bookself() {
           </p>
           <div className="flex items-center space-x-5">
             <div className="flex items-center dark:text-white">
-              <Link href="https://github.com/ervinarviandi/Bookself" className="flex items-center space-x-3 border-b-2 border-dashed  hover:text-pink-500 font-bold py-2">
+              <a href="https://github.com/ervinarviandi/Bookself" className="flex items-center space-x-3 border-b-2 border-dashed  hover:text-pink-500 font-bold py-2">
                 <BsGithub />
                 <h4>Repository</h4>
-              </Link>
+              </a>
             </div>
             <div className="flex items-center dark:text-white">
-              <Link href="" className="flex items-center space-x-3 hover:text-pink-500  border-b-2 py-2 border-dashed  dark:hover:text-pink-500 font-bold">
+              <a href="" className="flex items-center space-x-3 hover:text-pink-500  border-b-2 py-2 border-dashed  dark:hover:text-pink-500 font-bold">
                 <BsGlobe2 />
                 <h4>Live Demo</h4>
-              </Link>
+              </a>
             </div>
           </div>
-
           <hr className="mt-10" />
-
           <div className="flex items-center space-x-4 mt-5">
             <CodeigniterLogo />
             <BootstrapLogo />
           </div>
-
           <img src="Crud Ci.jpg" className="w-full mt-7" />
-
           <p className="dark:text-white text-base font-poppins mt-5">A bookshelf app that can show, search, add, delete, update book and move book to other shelf.</p>
-
-          {/* <p className="dark:text-white text-base font-poppins mt-7">
-            The benefits are to quickly increase the number of visits to all online/portfolio business channels, be it social media, online shops, or marketplaces used to run a business.
-          </p> */}
           <div className="flex justify-between ">
             <div className="">
               <a href="https://github.com/ervinarviandi/Bookself" className=" flex items-center space-x-4 dark:text-white font-bold font-poppins border-b-2 py-2 border-dashed   font-bold">
@@ -54,12 +47,6 @@ function Bookself() {
                 <h4 className="dark:text-white font-poppins">Edit On Github</h4>
               </a>
             </div>
-            {/* <div className="">
-            <Link href="" className="flex items-center space-x-4 text-white font-bold font-poppins  border-b-2 py-2 border-dashed   font-bold">
-              <MdVerticalAlignTop />
-              <h4 className=" text-white font-poppins">Back To Top</h4>
-            </Link>
-          </div> */}
           </div>
         </section>
       </div>

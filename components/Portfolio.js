@@ -23,7 +23,6 @@ function Portfolio() {
             Featured Portfolio
           </h1>
           <p className="mb-6 md:mb-8 dark:text-white text-gray-700 font-poppins text-base" data-aos="fade-up">
-            {/* Lihat portofolio unggulan saya, jangan ragu untuk menjelajahinya ya. dibawah ini adalah beberapa karya yang pernah saya buat */}
             I&#39;m also experienced at some website development and software testing that i learn for 4 month will described below
           </p>
           <div className="grid md:grid-cols-2 gap-5 ">
@@ -32,8 +31,6 @@ function Portfolio() {
                 <picture className="block overflow-hidden ">
                   <img src="qr-generator.jpg" alt="expense-project" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
                 </picture>
-
-                {/* <Image src="/expenseApp_qFvD7zZ8y.jpg" width={560} height={560} alt="expense_project" className="relative" /> */}
                 <div className="mt-3 p-4">
                   <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px] ">
                     <a className="dark:hover:border-b-2 dark:hover:border-dashed  " href=" QrGenerator">
@@ -113,7 +110,6 @@ function Portfolio() {
           </div>
           <div className=" mt-[30px] ">
             <p className=" flex items-center dark:text-white text-gray-700" data-aos="fade-up">
-              {/* <a href="">See All Portfolio</a> */}
               <Link href="/work" className="flex items-center  dark:hover:text-pink-500 hover:font-bold font-poppins">
                 See All Portfolio
                 <BsFillArrowRightCircleFill className="ml-5 dark:text-white text-gray-700 text-2xl dark:hover:text-pink-500" />

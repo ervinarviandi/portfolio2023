@@ -4,6 +4,7 @@ import { BsGlobe2 } from "react-icons/bs";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Link from "next/link";
+import Image from "next/image";
 import ReactLogo from "../src/ReactLogo";
 import TailwindLogo from "../src/TailwindLogo";
 import { FaEdit } from "react-icons/fa";
@@ -20,16 +21,16 @@ function QrGenerator() {
           </p>
           <div className="flex items-center space-x-5">
             <div className="flex items-center dark:text-white">
-              <Link href="https://github.com/ervinarviandi/QR-Generator" className="flex items-center space-x-3 border-b-2 border-dashed  hover:text-pink-500 font-bold py-2">
+              <a href="https://github.com/ervinarviandi/QR-Generator" className="flex items-center space-x-3 border-b-2 border-dashed  hover:text-pink-500 font-bold py-2">
                 <BsGithub />
                 <h4>Repository</h4>
-              </Link>
+              </a>
             </div>
             <div className="flex items-center dark:text-white">
-              <Link href="https://qr-generator-ervin.vercel.app/" className="flex items-center space-x-3 hover:text-pink-500  border-b-2 py-2 border-dashed  dark:hover:text-pink-500 font-bold">
+              <a href="https://qr-generator-ervin.vercel.app/" className="flex items-center space-x-3 hover:text-pink-500  border-b-2 py-2 border-dashed  dark:hover:text-pink-500 font-bold">
                 <BsGlobe2 />
                 <h4>Live Demo</h4>
-              </Link>
+              </a>
             </div>
           </div>
 
@@ -40,7 +41,7 @@ function QrGenerator() {
             <TailwindLogo />
           </div>
 
-          <img src="qr-generator.jpg" className="w-full mt-7" />
+          <Image src="qr-generator.jpg" className="w-full mt-7" alt="qrcode" />
 
           <p className="dark:text-white text-base font-poppins mt-5">A simple QR Code Generator. You can convert the web link into QR Code instantly here and download it to your local device</p>
 

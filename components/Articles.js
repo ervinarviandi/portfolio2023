@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import Link from "next/link";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import { FaGitSquare } from "react-icons/fa";
-import CssLogo from "../src/CssLogo";
 import Nextjs from "../src/NextJs";
 import { IoLogoNodejs } from "react-icons/io";
 import AOS from "aos";
@@ -76,7 +75,6 @@ function Articles() {
           </div>
           <div className=" mt-[30px] ">
             <p className=" flex items-center dark:text-white text-gray-700  hover:font-bold font-poppins" data-aos="fade-up">
-              {/* <a href="" className="">See All Post</a> */}
               <Link href="/MyBlog" className="flex items-center  dark:hover:text-pink-500 hover:font-bold font-poppins">
                 See All Post
                 <BsFillArrowRightCircleFill className="ml-5 dark:text-white text-gray-700 text-2xl dark:hover:text-pink-500 group" />

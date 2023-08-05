@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Button from "next/link";
@@ -58,7 +59,7 @@ function errorPage() {
 
             {/* Hero */}
             <div className="relative">
-              <img src="right-side-arrow.png" width="90" height="90" className="inset-y-0  right-0 mt-60 mr-9 md:block hidden " />
+              <Image src="right-side-arrow.png" width="90" height="90" className="inset-y-0  right-0 mt-60 mr-9 md:block hidden " alt="rightarrow" />
               <h4 className="dark:text-white text-gray-700 font-poppins md:block hidden">Lihat Lokasi</h4>
             </div>
             <div className=" dark:bg-gray-900 px-4  h-96 w-full md:w-5/12  mt-20 ">
@@ -67,15 +68,6 @@ function errorPage() {
                   className="w-full h-96 "
                   width=""
                   id="gmap_canvas"
-                  // src="https://maps.google.com/maps?q=wawo,Dompu,%20West%20Nusa%20Tenggara&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                  // // src="https://www.google.com/maps/embed?pb=!4v1674717090785!6m8!1m7!1smAebVP4pWsoKV-N8zesUcA!2m2!1d-8.554098816804652!2d118.4318300762977!3f269.5188534322473!4f3.7516221478486216!5f0.7820865974627469"
-                  // src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d1686.191135723415!2d118.43063972618768!3d-8.553956683762724!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dca6f71635eb141%3A0xd361de20cae47ef0!2sJl.%20Lintas%20Wawonduru%2C%20Kec.%20Woja%2C%20Kabupaten%20Dompu%2C%20Nusa%20Tenggara%20Bar.%2C%20Indonesia!5e1!3m2!1sid!2sus!4v1674717996036!5m2!1sid!2sus"
-
-                  // Link Gambar rumah
-
-                  // Maps Baru
-                  // src="https://maps.google.com/maps?q=-8.554087683049566,%20118.43171044960754&t=&z=13&ie=UTF8&iwloc=&output=embed"
-
                   src="https://maps.google.com/maps?q=-8.554087683049566,%20118.43171044960754&t=&z=13&ie=UTF8&iwloc=&output=embed"
                   frameborder="0"
                   scrolling="yes"

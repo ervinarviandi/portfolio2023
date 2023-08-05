@@ -11,12 +11,7 @@ function Blog() {
       <Navigation />
       <div className="px-4 py-12">
         <section className="mt-[96px] mx-auto md:max-w-4xl xl:max-w-4xl ">
-          <div className="w-full self-center px-4">
-            {/* <h2 className="text-3xl font-bold font-poppins dark:text-white text-gray-700">Blog</h2>
-            <p className="text-base font-poppins dark:text-white text-gray-500 mt-7">
-              Youll find a collection of my thoughts and musings on a variety of topics. I write about everything from current events to personal experiences, and I always strive to share my honest opinions. Keep in mind that my views are
-              my own and do not necessarily reflect those of any other person or organization.
-            </p> */}
+          {/* <div className="w-full self-center px-4">
             <div className="rounded-md overflow-hidden">
               <div className="flex flex-col">
                 <h2 className="dark:text-white text-gray-700 md:text-5xl text-2xl font-poppins font-bold mt-7">
@@ -30,12 +25,11 @@ function Blog() {
                 </div>
 
                 <div className="md:flex justify-between items-center mt-4">
-                  {/* kiri */}
                   <div className="flex space-x-3 items-center dark:text-white text-gray-700 text-base font-poppins">
                     <AiOutlineFieldTime />
                     <p>10 min read</p>
                   </div>
-                  {/* Kanan */}
+
                   <div className="flex space-x-3 items-center dark:text-white text-gray-700 text-base font-poppins">
                     <AiFillCalendar />
                     <p>Wed, 30 Jan 2023</p>
@@ -110,7 +104,7 @@ function Blog() {
                 <img src="https://4.bp.blogspot.com/-JMZtMOkESYQ/WJyvgOEh_TI/AAAAAAAAD0Y/4Mtf48YbMUwVtQ9jbJc_TYHe2MymmooAQCPcB/s1600/13.%2BPercobaan.JPG" className="mt-4" alt="gambar13" />
               </div>
             </div>
-          </div>
+          </div> */}
         </section>
       </div>
       <Footer />
