@@ -4,7 +4,7 @@ import { Bars3Icon } from "@heroicons/react/24/solid";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 import { MoonIcon } from "@heroicons/react/24/solid";
 import { useTheme } from "next-themes";
-// import Image from "../public/ervin-logo.png";
+import Image from "next/image";
 
 const Navigation = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -84,7 +84,7 @@ const Navigation = () => {
           )}
         </div>
         <Link href="/" className="flex items-center space-x-3">
-          <img src="/ervinarviandii.webp" className="w-9 h-9 md:w-10 md:h-10 rounded-full" alt="profile" />
+          <Image src="/ervinarviandii.webp" className=" rounded-full" width={30} height={30} alt="profile" />
           <h1
             // style={{ color: `${textColor}` }}
             className="font-bold text-1xl z-index: 50 font-poppins text-[18px] dark:text-white"

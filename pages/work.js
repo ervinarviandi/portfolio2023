@@ -20,7 +20,7 @@ function work() {
   return (
     <>
       <Navigation />
-      {/* <motion.div className="px-4 py-12 work " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
+      <motion.div className="px-4 py-12 work " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
         <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4  ">
           <div className="mb-10">
             <h2 className=" text-3xl  font-poppins font-extrabold md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r  from-pink-500  to-blue-500 before:relative before:inset-0 before:bg-gradient-to-r before:from-pink-500  before:to-blue-500  ">
@@ -74,7 +74,7 @@ function work() {
                   <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 ">
                       <picture className="block overflow-hidden ">
-                        <Image src="qr-generator.jpg" alt="expense-project" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
+                        <img src="qr-generator.jpg" alt="expense-project" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
                       </picture>
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px] ">
@@ -94,7 +94,7 @@ function work() {
                   <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200   ">
                       <picture className="block overflow-hidden">
-                        <Image src="reactlink.jpg" className="hover:scale-125 ease-in-out duration-700" alt="reactlink" />
+                        <img src="reactlink.jpg" className="hover:scale-125 ease-in-out duration-700" alt="reactlink" />
                       </picture>
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
@@ -114,7 +114,7 @@ function work() {
                   <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200   ">
                       <picture className="block overflow-hidden">
-                        <Image src="nugget.jpg" className="hover:scale-125 ease-in-out duration-700" alt="nuggetpages" />
+                        <img src="nugget.jpg" className="hover:scale-125 ease-in-out duration-700" alt="nuggetpages" />
                       </picture>
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
@@ -134,9 +134,9 @@ function work() {
                   <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 ">
                       <picture className="block overflow-hidden">
-                        <Image src="zeitplans.jpg" alt="expense-project" className="hover:scale-125 ease-in-out duration-700" />
+                        <img src="zeitplans.jpg" alt="expense-project" className="hover:scale-125 ease-in-out duration-700" />
                       </picture>
-            
+
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px] ">
                           <a className="hover:border-b-2 hover:border-dashed " href="">
@@ -160,7 +160,7 @@ function work() {
                   <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 ">
                       <picture className="block overflow-hidden">
-                        <Image src="Crud Ci.jpg" className="hover:scale-125 ease-in-out duration-700" alt="Crud Ci" />
+                        <img src="Crud Ci.jpg" className="hover:scale-125 ease-in-out duration-700" alt="Crud Ci" />
                       </picture>
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-white text-gray-700 font-bold border-b-2 border-dashed border-transparent font-poppins text-[22px]">
@@ -181,7 +181,7 @@ function work() {
                   <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200  ">
                       <picture className="block overflow-hidden">
-                        <Image src="bubble-cleaner.jpg" className="hover:scale-125 ease-in-out duration-700" alt="bubble" />
+                        <img src="bubble-cleaner.jpg" className="hover:scale-125 ease-in-out duration-700" alt="bubble" />
                       </picture>
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
@@ -202,7 +202,7 @@ function work() {
                   <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 ">
                       <picture className=" block overflow-hidden">
-                        <Image src="workly.jpg" className="hover:scale-125 ease-in-out duration-700" alt="workly" />
+                        <img src="workly.jpg" className="hover:scale-125 ease-in-out duration-700" alt="workly" />
                       </picture>
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-white font-bold font-poppins text-[22px]">
@@ -226,7 +226,7 @@ function work() {
             </Tab.Panels>
           </Tab.Group>
         </section>
-      </motion.div> */}
+      </motion.div>
       <Footer />
     </>
   );

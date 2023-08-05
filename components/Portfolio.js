@@ -8,6 +8,7 @@ import ViteLogo from "../src/Vite.jsx";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -29,7 +30,7 @@ function Portfolio() {
             <div className="flex flex-col">
               <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200  " data-aos="fade-up">
                 <picture className="block overflow-hidden ">
-                  <img src="qr-generator.jpg" alt="expense-project" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
+                  <img src="qr-generator.jpg" alt="qrcode" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
                 </picture>
                 <div className="mt-3 p-4">
                   <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px] ">
