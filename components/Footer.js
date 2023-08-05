@@ -65,9 +65,9 @@ function Footer() {
           <div className="mt-[20px] ">
             <p className="dark:text-slate-300 text-gray-500 text-center font-poppins">
               Copyright &copy; 2023 Develop by{" "}
-              <a href="" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+              <link href="" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                 Ervin Arviandi
-              </a>
+              </link>
             </p>
           </div>
         </section>

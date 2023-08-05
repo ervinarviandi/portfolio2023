@@ -84,10 +84,10 @@ const Navigation = () => {
           )}
         </div>
         <Link href="/" className="flex items-center space-x-3">
-          {/* <img src="/ervinarviandi.jpg" className="w-9 h-9 md:w-10 md:h-10 rounded-full" /> */}
-          <div>
+          <img src="/ervinarviandii.webp" className="w-9 h-9 md:w-10 md:h-10 rounded-full" />
+          {/* <div>
             <video src="/Myvideo.mp4" autoPlay loop width={30} height={30} className="rounded-full" />
-          </div>
+          </div> */}
           <h1
             // style={{ color: `${textColor}` }}
             className="font-bold text-1xl z-index: 50 font-poppins text-[18px] dark:text-white"
@@ -124,11 +124,6 @@ const Navigation = () => {
               Guestbook
             </Link>
           </li>
-          {/* <li className="p-4  font-poppins dark:text-white">
-            <Link href="/work" className="hover:text-pink-500">
-              Blog
-            </Link>
-          </li> */}
           <li className="p-4  font-poppins dark:text-white">
             <Link href="/MyContact" className="hover:text-pink-500">
               Contact
@@ -138,9 +133,6 @@ const Navigation = () => {
 
         {/* Mobile Menu */}
 
-        {/* <button className=" hover:text-pink-300 bg-sky-900  p-2 rounded-lg sm:top-0 sm:left-0 z-10 ">
-          <MoonIcon className="w-5 h-5 animate-pulse " />
-        </button> */}
         {renderThemeChanger()}
 
         <div

@@ -59,18 +59,6 @@ function Articles() {
                 </div>
               </figure>
             </div>
-            {/* <div className="flex flex-col ">
-              <figure className="border-dashed border-2 mt-5 p-4 rounded-lg">
-                <h2 className="dark:text-white text-gray-700 text-3xl font-poppins ">
-                  How To Install/Setup Git For Windows <span className="text-sky-300">()</span>{" "}
-                </h2>
-                <div className="flex mt-5 space-x-3">
-                  <span className="bg-amber-500 dark:text-white text-gray-700 py-2 px-4 rounded-lg font-poppins text-xs">Github</span>
-                  <span className="bg-lime-600 dark:text-white text-gray-700 py-2 px-4 rounded-lg font-poppins text-xs">Web Dev</span>
-                </div>
-              </figure>
-            </div> */}
-
             <div className="flex flex-col ">
               <figure
                 className="border-dashed dark:border-white border-black border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:rounded-lg before:bg-gradient-to-r from-orange to-yellow  before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-solid backdrop-blur  "

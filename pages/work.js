@@ -95,7 +95,7 @@ function work() {
                   <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200   ">
                       <picture className="block overflow-hidden">
-                        <img src="reactlink.jpg" className="hover:scale-125 ease-in-out duration-700" />
+                        <img src="reactlink.jpg" className="hover:scale-125 ease-in-out duration-700" alt="reactlink" />
                       </picture>
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
@@ -115,7 +115,7 @@ function work() {
                   <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200   ">
                       <picture className="block overflow-hidden">
-                        <img src="nugget.jpg" className="hover:scale-125 ease-in-out duration-700" />
+                        <img src="nugget.jpg" className="hover:scale-125 ease-in-out duration-700" alt="nuggetpages" />
                       </picture>
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
@@ -182,7 +182,7 @@ function work() {
                   <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200  ">
                       <picture className="block overflow-hidden">
-                        <img src="bubble-cleaner.jpg" className="hover:scale-125 ease-in-out duration-700" />
+                        <img src="bubble-cleaner.jpg" className="hover:scale-125 ease-in-out duration-700" alt="bubble" />
                       </picture>
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
@@ -203,7 +203,7 @@ function work() {
                   <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 ">
                       <picture className=" block overflow-hidden">
-                        <img src="workly.jpg" className="hover:scale-125 ease-in-out duration-700" />
+                        <img src="workly.jpg" className="hover:scale-125 ease-in-out duration-700" alt="workly" />
                       </picture>
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-white font-bold font-poppins text-[22px]">
@@ -242,7 +242,7 @@ function work() {
                 <div className="grid md:grid-cols-2 gap-5">
                   <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden">
-                      <img src="croosocean.jpg" className="App-logo" alt="logo" />
+                      <img src="croosocean.jpg" className="App-logo" alt="crossocean" />
                       <div className="mt-3">
                         <h3 className="font bold dark:text-white font-poppins text-gray-700 text-[22px] ">Cross The Ocean</h3>
                         <div className="flex items-center space-x-2.5 mt-1.5 mb-3"></div>

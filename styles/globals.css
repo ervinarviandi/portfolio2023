@@ -19,43 +19,43 @@
 }
 
 .custom-img {
-  background-image: url(../public/bg-hero.svg);
+  background-image: url(/bgpatern7.webp);
 }
 
 .hero {
-  background-image: url(/paternbg1.png);
+  background-image: url(/paternbg1.webp);
   background-repeat: no-repeat;
 }
 
 .articles {
-  background-image: url(/bgpatern7.png);
+  background-image: url(/bgpatern7.webp);
   background-position-x: right;
 }
 
 .portfolio {
-  background-image: url(/bgpatern8.png);
+  background-image: url(/bgpatern8.webp);
 }
 
 .about {
-  background-image: url(/bgpatern7.png);
+  background-image: url(/bgpatern7.webp);
   background-position-x: right;
 }
 
 .work {
-  background-image: url(/bgpatern6.png);
+  background-image: url(/bgpatern6.webp);
   background-position-x: right;
 }
 .blog {
-  background-image: url(/bgpatern4.png);
+  background-image: url(/bgpatern4.webp);
   background-position-x: right;
 }
 
 .guestbook {
-  background-image: url(/paternbg2.png);
+  background-image: url(/paternbg2.webp);
   background-position-x: right;
 }
 
 .bgik {
-  background-image: url(/paternbg.png);
+  background-image: url(/paternbg.webp);
   background-position-x: right;
 }

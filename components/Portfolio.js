@@ -52,7 +52,7 @@ function Portfolio() {
             <div className="flex flex-col">
               <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 " data-aos="fade-up" data-aos-delay="300">
                 <picture className="block overflow-hidden">
-                  <img src="bubble-cleaner.jpg" className="hover:scale-125 ease-in-out duration-700" />
+                  <img src="bubble-cleaner.jpg" className="hover:scale-125 ease-in-out duration-700" alt="bubble" />
                 </picture>
                 <div className="mt-3 p-4">
                   <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
@@ -73,7 +73,7 @@ function Portfolio() {
             <div className="flex flex-col">
               <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 " data-aos="fade-up" data-aos-delay="400">
                 <picture className="block overflow-hidden">
-                  <img src="Crud Ci.jpg" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
+                  <img src="Crud Ci.jpg" className="hover:scale-125 overflow-hidden ease-in-out duration-700" alt="crudci" />
                 </picture>
                 <div className="mt-3 p-4">
                   <h3 className="dark:text-white text-gray-700 font-bold border-b-2 border-dashed border-transparent font-poppins text-[22px]">
@@ -93,7 +93,7 @@ function Portfolio() {
             <div className="flex flex-col">
               <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200" data-aos="fade-up" data-aos-delay="500">
                 <picture className="block overflow-hidden">
-                  <img src="reactlink.jpg" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
+                  <img src="reactlink.jpg" className="hover:scale-125 overflow-hidden ease-in-out duration-700" alt="mylink" />
                 </picture>
                 <div className="mt-3 p-4">
                   <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">

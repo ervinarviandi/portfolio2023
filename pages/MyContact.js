@@ -83,7 +83,7 @@ function MyContact() {
               <form name="ervin-contact-form">
                 <div className="w-full lg:w-7/12 ">
                   <div className="w-full px-4 mb-8">
-                    <label for="name" class="text-base font-bold  dark:text-white">
+                    <label for="name" className="text-base font-bold  dark:text-white">
                       Nama
                     </label>
                     <input type="text" id="name" name="nama" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500" />
