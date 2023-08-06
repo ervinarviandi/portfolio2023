@@ -5,6 +5,9 @@ import Footer from "../components/Footer";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import AOS from "aos";
+import Logo from "../public/avatar-ervin.png";
+import Logo2 from "../public/avatar-ervin.png";
+
 // import "aos/dist/aos.css";
 
 function about() {
@@ -14,7 +17,7 @@ function about() {
       <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4 about">
         <div className="flex flex-wrap" initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
           <div className="w-full self-center px-4 lg:w-1/2">
-            {/* <Image src="/avatar-ervin.png" className="md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" width={180} height={180} data-aos="fade-left" alt="avatar" /> */}
+            <Image src={Logo} className="md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" width={180} height={180} data-aos="fade-left" alt="avatar" />
             <h2 className="flex flex-col text-[34px] font-bold dark:text-white text-gray-700 font-poppins  " data-aos="fade-up">
               Muhammad Ervin Arviandi
             </h2>
@@ -22,7 +25,9 @@ function about() {
               Frontend Developer
             </h5>
           </div>
-          <div className="w-full self-center px-4 lg:w-1/2">{/* <Image src="/avatar-ervin.png" className="hidden  rounded-lg lg:block lg:-z-20 mt-[20px] rounded-full" width={210} height={210} data-aos="fade-left" alt="myavatar" /> */}</div>
+          <div className="w-full self-center px-4 lg:w-1/2">
+            <Image src={Logo2} className="hidden  rounded-lg lg:block lg:-z-20 mt-[20px] rounded-full" width={210} height={210} data-aos="fade-left" alt="myavatar" />
+          </div>
           <div className="w-full mt-10 px-4 space-y-5" data-aos="fade-up" data-aos-delay="300">
             <p className="dark:text-white text-gray-700 font-poppins text-base">
               Hello👋, My name is <span className="font-bold underline decoration-pink-500"> Muhammad Ervin Arviandi </span>, or you can call me Ervin. I focus on studying web application development and web design. The main programming

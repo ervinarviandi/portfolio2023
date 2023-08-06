@@ -140,28 +140,40 @@ const Navigation = () => {
           }
         >
           <ul>
-            <li className="p-4 text-2xl hover:text-pink-500 font-poppins dark:text-white text-black">
-              <Link href="/">Home</Link>
+            <li className="p-4 text-2xl  font-poppins dark:text-white text-black">
+              <Link href="/" className="hover:text-pink-500">
+                Home
+              </Link>
             </li>
             <hr className="text-sky-500 w-[100%]" />
-            <li className="p-4 text-2xl hover:text-pink-500 font-poppins dark:text-white text-black">
-              <Link href="/about">About</Link>
+            <li className="p-4 text-2xl font-poppins dark:text-white text-black">
+              <Link href="/about" className="hover:text-pink-500">
+                About
+              </Link>
             </li>
             <hr />
-            <li className="p-4 text-2xl hover:text-pink-500 font-poppins dark:text-white text-black">
-              <Link href="/work">Portfolio</Link>
+            <li className="p-4 text-2xl  font-poppins dark:text-white text-black">
+              <Link href="/work" className="hover:text-pink-500">
+                Portfolio
+              </Link>
             </li>
             <hr />
-            <li className="p-4 text-2xl hover:text-pink-500 font-poppins dark:text-white text-black">
-              <Link href="/MyBlog">Blog</Link>
+            <li className="p-4 text-2xl font-poppins dark:text-white text-black">
+              <Link href="/MyBlog" className="hover:text-pink-500">
+                Blog
+              </Link>
             </li>
             <hr />
-            <li className="p-4 text-2xl hover:text-pink-500 font-poppins dark:text-white text-black">
-              <Link href="/GuestBook">GuestBook</Link>
+            <li className="p-4 text-2xl font-poppins dark:text-white text-black">
+              <Link href="/GuestBook" className="hover:text-pink-500">
+                GuestBook
+              </Link>
             </li>
             <hr />
-            <li className="p-4 text-2xl hover:text-pink-500 font-poppins dark:text-white text-black">
-              <Link href="/MyContact">Contact</Link>
+            <li className="p-4 text-2xl font-poppins dark:text-white text-black">
+              <Link href="/MyContact" className="hover:text-pink-500">
+                Contact
+              </Link>
             </li>
             <hr />
           </ul>

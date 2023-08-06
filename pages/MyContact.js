@@ -39,7 +39,7 @@ function MyContact() {
                   <textarea type="message" id="name" name="pesan" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500 h-32" />
                 </div>
                 <div className=" w-full px-4">
-                  <Button href="" className="   absolute flex font-poppins text-base items-center dark:text-white text-gray-200 font-poppins py-2 px-5  rounded-lg bg-pink-500  ">
+                  <Button href="" className="   absolute flex font-poppins text-base items-center dark:text-white text-gray-200 font-poppins py-2 px-5  rounded-lg bg-pink-500 hover:bg-pink-400 hover:shadow-2xl  ">
                     Kirim
                   </Button>
                 </div>
@@ -92,7 +92,7 @@ function MyContact() {
                     <textarea type="message" id="name" name="pesan" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500 h-32" />
                   </div>
                   <div className=" px-4">
-                    <Button href="" className="absolute flex font-poppins text-base items-center border-pink-500 border-2 dark:text-white text-gray-200  py-2 px-5  rounded-lg bg-gradient-to-r from-pink-500 to-blue-500">
+                    <Button href="" className="absolute flex font-poppins text-base items-center border-pink-500 border-2 dark:text-white text-gray-200  py-2 px-5  rounded-lg bg-pink-500 hover:shadow-2xl hover:bg-pink-400">
                       Kirim
                     </Button>
                   </div>

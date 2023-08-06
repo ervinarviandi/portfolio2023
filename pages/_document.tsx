@@ -8,7 +8,7 @@ export default function Document() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="seo for website " />
       </Head>
-      <title className="font-poppins">Ervin Arviandi I Frontend Developer</title>
+      <title className="font-poppins">Ervin Arviandi I Frontend Developer 🚀</title>
       <body>
         <Main />
         <NextScript />

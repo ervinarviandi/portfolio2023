@@ -11,3 +11,45 @@
     background-color: white;
   }
 }
+
+.hero {
+  background-image: url(../public/bgpatern7.webp);
+  background-repeat: no-repeat;
+}
+
+.articles {
+  background-image: url(../public/bgpatern7.webp);
+  background-position: right;
+}
+
+.portfolio {
+  background-image: url(../public/bgpatern4.webp);
+}
+
+.tech {
+  background-image: url(../public/paternbg1.webp);
+  background-repeat: no-repeat;
+}
+
+.about {
+  background-image: url(../public/bgpatern7.webp);
+  background-repeat: no-repeat;
+}
+
+.work {
+  background-image: url(../public/paternbg2.webp);
+  background-position: right;
+}
+
+.blog {
+  background-image: url(../public/bgpatern6.webp);
+}
+
+.guestbook {
+  background-image: url(../public/paternbg2.webp);
+  background-position: right;
+}
+.bgik {
+  background-image: url(../public/paternbg2.webp);
+  background-position: right;
+}
