@@ -34,7 +34,7 @@ function Portfolio() {
                 </picture>
                 <div className="mt-3 p-4">
                   <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px] ">
-                    <a className="dark:hover:border-b-2 dark:hover:border-dashed  " href=" QrGenerator">
+                    <a className="dark:hover:border-b-2 dark:hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text  " href=" QrGenerator">
                       {" "}
                       QR Generator
                     </a>
@@ -54,7 +54,7 @@ function Portfolio() {
                 </picture>
                 <div className="mt-3 p-4">
                   <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
-                    <a className="hover:border-b-2 hover:border-dashed " href="https://bubble-cleaner-4rq1.vercel.app/">
+                    <a className="hover:border-b-2 hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text " href="https://bubble-cleaner-4rq1.vercel.app/">
                       {" "}
                       Bubble Cleaner
                     </a>
@@ -75,7 +75,7 @@ function Portfolio() {
                 </picture>
                 <div className="mt-3 p-4">
                   <h3 className="dark:text-white text-gray-700 font-bold border-b-2 border-dashed border-transparent font-poppins text-[22px]">
-                    <a className="hover:border-b-2 hover:border-dashed" href="Bookself">
+                    <a className="hover:border-b-2 hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text " href="Bookself">
                       {" "}
                       Bookself
                     </a>
@@ -95,7 +95,7 @@ function Portfolio() {
                 </picture>
                 <div className="mt-3 p-4">
                   <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
-                    <a className="hover:border-b-2 hover:border-dashed " href="linkbio">
+                    <a className="hover:border-b-2 hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text  " href="linkbio">
                       {" "}
                       Link Bio
                     </a>
@@ -111,9 +111,9 @@ function Portfolio() {
           </div>
           <div className=" mt-[30px] ">
             <p className=" flex items-center dark:text-white text-gray-700" data-aos="fade-up">
-              <Link href="/work" className="flex items-center  dark:hover:text-pink-500 hover:font-bold font-poppins">
+              <Link href="/work" className="flex items-center  dark:hover:text-gradient200 hover:font-bold font-poppins">
                 See All Portfolio
-                <BsFillArrowRightCircleFill className="ml-5 dark:text-white text-gray-700 text-2xl dark:hover:text-pink-500" />
+                <BsFillArrowRightCircleFill className="ml-5 dark:text-white text-gray-700 text-2xl dark:hover:text-gradient200" />
               </Link>
             </p>
           </div>

@@ -22,6 +22,8 @@ module.exports = {
         primary: "#191919",
         card100: "#23252d",
         card200: "#edf4ff",
+        gradient100: "#75c3ff",
+        gradient200: "#ff5c9a",
       },
       zIndex: {
         100: "100",

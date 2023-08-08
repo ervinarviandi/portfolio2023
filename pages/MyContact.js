@@ -3,6 +3,7 @@ import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Button from "next/link";
 import { BsFillArrowDownSquareFill } from "react-icons/bs";
+
 function MyContact() {
   return (
     <>
@@ -13,7 +14,7 @@ function MyContact() {
         <div className="w-7/12 flex flex-row items-center px-[90px] ">
           <div>
             <div className="mb-10 md:max-w-4xl xl:max-w-4xl">
-              <h2 className="text-3xl font-poppins font-extrabold md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r bg-gradient-to-r from-purple-400 via-pink-600 to-bg-blue-500 before:relative before:inset-0 before:bg-gradient-to-r before:from-pink-500  before:to-blue-500 ">
+              <h2 className="text-3xl font-poppins font-extrabold md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r bg-gradient-to-r from-gradient100 via-gradient200 to-bg-gradient200 before:relative before:inset-0 before:bg-gradient-to-r before:from-pink-500  before:to-blue-500 ">
                 Contact
               </h2>
             </div>
@@ -24,22 +25,22 @@ function MyContact() {
                   <label for="name" class="text-base font-bold dark:text-white">
                     Nama
                   </label>
-                  <input type="text" id="name" name="nama" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500" />
+                  <input type="text" id="name" name="user_name" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500" />
                 </div>
                 <div className="w-full px-4 mb-8">
                   <label for="email" className="text-base font-bold dark:text-white">
                     Email
                   </label>
-                  <input type="email" id="email" name="email" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500" />
+                  <input type="email" id="email" name="user_email" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500" />
                 </div>
                 <div class="w-full px-4 mb-8">
                   <label for="message" className="text-base font-bold dark:text-white">
                     Pesan
                   </label>
-                  <textarea type="message" id="name" name="pesan" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500 h-32" />
+                  <textarea type="message" id="name" name="message" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500 h-32" />
                 </div>
                 <div className=" w-full px-4">
-                  <Button href="" className="   absolute flex font-poppins text-base items-center dark:text-white text-gray-200 font-poppins py-2 px-5  rounded-lg bg-pink-500 hover:bg-pink-400 hover:shadow-2xl  ">
+                  <Button href="" type="submit" value="send" className="absolute flex font-poppins text-base items-center dark:text-white text-gray-200 font-poppins py-2 px-5  rounded-lg bg-gradient200 hover:bg-pink-400 hover:shadow-2xl  ">
                     Kirim
                   </Button>
                 </div>
@@ -64,7 +65,7 @@ function MyContact() {
       <main className="px-4 py-12 lg:hidden md:hidden xl:hidden block bgik">
         <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl ">
           <div className="mb-10">
-            <h2 className="text-3xl font-poppins font-extrabold md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r  bg-gradient-to-r from-purple-400 via-pink-600 to-bg-blue-500 before:relative before:inset-0 before:bg-gradient-to-r before:from-pink-500  before:to-blue-500 ">
+            <h2 className="text-3xl font-poppins font-extrabold md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r  bg-gradient-to-r from-gradient100 via-gradient200 to-gradient200 before:relative before:inset-0 before:bg-gradient-to-r before:from-pink-500  before:to-blue-500 ">
               Contact
             </h2>
           </div>
@@ -92,7 +93,7 @@ function MyContact() {
                     <textarea type="message" id="name" name="pesan" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500 h-32" />
                   </div>
                   <div className=" px-4">
-                    <Button href="" className="absolute flex font-poppins text-base items-center border-pink-500 border-2 dark:text-white text-gray-200  py-2 px-5  rounded-lg bg-pink-500 hover:shadow-2xl hover:bg-pink-400">
+                    <Button href="" className="absolute flex font-poppins text-base items-center border-gradient200 border-2 dark:text-white text-gray-200  py-2 px-5  rounded-lg bg-gradient200 hover:shadow-2xl ">
                       Kirim
                     </Button>
                   </div>

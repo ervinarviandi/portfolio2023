@@ -31,14 +31,14 @@ function Hero() {
           <img src="ervinarviandii.webp " className="w-48 h-48 md:w-50 md:h-50 md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" alt="myprofile" data-aos="fade-up" />
           <div className="flex flex-wrap">
             <div className="w-full self-center px-4 lg:w-1/2" data-aos="fade-up">
-              <h5 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-600 to-bg-blue-500 text-[24px] mt-7 font-poppins" data-aos="fade-up" data-aos-delay="100">
+              <h5 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-gradient100 to-gradient200   text-[24px] mt-7 font-poppins" data-aos="fade-up" data-aos-delay="100">
                 Frontend Developer
               </h5>
               <div className="absolute top-20 -z-20 md:top-30 md:left-30"></div>
               <div className=" flex items-center space-x-4 typewriter  relative mt-6">
                 <span className=" dark:text-white text-gray-700 text-lg"> I&#39;m a {""} </span>
                 <TypeAnimation
-                  className="text-writer flex text-blue-500 ml-4 font-bold items-center  text-lg font-poppins"
+                  className="text-writer flex text-gradient100 ml-4 font-bold items-center  text-lg font-poppins"
                   sequence={[
                     "Developer 👩‍💻", // Types 'One'
                     1000, // Waits 1s
@@ -58,29 +58,29 @@ function Hero() {
               </div>
               <p className="py-4  font-poppins text-base text-gray-700 dark:text-white">
                 Hello 👋 I&#39;m <br />
-                <a href="https://www.showwcase.com/ervinarviandi" aria-label="link-showcase" className="underline decoration-blue-500 hover:text-sky-500 font-poppins text-base space-x-2">
+                <a href="https://www.showwcase.com/ervinarviandi" aria-label="link-showcase" className="underline decoration-gradient100 hover:text-gradient100 font-poppins text-base space-x-2">
                   Muhammad Ervin Arviandi
                 </a>
                 , a guy who loves to code, music and coffee. Welcome to my personal website, where you can find my portfolio, blog and more.
               </p>
               <div className="flex flex-wrap space-x-4 text-2xl ">
                 <Link href="https://github.com/ervinarviandi" aria-label="link-github" className="dark:text-white text-gray-700 ">
-                  <BsGithub className="hover:text-pink-500" />
+                  <BsGithub className="hover:text-gradient200" />
                 </Link>
                 <Link href="https://www.instagram.com/ervinarviandi/" aria-label="link-instagram" className="dark:text-white text-gray-700 ">
-                  <BsInstagram className="hover:text-pink-500" />
+                  <BsInstagram className="hover:text-gradient200" />
                 </Link>
                 <Link href="https://www.showwcase.com/ervinarviandi" aria-label="link-showcase" className="dark:text-white text-gray-700">
-                  <BsGlobe2 className="hover:text-pink-500" />
+                  <BsGlobe2 className="hover:text-gradient200" />
                 </Link>
                 <Link href="https://react-link.vercel.app/" aria-label="link-bio" className="dark:text-white text-gray-700 ">
-                  <BsLink45Deg className="hover:text-pink-500" />
+                  <BsLink45Deg className="hover:text-gradient200" />
                 </Link>
                 <Link href="mailto:muhamadervin34@gmail.com" aria-label="link-email" className="dark:text-white text-gray-700">
-                  <MdEmail className="hover:text-pink-500" />
+                  <MdEmail className="hover:text-gradient200" />
                 </Link>
                 <Link href="https://500px.com/p/muhamadervin34?view=photos" aria-label="link-px500" className="dark:text-white text-gray-700">
-                  <Si500Px className="hover:text-pink-500" />
+                  <Si500Px className="hover:text-gradient200" />
                 </Link>
               </div>
               <div className="mt-12 " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
@@ -88,7 +88,7 @@ function Hero() {
                   id="downloadCV"
                   aria-label="mybutton"
                   href="https://resume.showwcase.com/ervinarviandi.pdf"
-                  className="absolute flex font-poppins text-base items-center  border-2 border-blue-500 dark:text-white text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg "
+                  className="absolute flex font-poppins text-base items-center  border-2 border-gradient200 dark:text-white text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-gradient-to-r before:from-gradient100 before:to-gradient200 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:shadow-xl "
                 >
                   Download CV
                   <AiFillFilePdf className="ml-3" />

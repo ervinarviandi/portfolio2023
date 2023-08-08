@@ -21,7 +21,7 @@ function about() {
             <h2 className="flex flex-col text-[34px] font-bold dark:text-white text-gray-700 font-poppins  " data-aos="fade-up">
               Muhammad Ervin Arviandi
             </h2>
-            <h5 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-600 to-bg-blue-500 text-[24px] mt-7 font-poppins" data-aos="fade-right">
+            <h5 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-gradient100 to-gradient200  text-[24px] mt-7 font-poppins" data-aos="fade-right">
               Frontend Developer
             </h5>
           </div>
@@ -30,13 +30,13 @@ function about() {
           </div>
           <div className="w-full mt-10 px-4 space-y-5" data-aos="fade-up" data-aos-delay="300">
             <p className="dark:text-white text-gray-700 font-poppins text-base">
-              Hello👋, My name is <span className="font-bold underline decoration-pink-500"> Muhammad Ervin Arviandi </span>, or you can call me Ervin. I focus on studying web application development and web design. The main programming
-              language I&#39;m exploring is Javascript, as well as the React framework (and the environment in general). I love learning things, and always want to learn new things. I am enthusiastic, reliable, responsible and hardworking
-              person.
+              Hello👋, My name is <span className="font-bold underline text-transparent bg-clip-text decoration-gradient200 bg-gradient-to-r from-gradient100 to-gradient200"> Muhammad Ervin Arviandi </span>, or you can call me Ervin. I
+              focus on studying web application development and web design. The main programming language I&#39;m exploring is Javascript, as well as the React framework (and the environment in general). I love learning things, and always
+              want to learn new things. I am enthusiastic, reliable, responsible and hardworking person.
             </p>
 
             <p className="dark:text-white text-gray-700 font-poppins text-base">
-              I&#39;am passionate about <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-bold"> Frontend Developer </span> and enjoy working on the Web. I love combining my technical
+              I&#39;am passionate about <span className=" text-transparent bg-clip-text bg-gradient-to-r from-gradient100 to-gradient200 font-bold"> Frontend Developer </span> and enjoy working on the Web. I love combining my technical
               knowledge and creativity to build engaging and user-friendly websites and applications.
             </p>
             <p className="dark:text-white text-gray-700 font-poppins text-base">

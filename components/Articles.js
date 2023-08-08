@@ -54,7 +54,7 @@ function Articles() {
                 </h2>
                 <div className="flex mt-5 space-x-3">
                   <span className="bg-purple-500  text-yellow-500 py-2 px-4 rounded-lg font-poppins text-xs">Node Js</span>
-                  <span className="bg-blue-500 dark:text-white py-2 px-4 rounded-lg font-poppins text-xs">Web Dev</span>
+                  <span className="bg-gradient100 dark:text-white py-2 px-4 rounded-lg font-poppins text-xs">Web Dev</span>
                 </div>
               </figure>
             </div>
@@ -75,9 +75,9 @@ function Articles() {
           </div>
           <div className=" mt-[30px] ">
             <p className=" flex items-center dark:text-white text-gray-700  hover:font-bold font-poppins" data-aos="fade-up">
-              <Link href="/MyBlog" className="flex items-center  dark:hover:text-pink-500 hover:font-bold font-poppins">
+              <Link href="/MyBlog" className="flex items-center  dark:hover:text-gradient200 hover:font-bold font-poppins">
                 See All Post
-                <BsFillArrowRightCircleFill className="ml-5 dark:text-white text-gray-700 text-2xl dark:hover:text-pink-500 group" />
+                <BsFillArrowRightCircleFill className="ml-5 dark:text-white text-gray-700 text-2xl dark:hover:text-gradient200 group" />
               </Link>
             </p>
           </div>
