@@ -53,7 +53,7 @@ const Navigation = () => {
     } else {
       return (
         <button className="bg-card200 p-2 rounded-lg " onClick={() => setTheme("dark")}>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="#3b82f6" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-6 h-6">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#75c3ff" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-6 h-6">
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -67,7 +67,7 @@ const Navigation = () => {
 
   return (
     <div style={{ backgroundColor: `${color}` }} className="fixed left-0 top-0 w-full  ease-in duration-300 dark:text-white backdrop-blur-md bg-black/90   z-10">
-      <hr className="relative h-2 w-full bg-gradient-to-r from-purple-500 to-pink-500 before:absolute before:inset-0 before:bg-gradient-to-r before:from-purple-500 before:from-pink-500 before:to-blue-500 before:animate-pulse" />
+      <hr className="relative h-2 w-full bg-gradient-to-r from-gradient100 to-gradient200 before:absolute before:inset-0 before:bg-gradient-to-r before:from-gradient100 before:via-gradient200 before:to-yellow before:animate-pulse" />
       <div className=" md:max-w-5xl xl:max-w-5xl m-auto flex justify-between items-center p-4 ">
         {/* Mobile Button */}
         <div onClick={handleNav} className="block sm:hidden z-10 dark:text-white ">

@@ -40,21 +40,21 @@ function MyBlog() {
               </h2>
               <div className="md:flex justify-between items-center space-x-3">
                 <div className="flex mt-5 space-x-3">
-                  <span className="bg-rose-500 dark:text-white text-lime-300 py-2 px-4 rounded-lg font-poppins text-xs">Git</span>
-                  <span className="bg-teal-500 dark:text-white text-yellow-200 py-2 px-4 rounded-lg font-poppins text-xs">Github</span>
+                  <span className="bg-rose-500 dark:text-emerald-200 text-lime-300 py-2 px-4 rounded-lg font-poppins text-xs">Git</span>
+                  <span className="bg-teal-500 text-white py-2 px-4 rounded-lg font-poppins text-xs">Github</span>
                 </div>
                 <div className="md:flex mt-4">
                   <div className="flex items-center space-x-2">
-                    <AiOutlineFieldTime />
+                    <AiOutlineFieldTime className="dark:text-white text-gray-700" />
                     <p className="text-base font-popins dark:text-white text-gray-700">19 min read</p>
-                    <AiOutlineEye />
+                    <AiOutlineEye className="dark:text-white text-gray-700" />
                     <p className="text-base font-poppins dark:text-white text-gray-700">120 views</p>
                   </div>
                 </div>
               </div>
             </figure>
 
-            <figure className=" border-dashed dark:border-white border-black border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:rounded-lg before:bg-gradient-to-r from-orange to-yellow  before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-solid backdrop-blur">
+            {/* <figure className=" border-dashed dark:border-white border-black border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:rounded-lg before:bg-gradient-to-r from-orange to-yellow  before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-solid backdrop-blur">
               <h2 className="dark:text-white text-gray-700 text-3xl font-poppins  ">
                 <Link href="/NodeBlog" className="hover:border-b-2 hover:border-dashed">
                   How to Install Node Js & NPM on Windows <IoLogoNodejs />
@@ -63,20 +63,20 @@ function MyBlog() {
               <div className="md:flex justify-between items-center space-x-3">
                 <div className="flex mt-5 space-x-3">
                   <span className="bg-purple-500 dark:text-white text-rose-300 py-2 px-4 rounded-lg font-poppins text-xs">Node Js</span>
-                  <span className="bg-yellow-500 dark:text-white text-blue-500 py-2 px-4 rounded-lg font-poppins text-xs">Git</span>
+                  <span className="bg-emerald-400 dark:text-white text-yellow-200 py-2 px-4 rounded-lg font-poppins text-xs">Git</span>
                 </div>
                 <div className="md:flex mt-4">
                   <div className="flex items-center space-x-2">
                     <AiOutlineFieldTime />
-                    <p className="text-base font-popins dark:text-white text-gray-700">12 min read</p>
+                    <p className="text-base font-popins dark:text-white text-gray-700">20 min read</p>
                     <AiOutlineEye />
-                    <p className="text-base font-poppins dark:text-white text-gray-700">97 views</p>
+                    <p className="text-base font-poppins dark:text-white text-gray-700">32 views</p>
                   </div>
                 </div>
               </div>
-            </figure>
+            </figure> */}
 
-            <figure className=" border-dashed dark:border-white border-black border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:rounded-lg before:bg-gradient-to-r from-orange to-yellow  before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-solid backdrop-blur ">
+            {/* <figure className=" border-dashed dark:border-white border-black border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:rounded-lg before:bg-gradient-to-r from-orange to-yellow  before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-solid backdrop-blur ">
               <h2 className="dark:text-white text-gray-700 text-3xl font-poppins  ">
                 <Link href="/NodeBlog" className="hover:border-b-2 hover:border-dashed">
                   make a website fast, simple using astro
@@ -86,26 +86,19 @@ function MyBlog() {
               <div className="md:flex justify-between items-center space-x-3">
                 <div className="flex mt-5 space-x-3">
                   <span className="bg-purple-500 dark:text-white text-rose-300 py-2 px-4 rounded-lg font-poppins text-xs">Node Js</span>
-                  <span className="bg-yellow-500 dark:text-white text-blue-500 py-2 px-4 rounded-lg font-poppins text-xs">Git</span>
+                  <span className="bg-gradient200 dark:text-white text-blue-500 py-2 px-4 rounded-lg font-poppins text-xs">Git</span>
                 </div>
                 <div className="md:flex mt-4">
                   <div className="flex items-center space-x-2">
                     <AiOutlineFieldTime />
-                    <p className="text-base font-popins dark:text-white text-gray-700">12 min read</p>
+                    <p className="text-base font-popins dark:text-white text-gray-700">10 min read</p>
                     <AiOutlineEye />
-                    <p className="text-base font-poppins dark:text-white text-gray-700">97 views</p>
+                    <p className="text-base font-poppins dark:text-white text-gray-700">30 views</p>
                   </div>
                 </div>
               </div>
-            </figure>
+            </figure> */}
           </div>
-          {/* <div className="mt-[20px]">
-            <Tippy content="Hello ini button" followCursor={true} plugins={[followCursor]} placement="top" animation="perspective-extreme" theme="light">
-              <button className="relative border-2 dark:text-white text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-pink-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
-                Ini Button
-              </button>
-            </Tippy>
-          </div> */}
         </section>
         <Footer />
       </div>
