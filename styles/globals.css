@@ -8,7 +8,7 @@
   body {
     @apply dark:bg-backgrounddark dark:text-gray-100;
     /* background-color: #f0e7db; */
-    background-color: white;
+    background-color: #fafafa;
   }
 }
 

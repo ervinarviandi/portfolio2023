@@ -56,33 +56,33 @@ function Hero() {
                   // style={{ fontSize: "1em" }}
                 />
               </div>
-              <p className="py-4  font-poppins text-base text-gray-700 dark:text-white">
+              <p className="py-4  font-poppins text-base text-gray-700 dark:text-primary5">
                 Hello 👋 I&#39;m <br />
                 <a href="https://www.showwcase.com/ervinarviandi" aria-label="link-showcase" className="underline decoration-gradient100 hover:text-gradient100 font-poppins text-base space-x-2">
                   Muhammad Ervin Arviandi
                 </a>
                 , a guy who loves to code, music and coffee. Welcome to my personal website, where you can find my portfolio, blog and more.
               </p>
-              <div className="flex flex-wrap space-x-4 text-2xl ">
-                <Link href="https://github.com/ervinarviandi" aria-label="link-github" className="dark:text-white text-gray-700 ">
+              {/* <div className="flex flex-wrap space-x-4 text-2xl ">
+                <Link href="https://github.com/ervinarviandi" aria-label="link-github" className="dark:text-primary10 text-gray-700 ">
                   <BsGithub className="hover:text-gradient200" />
                 </Link>
-                <Link href="https://www.instagram.com/ervinarviandi/" aria-label="link-instagram" className="dark:text-white text-gray-700 ">
+                <Link href="https://www.instagram.com/ervinarviandi/" aria-label="link-instagram" className="dark:text-primary10 text-gray-700 ">
                   <BsInstagram className="hover:text-gradient200" />
                 </Link>
-                <Link href="https://www.showwcase.com/ervinarviandi" aria-label="link-showcase" className="dark:text-white text-gray-700">
+                <Link href="https://www.showwcase.com/ervinarviandi" aria-label="link-showcase" className="dark:primary10 text-gray-700">
                   <BsGlobe2 className="hover:text-gradient200" />
                 </Link>
-                <Link href="https://react-link.vercel.app/" aria-label="link-bio" className="dark:text-white text-gray-700 ">
+                <Link href="https://react-link.vercel.app/" aria-label="link-bio" className="dark:primary10 text-gray-700 ">
                   <BsLink45Deg className="hover:text-gradient200" />
                 </Link>
-                <Link href="mailto:muhamadervin34@gmail.com" aria-label="link-email" className="dark:text-white text-gray-700">
+                <Link href="mailto:muhamadervin34@gmail.com" aria-label="link-email" className="dark:primary10 text-gray-700">
                   <MdEmail className="hover:text-gradient200" />
                 </Link>
-                <Link href="https://500px.com/p/muhamadervin34?view=photos" aria-label="link-px500" className="dark:text-white text-gray-700">
-                  <Si500Px className="hover:text-gradient200" />
+                <Link href="https://500px.com/p/muhamadervin34?view=photos" aria-label="link-px500" className=" ">
+                  <Si500Px className="hover:text-gradient200 dark:primary10 text-gray-700" />
                 </Link>
-              </div>
+              </div> */}
               <div className="mt-12 " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
                 <Button
                   id="downloadCV"

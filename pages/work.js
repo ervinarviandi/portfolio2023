@@ -15,6 +15,13 @@ import classNames from "classnames";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
+import Logo from "/public/croosocean.webp";
+import Logo1 from "/public/theguardian.webp";
+import Logo2 from "/public/dheni patungka.webp";
+import Logo3 from "/public/erfan.webp";
+import Logo4 from "/public/reza arap.webp";
+import Logo5 from "/public/the last soldier.webp";
+import Logo6 from "/public/hitam putih.webp";
 
 function work() {
   return (
@@ -220,7 +227,31 @@ function work() {
                 </div>
               </Tab.Panel>
               <Tab.Panel className="rounded-xl dark:bg-backgrounddark p-3 dark:text-white text-gray-700"></Tab.Panel>
-              <Tab.Panel className="rounded-xl dark:bg-backgrounddark p-3 dark:text-white text-gray-700 "></Tab.Panel>
+              <Tab.Panel className="rounded-xl dark:bg-backgrounddark p-3 dark:text-white text-gray-700 ">
+                <div className="grid md:grid-cols-2 gap-2">
+                  <div className="flex flex-col">
+                    <Image src={Logo} alt="gambar1" />
+                  </div>
+                  <div className="flex flex-col">
+                    <Image src={Logo1} alt="gambar2" />
+                  </div>
+                  <div className="flex flex-col">
+                    <Image src={Logo2} alt="gambar3" />
+                  </div>
+                  <div className="flex flex-col">
+                    <Image src={Logo3} alt="gambar4" />
+                  </div>
+                  <div className="flex flex-col">
+                    <Image src={Logo4} alt="gambar5" />
+                  </div>
+                  <div className="flex flex-col">
+                    <Image src={Logo5} alt="gambar6" />
+                  </div>
+                  <div className="flex flex-col">
+                    <Image src={Logo6} alt="gambar7" />
+                  </div>
+                </div>
+              </Tab.Panel>
             </Tab.Panels>
           </Tab.Group>
         </section>

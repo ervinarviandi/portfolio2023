@@ -23,10 +23,10 @@ function Techstack() {
       <div className="px-4 py-12 tech">
         <div className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4">
           <div className="w-full self-center px-4">
-            <p className="dark:text-white text-gray-700 font-poppins font-bold text-2xl md:text-left text-center" data-aos="fade-up">
+            <p className="dark:text-primary5 text-gray-700 font-poppins font-bold text-2xl md:text-left text-center" data-aos="fade-up">
               Tech Stack{" "}
             </p>
-            <p className="text-base font-poppins dark:text-white text-gray-700 mt-10" data-aos="fade-up">
+            <p className="text-base font-poppins dark:text-primary10 text-gray-700 mt-10" data-aos="fade-up">
               {/* Dibawah ini adalah beberapa tools/teknologi yang pernah saya gunakan untuk membuat website ataupun membuat desain . */}
               Below are some of the tools/technology that I have used to create websites or create designs.
             </p>
