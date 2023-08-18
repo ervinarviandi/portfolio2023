@@ -20,19 +20,19 @@ function MyBlog() {
           <div className="mb-10">
             <h2 className="text-3xl font-poppins font-extrabold md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r  from-gradient100  to-gradient200 ">My Blog</h2>
           </div>
-          <p className="text-base dark:text-white text-gray-700 font-poppins">
+          <p className="text-base dark:text-primary5 text-gray-700 font-poppins">
             Youll find a collection of my thoughts and musings on a variety of topics. I write about everything from current events to personal experiences, and I always strive to share my honest opinions. Keep in mind that my views are my
             own and do not necessarily reflect those of any other person or organization.
           </p>
-
+          <hr className="border-dashed border-1  dark:border-card100 border-gray-700 mt-4" />
           <div className="mt-10">
-            <h2 className="dark:text-white text-gray-700 text-2xl font-poppins"> All Post</h2>
-            <p className="text-base dark:text-white text-gray-700 font-poppins mt-5">
+            <h2 className="dark:text-primary5 text-gray-700 text-2xl font-poppins"> All Post</h2>
+            <p className="text-base dark:text-primary10 text-gray-700 font-poppins mt-5">
               It looks like you`re interested in my posts. You`re welcome to take a look and read them, and they`re sorted by date so you can easily find the newest ones.
             </p>
 
             <figure className=" border-dashed dark:border-white border-black border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:rounded-lg before:bg-gradient-to-r from-orange to-yellow  before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-solid backdrop-blur">
-              <h2 className="dark:text-white text-gray-700 text-3xl font-poppins  ">
+              <h2 className="dark:text-primary5 text-gray-700 text-3xl font-poppins  ">
                 <Link href="/Blog" className="hover:border-b-2 hover:border-dashed">
                   How to Install Git on Windows & configuration
                   <FaGitSquare />
@@ -45,10 +45,10 @@ function MyBlog() {
                 </div>
                 <div className="md:flex mt-4">
                   <div className="flex items-center space-x-2">
-                    <AiOutlineFieldTime className="dark:text-white text-gray-700" />
-                    <p className="text-base font-popins dark:text-white text-gray-700">19 min read</p>
-                    <AiOutlineEye className="dark:text-white text-gray-700" />
-                    <p className="text-base font-poppins dark:text-white text-gray-700">120 views</p>
+                    <AiOutlineFieldTime className="dark:text-primary10 text-gray-700" />
+                    <p className="text-base font-poppins dark:text-primary10 text-gray-700">19 min read</p>
+                    <AiOutlineEye className="dark:text-primary10 text-gray-700" />
+                    <p className="text-base font-poppins dark:text-primary10 text-gray-700">16 views</p>
                   </div>
                 </div>
               </div>

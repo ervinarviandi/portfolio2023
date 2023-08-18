@@ -10,7 +10,8 @@ function Footer() {
     <>
       <main className="px-4 py-12">
         <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4 ">
-          <div className="lg:flex justify-between  ">
+          <hr className="border-dashed border-1  dark:border-card100 border-gray-700 mb-7" />
+          <div className="lg:flex justify-between">
             <div className="md:w-7/12">
               <h3 className="font-poppins text-lg dark:text-primary10 mb-4 text-gray-700">About Me</h3>
               <h1 className=" text-lg font-poppins text-3xl dark:text-primary10 text-gray-700 ">
@@ -42,33 +43,33 @@ function Footer() {
             </div>
           </div>
           <nav className="mt-10">
-            <ul className="md:flex md:space-x-[30px] dark:text-primary5 text-gray-500 font-poppins ">
-              <li className="hover:text-gradient200">
+            <ul className="md:flex md:space-x-[30px]  ">
+              <li className="hover:text-gradient200 dark:text-primary10 text-gray-500 font-poppins">
                 <Link href="/">Home</Link>
               </li>
-              <li className="hover:text-gradient200">
+              <li className="hover:text-gradient200 dark:text-primary10 text-gray-500 font-poppins">
                 <Link href="/MyBlog">Blog</Link>
               </li>
-              <li className="hover:text-gradient200">
+              <li className="hover:text-gradient200 dark:text-primary10 text-gray-500 font-poppins">
                 <Link href="/work">Portfolio</Link>
               </li>
-              <li className="hover:text-gradient200">
+              <li className="hover:text-gradient200 dark:text-primary10 text-gray-500 font-poppins">
                 <Link href="/Questions">Questions</Link>
               </li>
-              <li className="hover:text-gradient200">
+              <li className="hover:text-gradient200 dark:text-primary10 text-gray-500 font-poppins">
                 <Link href="/Snippet">Snippet</Link>
               </li>
-              <li className="hover:text-gradient200">
+              <li className="hover:text-gradient200 dark:text-primary10 text-gray-500 font-poppins">
                 <Link href="/Resume">Resume</Link>
               </li>
-              <li className="hover:text-gradient200">
+              <li className="hover:text-gradient200 dark:text-primary10 text-gray-500 font-poppins">
                 <Link href="/Certificate">Certificate</Link>
               </li>
             </ul>
           </nav>
           <hr className="mt-[10px] dark:border-card100" />
           <div className="mt-[22px] ">
-            <p className="dark:primary5 text-sm text-gray-500  font-poppins">
+            <p className="dark:primary5 text-sm text-gray-500  font-poppins lg:text-left text-center">
               &copy; 2023 Develop by{" "}
               <Link href="" className="">
                 Ervin Arviandi

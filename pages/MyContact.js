@@ -22,25 +22,30 @@ function MyContact() {
             <form name="ervin-contact-form">
               <div className="w-full">
                 <div className="w-full px-4 mb-8">
-                  <label for="name" class="text-base font-bold dark:text-white">
+                  <label for="name" class="text-base font-bold dark:text-primary5 text-gray-700">
                     Nama
                   </label>
                   <input type="text" id="name" name="user_name" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500" />
                 </div>
                 <div className="w-full px-4 mb-8">
-                  <label for="email" className="text-base font-bold dark:text-white">
+                  <label for="email" className="text-base font-bold dark:text-primary5 text-gray-700">
                     Email
                   </label>
                   <input type="email" id="email" name="user_email" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500" />
                 </div>
                 <div class="w-full px-4 mb-8">
-                  <label for="message" className="text-base font-bold dark:text-white">
+                  <label for="message" className="text-base font-bold dark:text-primary5 text-gray-700">
                     Pesan
                   </label>
                   <textarea type="message" id="name" name="message" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500 h-32" />
                 </div>
                 <div className=" w-full px-4">
-                  <Button href="" type="submit" value="send" className="absolute flex font-poppins text-base items-center dark:text-white text-gray-200 font-poppins py-2 px-5  rounded-lg bg-gradient200 hover:bg-pink-400 hover:shadow-2xl  ">
+                  <Button
+                    href=""
+                    type="submit"
+                    value="send"
+                    className="absolute flex font-poppins text-base items-center dark:text-primary5 text-gray-700 font-poppins py-2 px-5  rounded-lg bg-gradient200 hover:bg-pink-400 hover:shadow-2xl  "
+                  >
                     Kirim
                   </Button>
                 </div>
@@ -75,25 +80,25 @@ function MyContact() {
               <form name="ervin-contact-form">
                 <div className="w-full lg:w-7/12 ">
                   <div className="w-full px-4 mb-8">
-                    <label for="name" className="text-base font-bold  dark:text-white">
+                    <label for="name" className="text-base font-bold  dark:text-primary5 text-gray-700">
                       Nama
                     </label>
                     <input type="text" id="name" name="nama" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500" />
                   </div>
                   <div className="w-full px-4 mb-8">
-                    <label for="email" className="text-base font-bold dark:text-white">
+                    <label for="email" className="text-base font-bold dark:text-primary5 text-gray-700">
                       Email
                     </label>
                     <input type="email" id="email" name="email" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500" />
                   </div>
                   <div class="w-full px-4 mb-8">
-                    <label for="message" className="text-base font-bold  dark:text-white">
+                    <label for="message" className="text-base font-bold  dark:text-primary5 text-gray-700">
                       Pesan
                     </label>
                     <textarea type="message" id="name" name="pesan" className="w-full bg-slate-200 dark:text-black p-3 rounded-md focus:outline-none focus:ring-pink-500 focus:ring-1 focus:border-pink-500 h-32" />
                   </div>
                   <div className=" px-4">
-                    <Button href="" className="absolute flex font-poppins text-base items-center border-gradient200 border-2 dark:text-white text-gray-200  py-2 px-5  rounded-lg bg-gradient200 hover:shadow-2xl ">
+                    <Button href="" className="absolute flex font-poppins text-base items-center border-gradient200 border-2 dark:text-primary5 text-gray-700  py-2 px-5  rounded-lg bg-gradient200 hover:shadow-2xl ">
                       Kirim
                     </Button>
                   </div>

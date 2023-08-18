@@ -32,12 +32,12 @@ function work() {
           <div className="mb-10">
             <h2 className=" text-3xl  font-poppins font-extrabold md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r  from-gradient100  to-gradient200    ">Portfolio</h2>
           </div>
-          <p className="mb-6 md:mb-8 dark:text-white text-gray-700 font-poppins text-base">
+          <p className="mb-6 md:mb-8 dark:text-primary5 text-gray-700 font-poppins text-base">
             A selection of my personal works. I&#39;ve included samples to showcase my skills and experience. Take a look around and let me know what you think. Im always open to feedback and opportunities to collaborate.
           </p>
-
-          <h2 className="dark:text-white text-gray-700 text-3xl mb-10 font-bold ">Personal Website</h2>
-          <p className="dark:text-white text-gray-700 text-base font-poppins mb-5">
+          <hr className="border-dashed border-1  dark:border-card100 border-gray-700 mt-4" />
+          <h2 className="dark:text-primary5 text-gray-700 text-3xl mb-10 font-bold mt-4 ">Personal Website</h2>
+          <p className="dark:text-primary10 text-gray-700 text-base font-poppins mb-5">
             I`ve put together a portfolio of my personal work, mostly from my junior years. Yo`re welcome to take a look and explore. Some of the portfolios even have website demos that you can try out if you,d like.
           </p>
           <Tab.Group manual>
@@ -77,12 +77,12 @@ function work() {
               <Tab.Panel className="rounded-xl dark:bg-backgrounddark p-3">
                 <div className="grid md:grid-cols-2 gap-5 ">
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 ">
+                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-cardlight shadow-md ">
                       <picture className="block overflow-hidden ">
                         <img src="qr-generator.jpg" alt="expense-project" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
                       </picture>
                       <div className="mt-3 p-4">
-                        <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px] ">
+                        <h3 className="dark:text-primary5 text-gray-700 font-bold font-poppins text-[22px] ">
                           <a className="dark:hover:border-b-2 dark:hover:border-dashed  " href=" QrGenerator">
                             {" "}
                             QR Generator
@@ -92,17 +92,17 @@ function work() {
                           <ReactLogo />
                           <TailwindLogo />
                         </div>
-                        <p className="dark:text-white text-gray-700 font-poppins text-base">A simple QR Code Generator. You can convert the web link into QR Code instantly here and download it to your local device.</p>
+                        <p className="dark:text-primary10 text-gray-700 font-poppins text-base">A simple QR Code Generator. You can convert the web link into QR Code instantly here and download it to your local device.</p>
                       </div>
                     </div>
                   </div>
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200   ">
+                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-cardlight shadow-md  ">
                       <picture className="block overflow-hidden">
                         <img src="reactlink.jpg" className="hover:scale-125 ease-in-out duration-700" alt="reactlink" />
                       </picture>
                       <div className="mt-3 p-4">
-                        <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
+                        <h3 className="dark:text-primary5 text-gray-700 font-bold font-poppins text-[22px]">
                           <a href="linkbio" className="hover:border-b-2 hover:border-dashed ">
                             {" "}
                             Link Bio
@@ -112,17 +112,17 @@ function work() {
                           <TailwindLogo />
                           <ReactLogo />
                         </div>
-                        <p className="dark:text-white text-gray-700 font-poppins text-base">A Bio link to connect customers to the business or portfolio website.</p>
+                        <p className="dark:text-primary10 text-gray-700 font-poppins text-base">A Bio link to connect customers to the business or portfolio website, built with react and emotion styled.</p>
                       </div>
                     </div>
                   </div>
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200   ">
+                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-cardlight shadow-md   ">
                       <picture className="block overflow-hidden">
                         <img src="nugget.jpg" className="hover:scale-125 ease-in-out duration-700" alt="nuggetpages" />
                       </picture>
                       <div className="mt-3 p-4">
-                        <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
+                        <h3 className="dark:text-primary5 text-gray-700 font-bold font-poppins text-[22px]">
                           <a href="NuggetApp" className="hover:border-b-2 hover:border-dashed ">
                             {" "}
                             Nugget Pages
@@ -132,18 +132,18 @@ function work() {
                           <TailwindLogo />
                           <Nextjs />
                         </div>
-                        <p className="dark:text-white text-gray-700 font-poppins text-base">🍌A simple page I made to improve my slicing skills</p>
+                        <p className="dark:text-primary10 text-gray-700 font-poppins text-base">🍌A simple page I made to improve my slicing skills</p>
                       </div>
                     </div>
                   </div>
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 ">
+                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-cardlight shadow-md ">
                       <picture className="block overflow-hidden">
                         <img src="zeitplans.jpg" alt="expense-project" className="hover:scale-125 ease-in-out duration-700" />
                       </picture>
 
                       <div className="mt-3 p-4">
-                        <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px] ">
+                        <h3 className="dark:text-primary5 text-gray-700 font-bold font-poppins text-[22px] ">
                           <a className="hover:border-b-2 hover:border-dashed " href="">
                             {" "}
                             Zeitplan App
@@ -157,18 +157,18 @@ function work() {
 
                           <Nextjs className="dark:text-white" />
                         </div>
-                        <p className="dark:text-white text-gray-700 font-poppins text-base">A landing page of a Schedule App. Its also a Dicoding Submission Project for Learn Basic of Web Programming class.</p>
+                        <p className="dark:text-primary10 text-gray-700 font-poppins text-base">A landing page of a Schedule App. Its also a Dicoding Submission Project for Learn Basic of Web Programming class.</p>
                       </div>
                     </div>
                   </div>
 
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 ">
+                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-cardlight shadow-md ">
                       <picture className="block overflow-hidden">
                         <img src="Crud Ci.jpg" className="hover:scale-125 ease-in-out duration-700" alt="Crud Ci" />
                       </picture>
                       <div className="mt-3 p-4">
-                        <h3 className="dark:text-white text-gray-700 font-bold border-b-2 border-dashed border-transparent font-poppins text-[22px]">
+                        <h3 className="dark:text-primary5 text-gray-700 font-bold border-b-2 border-dashed border-transparent font-poppins text-[22px]">
                           <a className="hover:border-b-2 hover:border-dashed" href="">
                             {" "}
                             Bookself
@@ -178,18 +178,18 @@ function work() {
                           <BootstrapLogo />
                           <CodeigniterLogo />
                         </div>
-                        <p className="dark:text-white text-gray-700 font-poppins text-base">A bookshelf app that can show, search, add, delete, update book and move book to other shelf.</p>
+                        <p className="dark:text-primary10 text-gray-700 font-poppins text-base">A bookshelf app that can show, search, add, delete, update book and move book to other shelf.</p>
                       </div>
                     </div>
                   </div>
 
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200  ">
+                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-cardlight shadow-md  ">
                       <picture className="block overflow-hidden">
                         <img src="bubble-cleaner.jpg" className="hover:scale-125 ease-in-out duration-700" alt="bubble" />
                       </picture>
                       <div className="mt-3 p-4">
-                        <h3 className="dark:text-white text-gray-700 font-bold font-poppins text-[22px]">
+                        <h3 className="dark:text-primary5 text-gray-700 font-bold font-poppins text-[22px]">
                           <a className="hover:border-b-2 hover:border-dashed " href="https://bubble-cleaner-4rq1.vercel.app/">
                             {" "}
                             Bubble Cleaner
@@ -200,17 +200,17 @@ function work() {
                           <ReactLogo />
                           <ViteLogo />
                         </div>
-                        <p className="dark:text-white text-gray-700 font-poppins text-base">a simple landing page bubble cleaner i made to improve my slicing .</p>
+                        <p className="dark:text-primary10 text-gray-700 font-poppins text-base">a simple landing page bubble cleaner i made to improve my slicing .</p>
                       </div>
                     </div>
                   </div>
                   <div className="flex flex-col">
-                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-card200 ">
+                    <div className="rounded-md overflow-hidden dark:bg-card100 bg-cardlight shadow-md ">
                       <picture className=" block overflow-hidden">
                         <img src="workly.jpg" className="hover:scale-125 ease-in-out duration-700" alt="workly" />
                       </picture>
                       <div className="mt-3 p-4">
-                        <h3 className="dark:text-white font-bold font-poppins text-[22px]">
+                        <h3 className="dark:text-primary5 font-bold font-poppins text-[22px]">
                           <a className="hover:border-b-2 hover:border-dashed " href="#">
                             {" "}
                             Work.ly
@@ -220,7 +220,7 @@ function work() {
                           <TailwindLogo />
                           <ReactLogo />
                         </div>
-                        <p className="dark:text-white text-gray-700 font-poppins text-base">Slicing design with React, Tailwind CSS, lazy loading image, and more.</p>
+                        <p className="dark:text-primary10 text-gray-700 font-poppins text-base">Slicing design with React, Tailwind CSS, lazy loading image, and more.</p>
                       </div>
                     </div>
                   </div>
