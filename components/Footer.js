@@ -42,7 +42,7 @@ function Footer() {
             </div>
           </div>
           <nav className="mt-10">
-            <ul className="md:flex md:space-x-[30px] dark:text-slate-300 text-gray-500 font-poppins ">
+            <ul className="md:flex md:space-x-[30px] dark:text-primary5 text-gray-500 font-poppins ">
               <li className="hover:text-gradient200">
                 <Link href="/">Home</Link>
               </li>
@@ -68,9 +68,9 @@ function Footer() {
           </nav>
           <hr className="mt-[10px] dark:border-card100" />
           <div className="mt-[22px] ">
-            <p className="dark:text-slate-300 text-gray-500  font-poppins">
+            <p className="dark:primary5 text-sm text-gray-500  font-poppins">
               &copy; 2023 Develop by{" "}
-              <Link href="" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-gradient100 to-gradient200">
+              <Link href="" className="">
                 Ervin Arviandi
               </Link>
             </p>

@@ -41,7 +41,7 @@ const Navigation = () => {
     if (currentTheme === "dark") {
       return (
         <button className="bg-card100 p-2 rounded-lg  " onClick={() => setTheme("light")}>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="#f59e0b" viewBox="0 0 24 24" stroke-width="2" stroke="#f59e0b" class="w-6 h-6">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#f59e0b" viewBox="0 0 24 24" stroke-width="2" stroke="#f59e0b" class="w-5 h-5">
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -53,7 +53,7 @@ const Navigation = () => {
     } else {
       return (
         <button className="bg-card200 p-2 rounded-lg " onClick={() => setTheme("dark")}>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="#75c3ff" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-6 h-6">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#75c3ff" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -68,21 +68,9 @@ const Navigation = () => {
   return (
     <div style={{ backgroundColor: `${color}` }} className="fixed left-0 top-0 w-full  ease-in duration-300 dark:text-white backdrop-blur-md bg-black/90   z-10">
       <hr className="relative h-2 w-full bg-gradient-to-r from-gradient100 to-gradient200 before:absolute before:inset-0 before:bg-gradient-to-r before:from-gradient100 before:to-gradient200 before:animate-pulse" />
-      <div className=" md:max-w-5xl xl:max-w-5xl m-auto flex justify-between items-center p-4 ">
+      <div className=" md:max-w-5xl xl:max-w-5xl mx-auto flex justify-between items-center p-4 ">
         {/* Mobile Button */}
-        <div onClick={handleNav} className="block sm:hidden z-10 dark:text-white ">
-          {nav ? (
-            <XMarkIcon
-              className="w-6 h-6 "
-              //  style={{ color: `${textColor}` }}
-            />
-          ) : (
-            <Bars3Icon
-              className="w-6 h-6"
-              // style={{ color: `${textColor}` }}
-            />
-          )}
-        </div>
+
         <Link href="/" className="flex items-center space-x-3">
           <Image src="/ervinarviandii.webp" className=" rounded-full" width={30} height={30} alt="profile" />
           <h1
@@ -92,6 +80,9 @@ const Navigation = () => {
             Ervin Arviandi
           </h1>
         </Link>
+
+        {/* Mobile Button */}
+
         <ul
           // style={{ color: `${textColor}` }}
           className="hidden sm:flex"
@@ -130,7 +121,23 @@ const Navigation = () => {
 
         {/* Mobile Menu */}
 
-        {renderThemeChanger()}
+        <div className="flex justify-center items-center gap-2">
+          {renderThemeChanger()}
+
+          <div onClick={handleNav} className=" z-10 dark:text-white lg:hidden block ">
+            {nav ? (
+              <XMarkIcon
+                className="w-6 h-6 "
+                //  style={{ color: `${textColor}` }}
+              />
+            ) : (
+              <Bars3Icon
+                className="w-6 h-6"
+                // style={{ color: `${textColor}` }}
+              />
+            )}
+          </div>
+        </div>
 
         <div
           className={
