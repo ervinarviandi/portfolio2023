@@ -2,8 +2,10 @@ import Link from "next/link";
 import React from "react";
 import { BsGithub, BsInstagram, BsGlobe2, BsLink45Deg, BsDribbble } from "react-icons/bs";
 import { Si500Px } from "react-icons/si";
-import { MdEmail } from "react-icons/md";
-import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import { MdEmail, MdAlternateEmail } from "react-icons/md";
+import "tippy.js/dist/tippy.css";
+import Tippy from "@tippyjs/react";
+import "tippy.js/themes/light.css";
 
 function Footer() {
   return (
@@ -13,32 +15,47 @@ function Footer() {
           <hr className="border-dashed border-1  dark:border-card100 border-gray-700 mb-7" />
           <div className="lg:flex justify-between">
             <div className="md:w-7/12">
-              <h3 className="font-poppins text-lg dark:text-primary10 mb-4 text-gray-700">About Me</h3>
+              <h3 className="font-poppins text-lg dark:text-primary5 mb-4 text-gray-700">About Me</h3>
               <h1 className=" text-lg font-poppins text-3xl dark:text-primary10 text-gray-700 ">
-                I&#39;m <span className="dark:text-primary5"> Ervin </span>, a <span className="dark:text-primary5"> front-end developer</span> who loves intuitive, clean and modern UI design.
+                I&#39;m <span className="dark:text-primary10 font-bold"> Ervin </span>, a <span className="dark:text-primary10 font-bold"> front-end developer</span> who loves intuitive, clean and modern UI design.
               </h1>
             </div>
             <div className="md:w-5/12  ">
               <h1 className="font-poppins dark:text-primary5 text-gray-700 lg:text-center lg:mt-0 mt-7">Let&#39;s Connect</h1>
               <div className="flex flex-wrap md:flex-end md:justify-end  space-x-4 text-2xl  text-gray-700 mt-4  ">
-                <Link href="https://github.com/ervinarviandi" aria-label="link-github" className="dark:text-primary10 text-gray-700 ">
-                  <BsGithub className="hover:text-gradient200" />
-                </Link>
-                <Link href="https://www.instagram.com/ervinarviandi/" aria-label="link-instagram" className="dark:text-primary10 text-gray-700  ">
-                  <BsInstagram className="hover:text-gradient200" />
-                </Link>
-                <Link href="https://www.showwcase.com/ervinarviandi" aria-label="link-showcase" className="dark:text-primary10 text-gray-700">
-                  <BsGlobe2 className="hover:text-gradient200" />
-                </Link>
-                <Link href="https://react-link.vercel.app/" aria-label="link-bio" className="dark:text-primary10 text-gray-700">
+                <Tippy content="Github" placement="top" theme="light">
+                  <Link href="https://github.com/ervinarviandi" aria-label="link-github" target="_blank" className="dark:text-primary10 text-gray-700 ">
+                    <BsGithub className="hover:text-gradient200" />
+                  </Link>
+                </Tippy>
+                <Tippy content="Instagram" placement="top" theme="light">
+                  <Link href="https://www.instagram.com/ervinarviandi/" aria-label="link-instagram" target="_blank" className="dark:text-primary10 text-gray-700  ">
+                    <BsInstagram className="hover:text-gradient200" />
+                  </Link>
+                </Tippy>
+                <Tippy content="Showwcase" placement="top" theme="light">
+                  <Link href="https://www.showwcase.com/ervinarviandi" aria-label="link-showcase" target="_blank" className="dark:text-primary10 text-gray-700">
+                    <BsGlobe2 className="hover:text-gradient200" />
+                  </Link>
+                </Tippy>
+                {/* <Link href="https://react-link.vercel.app/" aria-label="link-bio" className="dark:text-primary10 text-gray-700">
                   <BsLink45Deg className="hover:text-gradient200" />
-                </Link>
-                <Link href="mailto:muhamadervin34@gmail.com" aria-label="link-email" className="dark:text-primary10 text-gray-700 ">
-                  <MdEmail className="hover:text-gradient200" />
-                </Link>
-                <Link href="https://500px.com/p/muhamadervin34?view=photos" aria-label="link-px500" className=" dark:text-primary10 text-gray-700 ">
-                  <Si500Px className="hover:text-gradient200 " />
-                </Link>
+                </Link> */}
+                <Tippy content="Email" placement="top" theme="light">
+                  <Link href="mailto:muhamadervin34@gmail.com" aria-label="link-email" target="_blank" className="dark:text-primary10 text-gray-700 ">
+                    <MdEmail className="hover:text-gradient200" />
+                  </Link>
+                </Tippy>
+                <Tippy content="500px" placement="top" theme="light">
+                  <Link href="https://500px.com/p/muhamadervin34?view=photos" target="_blank" aria-label="link-px500" className=" dark:text-primary10 text-gray-700 ">
+                    <Si500Px className="hover:text-gradient200 " />
+                  </Link>
+                </Tippy>
+                <Tippy content="Threads" placement="top" theme="light">
+                  <Link id="MyThreads" href="https://www.threads.net/@ervinarviandi" aria-label="link-px500" target="_blank" className=" dark:text-primary10 text-gray-700 ">
+                    <MdAlternateEmail className="hover:text-gradient200 " />
+                  </Link>
+                </Tippy>
               </div>
             </div>
           </div>
@@ -69,7 +86,7 @@ function Footer() {
           </nav>
           <hr className="mt-[10px] dark:border-card100" />
           <div className="mt-[22px] ">
-            <p className="dark:primary5 text-sm text-gray-500  font-poppins lg:text-left text-center">
+            <p className="dark:primary5 text-sm  text-gray-500  font-poppins lg:text-left text-center">
               &copy; 2023 Develop by{" "}
               <Link href="" className="">
                 Ervin Arviandi
