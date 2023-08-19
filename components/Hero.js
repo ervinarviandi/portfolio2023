@@ -56,7 +56,7 @@ function Hero() {
               </div>
               <p className="py-4  font-poppins text-3xl text-gray-700 dark:text-primary5 space-x-5 ">
                 Hi, I&#39;m
-                <a href="https://www.showwcase.com/ervinarviandi" aria-label="link-showcase" className="hover:text-gradient100 font-poppins text-3xl ml-2">
+                <a href="https://www.showwcase.com/ervinarviandi" name="link" aria-label="link-showcase" className="hover:text-gradient100 font-poppins text-3xl ml-2">
                   Ervin
                 </a>
                 <span className="text-3xl">👋</span>
@@ -69,6 +69,7 @@ function Hero() {
               <div className="mt-12 " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
                 <Button
                   id="downloadCV"
+                  name="link"
                   aria-label="mybutton"
                   href="https://resume.showwcase.com/ervinarviandi.pdf"
                   className="absolute flex font-poppins text-base items-center  border-2 border-primary10 hover:border-card100 dark:text-primary5 text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-gradient-to-r before:from-gradient100 before:to-gradient200 before:transition-transform before:duration-300 before:content-[''] hover:text-primary5 before:hover:scale-x-100 rounded-lg hover:shadow-xl "
