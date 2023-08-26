@@ -46,7 +46,7 @@ function MyBlog() {
                 <div className="md:flex mt-4">
                   <div className="flex items-center space-x-2">
                     <AiOutlineFieldTime className="dark:text-primary10 text-gray-700" />
-                    <p className="text-base font-poppins dark:text-primary10 text-gray-700">19 min read</p>
+                    <p className="text-base font-poppins dark:text-primary10 text-gray-700 ">19 min read</p>
                     <AiOutlineEye className="dark:text-primary10 text-gray-700" />
                     <p className="text-base font-poppins dark:text-primary10 text-gray-700">16 views</p>
                   </div>

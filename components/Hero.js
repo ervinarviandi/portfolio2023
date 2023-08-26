@@ -32,8 +32,15 @@ function Hero() {
               {/* <h5 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-gradient100 to-gradient200   text-[24px] mt-7 font-poppins" data-aos="fade-up" data-aos-delay="100">
                 Frontend Developer
               </h5> */}
-              <div className="absolute top-20 -z-20 md:top-30 md:left-30"></div>
-              <div className=" flex items-center space-x-4 typewriter  relative mt-6">
+              <p className="py-2  font-poppins text-3xl text-gray-700 dark:text-primary5 space-x-5 ">
+                Hi, I&#39;m
+                <a href="https://www.showwcase.com/ervinarviandi" name="link" aria-label="link-showcase" className="hover:text-gradient100 font-poppins text-3xl ml-2">
+                  Ervin
+                </a>
+                <span className="text-3xl">👋</span>
+              </p>
+
+              <div className=" flex items-center space-x-4 typewriter  relative mt-4">
                 <span className="font-poppins dark:text-primary5 text-gray-700 text-lg"> I&#39;m a {""} </span>
                 <TypeAnimation
                   className="text-writer flex text-gradient100 ml-4 font-bold items-center  text-lg font-poppins"
@@ -54,14 +61,8 @@ function Hero() {
                   // style={{ fontSize: "1em" }}
                 />
               </div>
-              <p className="py-4  font-poppins text-3xl text-gray-700 dark:text-primary5 space-x-5 ">
-                Hi, I&#39;m
-                <a href="https://www.showwcase.com/ervinarviandi" name="link" aria-label="link-showcase" className="hover:text-gradient100 font-poppins text-3xl ml-2">
-                  Ervin
-                </a>
-                <span className="text-3xl">👋</span>
-              </p>
-              <p className="font-poppins text-md dark:text-primary5 text-gray-700">
+
+              <p className="font-poppins text-md dark:text-primary5 text-gray-700 mt-3">
                 Seasoned Software Engineer especially in Frontend side, with a passion for creating pixel-perfect web experiences. I work with JavaScript and specialize in all-things web. I thrive on collaborating with teams to deliver
                 efficient, scalable, and visually appealing web applications.
               </p>
@@ -72,7 +73,7 @@ function Hero() {
                   name="link"
                   aria-label="mybutton"
                   href="https://resume.showwcase.com/ervinarviandi.pdf"
-                  className="absolute flex font-poppins text-base items-center  border-2 border-primary10 hover:border-card100 dark:text-primary5 text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-gradient-to-r before:from-gradient100 before:to-gradient200 before:transition-transform before:duration-300 before:content-[''] hover:text-primary5 before:hover:scale-x-100 rounded-lg hover:shadow-xl "
+                  className="absolute flex font-poppins text-base items-center  border-2 border-primary10 hover:border-card100 dark:text-primary5 text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-gradient-to-r before:from-gradient100 before:to-gradient200 before:transition-transform before:duration-300 before:content-[''] hover:text-primary5 before:hover:scale-x-100 rounded-lg hover:shadow-xl before:hover:rounded-lg "
                 >
                   Download CV
                   <AiFillFilePdf className="ml-3" />

@@ -7,18 +7,18 @@ import { RiHomeGearFill } from "react-icons/ri";
 const Error = () => {
   return (
     <div>
-      <div className="lg:max-w-6xl mx-auto mt-[96px] px-4">
-        <Image src={Notfound} alt="error" width={500} height={500} className="justify-center items-center mx-auto mb-7 animate animate-pulse" />
-        <marquee>
-          <h2 className="text-3xl font-poppins font-bold text-gray-300 text-center mb-10">Sorry, Page Not Found</h2>
-        </marquee>
+      <div className="lg:max-w-6xl mx-auto mt-48 px-4">
+        <h2 className="text-7xl font-poppins font-bold text-white text-center mb-10">Oops !</h2>
+        <h4 className="font-poppins text-lg font-semibold text-center">404-PAGE NOT FOUND</h4>
+        <p className="text-lg font-poppins lg:w-7/12 md:w-5/12 text-center mx-auto py-4">The page you are lookig for might have bee removed had it&#39;s name changed os ir temporarily unavailable.</p>
+
         <Link
           href="/"
-          className="flex lg:w-4/12 mx-auto justify-center items-center text-center px-6 py-2 rounded-lg  font-poppins font-bold bg-amber-500
+          className="flex lg:w-3/12 md:w-7/12 w-7/12 mx-auto justify-center items-center text-center px-6 py-2 rounded-lg  font-poppins font-bold bg-gradient100
        "
         >
-          <RiHomeGearFill className="mr-2 animate animate-bounce" />
-          Go Back
+          <RiHomeGearFill className="mr-2" />
+          GO TO HOMEPAGE
         </Link>
       </div>
     </div>
