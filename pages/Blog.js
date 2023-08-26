@@ -3,19 +3,19 @@ import { FaGitSquare } from "react-icons/fa";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Image from "next/image";
-import Image1 from "../src/gitblog/Image1.JPG";
-import Image2 from "../src/gitblog/Image2.JPG";
-import Image3 from "../src/gitblog/Image3.JPG";
-import Image4 from "../src/gitblog/Image4.JPG";
-import Image5 from "../src/gitblog/Image5.JPG";
-import Image6 from "../src/gitblog/Image6.JPG";
-import Image7 from "../src/gitblog/Image7.JPG";
-import Image8 from "../src/gitblog/Image8.JPG";
-import Image9 from "../src/gitblog/Image9.JPG";
-import Image10 from "../src/gitblog/Image10.JPG";
-import Image11 from "../src/gitblog/Image11.JPG";
-import Image12 from "../src/gitblog/Image12.JPG";
-import Image13 from "../src/gitblog/Image13.JPG";
+// import Image1 from "../src/gitblog/Image1.JPG";
+// import Image2 from "../src/gitblog/Image2.JPG";
+// import Image3 from "../src/gitblog/Image3.JPG";
+// import Image4 from "../src/gitblog/Image4.JPG";
+// import Image5 from "../src/gitblog/Image5.JPG";
+// import Image6 from "../src/gitblog/Image6.JPG";
+// import Image7 from "../src/gitblog/Image7.JPG";
+// import Image8 from "../src/gitblog/Image8.JPG";
+// import Image9 from "../src/gitblog/Image9.JPG";
+// import Image10 from "../src/gitblog/Image10.JPG";
+// import Image11 from "../src/gitblog/Image11.JPG";
+// import Image12 from "../src/gitblog/Image12.JPG";
+// import Image13 from "../src/gitblog/Image13.JPG";
 import { AiOutlineFieldTime } from "react-icons/ai";
 import { AiFillCalendar } from "react-icons/ai";
 function Blog() {
@@ -51,7 +51,7 @@ function Blog() {
 
                 <hr />
                 <div className="flex items-center space-x-3 mt-7">
-                  <Image src="/ervinarviandi.jpg" width={30} height={30} className="rounded-full" />
+                  {/* <Image src="/ervinarviandi.jpg" width={30} height={30} className="rounded-full" /> */}
                   <p className="font-poppins text-base dark:text-white text-gray-700">
                     Written by/
                     <a href="https://github.com/ervinarviandi" className="text-transparent bg-clip-text bg-gradient-to-r from-gradient100 to-gradient200 border-b border-dashed py-1 border:animate-pulse">
@@ -74,47 +74,47 @@ function Blog() {
 
                 <p className="font-poppins text-base dark:text-white text-gray-700 mt-5">1. Baiklah, mari kita mulai ritual instalnya. Silahkan klik 2x file instaler Git yang sudah diunduh.</p>
 
-                <Image src={Image1} className="mt-4" alt="gambar1" width={500} height={500} />
+                {/* <Image src={Image1} className="mt-4" alt="gambar1" width={500} height={500} /> */}
 
                 <p className="text-base dark:text-white text-gray-700 font-poppins mt-20">2. Maka akan muncul infomasi lisensi Git, klik Next untuk melanjutkan.</p>
-                <Image src={Image2} className="mt-4" alt="gambar2" width={500} height={500} />
+                {/* <Image src={Image2} className="mt-4" alt="gambar2" width={500} height={500} /> */}
 
                 <p className="text-base dark:text-white text-gray-700 font-poppins mt-20">3. Selanjutnya menentukan lokasi instalasi. Biarkan saja apa adanya, kemudian klik Next </p>
-                <Image src={Image3} className="mt-4" alt="gambar3" width={500} height={500} />
+                {/* <Image src={Image3} className="mt-4" alt="gambar3" width={500} height={500} /> */}
 
                 <p className="text-base dark:text-white text-gray-700 font-poppins mt-20">4. Selanjutnya pemilihan komponen, biarkan saja seperti ini kemudian klik Next.</p>
-                <Image src={Image4} className="mt-4" alt="gambar4" width={500} height={500} />
+                {/* <Image src={Image4} className="mt-4" alt="gambar4" width={500} height={500} /> */}
 
                 <p className="text-base dark:text-white text-gray-700 font-poppins mt-20">5. Selanjutnya pemlilihan direktori start menu, klik Next </p>
-                <Image src={Image5} className="mt-4" alt="gambar5" width={500} height={500} />
+                {/* <Image src={Image5} className="mt-4" alt="gambar5" width={500} height={500} /> */}
 
                 <p className="text-base dark:text-white text-gray-700 font-poppins mt-20">
                   6. Selanjutnya pengaturan PATH Environment. Pilih yang tengah agar perintah <span className="py-1 px-3 rounded-lg bg-pink-500">git</span> dapat di kenali di Command Prompt (CMD). Setelah itu klik Next.{" "}
                 </p>
-                <Image src={Image6} className="mt-4" alt="gambar6" width={500} height={500} />
+                {/* <Image src={Image6} className="mt-4" alt="gambar6" width={500} height={500} /> */}
 
                 <p className="text-base dark:text-white text-gray-700 font-poppins mt-20">7. Selanjutnya konversi line ending. Biarkan saja seperti ini, kemudian klik Next.</p>
-                <Image src={Image7} className="mt-4" alt="gambar7" width={500} height={500} />
+                {/* <Image src={Image7} className="mt-4" alt="gambar7" width={500} height={500} /> */}
 
                 <p className="text-base dark:text-white text-gray-700 font-poppins mt-20">8. Selanjutnya pemilihan emulator terminal. Pilih saja yang bawah, kemudian klik Next.</p>
-                <Image src={Image8} className="mt-4" alt="gambar8" width={500} height={500} />
+                {/* <Image src={Image8} className="mt-4" alt="gambar8" width={500} height={500} /> */}
 
                 <p className="text-base dark:text-white text-gray-700 font-poppins mt-20">9. Selanjutnya pemilihan opsi ekstra. Klik saja Next.</p>
-                <Image src={Image9} className="mt-4" alt="gambar9" width={500} height={500} />
+                {/* <Image src={Image9} className="mt-4" alt="gambar9" width={500} height={500} /> */}
 
                 <p className="text-base dark:text-white text-gray-700 font-poppins mt-20">10. Selanjutnya pemilihan opsi ekspreimental, langsung saja klik Install untuk memaulai instalasi.</p>
-                <Image src={Image10} width={500} height={500} className="mt-4" alt="gambar10" />
+                {/* <Image src={Image10} width={500} height={500} className="mt-4" alt="gambar10" /> */}
 
                 <p className="text-base dark:text-white text-gray-700 font-poppins mt-20">11. Tunggu beberapa saat, instalasi sedang dilakukan.</p>
-                <Image src={Image11} className="mt-4" alt="gambar11" width={500} height={500} />
+                {/* <Image src={Image11} className="mt-4" alt="gambar11" width={500} height={500} /> */}
 
                 <p className="text-base dark:text-white text-gray-700 font-poppins mt-20">12. Setelah selesai, kita bisa langsung klik Finish.</p>
-                <Image src={Image12} className="mt-4" alt="gambar12" width={500} height={500} />
+                {/* <Image src={Image12} className="mt-4" alt="gambar12" width={500} height={500} /> */}
 
                 <p className="text-base dark:text-white text-gray-700 font-poppins mt-20">
                   13. Selamat, Git sudah terinstal di Windows. Untuk mencobanya, silahkan buka CMD atau PowerShell, kemudian ketik perintah <span className="py-1 px-3 bg-cyan-600 rounded-lg"> git --version</span> .
                 </p>
-                <Image src={Image13} className="mt-4" alt="gambar13" width={500} height={500} />
+                {/* <Image src={Image13} className="mt-4" alt="gambar13" width={500} height={500} /> */}
               </div>
             </div>
           </div>
