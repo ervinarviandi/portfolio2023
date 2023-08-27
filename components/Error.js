@@ -8,9 +8,9 @@ const Error = () => {
   return (
     <div>
       <div className="lg:max-w-6xl mx-auto mt-48 px-4">
-        <h2 className="text-7xl font-poppins font-bold text-white text-center mb-10">Oops !</h2>
+        <h2 className="text-7xl font-poppins font-bold  text-center mb-10 text-transparent bg-clip-text bg-gradient-to-r from-gradient100 to-gradient200  ">Oops !</h2>
         <h4 className="font-poppins text-lg font-semibold text-center">404-PAGE NOT FOUND</h4>
-        <p className="text-lg font-poppins lg:w-7/12 md:w-5/12 text-center mx-auto py-4">The page you are lookig for might have bee removed had it&#39;s name changed os ir temporarily unavailable.</p>
+        <p className="text-md font-poppins lg:w-7/12 md:w-5/12 text-center mx-auto py-4">The page you are lookig for might have bee removed had it&#39;s name changed os ir temporarily unavailable.</p>
 
         <Link
           href="/"
@@ -18,7 +18,7 @@ const Error = () => {
        "
         >
           <RiHomeGearFill className="mr-2" />
-          GO TO HOMEPAGE
+          <span className="text-md font-poppins"> GO TO HOMEPAGE</span>
         </Link>
       </div>
     </div>

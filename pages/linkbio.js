@@ -21,13 +21,13 @@ function linkbio() {
           </p>
           <div className="flex items-center space-x-5">
             <div className="flex items-center dark:text-white">
-              <a href="https://github.com/ervinarviandi/portfolio2023" className="flex items-center space-x-3 border-b-2 border-dashed  hover:text-pink-500 font-bold py-2">
+              <a href="https://github.com/ervinarviandi/portfolio2023" className="flex items-center space-x-3 border-b-2 border-dashed  hover:text-gradient200 font-bold py-2">
                 <BsGithub />
                 <h4>Repository</h4>
               </a>
             </div>
             <div className="flex items-center dark:text-white">
-              <a href="https://react-link.vercel.app/" className="flex items-center space-x-3 hover:text-pink-500  border-b-2 py-2 border-dashed  dark:hover:text-pink-500 font-bold">
+              <a href="https://react-link.vercel.app/" className="flex items-center space-x-3 hover:text-pink-500  border-b-2 py-2 border-dashed  dark:hover:text-gradient200 font-bold">
                 <BsGlobe2 />
                 <h4>Live Demo</h4>
               </a>
@@ -53,9 +53,9 @@ function linkbio() {
           </p>
           <div className="flex justify-between ">
             <div className="">
-              <a href="https://github.com/ervinarviandi/React-Link" className=" flex items-center space-x-4 dark:text-white font-bold font-poppins border-b-2 py-2 border-dashed   font-bold">
+              <a href="https://github.com/ervinarviandi/React-Link" className=" flex items-center space-x-4 dark:text-white font-bold font-poppins border-b-2 py-2 border-dashed mt-4   font-bold">
                 <FaEdit />
-                <h4 className="dark:text-white font-poppins">Edit On Github</h4>
+                <h4 className="hover:text-gradient200 font-poppins">Edit On Github</h4>
               </a>
             </div>
           </div>
