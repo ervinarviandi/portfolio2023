@@ -79,7 +79,7 @@ function work() {
                   <div className="flex flex-col">
                     <div className="rounded-md overflow-hidden dark:bg-card100 bg-cardlight shadow-md ">
                       <picture className="block overflow-hidden ">
-                        <img src="qr-generator.jpg" alt="expense-project" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
+                        <img src="qrcode-generator.jpg" alt="expense-project" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
                       </picture>
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-primary5 text-gray-700 font-bold font-poppins text-[22px] ">
