@@ -8,7 +8,7 @@ import Image from "next/image";
 import ReactLogo from "../src/ReactLogo";
 import TailwindLogo from "../src/TailwindLogo";
 import { FaEdit } from "react-icons/fa";
-import Logo from "/qrcode-generator.jpg";
+import Logo from "../src/images/qrcode-generator.jpg";
 
 function QrGenerator() {
   return (
