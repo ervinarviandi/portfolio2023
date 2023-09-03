@@ -28,7 +28,7 @@ function Portfolio() {
           </p>
           <div className="grid md:grid-cols-2 gap-5 ">
             <div className="flex flex-col">
-              <div className="rounded-md overflow-hidden dark:bg-card100 bg-cardlight shadow-md  " data-aos="fade-up">
+              <div className="rounded-md overflow-hidden dark:bg-card100 bg-cardlight shadow-md   " data-aos="fade-up">
                 <picture className="block overflow-hidden ">
                   <img src="qrcode-generator.jpg" alt="qrcode" className="hover:scale-125 overflow-hidden ease-in-out duration-700" />
                 </picture>

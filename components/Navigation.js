@@ -53,7 +53,7 @@ const Navigation = () => {
     } else {
       return (
         <button className="bg-card200 p-2 rounded-lg " onClick={() => setTheme("dark")}>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="#75c3ff" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" className="w-5 h-5">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#33dbd1" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" className="w-5 h-5">
             <path
               stroke-linecap="round"
               stroke-linejoin="round"

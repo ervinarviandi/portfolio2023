@@ -1,6 +1,6 @@
 function CssLogo() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 48 48">
+    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 48 48">
       <path fill="#0277BD" d="M41 5H7l3 34 14 4 14-4 3-34z"></path>
       <path fill="#039BE5" d="M24 8v31.9l11.2-3.2L37.7 8z"></path>
       <path fill="#FFF" d="M33.1 13H24v4h4.9l-.3 4H24v4h4.4l-.3 4.5-4.1 1.4v4.2l7.9-2.6.7-11.5z"></path>

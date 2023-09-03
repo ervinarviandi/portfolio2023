@@ -35,7 +35,7 @@ function work() {
           <p className="mb-6 md:mb-8 dark:text-primary5 text-gray-700 font-poppins text-base">
             A selection of my personal works. I&#39;ve included samples to showcase my skills and experience. Take a look around and let me know what you think. Im always open to feedback and opportunities to collaborate.
           </p>
-          <hr className="border-dashed border-1  dark:border-card100 border-gray-700 mt-4" />
+          <hr className="border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text  border-1  dark:border-card100 border-gray-700 mt-4" />
           <h2 className="dark:text-primary5 text-gray-700 text-3xl mb-10 font-bold mt-4 ">Personal Website</h2>
           <p className="dark:text-primary10 text-gray-700 text-base font-poppins mb-5">
             I`ve put together a portfolio of my personal work, mostly from my junior years. Yo`re welcome to take a look and explore. Some of the portfolios even have website demos that you can try out if you,d like.
@@ -83,7 +83,7 @@ function work() {
                       </picture>
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-primary5 text-gray-700 font-bold font-poppins text-[22px] ">
-                          <a className="dark:hover:border-b-2 dark:hover:border-dashed  " href=" QrGenerator">
+                          <a className="dark:hover:border-b-2 dark:hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text   " href=" QrGenerator">
                             {" "}
                             QR Generator
                           </a>
@@ -103,7 +103,7 @@ function work() {
                       </picture>
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-primary5 text-gray-700 font-bold font-poppins text-[22px]">
-                          <a href="linkbio" className="hover:border-b-2 hover:border-dashed ">
+                          <a href="linkbio" className="hover:border-b-2 hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text  ">
                             {" "}
                             Link Bio
                           </a>
@@ -123,7 +123,7 @@ function work() {
                       </picture>
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-primary5 text-gray-700 font-bold font-poppins text-[22px]">
-                          <a href="NuggetApp" className="hover:border-b-2 hover:border-dashed ">
+                          <a href="NuggetApp" className="hover:border-b-2 hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text  ">
                             {" "}
                             Nugget Pages
                           </a>
@@ -144,7 +144,7 @@ function work() {
 
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-primary5 text-gray-700 font-bold font-poppins text-[22px] ">
-                          <a className="hover:border-b-2 hover:border-dashed " href="">
+                          <a className="hover:border-b-2 hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text  " href="">
                             {" "}
                             Zeitplan App
                           </a>
@@ -168,8 +168,8 @@ function work() {
                         <img src="Crud Ci.jpg" className="hover:scale-125 ease-in-out duration-700" alt="Crud Ci" />
                       </picture>
                       <div className="mt-3 p-4">
-                        <h3 className="dark:text-primary5 text-gray-700 font-bold border-b-2 border-dashed border-transparent font-poppins text-[22px]">
-                          <a className="hover:border-b-2 hover:border-dashed" href="">
+                        <h3 className="dark:text-primary5 text-gray-700 font-bold border-b-2 border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text  border-transparent font-poppins text-[22px]">
+                          <a className="hover:border-b-2 hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text " href="">
                             {" "}
                             Bookself
                           </a>
@@ -190,7 +190,7 @@ function work() {
                       </picture>
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-primary5 text-gray-700 font-bold font-poppins text-[22px]">
-                          <a className="hover:border-b-2 hover:border-dashed " href="https://bubble-cleaner-4rq1.vercel.app/">
+                          <a className="hover:border-b-2 hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text  " href="https://bubble-cleaner-4rq1.vercel.app/">
                             {" "}
                             Bubble Cleaner
                           </a>
@@ -211,7 +211,7 @@ function work() {
                       </picture>
                       <div className="mt-3 p-4">
                         <h3 className="dark:text-primary5 font-bold font-poppins text-[22px]">
-                          <a className="hover:border-b-2 hover:border-dashed " href="#">
+                          <a className="hover:border-b-2 hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text  " href="#">
                             {" "}
                             Work.ly
                           </a>

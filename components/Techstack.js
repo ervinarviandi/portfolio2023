@@ -30,45 +30,47 @@ function Techstack() {
               {/* Dibawah ini adalah beberapa tools/teknologi yang pernah saya gunakan untuk membuat website ataupun membuat desain . */}
               Below are some of the tools/technology that I have used to create websites or create designs.
             </p>
-            <motion.div className="flex gap-6 flex-wrap justify-center mt-20 ">
-              <motion.div drag dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} className="cursor-grabbing grayscale hover:grayscale-0 hover:translate-x-6" data-aos="fade-right">
-                <HtmlLogo />
+            <marquee>
+              <motion.div className="flex gap-6  justify-center mt-20 ">
+                <motion.div drag dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} className="cursor-grabbing grayscale hover:grayscale-0 hover:translate-x-6  " data-aos="fade-right">
+                  <HtmlLogo />
+                </motion.div>
+                <motion.div drag dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} className="cursor-grabbing grayscale hover:grayscale-0" data-aos="fade-right" data-aos-delay="100">
+                  <CssLogo />
+                </motion.div>
+                <motion.div drag dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} className="cursor-grabbing grayscale hover:grayscale-0" data-aos="fade-right" data-aos-delay="200">
+                  <JavascriptLogo />
+                </motion.div>
+                <motion.div drag dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} className="cursor-grabbing grayscale hover:grayscale-0" data-aos="fade-right" data-aos-delay="300">
+                  <BootstrapLogo />
+                </motion.div>
+                <motion.div drag dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} className="cursor-grabbing grayscale hover:grayscale-0" data-aos="fade-right" data-aos-delay="400">
+                  <TailwindLogo />
+                </motion.div>
+                <motion.div drag dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} className="cursor-grabbing grayscale hover:grayscale-0" data-aos="fade-right" data-aos-delay="500">
+                  <ReactLogo />
+                </motion.div>
+                <motion.div drag dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} className="cursor-grabbing grayscale hover:grayscale-0" data-aos="fade-right" data-aos-delay="600">
+                  <Nextjs />
+                </motion.div>
+                <motion.div drag dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} className="cursor-grabbing grayscale hover:grayscale-0" data-aos="fade-right" data-aos-delay="700">
+                  <Framermotion />
+                </motion.div>
+                <motion.div drag dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} className="cursor-grabbing grayscale hover:grayscale-0" data-aos="fade-right" data-aos-delay="800">
+                  <Typescript />
+                </motion.div>
+                <motion.div
+                  drag
+                  dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
+                  // dragElastic={0.7}
+                  className="cursor-grabbing grayscale hover:grayscale-0"
+                  data-aos="fade-right"
+                  data-aos-delay="900"
+                >
+                  <CodeigniterLogo />
+                </motion.div>
               </motion.div>
-              <motion.div drag dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} className="cursor-grabbing grayscale hover:grayscale-0" data-aos="fade-right" data-aos-delay="100">
-                <CssLogo />
-              </motion.div>
-              <motion.div drag dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} className="cursor-grabbing grayscale hover:grayscale-0" data-aos="fade-right" data-aos-delay="200">
-                <JavascriptLogo />
-              </motion.div>
-              <motion.div drag dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} className="cursor-grabbing grayscale hover:grayscale-0" data-aos="fade-right" data-aos-delay="300">
-                <BootstrapLogo />
-              </motion.div>
-              <motion.div drag dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} className="cursor-grabbing grayscale hover:grayscale-0" data-aos="fade-right" data-aos-delay="400">
-                <TailwindLogo />
-              </motion.div>
-              <motion.div drag dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} className="cursor-grabbing grayscale hover:grayscale-0" data-aos="fade-right" data-aos-delay="500">
-                <ReactLogo />
-              </motion.div>
-              <motion.div drag dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} className="cursor-grabbing grayscale hover:grayscale-0" data-aos="fade-right" data-aos-delay="600">
-                <Nextjs />
-              </motion.div>
-              <motion.div drag dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} className="cursor-grabbing grayscale hover:grayscale-0" data-aos="fade-right" data-aos-delay="700">
-                <Framermotion />
-              </motion.div>
-              <motion.div drag dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} className="cursor-grabbing grayscale hover:grayscale-0" data-aos="fade-right" data-aos-delay="800">
-                <Typescript />
-              </motion.div>
-              <motion.div
-                drag
-                dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
-                // dragElastic={0.7}
-                className="cursor-grabbing grayscale hover:grayscale-0"
-                data-aos="fade-right"
-                data-aos-delay="900"
-              >
-                <CodeigniterLogo />
-              </motion.div>
-            </motion.div>
+            </marquee>
           </div>
         </div>
       </div>

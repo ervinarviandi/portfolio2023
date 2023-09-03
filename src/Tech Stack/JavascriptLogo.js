@@ -1,6 +1,6 @@
 function JavascriptLogo() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" baseProfile="basic" viewBox="0 0 48 48">
+    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" baseProfile="basic" viewBox="0 0 48 48">
       <path fill="#f7df1e" d="M6 42V6h36v36H6z"></path>
       <path
         fill="#000001"

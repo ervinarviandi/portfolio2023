@@ -73,7 +73,7 @@ function Hero() {
                   name="link"
                   aria-label="mybutton"
                   href="https://resume.showwcase.com/ervinarviandi.pdf"
-                  className="absolute flex font-poppins text-base items-center  border-2 border-primary10 hover:border-card100 dark:text-primary5 text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-gradient-to-r before:from-gradient100 before:to-gradient200 before:transition-transform before:duration-300 before:content-[''] hover:text-primary5 before:hover:scale-x-100 rounded-lg hover:shadow-xl before:hover:rounded-lg "
+                  className="absolute flex font-poppins text-base items-center  border-2 border-neutral-400  hover:border-card100 dark:text-primary5 text-gray-700 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-gradient-to-r before:from-gradient100 before:to-gradient200 before:transition-transform before:duration-300 before:content-[''] hover:text-primary5 before:hover:scale-x-100 rounded-lg hover:shadow-xl before:hover:rounded-lg  "
                 >
                   Download CV
                   <AiFillFilePdf className="ml-3" />
