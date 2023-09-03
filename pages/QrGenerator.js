@@ -28,7 +28,7 @@ function QrGenerator() {
               </a>
             </div>
             <div className="flex items-center dark:text-white">
-              <a href="https://qr-ervinarviandi.vercel.app/" className="flex items-center space-x-3 hover:text-pink-500  border-b-2 py-2 border-dashed  dark:hover:text-gradient200 font-bold">
+              <a href="https://qr-ervinarviandi.vercel.app/" className="flex items-center space-x-3 hover:text-gradient200  border-b-2 py-2 border-dashed  dark:hover:text-gradient200 font-bold">
                 <BsGlobe2 />
                 <h4>Live Demo</h4>
               </a>

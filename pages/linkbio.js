@@ -27,7 +27,7 @@ function linkbio() {
               </a>
             </div>
             <div className="flex items-center dark:text-white">
-              <a href="https://react-link.vercel.app/" className="flex items-center space-x-3 hover:text-pink-500  border-b-2 py-2 border-dashed  dark:hover:text-gradient200 font-bold">
+              <a href="https://react-link.vercel.app/" className="flex items-center space-x-3 hover:text-gradient200  border-b-2 py-2 border-dashed  dark:hover:text-gradient200 font-bold">
                 <BsGlobe2 />
                 <h4>Live Demo</h4>
               </a>
@@ -41,7 +41,7 @@ function linkbio() {
             <ReactLogo />
           </div>
 
-          <Image src="reactlink.jpg" alt="linkbio" className="w-full mt-7" />
+          <Image src="/reactlink.jpg" width={1000} height={1000} alt="linkbio" className="w-full mt-7" />
 
           <p className="dark:text-white text-base font-poppins mt-5">
             This bio link is a small project that I made to add to my portfolio, I created this project because it was inspired by several content creators and business people on social media who use the linktree service to help them create
@@ -53,9 +53,9 @@ function linkbio() {
           </p>
           <div className="flex justify-between ">
             <div className="">
-              <a href="https://github.com/ervinarviandi/React-Link" className=" flex items-center space-x-4 dark:text-white font-bold font-poppins border-b-2 py-2 border-dashed mt-4   font-bold">
+              <a href="https://github.com/ervinarviandi/React-Link" className=" flex items-center space-x-4 dark:text-white font-bold font-poppins border-b-2 py-2 border-dashed mt-4 hover:text-gradient200   font-bold">
                 <FaEdit />
-                <h4 className="hover:text-gradient200 font-poppins">Edit On Github</h4>
+                <h4 className="font-poppins">Edit On Github</h4>
               </a>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import TailwindLogo from "../src/TailwindLogo";
 import Nextjs from "../src/NextJs";
 import BootstrapLogo from "../src/BootstrapLogo";
@@ -11,14 +11,17 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import LoadingBar from "react-top-loading-bar";
 
 function Portfolio() {
+  const [progress, setProgress] = useState(0);
   useEffect(() => {
     AOS.init({ duration: 1000, once: true, disable: false, startEvent: "DOMContentLoaded", initClassName: "aos-init", animatedClassName: "aos-animate", useClassNames: false, disableMutationObserver: true });
   }, []);
   return (
     <>
       <main className="px-4 py-12 portfolio">
+        <LoadingBar color="#fbbf24" progress={progress} onLoaderFinished={() => setProgress(0)} />
         <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4 -z-10 bg-gradient">
           <h1 className=" dark:text-primary5 text-gray-700 text-3xl mb-10 font-poppins font-bold" data-aos="fade-up">
             Featured Portfolio
@@ -34,7 +37,11 @@ function Portfolio() {
                 </picture>
                 <div className="mt-3 p-4">
                   <h3 className="dark:text-primary5 text-gray-700 font-bold font-poppins text-[22px] ">
-                    <a className="dark:hover:border-b-2 dark:border-white  hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text  " href=" QrGenerator">
+                    <a
+                      onClick={() => setProgress(100)}
+                      className="dark:hover:border-b-2 dark:border-white  hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text  "
+                      href=" QrGenerator"
+                    >
                       {" "}
                       QR Generator
                     </a>
@@ -54,7 +61,11 @@ function Portfolio() {
                 </picture>
                 <div className="mt-3 p-4">
                   <h3 className="dark:text-primary5 text-gray-700 font-bold font-poppins text-[22px]">
-                    <a className="hover:border-b-2 hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text " href="https://bubble-cleaner-4rq1.vercel.app/">
+                    <a
+                      onClick={() => setProgress(100)}
+                      className="hover:border-b-2 hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text "
+                      href="https://bubble-cleaner-4rq1.vercel.app/"
+                    >
                       {" "}
                       Bubble Cleaner
                     </a>
@@ -75,7 +86,7 @@ function Portfolio() {
                 </picture>
                 <div className="mt-3 p-4">
                   <h3 className="dark:text-primary5 text-gray-700 font-bold border-b-2 border-dashed border-transparent font-poppins text-[22px]">
-                    <a className="hover:border-b-2 hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text " href="Bookself">
+                    <a onClick={() => setProgress(100)} className="hover:border-b-2 hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text " href="Bookself">
                       {" "}
                       Bookself
                     </a>
@@ -95,7 +106,7 @@ function Portfolio() {
                 </picture>
                 <div className="mt-3 p-4">
                   <h3 className="dark:text-primary5 text-gray-700 font-bold font-poppins text-[22px]">
-                    <a className="hover:border-b-2 hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text  " href="linkbio">
+                    <a onClick={() => setProgress(100)} className="hover:border-b-2 hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text  " href="linkbio">
                       {" "}
                       Link Bio
                     </a>

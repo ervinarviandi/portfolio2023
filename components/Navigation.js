@@ -6,7 +6,10 @@ import { MoonIcon } from "@heroicons/react/24/solid";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 
+import LoadingBar from "react-top-loading-bar";
+
 const Navigation = () => {
+  const [progress, setProgress] = useState(0);
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -67,6 +70,7 @@ const Navigation = () => {
 
   return (
     <div style={{ backgroundColor: `${color}` }} className="fixed left-0 top-0 w-full  ease-in duration-300 dark:text-white backdrop-blur-md bg-black/90   z-10">
+      <LoadingBar color="#fbbf24" progress={progress} onLoaderFinished={() => setProgress(0)} />
       <hr className="relative h-2 w-full bg-gradient-to-r  from-gradient100 via-gradient200 to-teal-200 before:absolute before:inset-0 before:bg-gradient-to-r before:from-gradient100 before:to-gradient200 before:animate-pulse " />
       <div className=" md:max-w-5xl xl:max-w-5xl mx-auto flex justify-between items-center p-4 ">
         {/* Mobile Button */}
@@ -88,32 +92,32 @@ const Navigation = () => {
           className="hidden sm:flex"
         >
           <li className="p-4  font-poppins dark:text-white ">
-            <Link href="/" className="hover:text-gradient200">
+            <Link onClick={() => setProgress(100)} href="/" className="hover:text-gradient200">
               Home
             </Link>
           </li>
           <li className="p-4 font-poppins dark:text-white">
-            <Link href="/about" className=" hover:text-gradient200">
+            <Link onClick={() => setProgress(100)} href="/about" className=" hover:text-gradient200">
               About
             </Link>
           </li>
           <li className="p-4  font-poppins dark:text-white">
-            <Link href="/work" className="hover:text-gradient200">
+            <Link onClick={() => setProgress(100)} href="/work" className="hover:text-gradient200">
               Portfolio
             </Link>
           </li>
           <li className="p-4  font-poppins dark:text-white">
-            <Link href="/MyBlog" className="hover:text-gradient200">
+            <Link onClick={() => setProgress(100)} href="/MyBlog" className="hover:text-gradient200">
               Blog
             </Link>
           </li>
           <li className="p-4  font-poppins dark:text-white">
-            <Link href="/GuestBook" className="hover:text-gradient200">
+            <Link onClick={() => setProgress(100)} href="/GuestBook" className="hover:text-gradient200">
               Guestbook
             </Link>
           </li>
           <li className="p-4  font-poppins dark:text-white">
-            <Link href="/MyContact" className="hover:text-gradient200">
+            <Link onClick={() => setProgress(100)} href="/MyContact" className="hover:text-gradient200">
               Contact
             </Link>
           </li>
@@ -148,37 +152,37 @@ const Navigation = () => {
         >
           <ul>
             <li className="p-4 text-2xl  font-poppins dark:text-white text-black">
-              <Link href="/" className="hover:text-gradient200">
+              <Link onClick={() => setProgress(100)} href="/" className="hover:text-gradient200">
                 Home
               </Link>
             </li>
             <hr className="text-sky-500 w-[100%]" />
             <li className="p-4 text-2xl font-poppins dark:text-white text-black">
-              <Link href="/about" className="hover:text-gradient200">
+              <Link onClick={() => setProgress(100)} href="/about" className="hover:text-gradient200">
                 About
               </Link>
             </li>
             <hr />
             <li className="p-4 text-2xl  font-poppins dark:text-white text-black">
-              <Link href="/work" className="hover:text-gradient200">
+              <Link onClick={() => setProgress(100)} href="/work" className="hover:text-gradient200">
                 Portfolio
               </Link>
             </li>
             <hr />
             <li className="p-4 text-2xl font-poppins dark:text-white text-black">
-              <Link href="/MyBlog" className="hover:text-gradient200">
+              <Link onClick={() => setProgress(100)} href="/MyBlog" className="hover:text-gradient200">
                 Blog
               </Link>
             </li>
             <hr />
             <li className="p-4 text-2xl font-poppins dark:text-white text-black">
-              <Link href="/GuestBook" className="hover:text-gradient200">
+              <Link onClick={() => setProgress(100)} href="/GuestBook" className="hover:text-gradient200">
                 GuestBook
               </Link>
             </li>
             <hr />
             <li className="p-4 text-2xl font-poppins dark:text-white text-black">
-              <Link href="/MyContact" className="hover:text-gradient200">
+              <Link onClick={() => setProgress(100)} href="/MyContact" className="hover:text-gradient200">
                 Contact
               </Link>
             </li>

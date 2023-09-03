@@ -18,7 +18,7 @@ const Error = () => {
        "
         >
           <RiHomeGearFill className="mr-2" />
-          <span className="text-md font-poppins"> GO TO HOMEPAGE</span>
+          <span className="text-md font-poppins"> GO Back</span>
         </Link>
       </div>
     </div>

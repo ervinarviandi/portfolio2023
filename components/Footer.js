@@ -1,5 +1,6 @@
 import Link from "next/link";
-import React from "react";
+import { useState } from "react";
+import LoadingBar from "react-top-loading-bar";
 import { BsGithub, BsInstagram, BsGlobe2, BsLink45Deg, BsDribbble } from "react-icons/bs";
 import { Si500Px } from "react-icons/si";
 import { MdEmail, MdAlternateEmail } from "react-icons/md";
@@ -8,9 +9,11 @@ import Tippy from "@tippyjs/react";
 import "tippy.js/themes/light.css";
 
 function Footer() {
+  const [progress, setProgress] = useState(0);
   return (
     <>
       <main className="px-4 py-12">
+        <LoadingBar color="#fbbf24" progress={progress} onLoaderFinished={() => setProgress(0)} />
         <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4 ">
           <hr className="border-dashed border-1  dark:border-card100 border-gray-700 mb-7" />
           <div className="lg:flex justify-between">
@@ -62,25 +65,39 @@ function Footer() {
           <nav className="mt-10">
             <ul className="md:flex md:space-x-[30px]  ">
               <li className="dark:hover:text-white dark:text-[#d4d4d8] text-[#3f3f46] hover:text-black font-poppins">
-                <Link href="/">Home</Link>
+                <Link onClick={() => setProgress(100)} href="/">
+                  Home
+                </Link>
               </li>
               <li className="dark:hover:text-white dark:text-[#d4d4d8] text-[#3f3f46] hover:text-black font-poppins">
-                <Link href="/MyBlog">Blog</Link>
+                <Link onClick={() => setProgress(100)} href="/MyBlog">
+                  Blog
+                </Link>
               </li>
               <li className="dark:hover:text-white dark:text-[#d4d4d8] text-[#3f3f46] hover:text-black font-poppins">
-                <Link href="/work">Portfolio</Link>
+                <Link onClick={() => setProgress(100)} href="/work">
+                  Portfolio
+                </Link>
               </li>
               <li className="dark:hover:text-white dark:text-[#d4d4d8] text-[#3f3f46] hover:text-black font-poppins">
-                <Link href="/Questions">Questions</Link>
+                <Link onClick={() => setProgress(100)} href="/Questions">
+                  Questions
+                </Link>
               </li>
               <li className="dark:hover:text-white dark:text-[#d4d4d8] text-[#3f3f46] hover:text-black   font-poppins">
-                <Link href="/Snippet">Snippet</Link>
+                <Link onClick={() => setProgress(100)} href="/Snippet">
+                  Snippet
+                </Link>
               </li>
               <li className="dark:hover:text-white dark:text-[#d4d4d8] text-[#3f3f46] hover:text-black   font-poppins">
-                <Link href="/Resume">Resume</Link>
+                <Link onClick={() => setProgress(100)} href="/Resume">
+                  Resume
+                </Link>
               </li>
               <li className="dark:hover:text-white dark:text-[#d4d4d8] text-[#3f3f46] hover:text-black font-poppins">
-                <Link href="/Certificate">Certificate</Link>
+                <Link onClick={() => setProgress(100)} href="/Certificate">
+                  Certificate
+                </Link>
               </li>
             </ul>
           </nav>

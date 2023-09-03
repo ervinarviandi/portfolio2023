@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect, useState } from "react";
 import Navigation from "../components/Navigation";
 import TailwindLogo from "../src/TailwindLogo";
 import Nextjs from "../src/NextJs";
@@ -22,10 +22,12 @@ import Logo3 from "/public/erfan.webp";
 import Logo4 from "/public/reza arap.webp";
 import Logo5 from "/public/the last soldier.webp";
 import Logo6 from "/public/hitam putih.webp";
+import LoadingBar from "react-top-loading-bar";
 
 function work() {
   return (
     <>
+      {/* <LoadingBar color="#fbbf24" progress={progress} onLoaderFinished={() => setProgress(0)} /> */}
       <Navigation />
       <motion.div className="px-4 py-12 work " initial={{ y: -250 }} animate={{ y: -10 }} transition={{ delay: 0.2, type: "spring" }}>
         <section className="mt-[96px] mx-auto md:max-w-4xl  xl:max-w-4xl px-4  ">
