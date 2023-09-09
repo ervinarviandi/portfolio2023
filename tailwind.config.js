@@ -31,9 +31,9 @@ module.exports = {
         // card100: "#23252d",
         // card200: "#edf4ff",
         card200: "#ffffff",
-        gradient100: "#00ce7a",
+        // gradient100: "#00ce7a",
         gradient200: "#33dbd1",
-        // gradient100: "#75c3ff",
+        gradient100: "#025a4e",
         // gradient200: "#ff5c9a",
       },
       zIndex: {

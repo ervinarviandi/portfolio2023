@@ -2,7 +2,7 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { Bars3Icon } from "@heroicons/react/24/solid";
 import { XMarkIcon } from "@heroicons/react/24/solid";
-import { MoonIcon } from "@heroicons/react/24/solid";
+// import { MoonIcon } from "@heroicons/react/24/solid";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 
@@ -71,7 +71,7 @@ const Navigation = () => {
   return (
     <div style={{ backgroundColor: `${color}` }} className="fixed left-0 top-0 w-full  ease-in duration-300 dark:text-white backdrop-blur-md bg-black/90   z-10">
       <LoadingBar color="#fbbf24" progress={progress} onLoaderFinished={() => setProgress(0)} />
-      <hr className="relative h-2 w-full bg-gradient-to-r  from-gradient100 via-gradient200 to-teal-200 before:absolute before:inset-0 before:bg-gradient-to-r before:from-gradient100 before:to-gradient200 before:animate-pulse " />
+      <hr className="relative h-2 w-full bg-gradient-to-r  from-gradient100 via-gradient200 to-teal-200 before:absolute before:inset-0 before:bg-gradient-to-r before:from-gradient100 before:to-gradient200 before:animate-pulse rou  " />
       <div className=" md:max-w-5xl xl:max-w-5xl mx-auto flex justify-between items-center p-4 ">
         {/* Mobile Button */}
 

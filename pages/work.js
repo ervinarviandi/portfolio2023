@@ -22,7 +22,7 @@ import Logo3 from "/public/erfan.webp";
 import Logo4 from "/public/reza arap.webp";
 import Logo5 from "/public/the last soldier.webp";
 import Logo6 from "/public/hitam putih.webp";
-import LoadingBar from "react-top-loading-bar";
+
 
 function work() {
   return (

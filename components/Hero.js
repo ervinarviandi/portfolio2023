@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
-
 import { AiFillFilePdf } from "react-icons/ai";
-
 import Button from "next/link";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+
 
 // import Label from "../components/Label";
 import AOS from "aos";
@@ -22,6 +21,9 @@ function Hero() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
+
+
+ 
   return (
     <>
       <div className="px-4 py-12 hero">
