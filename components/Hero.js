@@ -4,7 +4,6 @@ import Button from "next/link";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 
-
 // import Label from "../components/Label";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -22,8 +21,6 @@ function Hero() {
     AOS.init({ duration: 1000 });
   }, []);
 
-
- 
   return (
     <>
       <div className="px-4 py-12 hero">
@@ -31,9 +28,9 @@ function Hero() {
           <img src="ervinarviandii.webp " className="w-48 h-48 md:w-50 md:h-50 md:hidden lg:hidden rounded-lg lg:-z-20 p-4 aspect-square" alt="myprofile" data-aos="fade-up" />
           <div className="flex flex-wrap">
             <div className="w-full self-center px-4 lg:w-1/2" data-aos="fade-up">
-              {/* <h5 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-gradient100 to-gradient200   text-[24px] mt-7 font-poppins" data-aos="fade-up" data-aos-delay="100">
+              <h5 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-gradient100 via-gradient200 to-gradient300   text-[24px] mt-2 mb-4 font-poppins" data-aos="fade-up" data-aos-delay="100">
                 Frontend Developer
-              </h5> */}
+              </h5>
               <p className="py-2  font-poppins text-3xl text-gray-700 dark:text-primary5 space-x-5 ">
                 Hi, I&#39;m
                 <a href="https://www.showwcase.com/ervinarviandi" name="link" aria-label="link-showcase" className="hover:text-gradient100 font-poppins text-3xl ml-2">

@@ -56,7 +56,7 @@ const Navigation = () => {
     } else {
       return (
         <button className="bg-card200 p-2 rounded-lg " onClick={() => setTheme("dark")}>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="#33dbd1" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" className="w-5 h-5">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#706bff" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" className="w-5 h-5">
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -71,7 +71,7 @@ const Navigation = () => {
   return (
     <div style={{ backgroundColor: `${color}` }} className="fixed left-0 top-0 w-full  ease-in duration-300 dark:text-white backdrop-blur-md bg-black/90   z-10">
       <LoadingBar color="#fbbf24" progress={progress} onLoaderFinished={() => setProgress(0)} />
-      <hr className="relative h-2 w-full bg-gradient-to-r  from-gradient100 via-gradient200 to-teal-200 before:absolute before:inset-0 before:bg-gradient-to-r before:from-gradient100 before:to-gradient200 before:animate-pulse rou  " />
+      <hr className="relative h-2 w-full bg-gradient-to-r  from-gradient100 via-gradient200 to-gradient300 before:absolute before:inset-0 before:bg-gradient-to-r before:from-gradient100 before:to-gradient200 before:animate-pulse rou  " />
       <div className=" md:max-w-5xl xl:max-w-5xl mx-auto flex justify-between items-center p-4 ">
         {/* Mobile Button */}
 
