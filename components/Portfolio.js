@@ -88,7 +88,7 @@ function Portfolio() {
                   <h3 className="dark:text-primary5 text-gray-700 font-bold border-b-2 border-dashed border-transparent font-poppins text-[22px]">
                     <a onClick={() => setProgress(100)} className="hover:border-b-2 hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text " href="Bookself">
                       {" "}
-                      Bookself
+                      Bookself App
                     </a>
                   </h3>
                   <div className="flex items-center space-x-2.5 mt-1.5 mb-3">

@@ -104,7 +104,7 @@ function Footer() {
           <hr className="mt-[10px] dark:border-card100" />
           <div className="mt-[22px] ">
             <p className="dark:text-[#d4d4d8] md:text-base text-sm  text-[#3f3f46]  font-poppins lg:text-left text-center">
-              &copy; 2023 Develop by{" "}
+              &copy; 2023 Developed by{" "}
               <Link href="" className="">
                 Ervin Arviandi
               </Link>

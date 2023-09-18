@@ -23,7 +23,6 @@ import Logo4 from "/public/reza arap.webp";
 import Logo5 from "/public/the last soldier.webp";
 import Logo6 from "/public/hitam putih.webp";
 
-
 function work() {
   return (
     <>
@@ -173,7 +172,7 @@ function work() {
                         <h3 className="dark:text-primary5 text-gray-700 font-bold border-b-2 border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text  border-transparent font-poppins text-[22px]">
                           <a className="hover:border-b-2 hover:border-dashed hover:bg-gradient-to-r hover:from-gradient100 hover:to-gradient200 hover:text-transparent bg-clip-text " href="">
                             {" "}
-                            Bookself
+                            Bookself App
                           </a>
                         </h3>
                         <div className="flex items-center space-x-2.5 mt-1.5 mb-3">
