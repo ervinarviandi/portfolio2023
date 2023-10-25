@@ -54,10 +54,11 @@ function MyBlog() {
               </div>
             </figure>
 
-            {/* <figure className=" border-dashed dark:border-white border-black border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:rounded-lg before:bg-gradient-to-r from-orange to-yellow  before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-solid backdrop-blur">
+            <figure className=" border-dashed dark:border-white border-black border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:rounded-lg before:bg-gradient-to-r from-orange to-yellow  before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-solid backdrop-blur">
               <h2 className="dark:text-white text-gray-700 text-3xl font-poppins  ">
                 <Link href="/NodeBlog" className="hover:border-b-2 hover:border-dashed">
-                  How to Install Node Js & NPM on Windows <IoLogoNodejs />
+                  How To Create a Website With Astro
+                  <IoLogoNodejs />
                 </Link>
               </h2>
               <div className="md:flex justify-between items-center space-x-3">
@@ -74,7 +75,7 @@ function MyBlog() {
                   </div>
                 </div>
               </div>
-            </figure> */}
+            </figure>
 
             {/* <figure className=" border-dashed dark:border-white border-black border-2 mt-5 p-4 rounded-lg relative border-dashed border-2 mt-5 p-4 bg-transparent py-2 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:rounded-lg before:bg-gradient-to-r from-orange to-yellow  before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 rounded-lg hover:border-solid backdrop-blur ">
               <h2 className="dark:text-white text-gray-700 text-3xl font-poppins  ">
